@@ -1,4 +1,4 @@
 # BlueTechnician Incorporated Website
-## Code Source Update every week
+## Code Source Update: Every Week
 ![Source code of TechnicalCannon Website.]()
 
