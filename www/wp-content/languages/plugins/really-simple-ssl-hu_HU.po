@@ -1,0 +1,201 @@
+# Translation of Plugins - Really Simple SSL - Stable (latest release) in Hungarian
+# This file is distributed under the same license as the Plugins - Really Simple SSL - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-11-09 17:58:32+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: hu\n"
+"Project-Id-Version: Plugins - Really Simple SSL - Stable (latest release)\n"
+
+#: class-admin.php:518
+msgid "You can also let the automatic scan of the pro version handle this for you, and get premium support, increased security with HSTS and more!"
+msgstr "Lehetősége van arra is, hogy a pro verzió automatikus vizsgálata kezelje ezt az Ön számára, prémium támogatást kapjon, nagyobb biztonságot a HSTS-szel stb."
+
+#: class-multisite.php:429
+msgid "Options saved."
+msgstr "Beállitások mentve."
+
+#: class-multisite.php:336
+msgid "Select to enable SSL networkwide or per site."
+msgstr "Válassza ezt az opciót az SSL hálózaton vagy webhelyenként történő engedélyezéséhez."
+
+#: class-multisite.php:356
+msgid "per site"
+msgstr "webhelyenként"
+
+#: class-multisite.php:355
+msgid "networkwide"
+msgstr "hálózaton"
+
+#: class-multisite.php:337
+msgid "Enable SSL"
+msgstr "Engedélyezze az SSL szolgáltatást"
+
+#: class-admin.php:3969 class-admin.php:3999 class-admin.php:4322
+msgid "This option is enabled on the network menu."
+msgstr "Ez az opció engedélyezve van a netwerk menüben. "
+
+#: class-admin.php:513
+msgid "You may need to login in again."
+msgstr "Lehet, hogy újra be kell jelentkeznie. "
+
+#: class-site-health.php:159 class-admin.php:3845
+msgid "Enable 301 .htaccess redirect"
+msgstr "301 .htaccess átirányítás engedélyezése"
+
+#: class-admin.php:2961
+msgid "No 301 redirect is set. Enable the WordPress 301 redirect in the settings to get a 301 permanent redirect."
+msgstr "A 301-es átirányítás nincs beállítva. Engedélyezze a WordPress 301 átirányítását a beállításokban, hogy 301 állandó átirányítást kapjon."
+
+#: class-admin.php:2984
+msgid "Enable a .htaccess redirect or WordPress redirect in the settings to create a 301 redirect."
+msgstr "Engedélyezzen egy .htaccess átirányítást vagy egy WordPress átirányítást a beállításoknál, hogy létrehozzon egy 301-es átirányítást."
+
+#: class-admin.php:3834
+msgid "In most cases you need to leave this enabled, to prevent mixed content issues on your site."
+msgstr "A legtöbb esetben bekapcsolva kell ezt hagynia, hogy megakadályozza a vegyes tartalom problémákat a webhelyén."
+
+#: class-admin.php:3851
+msgid "If you want to customize the Really Simple SSL .htaccess, you need to prevent Really Simple SSL from rewriting it. Enabling this option will do that."
+msgstr "Ha szeretné testre szabni a Really Simple SSL .htaccess parancsot, meg kell akadályoznia, hogy a Really Simple SSL újraírja. Ennek a opciónak a bekapcsolásával ezt megteheti. "
+
+#: class-admin.php:3038
+msgid "HTTP Strict Transport Security was enabled."
+msgstr "HTTP Strict Transport Security engedélyezve volt"
+
+#: class-multisite.php:548 class-multisite.php:576
+msgid "You can also let the automatic scan of the pro version handle this for you, and get premium support and increased security with HSTS included."
+msgstr "Azt is megengedheti, hogy a pro verzió automatikus beolvasása kezelje ezt az Ön számára, és prémium támogatással és nagyobb biztonsággal kapja meg a HSTS-t."
+
+#: class-multisite.php:230 class-admin.php:4355
+msgid "Premium Support"
+msgstr "Prémium támogatás"
+
+#: class-multisite.php:550 class-multisite.php:578
+msgid "Check out Really Simple SSL Premium"
+msgstr "Ismerje meg a Really Simple SSL Prémium szolgáltatást"
+
+#: class-admin.php:752
+msgid "Go ahead, activate SSL!"
+msgstr "Lépjen tovább, aktíválja az SSL-t!"
+
+#: class-multisite.php:129
+msgid "SSL is not enabled yet"
+msgstr "Az SSL még nincs engedélyezve"
+
+#: class-admin.php:2878
+msgid "SSL is enabled on your site."
+msgstr "Az SSL engedélyezve van az Ön oldalán."
+
+#: class-admin.php:2338
+msgid "Because your server does not pass a variable with which WordPress can detect SSL, WordPress may create redirect loops on SSL."
+msgstr "Mivel a kiszolgáló nem ad át olyan változót, amellyel a Wordpress észlelheti az SSL-t, a Wordpress átirányítási hurkot hozhat létre SSL-ben."
+
+#: class-admin.php:2316
+msgid "Because your site is behind a loadbalancer and is_ssl() returns false, you should add the following line of code to your wp-config.php."
+msgstr "Mivel webhelye egy terhelés elosztó mögött van, és az is_ssl () hibás értéket ad vissza, hozzá kell adnia a következő sort a wp-config.php fájlhoz."
+
+#: class-admin.php:2315
+msgid "Your wp-config.php has to be edited, but is not writable."
+msgstr "A wp-config.php-t szerkeszteni kell, de nem írható."
+
+#: class-admin.php:2310
+msgid "A definition of a siteurl or homeurl was detected in your wp-config.php, but the file is not writable."
+msgstr "A wp-config.php-ben egy siteurl vagy egy homeurl meghatározás lett észlelve, de a fájl nem írható."
+
+#: class-admin.php:2345
+msgid "System detection encountered issues"
+msgstr "Rendszer észlelési problémák jelentkeztek"
+
+#: class-multisite.php:546
+msgid "Images, stylesheets or scripts from a domain without an SSL certificate: remove them or move to your own server."
+msgstr "Képek, stíluslapok vagy szkriptek egy ssl tanúsítvány nélküli tartományból: távolítsa el őket, vagy helyezze át a saját szerverére."
+
+#: class-multisite.php:543
+msgid "Some things can't be done automatically. Before you migrate, please check for: "
+msgstr "Néhány dolog nem hajtható végre automatikusan. A migráció előtt kérjük, ellenőrizze:"
+
+#: class-admin.php:492
+msgid "Almost ready to migrate to SSL!"
+msgstr "Majdnem készen áll az SSL-re való áttérésre!"
+
+#: class-multisite.php:561
+msgid "Networkwide activation does not check if a site has an SSL certificate. It just migrates all sites to SSL."
+msgstr "A hálózati szintű aktiválás nem ellenőrzi, hogy egy webhely rendelkezik-e SSL-tanúsítvánnyal, csak áttelepíti az összes webhelyet az SSL-re."
+
+#: class-multisite.php:558
+msgid "Activate SSL per site"
+msgstr "SSL aktiválása webhelyenként"
+
+#: class-mixed-content-fixer.php:13 class-certificate.php:14
+#: class-site-health.php:12 class-multisite.php:27 class-help.php:9
+#: class-cache.php:10 class-front-end.php:18 class-admin.php:49
+msgid "%s is a singleton class and you cannot create a second instance."
+msgstr "%s egy singleton-osztály, és nem hozhat létre másodpéldányt."
+
+#: class-multisite.php:555
+msgid "Activate SSL networkwide"
+msgstr "SSL aktiválása a hálózaton"
+
+#: grid/templates/tips-tricks-footer.php:3 class-multisite.php:441
+#: class-admin.php:2725
+msgid "Documentation"
+msgstr "Dokumentuáció"
+
+#. Description of the plugin
+msgid "Lightweight plugin without any setup to make your site SSL proof"
+msgstr "Könnyű plugin anélkül, hogy beállítaná webhelyét SSL-hez"
+
+#. Plugin Name of the plugin
+msgid "Really Simple SSL"
+msgstr "Really Simple SSL"
+
+#: class-admin.php:3852
+msgid "Stop editing the .htaccess file"
+msgstr "Fejezze be a .htaccess fájl szerkesztését"
+
+#: grid/templates/settings-footer.php:3
+msgid "Save"
+msgstr "Metés"
+
+#: class-admin.php:2903
+msgid "An SSL certificate was detected on your site."
+msgstr "SSL-tanúsítványt észleltek az oldalán."
+
+#: class-multisite.php:224 class-multisite.php:335 class-multisite.php:382
+#: class-admin.php:2670 class-admin.php:3456 class-admin.php:3832
+#: class-admin.php:4349
+msgid "Settings"
+msgstr "Beállitások"
+
+#: class-admin.php:2648
+msgid "SSL"
+msgstr "SSL"
+
+#: class-multisite.php:144
+msgid "Because the $_SERVER[\"HTTPS\"] variable is not set, your website may experience redirect loops."
+msgstr "Mivel a $ _SERVER [\"HTTPS\"] változó nincs beállítva, webhelye átirányítási hurkot észlelhet."
+
+#: class-multisite.php:143
+msgid "You run a Multisite installation with subfolders, which prevents this plugin from fixing your missing server variable in the wp-config.php."
+msgstr "Jelenleg egy Multisite telepítés fut almappákkal, amely megakadályozza, hogy a plugin kijavítsa a hiányzó szerverváltozót a wp-config.php-ben."
+
+#: class-admin.php:2806
+msgid "Check again"
+msgstr "Ellenőrizze újra"
+
+#: class-admin.php:2804
+msgid "Major security issue!"
+msgstr "Komoly biztonsági probléma!"
+
+#: class-admin.php:2647
+msgid "SSL settings"
+msgstr "SSL beállitások"
+
+#: class-multisite.php:145
+msgid "Activate networkwide to fix this."
+msgstr "Aktiválja hálózati szinten a probléma megoldásához."

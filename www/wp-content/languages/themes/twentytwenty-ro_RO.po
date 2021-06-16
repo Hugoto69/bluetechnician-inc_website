@@ -1,0 +1,623 @@
+# Translation of Themes - Twenty Twenty in Romanian
+# This file is distributed under the same license as the Themes - Twenty Twenty package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-04-02 11:31:43+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ro\n"
+"Project-Id-Version: Themes - Twenty Twenty\n"
+
+#. Description of the theme
+msgid "Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors."
+msgstr "Tema noastră implicită pentru 2020 este făcută pentru a exploata din plin flexibilitatea editorului de blocuri. Organizații și afaceri au posibilitatea de a crea pagini de intrare dinamice cu infinite aranjamente folosind coloanele și grupurile de blocuri. Coloana de conținut centrată precum și tipografia cizelată o fac de asemenea perfectă pentru bloguri tradiționale. Stilurile complete pentru editare îți pot da o bună idee despre cum va arăta conținutul, chiar înainte de a-l publica. Poți să dai sitului tău o notă personală prin schimbarea culorilor de fundal sau a culorii de accent în Personalizator. Culorile tuturor elementelor de pe situl tău sunt calculate automat bazat pe culorile pe care le alegi, asigurînd un contrast coloristic de bună accesibilitate pentru vizitatorii tăi."
+
+#. Theme Name of the theme
+#: inc/block-patterns.php:20
+msgid "Twenty Twenty"
+msgstr "Twenty Twenty"
+
+#: classes/class-twentytwenty-customize.php:126
+msgctxt "color"
+msgid "Custom"
+msgstr "Personalizată"
+
+#: classes/class-twentytwenty-customize.php:125
+msgctxt "color"
+msgid "Default"
+msgstr "Implicită"
+
+#: inc/block-patterns.php:194
+msgid "The Premier Destination for Modern Art in Sweden"
+msgstr "Destinația principală pentru artă modernă în Suedia"
+
+#: inc/block-patterns.php:187
+msgid "Introduction"
+msgstr "Introducere"
+
+#: inc/block-patterns.php:157 inc/block-patterns.php:171
+msgid "August 1 — December 1"
+msgstr "1 August - 1 Decembrie"
+
+#: inc/block-patterns.php:151 inc/block-patterns.php:165
+msgid "Abstract Rectangles"
+msgstr "Dreptunghiuri abstracte"
+
+#: inc/block-patterns.php:142
+msgid "Featured Content"
+msgstr "Conținut reprezentativ"
+
+#: inc/block-patterns.php:128
+msgid "<em>Price</em><br>Included"
+msgstr "<em>Prețul</em><br>este inclus"
+
+#: inc/block-patterns.php:123
+msgid "<em>Location</em><br>Exhibit Hall B"
+msgstr "<em>Locație</em><br>Sala de expoziție B"
+
+#: inc/block-patterns.php:118
+msgid "<em>Dates</em><br>Aug 1 — Dec 1"
+msgstr "<em>Perioadă</em><br>1 August - 1 Decembrie"
+
+#: inc/block-patterns.php:108
+msgid "Event Details"
+msgstr "Detalii eveniment"
+
+#: inc/block-patterns.php:93
+msgid "Shop Now"
+msgstr "Cumpără acum"
+
+#: inc/block-patterns.php:86
+msgid "The Store"
+msgstr "Magazinul"
+
+#: inc/block-patterns.php:71
+msgid "The Museum"
+msgstr "Muzeul"
+
+#: inc/block-patterns.php:61
+msgid "Double Call to Action"
+msgstr "Apel la acțiune dublu"
+
+#: inc/block-patterns.php:48
+msgid "Become a Member"
+msgstr "Devii un membru"
+
+#: inc/block-patterns.php:42
+msgid "Support the Museum and Get Exclusive Offers"
+msgstr "Sprijină muzeul și primești oferte exclusive"
+
+#: inc/block-patterns.php:33
+msgid "Call to Action"
+msgstr "Apel la acțiune"
+
+#: template-parts/modal-menu.php:73
+msgctxt "menu"
+msgid "Mobile"
+msgstr "Mobil"
+
+#: template-parts/modal-menu.php:48
+msgctxt "menu"
+msgid "Expanded"
+msgstr "Extins"
+
+#: header.php:88
+msgctxt "menu"
+msgid "Horizontal"
+msgstr "Orizontal"
+
+#: header.php:53 header.php:157
+msgctxt "toggle text"
+msgid "Search"
+msgstr "Caută"
+
+#: functions.php:498
+msgctxt "color"
+msgid "Secondary"
+msgstr "Secundară"
+
+#: functions.php:493
+msgctxt "color"
+msgid "Primary"
+msgstr "Principală"
+
+#: index.php:51
+msgid "Nothing Found"
+msgstr "N-am găsit nimic"
+
+#: classes/class-twentytwenty-customize.php:246
+msgid "Show author bio"
+msgstr "Arată biografia autorului"
+
+#: template-parts/entry-author-bio.php:29
+msgid "View Archive <span aria-hidden=\"true\">&rarr;</span>"
+msgstr "Vezi arhiva <span aria-hidden=\"true\">&rarr;</span>"
+
+#: inc/starter-content.php:39
+msgctxt "Theme starter content"
+msgid "The New UMoMA Opens its Doors"
+msgstr "Noua expoziție UMoMA își deschide porțile"
+
+#: inc/template-tags.php:396
+msgctxt "A string that is output before one or more categories"
+msgid "In"
+msgstr "În"
+
+#: inc/starter-content.php:151
+msgid "Join the Club"
+msgstr "Intră în Club"
+
+#: inc/block-patterns.php:45 inc/starter-content.php:148
+msgid "Members get access to exclusive exhibits and sales. Our memberships cost $99.99 and are billed annually."
+msgstr "Membrii primesc acces la exponate și vânzări exclusive. Costul pentru a deveni membru este de 99,99 $ pe an."
+
+#: inc/starter-content.php:145
+msgid "Become a Member and Get Exclusive Offers!"
+msgstr "Devino membru pentru a primi oferte  exclusive!"
+
+#: inc/starter-content.php:137
+msgid "The exhibitions are produced by UMoMA in collaboration with artists and museums around the world and they often attract international attention. UMoMA has received a Special Commendation from the European Museum of the Year, and was among the top candidates for the Swedish Museum of the Year Award as well as for the Council of Europe Museum Prize."
+msgstr "Expozițiile sunt produse de UMoMA în colaborare cu artiști și muzee din întreaga lume și atrag deseori atenția la nivel internațional. UMoMA a primit o Distincție Specială de la Muzeul European al Anului și a fost desemnat printre finaliști pentru Premiul de Muzeu Suedez al Anului precum și pentru Premiul pentru Muzee al Consiliului European."
+
+#: inc/starter-content.php:134
+msgid "With seven floors of striking architecture, UMoMA shows exhibitions of international contemporary art, sometimes along with art historical retrospectives. Existential, political and philosophical issues are intrinsic to our programme. As visitor you are invited to guided tours artist talks, lectures, film screenings and other events with free admission"
+msgstr "Cu șapte etaje de o arhitectură impresionantă, UM0MA prezintă expoziții de artă contemporană, uneori alături de retrospective istorice de artă. Subiectele existențiale, politice și filozofice sunt intrinseci programului nostru. Ca vizitator ești invitat la tururi cu ghid, discuții despre artă, lecturi, vizionări de filme și alte evenimente cu acces gratuit"
+
+#: inc/starter-content.php:130
+msgid "&#8220;Cyborgs, as the philosopher Donna Haraway established, are not reverent. They do not remember the cosmos.&#8221;"
+msgstr "&#8220;Cyborgii nu sunt relevanți, precum a stabilit filozoful Donna Haraway. Ei nu-și amintesc cosmosul.&#8221;"
+
+#: inc/starter-content.php:114
+msgid "From Signac to Matisse"
+msgstr "De la Signac la Matisse"
+
+#: inc/block-patterns.php:168 inc/starter-content.php:99
+msgid "The Life I Deserve"
+msgstr "Viața pe care o merit"
+
+#: inc/starter-content.php:85 inc/starter-content.php:117
+msgid "October 1 -- December 1"
+msgstr "1 Octombrie -- 1 Decembrie"
+
+#: inc/starter-content.php:82
+msgid "Theatre of Operations"
+msgstr "Teatrul de operații"
+
+#: inc/block-patterns.php:78 inc/block-patterns.php:160
+#: inc/block-patterns.php:174 inc/starter-content.php:73
+#: inc/starter-content.php:88 inc/starter-content.php:105
+#: inc/starter-content.php:120
+msgid "Read More"
+msgstr "Citește mai mult"
+
+#: inc/starter-content.php:70 inc/starter-content.php:102
+msgid "August 1 -- December 1"
+msgstr "1 August -- 1 Decembrie"
+
+#: inc/block-patterns.php:154 inc/starter-content.php:67
+msgid "Works and Days"
+msgstr "Exponate și zile"
+
+#: inc/starter-content.php:56
+msgid "The premier destination for modern art in Northern Sweden. Open from 10 AM to 6 PM every day during the summer months."
+msgstr "Destinația principală pentru arta modernă din Suedia de Nord. Expoziția este deschisă în fiecare zi între orele 10:00 și 18:00 în timpul lunilor de vară."
+
+#: inc/starter-content.php:48
+msgid "The New UMoMA Opens its Doors"
+msgstr "Noua expoziție UMoMA își deschide porțile"
+
+#: classes/class-twentytwenty-customize.php:395
+msgid "Overlay Opacity"
+msgstr "Opacitate suprapunere"
+
+#: classes/class-twentytwenty-customize.php:375
+msgid "The color used for the text in the overlay."
+msgstr "Culoarea folosită pentru textul din suprapunere."
+
+#: classes/class-twentytwenty-customize.php:374
+msgid "Overlay Text Color"
+msgstr "Culoare text suprapunere"
+
+#: classes/class-twentytwenty-customize.php:353
+msgid "The color used for the overlay. Defaults to the accent color."
+msgstr "Culoarea folosită pentru suprapunere. Implicit e culoarea de accent."
+
+#: classes/class-twentytwenty-customize.php:352
+msgid "Overlay Background Color"
+msgstr "Culoare fundal pentru suprapunere"
+
+#: classes/class-twentytwenty-customize.php:283
+msgid "Settings for the \"Cover Template\" page template. Add a featured image to use as background."
+msgstr "Setări pentru șablonul de pagină „Șablon copertă”. Adaugă o imagine reprezentativă pentru a fi folosită ca fundal."
+
+#: classes/class-twentytwenty-customize.php:183
+msgid "Apply a custom color for links, buttons, featured images."
+msgstr "Aplică o culoare personalizată pentru legături, butoane, imagini reprezentative."
+
+#: classes/class-twentytwenty-customize.php:123
+msgid "Primary Color"
+msgstr "Culoare principală"
+
+#: template-parts/modal-search.php:20 searchform.php:24
+msgid "Search for:"
+msgstr "Caută după:"
+
+#: index.php:101
+msgid "search again"
+msgstr "caută din nou"
+
+#. translators: %s: Number of search results.
+#: index.php:39
+msgid "We found %s result for your search."
+msgid_plural "We found %s results for your search."
+msgstr[0] "Am găsit %s rezultat pentru căutarea ta."
+msgstr[1] "Am găsit %s rezultate pentru căutarea ta."
+msgstr[2] "Am găsit %s de rezultate pentru căutarea ta."
+
+#. translators: %s: HTML character for up arrow.
+#: footer.php:49
+msgid "Up %s"
+msgstr "Sus %s"
+
+#. translators: %s: HTML character for up arrow.
+#: footer.php:43
+msgid "To the top %s"
+msgstr "La început %s"
+
+#. translators: Copyright date format, see
+#. https://www.php.net/manual/datetime.format.php
+#: footer.php:25
+msgctxt "copyright date format"
+msgid "Y"
+msgstr "Y"
+
+#: 404.php:24
+msgid "404 not found"
+msgstr "404 de negăsit"
+
+#. Template Name of the theme
+msgid "Full Width Template"
+msgstr "Șablon lățime completă"
+
+#: template-parts/pagination.php:25
+msgid "Older <span class=\"nav-short\">Posts</span>"
+msgstr "<span class=\"nav-short\">Articole</span> mai vechi"
+
+#: template-parts/pagination.php:21
+msgid "Newer <span class=\"nav-short\">Posts</span>"
+msgstr "<span class=\"nav-short\">Articole</span> mai noi"
+
+#: template-parts/navigation.php:25
+msgid "Post"
+msgstr "Articol"
+
+#: template-parts/modal-search.php:26
+msgid "Close search"
+msgstr "Închide căutarea"
+
+#: template-parts/modal-menu.php:117
+msgid "Expanded Social links"
+msgstr "Legături sociale extinse"
+
+#: template-parts/modal-menu.php:21
+msgid "Close Menu"
+msgstr "Închide meniul"
+
+#: template-parts/footer-menus-widgets.php:57
+msgid "Social links"
+msgstr "Legături sociale"
+
+#: template-parts/footer-menus-widgets.php:37
+msgid "Footer"
+msgstr "Subsol"
+
+#. translators: %s: Author name.
+#: template-parts/entry-author-bio.php:20 inc/template-tags.php:357
+msgid "By %s"
+msgstr "De %s"
+
+#: template-parts/content.php:48 template-parts/content-cover.php:138
+msgid "Pages:"
+msgstr "Pagini:"
+
+#: template-parts/content.php:48 template-parts/content-cover.php:138
+msgid "Page"
+msgstr "Pagină"
+
+#: template-parts/content-cover.php:88
+msgid "Scroll Down"
+msgstr "Derulează în jos"
+
+#: searchform.php:27
+msgctxt "submit button"
+msgid "Search"
+msgstr "Caută"
+
+#: searchform.php:25
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Căutare &hellip;"
+
+#: index.php:48
+msgid "We could not find any results for your search. You can give it another try through the search form below."
+msgstr "Nu am găsit niciun rezultat pentru căutarea ta. Poți încerca o altă căutare cu ajutorul formularului de căutare de mai jos."
+
+#: index.php:32
+msgid "Search:"
+msgstr "Caută:"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:207
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Editează <span class=\"screen-reader-text\">%s</span>"
+
+#: inc/template-tags.php:448
+msgid "Sticky post"
+msgstr "Articol reprezentativ"
+
+#: inc/template-tags.php:410
+msgid "Tags"
+msgstr "Etichete"
+
+#: template-parts/content-cover.php:70 template-parts/entry-header.php:36
+#: inc/template-tags.php:392
+msgid "Categories"
+msgstr "Categorii"
+
+#: inc/template-tags.php:374
+msgid "Post date"
+msgstr "Dată articol"
+
+#: inc/template-tags.php:350
+msgid "Post author"
+msgstr "Autor articol"
+
+#: inc/starter-content.php:197
+msgid "Social Links Menu"
+msgstr "Meniu legături sociale"
+
+#: inc/starter-content.php:177 inc/starter-content.php:187
+msgid "Primary"
+msgstr "Primar"
+
+#: header.php:76 header.php:137
+msgid "Menu"
+msgstr "Meniu"
+
+#: template-parts/content.php:36
+msgid "Continue reading"
+msgstr "Citește în continuare"
+
+#: functions.php:550
+msgctxt "Short name of the larger font size in the block editor."
+msgid "XL"
+msgstr "XL"
+
+#: functions.php:549
+msgctxt "Name of the larger font size in the block editor"
+msgid "Larger"
+msgstr "Mai mare"
+
+#: functions.php:544
+msgctxt "Short name of the large font size in the block editor."
+msgid "L"
+msgstr "L"
+
+#: functions.php:543
+msgctxt "Name of the large font size in the block editor"
+msgid "Large"
+msgstr "Mare"
+
+#: functions.php:538
+msgctxt "Short name of the regular font size in the block editor."
+msgid "M"
+msgstr "M"
+
+#: functions.php:537
+msgctxt "Name of the regular font size in the block editor"
+msgid "Regular"
+msgstr "Normal"
+
+#: functions.php:532
+msgctxt "Short name of the small font size in the block editor."
+msgid "S"
+msgstr "S"
+
+#: functions.php:531
+msgctxt "Name of the small font size in the block editor"
+msgid "Small"
+msgstr "Mic"
+
+#: functions.php:516
+msgid "Background Color"
+msgstr "Culoare fundal"
+
+#: functions.php:503
+msgid "Subtle Background"
+msgstr "Fundal subtil"
+
+#: functions.php:488
+msgid "Accent Color"
+msgstr "Culoare accent"
+
+#: functions.php:383
+msgid "Widgets in this area will be displayed in the second column in the footer."
+msgstr "Piesele din această zonă vor fi afișate în a doua coloană din subsol."
+
+#: functions.php:381
+msgid "Footer #2"
+msgstr "Subsol #2"
+
+#: functions.php:371
+msgid "Widgets in this area will be displayed in the first column in the footer."
+msgstr "Piesele din această zonă vor fi afișate în a prima coloană din subsol."
+
+#: functions.php:369
+msgid "Footer #1"
+msgstr "Subsol #1"
+
+#: functions.php:344
+msgid "Skip to the content"
+msgstr "Sari la conținut"
+
+#: functions.php:266
+msgid "Social Menu"
+msgstr "Meniu social"
+
+#: functions.php:265
+msgid "Footer Menu"
+msgstr "Meniu subsol"
+
+#: functions.php:264
+msgid "Mobile Menu"
+msgstr "Meniu pentru mobil"
+
+#: functions.php:263
+msgid "Desktop Expanded Menu"
+msgstr "Meniu extins pentru desktop"
+
+#: functions.php:262
+msgid "Desktop Horizontal Menu"
+msgstr "Meniu orizontal pentru desktop"
+
+#: footer.php:33
+msgid "Powered by WordPress"
+msgstr "Propulsat de WordPress"
+
+#: comments.php:127
+msgid "Comments are closed."
+msgstr "Comentariile sunt închise."
+
+#: comments.php:88
+msgid "Comments"
+msgstr "Comentarii"
+
+#: comments.php:75
+msgid "Older Comments"
+msgstr "Comentarii mai vechi"
+
+#: comments.php:74
+msgid "Newer Comments"
+msgstr "Comentarii mai noi"
+
+#. translators: 1: Number of comments, 2: Post title.
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s reply on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s replies on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s răspuns la &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s răspunsuri la &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s de răspunsuri la &ldquo;%2$s&rdquo;"
+
+#. translators: %s: Post title.
+#: comments.php:37
+msgctxt "comments title"
+msgid "One reply on &ldquo;%s&rdquo;"
+msgstr "Un răspuns la &ldquo;%s&rdquo;"
+
+#: comments.php:34
+msgid "Leave a comment"
+msgstr "Lasă un comentariu"
+
+#: classes/class-twentytwenty-walker-page.php:107 inc/template-tags.php:558
+msgid "Show sub menu"
+msgstr "Arată submeniul"
+
+#. translators: %d: ID of a post.
+#: classes/class-twentytwenty-walker-page.php:70
+msgid "#%d (no title)"
+msgstr "#%d (fără titlu)"
+
+#: classes/class-twentytwenty-walker-comment.php:133
+msgid "By Post Author"
+msgstr "De autorul articolului"
+
+#: classes/class-twentytwenty-walker-comment.php:98
+msgid "Your comment is awaiting moderation."
+msgstr "Comentariul tău așteaptă să fie moderat."
+
+#: classes/class-twentytwenty-walker-comment.php:82
+msgid "Edit"
+msgstr "Editează"
+
+#. translators: 1: Comment date, 2: Comment time.
+#: classes/class-twentytwenty-walker-comment.php:68
+msgid "%1$s at %2$s"
+msgstr "%1$s la %2$s"
+
+#: classes/class-twentytwenty-walker-comment.php:56
+msgid "says:"
+msgstr "spune:"
+
+#: classes/class-twentytwenty-customize.php:396
+msgid "Make sure that the contrast is high enough so that the text is readable."
+msgstr "Asigură-te că acest contrast este suficient de mare pentru ca textul să poată fi citit."
+
+#: classes/class-twentytwenty-customize.php:306
+msgid "Creates a parallax effect when the visitor scrolls."
+msgstr "Creează un efect de paralaxă când vizitatorii derulează."
+
+#: classes/class-twentytwenty-customize.php:305
+msgid "Fixed Background Image"
+msgstr "Imagine fundal fixă"
+
+#. Template Name of the theme
+#: classes/class-twentytwenty-customize.php:281
+msgid "Cover Template"
+msgstr "Șablon copertă"
+
+#: classes/class-twentytwenty-customize.php:270
+msgid "Summary"
+msgstr "Rezumat"
+
+#: classes/class-twentytwenty-customize.php:269
+msgid "Full text"
+msgstr "Text complet"
+
+#: classes/class-twentytwenty-customize.php:267
+msgid "On archive pages, posts show:"
+msgstr "În paginile arhivă, articolele arată:"
+
+#: classes/class-twentytwenty-customize.php:225
+msgid "Show search in header"
+msgstr "Arată căutarea în antet"
+
+#: classes/class-twentytwenty-customize.php:202
+msgid "Theme Options"
+msgstr "Opțiuni temă"
+
+#: classes/class-twentytwenty-customize.php:101
+msgid "Header &amp; Footer Background Color"
+msgstr "Culoare fundal antet și subsol"
+
+#: classes/class-twentytwenty-customize.php:82
+msgid "Scales the logo to half its uploaded size, making it sharp on high-res screens."
+msgstr "Scalează logoul până la jumătate din dimensiunea sa încărcată, făcându-l mai clar pe ecranele de mare rezoluție."
+
+#: classes/class-twentytwenty-customize.php:81
+msgid "Retina logo"
+msgstr "Logo Retina"
+
+#: 404.php:19
+msgid "The page you were looking for could not be found. It might have been removed, renamed, or did not exist in the first place."
+msgstr "Pagina pe care o cauți nu a putut fi găsită. Probabil a fost înlăturată, redenumită sau pur și simplu nu a existat."
+
+#: 404.php:17
+msgid "Page Not Found"
+msgstr "Pagina negăsită"
+
+#. Author URI of the theme
+#: footer.php:32
+msgid "https://wordpress.org/"
+msgstr "https://ro.wordpress.org/"
+
+#. Author of the theme
+msgid "the WordPress team"
+msgstr "echipa WordPress"
+
+#. Theme URI of the theme
+msgid "https://wordpress.org/themes/twentytwenty/"
+msgstr "https://wordpress.org/themes/twentytwenty/"

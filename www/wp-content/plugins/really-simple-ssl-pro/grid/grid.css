@@ -1,0 +1,61 @@
+.rsssl-hidden {
+  display: none;
+}
+.support-form #rsssl_pro_license_key {
+  margin-right: 10px;
+  width: 235px;
+  color: blue;
+}
+.support-form input[type=text] {
+  margin-right: 10px;
+  margin-top: 10px;
+  width: 235px;
+}
+.support-form input[type=email] {
+  margin-right: 10px;
+  width: 235px;
+}
+.support-form textarea {
+  margin-top: 5px;
+  width: 100%;
+  height: 90px;
+  border-color: #cecece;
+  font-size: 13px;
+}
+.rsssl-license-grid .rsssl-license-field {
+  width: 100%;
+}
+.rsssl-license-grid .rsssl-license-field #rsssl_pro_license_key,
+.rsssl-license-grid .rsssl-license-field #rsssl_soc_license_key {
+  width: 100%;
+  height: 40px;
+  border-color: #DEDEDE;
+}
+.rsssl-license-grid .rsssl-license-table .rsssl-license-notice-text {
+  margin-left: 15px !important;
+}
+.rsssl-license-grid .rsssl-license-table .rsssl-progress-status {
+  margin-top: 0!important;
+  padding-top: 6px!important;
+}
+.rsssl-license-grid .rsssl-disable-for-other-users {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 15px;
+}
+.rsssl-premium-settings .form-table th {
+  max-width: 190px;
+}
+.rsssl-premium-settings .form-table tbody {
+  flex-direction: row !important;
+}
+.rsssl-premium-settings .form-table tbody th {
+  font-weight: normal;
+}
+.rsssl-premium-settings .form-table tbody .rsssl-switch {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=grid.css.map */

@@ -1,0 +1,416 @@
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+
+.rsssl-result ul .rsssl_error {
+    color:red;
+}
+.rsssl-result {
+    margin-top:15px;
+}
+
+.button-default.rsssl, .button-primary.rsssl {
+    margin: 5px;
+}
+
+.rsssl-icons {
+    margin-left:5px;
+}
+
+#rsssl .modal {
+    top:100px !important;
+}
+
+#rsssl .rsssl-buttons .btn-warning {
+    font-weight: 700;
+}
+
+/* CSS animation */
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity:0;
+        transform: scale(0.6);
+    }
+
+    100% {
+        opacity:100%;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeIn {
+    0% { opacity:0; }
+    100% { opacity:100%; }
+}
+
+/*CSS for templates/item_html.php*/
+
+.rsssl-main-container {
+    max-width: 1500px;
+    max-height: 500px;
+}
+
+.rsssl-main {
+    width:95%;
+    float:right;
+}
+
+.rsssl-icon {
+    width: 30px;
+    height: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.rsssl-btn {
+    height: 35px;
+    width: 105px;
+    float: left;
+    margin-right: 4px;
+}
+
+#rsssl .alert {
+    max-width: 1000px;
+    max-height: 75px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#rsssl .rsssl-buttons  {
+    float: left;
+    padding-top: 18px;
+}
+
+#rsssl  .panel-body {
+    background-color: #E4E4E4;
+    padding: 5px 15px 5px 5px;
+}
+
+#rsssl .rsssl-files {
+    max-width: 1920px;
+    min-height: 60px;
+    background-color: #F8F8F8;
+    padding: 5px 5px 10px 25px;
+    margin: 0px 0px 2px 3px;
+    float: right;
+    width: 100%;
+}
+
+#rsssl .rsssl-files img {
+    position: absolute;
+    block-size: 1em;
+    padding-left: 0px;
+}
+
+#rsssl img.rsssl-icons {
+    block-size: 1em;
+}
+
+#rsssl .panel-title {
+    background-color: #DBDBDB;
+    font-size: 14px;
+    color: inherit;
+}
+
+#rsssl .panel-body {
+    display:none;
+}
+
+#rsssl .panel-heading {
+    background-color: #DBDBDB;
+}
+
+#rsssl .blockedurls {
+    background-color: #DBDBDB;
+}
+
+#rsssl .glyphdown {
+    float: left;
+    font-size: 1.8em;
+    padding-left: 15px;
+    color: #BBBBBB;
+    cursor: pointer;
+}
+
+#rsssl img {
+    block-size: 1.2em;
+    float: right;
+    padding-left: 7px;
+    margin-top: 3px;
+}
+
+#rsssl #edit-files-blocked {
+    display: none;
+}
+
+#rsssl #resultsblock {
+    padding-bottom: 10px;
+}
+
+#rsssl .rsssl-description {
+    float: right;
+    margin-right: 18px;
+}
+
+#rsssl .rsssl-scan-more-options {
+    display: block;
+    text-indent: 0.7em;
+    max-width: 350px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    background-color: #E4E4E4;
+    padding-right: 5px;
+}
+
+
+#rsssl .rsssl-scan-more-options h3 {
+    padding: 10px 2px 0px 0px;
+}
+
+#rsssl .rsssl-buttons a {
+    color: #fff;
+}
+
+#rsssl input, #rsssl textarea {
+    margin-right: 10px;
+}
+
+#rsssl .panel-heading {
+    padding: 5px 5px;
+    border-bottom: 1px solid transparent;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#rsssl .panel {
+    margin-bottom: 10px;
+    background-color: #E4E4E4;
+}
+
+#rsssl .panel-results {
+    background-color: #E4E4E4;
+    padding-top: 10px;
+}
+
+#rsssl .rsssl-scan-more-options {
+    display: none;
+    margin-bottom: 15px;
+}
+
+#rsssl .form-table th {
+    width: 260px !important;
+}
+
+#rsssl .rsssl-btn-group {
+    padding-top: 5px;
+}
+
+#rsssl .rsssl-btn-group-scan {
+    padding-bottom: 15px;
+}
+
+#rsssl .button-primary {
+    color: #fff;
+}
+
+#rsssl .rsssl-tips {
+    list-style-type: disc;
+    margin-right: 18px;
+}
+
+#rsssl .rsssl.bar.progress-bar {
+    text-align: right;
+    padding-right: 5px;
+}
+
+#rsssl .support {
+    width: 450px;
+    height: 450px;
+}
+#rsssl input[type=text], #rsssl input[type=email], #rsssl textarea {
+    max-width: 425px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#rsssl textarea {
+    min-height: 150px;
+    /*margin-left: 10px;*/
+}
+
+#rsssl .support-form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+#rsssl .support-list {
+    margin-right: 30px;
+    list-style: square;
+}
+
+/*
+    cool checkbox sliders
+*/
+.rsssl-switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 21px;
+}
+.rsssl-switch input {
+    display: none;
+}
+.rsssl-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.rsssl-slider:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    right: 4px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.rsssl-slider.rsssl-round {
+    border-radius: 20px;
+}
+.rsssl-slider.rsssl-round:before {
+    border-radius: 50%;
+}
+input:checked + .rsssl-slider {
+    background-color: #2DAAE1;
+}
+input:checked + .rsssl-slider:before {
+    -webkit-transform: translateX(-17px);
+    -ms-transform: translateX(-17px);
+    transform: translateX(-17px);
+}
+input:disabled + .rsssl-slider {
+    background-color: #b3e0f4;
+}
+input:focus + .rsssl-slider {
+    box-shadow: 0 0 1px #2DAAE1;
+}
+
+/* License page */
+.rsssl_notice_license {
+    font-size: 13px!important;
+    border-radius: .25rem;
+    padding: 10px 15px;
+    margin: 10px 0;
+    background-color: #d9edf7;
+    border: 1px solid #bcdff1;
+    color: #31708f;
+}
+.rsssl_notice_license h1 {
+    font-size: 16px;
+}
+.rsssl_notice_license p {
+    font-size: 13px!important;
+}
+.rsssl_notice_license.success {
+    background-color: #dff0d8;
+    border-color: #d0e9c6;
+    color: #3c763d;
+}
+.rsssl_notice_license.warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+.rsssl_notice_license ul {
+    list-style-type: disc;
+    margin-right: 22px;
+}
+
+/*loader*/
+.rsssl-loader {
+    margin: 0;
+    width: 78px;
+    height: 15px;
+    text-align: center;
+    font-size: 10px;
+}
+.rsssl-loader > div {
+    margin: 1px;
+    background-color: #fff;
+    height: 100%;
+    width: 3px;
+    display: inline-block;
+    -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+.rsssl-loader .rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+}
+.rsssl-loader .rect3 {
+    -webkit-animation-delay: -1s;
+    animation-delay: -1s;
+}
+.rsssl-loader .rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+}
+.rsssl-loader .rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+}
+@-webkit-keyframes sk-stretchdelay {
+    0%,
+    40%,
+    100% {
+        -webkit-transform: scaleY(0.4);
+    }
+    20% {
+        -webkit-transform: scaleY(1);
+    }
+}
+@keyframes sk-stretchdelay {
+    0%,
+    40%,
+    100% {
+        transform: scaleY(0.4);
+        -webkit-transform: scaleY(0.4);
+    }
+    20% {
+        transform: scaleY(1);
+        -webkit-transform: scaleY(1);
+    }
+}
+
+/*CSP table*/
+
+.rsssl-csp-table {
+    display: table;
+}
+
+.rsssl-csp-th {
+    display: table-cell;
+    padding-left: 20px;
+    text-align: right;
+}
+
+.rsssl-csp-tr {
+    display: table-row;
+}
+
+.rsssl-csp-td {
+    display: table-cell;
+    text-align: right;
+    word-break: break-all;
+}

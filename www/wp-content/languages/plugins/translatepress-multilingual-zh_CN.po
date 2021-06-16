@@ -1,0 +1,2218 @@
+# Translation of Plugins - TranslatePress &#8211; Translate Multilingual sites - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - TranslatePress &#8211; Translate Multilingual sites - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-03-23 07:25:22+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - TranslatePress &#8211; Translate Multilingual sites - Stable (latest release)\n"
+
+#: partials/main-settings-language-selector.php:79
+msgctxt "Link to the TranslatePress add-ons"
+msgid "TranslatePress Advanced Add-ons"
+msgstr "TranslatePress高级版附加组件"
+
+#: partials/main-settings-language-selector.php:73
+msgctxt "Verbiage for the TranslatePress Advanced add-ons"
+msgid "TranslatePress Advanced Add-ons"
+msgstr "TranslatePress高级版附加组件"
+
+#. Translators: %1$s is the URL to the add-ons. %2$2 is for the TranslatePress
+#. add-on verbiage.
+#: partials/main-settings-language-selector.php:71
+msgid "To add <strong>more than two languages</strong> and support for SEO Title, Description, Slug and more check out <a href=\"%1$s\" target=\"_blank\" title=\"%2$s\">%2$s</a>."
+msgstr "要添加<strong>两种以上语言</strong>并支持SEO标题、描述、插件等，请查看<a href=\"%1$s\" target=\"_blank\" title=\"%2$s\">%2$s</a>。"
+
+#: partials/machine-translation-settings-page.php:51
+msgctxt "Verbiage for the DeepL Pro Add-on"
+msgid "TranslatePress Pro Add-on"
+msgstr "TranslatePress 专业版附加组件"
+
+#. Translators: %1$s is the URL to the DeepL add-on. %2$s is the name of the
+#. Pro offerings.
+#: partials/machine-translation-settings-page.php:49
+msgid "<strong>DeepL</strong> automatic translation is available as a <a href=\"%1$s\" target=\"_blank\" title=\"%2$s\">%2$s</a>."
+msgstr "<strong>DeepL</strong>自动翻译可以通过<a href=\"%1$s\" target=\"_blank\" title=\"%2$s\">%2$s</a>启用。"
+
+#: languages/translatepress-multilingual.catalog.php:252
+#: languages/translatepress-multilingual.catalog.php:254
+msgid "TranslatePress Advanced Add-ons"
+msgstr "TranslatePress 高级附加组件"
+
+#: languages/translatepress-multilingual.catalog.php:240
+#: partials/machine-translation-settings-page.php:58
+msgid "TranslatePress Pro Add-ons"
+msgstr "TranslatePress 专业版附加组件"
+
+#: languages/translatepress-multilingual.catalog.php:237
+msgid "TranslatePress Pro Add-on"
+msgstr "TranslatePress 专业版附加组件"
+
+#: includes/class-wp-bakery-language-for-blocks.php:179
+msgid "TranslatePress"
+msgstr "TranslatePress"
+
+#: includes/advanced-settings/do-not-translate-certain-paths.php:35
+msgid "Translate Only Certain Paths"
+msgstr "仅翻译某些路径"
+
+#: includes/advanced-settings/do-not-translate-certain-paths.php:30
+msgid "Exclude Paths From Translation"
+msgstr "从翻译中排除路径"
+
+#: languages/translatepress-multilingual.catalog.php:336
+#: includes/advanced-settings/do-not-translate-certain-paths.php:11
+msgid "Choose what paths can be translated. Supports wildcard at the end of the path.<br>For example, to exclude https://example.com/some/path you can either use the rule /some/path/ or /some/*.<br>Enter each rule on it's own line. To exclude the home page use {{home}}."
+msgstr "选择可以转换的路径。在路径末尾支持通配符。<br>例如，要排除https://example.com/some/path，可以使用规则 /some/path/ 或 /some/ *。<br>输入每个自己行。要排除主页，请使用{{home}}。"
+
+#: languages/translatepress-multilingual.catalog.php:335
+#: includes/advanced-settings/do-not-translate-certain-paths.php:10
+msgid "Do not translate certain paths"
+msgstr "不要翻译某些路径"
+
+#: languages/translatepress-multilingual.catalog.php:204
+#: includes/class-upgrade.php:665
+msgid "Recreated original strings table."
+msgstr "重新创建原始字符串表。"
+
+#: languages/translatepress-multilingual.catalog.php:184
+#: includes/class-upgrade.php:148
+msgid "Cleaning original meta table for language %s..."
+msgstr "为语言%s清理原始元数据表…"
+
+#: languages/translatepress-multilingual.catalog.php:183
+#: includes/class-upgrade.php:140
+msgid "Regenerating original meta table for language %s..."
+msgstr "为语言%s重新生成原始元数据表…"
+
+#: languages/translatepress-multilingual.catalog.php:291
+#: partials/trp-remove-duplicate-rows.php:30
+msgid "Remove duplicate original strings"
+msgstr "删除重复的原始字符串"
+
+#: languages/translatepress-multilingual.catalog.php:71
+#: includes/class-machine-translation-tab.php:162
+msgid "The selected automatic translation engine does not provide support for these languages.<br>You can still manually translate pages in these languages using the Translation Editor."
+msgstr "所选的自动翻译引擎不支持这些语言。<br>您仍可以使用翻译编辑器手动翻译页面为这些语言。"
+
+#: languages/translatepress-multilingual.catalog.php:70
+#: includes/class-machine-translation-tab.php:160
+msgid "(last checked on %s)"
+msgstr "（上次检查%s）"
+
+#: languages/translatepress-multilingual.catalog.php:69
+#: includes/class-machine-translation-tab.php:159
+msgid "Recheck supported languages"
+msgstr "重新检查支持的语言"
+
+#: languages/translatepress-multilingual.catalog.php:68
+#: includes/class-machine-translation-tab.php:148
+msgid "Unsupported languages"
+msgstr "不支持的语言"
+
+#: languages/translatepress-multilingual.catalog.php:79
+#: includes/class-plugin-notices.php:451
+msgid "One or more languages are unsupported by the automatic translation provider. Please check the <strong>TranslatePress -> <a href=\"%s\">Automatic Translation</a></strong> page for more information."
+msgstr "自动翻译提供程序不支持一种或多种语言。详细信息 <strong>请查看翻译-> <a href=\"%s\">自动翻译</a></strong> 页面。"
+
+#: languages/translatepress-multilingual.catalog.php:91
+#: includes/class-settings.php:91
+msgid "Light"
+msgstr "明亮"
+
+#: languages/translatepress-multilingual.catalog.php:90
+#: includes/class-settings.php:90
+msgid "Dark"
+msgstr "深色"
+
+#: languages/translatepress-multilingual.catalog.php:277
+#: partials/main-settings-page.php:114
+msgid "Show the small \"Powered by TranslatePress\" label in the floater language switcher."
+msgstr "在浮动器语言切换器中显示一个小小的\"Powered by TranslatePress\"标签。"
+
+#: languages/translatepress-multilingual.catalog.php:276
+#: partials/main-settings-page.php:112
+msgid "Show \"Powered by TranslatePress\""
+msgstr "显示 \"Powered by TranslatePress\""
+
+#: includes/custom-language.php:8
+msgid "Custom Language Flag"
+msgstr "自定义语言标志"
+
+#: languages/translatepress-multilingual.catalog.php:326
+#: includes/advanced-settings/custom-language.php:31
+msgid "Adds custom languages to TranslatePress.<br>Will be available under General settings, All Languages list.<br>For custom flag, first upload the image in media library then paste the URL.<br>Changing or deleting a custom language will impact translations and site URL's."
+msgstr "将自定义语言添加到TranslatePress。<br>将在常规设置，所有语言列表中提供。<br>对于自定义标志，请先在媒体库中上载图像，然后粘贴 URL。<br>更改或删除自定义语言将影响翻译和网站 URL。"
+
+#: languages/translatepress-multilingual.catalog.php:325
+#: includes/advanced-settings/custom-language.php:30
+#: includes/advanced-settings/separators.php:49
+msgid "Custom language"
+msgstr "自定义语言"
+
+#: languages/translatepress-multilingual.catalog.php:324
+#: includes/advanced-settings/custom-language.php:27
+msgid "Text RTL"
+msgstr "文本 RTL"
+
+#: languages/translatepress-multilingual.catalog.php:323
+#: includes/advanced-settings/custom-language.php:26
+msgid "Flag URL"
+msgstr "国旗URL"
+
+#: languages/translatepress-multilingual.catalog.php:322
+#: includes/advanced-settings/custom-language.php:25
+msgid "URL slug"
+msgstr "网址别名"
+
+#: languages/translatepress-multilingual.catalog.php:321
+#: includes/advanced-settings/custom-language.php:24
+msgid "ISO code"
+msgstr "ISO 代码"
+
+#: languages/translatepress-multilingual.catalog.php:320
+#: includes/advanced-settings/custom-language.php:23
+msgid "Native name"
+msgstr "母语名称"
+
+#: languages/translatepress-multilingual.catalog.php:319
+#: includes/advanced-settings/custom-language.php:22
+msgid "Language name"
+msgstr "语言名称"
+
+#: languages/translatepress-multilingual.catalog.php:34
+#: includes/class-advanced-tab.php:585 includes/class-advanced-tab.php:619
+msgid "Select..."
+msgstr "选择..."
+
+#: includes/compatibility-functions.php:484
+msgctxt "Item name in quotes"
+msgid "&ldquo; %s &rdquo;"
+msgstr "&ldquo; %s &rdquo;"
+
+#: languages/translatepress-multilingual.catalog.php:85
+#: includes/class-settings.php:31
+msgid "Full Language Names No HTML"
+msgstr "完整语言名称 无 HTML"
+
+#: languages/translatepress-multilingual.catalog.php:318
+#: includes/advanced-settings/custom-date-format.php:17
+msgid "Customize the date formatting per each translated language.<br/>Leave empty for default WP setting or see more information <a href=\"https://wordpress.org/support/article/formatting-date-and-time/\" title=\"Formatting Date and Time\" target=\"_blank\">here</a>"
+msgstr "为每种翻译语言设置自定义日期格式。<br/>留空使用WP默认设置，或<a href=\"https://wordpress.org/support/article/formatting-date-and-time/\" title=\"Formatting Date and Time\" target=\"_blank\">在此</a>查看更多信息"
+
+#: languages/translatepress-multilingual.catalog.php:317
+#: includes/advanced-settings/custom-date-format.php:16
+msgid "Date format"
+msgstr "日期格式"
+
+#: languages/translatepress-multilingual.catalog.php:342
+#: includes/advanced-settings/enable-numerals-translation.php:10
+msgid "Enable translation of numbers ( e.g. phone numbers)"
+msgstr "启用数字翻译（例如电话号码）"
+
+#: languages/translatepress-multilingual.catalog.php:341
+#: includes/advanced-settings/enable-numerals-translation.php:9
+msgid "Translate numbers and numerals"
+msgstr "翻译数字和数字"
+
+#: languages/translatepress-multilingual.catalog.php:92
+#: includes/class-settings.php:163
+msgid "Install & Activate"
+msgstr "安装并激活"
+
+#: languages/translatepress-multilingual.catalog.php:159
+#: includes/class-translation-manager.php:185
+msgid "Search for any text in this page in the dropdown."
+msgstr "在此页面的下拉中搜索任意文字。"
+
+#: languages/translatepress-multilingual.catalog.php:158
+#: includes/class-translation-manager.php:180
+msgid "Switch language to see the translation changes directly on the page."
+msgstr "切换语言可直接在页面上查看翻译更改。"
+
+#: languages/translatepress-multilingual.catalog.php:157
+#: includes/class-translation-manager.php:175
+msgid "Don't forget to Save Translation. Use keyboard shortcut CTRL(⌘) + S"
+msgstr "不要忘了保存翻译，使用键盘快捷CTRL(⌘) + S"
+
+#: languages/translatepress-multilingual.catalog.php:156
+#: includes/class-translation-manager.php:169
+msgid "Hover any text on the page, click <img src=\"%s\" class=\"trp-edit-icon-inline\">, then modify the translation in the sidebar."
+msgstr "将页面上的任何文本悬停，然后单击 <img src=\"%s\" class=\"trp-edit-icon-inline\">在边栏中修改翻译。"
+
+#: languages/translatepress-multilingual.catalog.php:135
+#: includes/class-translation-manager.php:133
+#: includes/class-translation-manager.php:168
+#: includes/class-translation-manager.php:174
+#: includes/class-translation-manager.php:179
+#: includes/class-translation-manager.php:184
+msgid "Quick Intro"
+msgstr "快速简介"
+
+#: languages/translatepress-multilingual.catalog.php:134
+#: includes/class-translation-manager.php:132
+msgid "Dismiss tooltip"
+msgstr "隐藏工具提示"
+
+#: languages/translatepress-multilingual.catalog.php:65
+#: includes/class-install-plugins.php:36
+msgid "Could not install. Try again from <a href=\"%s\" >Plugins Dashboard.</a>"
+msgstr "无法安装。请从 <a href=\"%s\" >插件仪表盘</a>重试。"
+
+#: languages/translatepress-multilingual.catalog.php:222
+#: partials/addons-settings-page.php:108
+msgid "Accept user payments, create subscription plans and restrict content on your membership site."
+msgstr "接受用户付款, 创建订阅计划并限制您的会员网站上的内容."
+
+#: languages/translatepress-multilingual.catalog.php:221
+#: partials/addons-settings-page.php:99 partials/addons-settings-page.php:113
+msgid "Installing..."
+msgstr "正在安装…"
+
+#: languages/translatepress-multilingual.catalog.php:219
+#: partials/addons-settings-page.php:94
+msgid "Capture more user information on the registration form with the help of Profile Builder's custom user profile fields and/or add an Email Confirmation process to verify your customers accounts."
+msgstr "借助Profile Builder的自定义用户资料字段或添加电子邮件确认流程来验证您用户账户，在注册表单上获取更多用户信息。"
+
+#: languages/translatepress-multilingual.catalog.php:218
+#: partials/addons-settings-page.php:86
+msgid "A short list of plugins you can use to extend your website."
+msgstr "可用于扩展网站的插件的简短列表。"
+
+#: languages/translatepress-multilingual.catalog.php:217
+#: partials/addons-settings-page.php:85
+msgid "Recommended Plugins by the same developers"
+msgstr "同一开发人员推荐的插件"
+
+#: languages/translatepress-multilingual.catalog.php:316
+msgid "Search WooCommerce Slugs"
+msgstr "搜索WooCommerce别名"
+
+#: languages/translatepress-multilingual.catalog.php:315
+msgid "WooCommerce Slug"
+msgstr "WooCommerce别名"
+
+#: languages/translatepress-multilingual.catalog.php:314
+msgid "WooCommerce Slugs"
+msgstr "WooCommerce别名"
+
+#: languages/translatepress-multilingual.catalog.php:313
+msgid "Search Post Type Base Slugs"
+msgstr "搜索文章类型基础别名"
+
+#: languages/translatepress-multilingual.catalog.php:312
+msgid "Post Type Base Slug"
+msgstr "文章类型基础别名"
+
+#: languages/translatepress-multilingual.catalog.php:311
+msgid "Post Type Base Slugs"
+msgstr "Post Type Base Slugs文章类型基础别名"
+
+#: languages/translatepress-multilingual.catalog.php:310
+msgid "Any Post Status"
+msgstr "任意文章状态"
+
+#: languages/translatepress-multilingual.catalog.php:309
+msgid "Published"
+msgstr "已发布"
+
+#: languages/translatepress-multilingual.catalog.php:308
+msgid "Filter by Post Type"
+msgstr "按文章类型过滤"
+
+#: languages/translatepress-multilingual.catalog.php:307
+msgid "Post Type"
+msgstr "文章类型"
+
+#: languages/translatepress-multilingual.catalog.php:306
+msgid "Post ID"
+msgstr "文章 ID"
+
+#: languages/translatepress-multilingual.catalog.php:305
+msgid "Search Post Slugs"
+msgstr "搜索文章别名"
+
+#: languages/translatepress-multilingual.catalog.php:304
+msgid "Post Slugs"
+msgstr "文章别名"
+
+#: languages/translatepress-multilingual.catalog.php:303
+msgid "Filter by Taxonomy"
+msgstr "通过分类法过滤"
+
+#: languages/translatepress-multilingual.catalog.php:302
+msgid "Taxonomy"
+msgstr "分类方法"
+
+#: languages/translatepress-multilingual.catalog.php:301
+msgid "Term Slug"
+msgstr "分类项别名"
+
+#: languages/translatepress-multilingual.catalog.php:300
+msgid "Search Term Slugs"
+msgstr "搜索分类项别名"
+
+#: languages/translatepress-multilingual.catalog.php:299
+msgid "Term Slugs"
+msgstr "分类项别名"
+
+#: languages/translatepress-multilingual.catalog.php:298
+msgid "Translation"
+msgstr "翻译"
+
+#: languages/translatepress-multilingual.catalog.php:297
+msgid "Taxonomy Slug"
+msgstr "分类法别名"
+
+#: languages/translatepress-multilingual.catalog.php:296
+msgid "Search Taxonomy Slugs"
+msgstr "搜索分类法别名"
+
+#: languages/translatepress-multilingual.catalog.php:295
+msgid "Taxonomy Slugs"
+msgstr "分类法别名"
+
+#: languages/translatepress-multilingual.catalog.php:294
+msgid "URL Slugs Translation"
+msgstr "URL 别名翻译"
+
+#: languages/translatepress-multilingual.catalog.php:392
+#: includes/string-translation/class-string-translation.php:218
+msgid "An error occurred while loading results. Most likely you were logged out. Reload page?"
+msgstr "加载结果时发生错误，你可能已注销了，重新加载页面试试？"
+
+#: includes/string-translation/class-string-translation.php:230
+msgid "Warning: This action cannot be undone. Deleting a string will remove its current translation. The original string will appear again in this interface after TranslatePress detects it. This action is NOT equivalent to excluding the string from being translated again."
+msgstr "警告： 此操作无法撤消。删除字符串将同时删除他们的翻译。在TranslatePress检测到原始字符串后，原始字符串将再次出现在此洁面中。此操作不等于排除字符串再次被翻译。"
+
+#: includes/string-translation/class-string-translation.php:227
+msgctxt "Untranslated in this language"
+msgid "in"
+msgstr "在"
+
+#: includes/string-translation/class-string-translation.php:213
+msgctxt "page 1 of 3"
+msgid "of"
+msgstr "的"
+
+#: languages/translatepress-multilingual.catalog.php:411
+#: includes/string-translation/string-translation-editor.php:7
+msgid "String Translation Editor"
+msgstr "字符串翻译编辑器"
+
+#: languages/translatepress-multilingual.catalog.php:410
+#: includes/string-translation/class-string-translation.php:243
+msgid "Language in which the translation status filter applies. Leave unselected for the translation status to apply to ANY language"
+msgstr "应用转换状态筛选器的语言。未选择翻译状态应用于任何语言"
+
+#: languages/translatepress-multilingual.catalog.php:409
+#: includes/string-translation/class-string-translation.php:242
+msgid "Click to sort strings by this column"
+msgstr "单击以按此列对字符串进行排序"
+
+#: languages/translatepress-multilingual.catalog.php:408
+#: includes/string-translation/class-string-translation.php:241
+msgid "See options for selecting all strings"
+msgstr "查看选择所有字符串的选项"
+
+#: languages/translatepress-multilingual.catalog.php:407
+#: includes/string-translation/class-string-translation.php:240
+msgid "Filter strings according to selected translation status, filters and keywords and selected filters"
+msgstr "根据所选翻译状态、筛选器和关键字以及所选筛选器筛选字符串"
+
+#: languages/translatepress-multilingual.catalog.php:406
+#: includes/string-translation/class-string-translation.php:239
+msgid "Search original strings containing typed keywords while also matching selected filters"
+msgstr "搜索包含键入关键字的原始字符串，同时匹配所选筛选器"
+
+#: languages/translatepress-multilingual.catalog.php:405
+#: includes/string-translation/class-string-translation.php:238
+msgid "Incorrect page number. Type a page number between 1 and total number of pages"
+msgstr "页码不正确，请输入介于 1 和总页数之间的页数"
+
+#: languages/translatepress-multilingual.catalog.php:404
+#: includes/string-translation/class-string-translation.php:237
+msgid "Type a page number to navigate to"
+msgstr "键入要导航到的页码"
+
+#: languages/translatepress-multilingual.catalog.php:403
+#: includes/string-translation/class-string-translation.php:236
+msgid "Navigate to last page"
+msgstr "导航到最后一页"
+
+#: languages/translatepress-multilingual.catalog.php:402
+#: includes/string-translation/class-string-translation.php:235
+msgid "Navigate to first page"
+msgstr "导航到第一页"
+
+#: languages/translatepress-multilingual.catalog.php:401
+#: includes/string-translation/class-string-translation.php:234
+msgid "Navigate to previous page"
+msgstr "导航到上一页"
+
+#: languages/translatepress-multilingual.catalog.php:400
+#: includes/string-translation/class-string-translation.php:233
+msgid "Navigate to next page"
+msgstr "导航到下一页"
+
+#: languages/translatepress-multilingual.catalog.php:399
+msgid "in"
+msgstr "在"
+
+#: languages/translatepress-multilingual.catalog.php:398
+#: includes/string-translation/class-string-translation.php:225
+msgid "The word typed was incorrect. Action was cancelled."
+msgstr "键入的单词不正确，操作已取消。"
+
+#: languages/translatepress-multilingual.catalog.php:397
+#: includes/string-translation/class-string-translation.php:224
+msgid "To continue please type the word:"
+msgstr "请输入以下单词后继续："
+
+#: languages/translatepress-multilingual.catalog.php:396
+#: includes/string-translation/class-string-translation.php:223
+msgid "You are about to perform this action only on the visible strings. To perform the action on all the strings matching the filter click \"Select All\" from the table header dropdown."
+msgstr "您即将仅在可见字符串上执行此操作。若要对与筛选器匹配的所有字符串执行操作，请单击表标题下拉列表中的\"全部选择\"。"
+
+#: languages/translatepress-multilingual.catalog.php:395
+#: includes/string-translation/class-string-translation.php:222
+msgid "You are about to perform this action on all the strings matching your filter, not just the visibly checked. To perform the action only to the visible strings click \"Select Visible\" from the table header dropdown."
+msgstr "您将要对与筛选器匹配的所有字符串执行此操作，而不仅仅是明显检查的字符串。若要仅对可见字符串执行该操作，请单击表标题下拉列表中的\"选择可见\"。"
+
+#: languages/translatepress-multilingual.catalog.php:394
+#: includes/string-translation/class-string-translation.php:221
+msgid "Select Visible"
+msgstr "选择可视"
+
+#: languages/translatepress-multilingual.catalog.php:393
+#: includes/string-translation/class-string-translation.php:220
+msgid "Select All"
+msgstr "全选"
+
+#: languages/translatepress-multilingual.catalog.php:391
+#: includes/string-translation/class-string-translation.php:217
+msgid "No strings match your query."
+msgstr "没有与查询匹配的字符串。"
+
+#: languages/translatepress-multilingual.catalog.php:390
+#: includes/string-translation/class-string-translation.php:216
+msgid "Apply"
+msgstr "应用"
+
+#: languages/translatepress-multilingual.catalog.php:389
+#: includes/string-translation/class-string-translation.php:215
+msgid "See Less"
+msgstr "查看较少"
+
+#: languages/translatepress-multilingual.catalog.php:388
+#: includes/string-translation/class-string-translation.php:214
+msgid "See More"
+msgstr "查看更多"
+
+#: languages/translatepress-multilingual.catalog.php:387
+msgid "of"
+msgstr "的"
+
+#: languages/translatepress-multilingual.catalog.php:386
+#: includes/string-translation/class-string-translation.php:212
+msgid "items"
+msgstr "个项目"
+
+#: languages/translatepress-multilingual.catalog.php:385
+#: includes/string-translation/class-string-translation.php:211
+msgid "Import / Export"
+msgstr "导入/导出"
+
+#: languages/translatepress-multilingual.catalog.php:384
+#: includes/string-translation/class-string-translation.php:210
+msgid "Add New"
+msgstr "添加"
+
+#: languages/translatepress-multilingual.catalog.php:383
+#: includes/string-translation/class-string-translation.php:209
+msgid "Filter by language"
+msgstr "按语言筛选"
+
+#: languages/translatepress-multilingual.catalog.php:382
+#: includes/string-translation/class-string-translation.php:208
+msgid "Filter"
+msgstr "过滤"
+
+#: languages/translatepress-multilingual.catalog.php:381
+#: includes/string-translation/class-string-translation.php:207
+msgid "Translation Status"
+msgstr "翻译状态"
+
+#: languages/translatepress-multilingual.catalog.php:380
+#: includes/string-translation/class-string-translation.php:174
+msgid "Edit"
+msgstr "编辑"
+
+#: languages/translatepress-multilingual.catalog.php:379
+#: includes/string-translation/class-string-translation.php:169
+msgid "Delete entries"
+msgstr "删除记录条目"
+
+#: languages/translatepress-multilingual.catalog.php:378
+#: includes/string-translation/class-string-translation.php:167
+msgid "Bulk Actions"
+msgstr "批量操作"
+
+#: languages/translatepress-multilingual.catalog.php:377
+#: includes/string-translation/class-string-translation.php:157
+msgid "Not translated"
+msgstr "未翻译"
+
+#: languages/translatepress-multilingual.catalog.php:376
+#: includes/string-translation/class-string-translation.php:156
+msgid "Automatically translated"
+msgstr "自动翻译"
+
+#: languages/translatepress-multilingual.catalog.php:375
+#: includes/string-translation/class-string-translation.php:155
+msgid "Human reviewed"
+msgstr "人类评论"
+
+#: languages/translatepress-multilingual.catalog.php:360
+#: includes/advanced-settings/remove-duplicates-from-db.php:8
+msgid "Click <a href=\"%s\">here</a> to remove duplicate rows from the database."
+msgstr "<a href=\"%s\">单击此处</a>从数据库中删除重复的行。"
+
+#: languages/translatepress-multilingual.catalog.php:167
+#: includes/class-translation-manager.php:278
+msgid "String Translation"
+msgstr "字符串翻译"
+
+#: languages/translatepress-multilingual.catalog.php:166
+#: includes/class-translation-manager.php:272
+msgid "Visual Editor"
+msgstr "可视化编辑器"
+
+#: languages/translatepress-multilingual.catalog.php:290
+#: partials/trp-remove-duplicate-rows.php:29
+msgid "Remove duplicate gettext rows"
+msgstr "删除重复的gettext行"
+
+#: languages/translatepress-multilingual.catalog.php:289
+#: partials/trp-remove-duplicate-rows.php:28
+msgid "Remove duplicate dictionary rows"
+msgstr "删除重复的字典行"
+
+#: languages/translatepress-multilingual.catalog.php:255
+#: partials/main-settings-language-selector.php:66
+msgid "To add <strong>more than two languages</strong> download and install the <strong>Extra Languages Add-on</strong> from <a href=\"%s\" class=\"trp-translatepress-account-page\" target=\"_blank\" title=\"TranslatePress Account page\">your account</a>. Once activated, you'll be able to add unlimited languages."
+msgstr "要添加<strong>超过两种语言</strong> ，请从<a href=\"%s\" class=\"trp-translatepress-account-page\" target=\"_blank\" title=\"TranslatePress Account page\">您的帐户</a>下载并安装<strong>额外语言扩展</strong>。激活后，您将能够添加无限语言。"
+
+#: languages/translatepress-multilingual.catalog.php:179
+#: includes/class-translation-render.php:196
+msgid "Dublin Core Description"
+msgstr "Dublin核心描述"
+
+#: languages/translatepress-multilingual.catalog.php:178
+#: includes/class-translation-render.php:190
+msgid "Dublin Core Title"
+msgstr "Dublin核心标题"
+
+#: languages/translatepress-multilingual.catalog.php:364
+#: includes/advanced-settings/separators.php:39
+msgid "Miscellaneous options"
+msgstr "其他选项"
+
+#: languages/translatepress-multilingual.catalog.php:363
+#: includes/advanced-settings/separators.php:29
+msgid "Debug"
+msgstr "调试"
+
+#: languages/translatepress-multilingual.catalog.php:362
+#: includes/advanced-settings/separators.php:19
+msgid "Exclude strings"
+msgstr "排除字符串"
+
+#: languages/translatepress-multilingual.catalog.php:361
+#: includes/advanced-settings/separators.php:8
+msgid "Troubleshooting"
+msgstr "故障排除"
+
+#: languages/translatepress-multilingual.catalog.php:334
+#: includes/advanced-settings/disable-post-container-tags.php:33
+msgid "It disables search indexing the post content in translated languages.<br/>Useful when the content of the post doesn't allow HTML thus breaking the page."
+msgstr "此选项禁止搜索引擎索引此语言版本的文章内容。<br/>当文章内容不允许 HTML 从而破坏页面时非常有用。"
+
+#: languages/translatepress-multilingual.catalog.php:333
+#: includes/advanced-settings/disable-post-container-tags.php:32
+msgid "Disable post container tags for post content"
+msgstr "禁用文章内容的文章容器标签"
+
+#: languages/translatepress-multilingual.catalog.php:332
+#: includes/advanced-settings/disable-post-container-tags.php:10
+msgid "It disables search indexing the post title in translated languages.<br/>Useful when the title of the post doesn't allow HTML thus breaking the page."
+msgstr "此选项禁止搜索引擎索引此语言版本的文章标题。<br/>当文章标题不允许 HTML 从而破坏页面时非常有用。"
+
+#: languages/translatepress-multilingual.catalog.php:331
+#: includes/advanced-settings/disable-post-container-tags.php:9
+msgid "Disable post container tags for post title"
+msgstr "禁用文章标题的文章容器标签"
+
+#: languages/translatepress-multilingual.catalog.php:330
+#: includes/advanced-settings/disable-languages-sitemap.php:8
+msgid "Do not include translated links in sitemaps generated by SEO plugins.<br/>Requires <a href=\"https://translatepress.com/docs/addons/seo-pack/\" title=\"TranslatePress Add-on SEO Pack documentation\" target=\"_blank\"> SEO Pack Add-on</a> to be installed and activated."
+msgstr "不要在SEO插件生成的站点地图中包含翻译的链接。<br/>需要安装和激活<a href=\"https://translatepress.com/docs/addons/seo-pack/\" title=\"TranslatePress Add-on SEO Pack documentation\" target=\"_blank\">SEO Pack Add-on</a>。"
+
+#: languages/translatepress-multilingual.catalog.php:329
+#: includes/advanced-settings/disable-languages-sitemap.php:7
+msgid "Exclude translated links from sitemap"
+msgstr "从站点地图中排除已翻译的链接"
+
+#: languages/translatepress-multilingual.catalog.php:64
+#: includes/class-error-manager.php:193
+msgid "If your problem still isn't solved, try asking your hosting about your errors. The most common issue is missing permissions for the SQL user, such as the Create Tables permission."
+msgstr "如果问题仍未解决，请就此错误咨询您的主机服务商。最常见的问题是 SQL 用户缺少权限，例如\"创建表\"权限。"
+
+#: languages/translatepress-multilingual.catalog.php:63
+#: includes/class-error-manager.php:192
+msgid "Plan C."
+msgstr "计划 C."
+
+#: languages/translatepress-multilingual.catalog.php:62
+#: includes/class-error-manager.php:189
+msgid "Test it to see if everything is working. If something went wrong, you can restore the backup that you've made at the first step. Check if no more errors occur while browsing your website in a translated language. Look at the timestamps of the errors to make sure you are not seeing the old errors. Only the most recent 5 errors are displayed."
+msgstr "测试一下，看看是否一切都在工作。如果出现问题，您可以恢复第一步所做的备份。在以翻译的语言浏览您的网站时，检查是否不再出现任何错误。查看错误的时间戳，以确保您没有看到旧错误。仅显示最近的 5 个错误。"
+
+#: languages/translatepress-multilingual.catalog.php:61
+#: includes/class-error-manager.php:188
+msgid "Copy the relevant content from the duplicated tables (trp_dictionary_en_us_es_es_COPY for example) in the newly generated table (trp_dictionary_en_us_es_es) -- perform this step only if you want to keep the current translations"
+msgstr "从已复制的表（例如trp_dictionary_en_us_es_es_COPY）中复制相关内容到新生成的表（trp_dictionary_en_us_es_es）中 -- 仅当您想要保留当前翻译时，才执行此步骤。"
+
+#: languages/translatepress-multilingual.catalog.php:60
+#: includes/class-error-manager.php:187
+msgid "Go to Settings -> TranslatePress -> General tab and Save Settings. This will regenerate the tables using your current SQL server."
+msgstr "转到设置->翻译->常规选项卡中并保存设置，此操作将在您的 SQL 服务器上重新生成数据表。"
+
+#: languages/translatepress-multilingual.catalog.php:59
+#: includes/class-error-manager.php:186
+msgid "Remove the trouble tables by executing the DROP function on them"
+msgstr "通过执行故障表上的 DROP 函数来删除它们"
+
+#: languages/translatepress-multilingual.catalog.php:58
+#: includes/class-error-manager.php:185
+msgid "Create a copy of each translation table where you encounter errors. You can copy the table within the same database (trp_dictionary_en_us_es_es_COPY for example) -- perform this step only if you want to keep the current translations"
+msgstr "在遇到错误时创建每个翻译表的副本。您可以在同一数据库中复制该表（例如，trp_dictionary_en_us_es_es_COPY）-仅在想要保留当前翻译的情况下执行此步骤"
+
+#: languages/translatepress-multilingual.catalog.php:57
+#: includes/class-error-manager.php:184
+msgid "Create a backup of your database"
+msgstr "创建数据库备份"
+
+#: languages/translatepress-multilingual.catalog.php:56
+#: includes/class-error-manager.php:182
+msgid "If your problem isn't solved, try the following steps:"
+msgstr "如果您的问题没有解决，请尝试以下步骤："
+
+#: languages/translatepress-multilingual.catalog.php:55
+#: includes/class-error-manager.php:181
+msgid "Plan B."
+msgstr "计划 B."
+
+#: languages/translatepress-multilingual.catalog.php:54
+#: includes/class-error-manager.php:179
+msgid "Go to Settings -> TranslatePress -> General tab and Save Settings. This will regenerate the tables using your current SQL settings. Check if no more errors occur while browsing your website in a translated language. Look at the timestamps of the errors to make sure you are not seeing the old errors. Only the most recent 5 errors are displayed."
+msgstr "转到设置->翻译->常规选项卡中并保存设置，此操作将使用当前 SQL 设置重新生成表。使用已翻译的语言浏览网站，检查错误是否不再发生，查看错误的时间戳，以确保您没有看到旧错误，仅显示最新的 5 个错误。"
+
+#: languages/translatepress-multilingual.catalog.php:53
+#: includes/class-error-manager.php:178
+msgid "Plan A."
+msgstr "计划 A."
+
+#: languages/translatepress-multilingual.catalog.php:52
+#: includes/class-error-manager.php:176
+msgid "What you can do in this situation"
+msgstr "在这种情况下您可以做些什么"
+
+#: languages/translatepress-multilingual.catalog.php:51
+#: includes/class-error-manager.php:174
+msgid "The SQL errors detected can occur for various reasons including missing tables, missing permissions for the SQL user to create tables or perform other operations, problems after site migration or changes to SQL server configuration."
+msgstr "检测到的 SQL 错误可能出于各种原因发生，包括缺少表、SQL 用户缺少创建表或执行其他操作的权限、此问题一般出现在站点迁移后或更改 SQL 服务器配置后。"
+
+#: languages/translatepress-multilingual.catalog.php:50
+#: includes/class-error-manager.php:173
+msgid "If TranslatePress detects something wrong when executing queries on your database, it may disable the Automatic Translation feature in order to avoid any extra charging by Google/DeepL. Automatic Translation needs to be manually turned on, after you solve the issues."
+msgstr "如果TranslatePress在数据库上执行查询时检测到错误，可能会禁用\"自动翻译\"功能，以避免 Google/DeepL 的任何额外费用。解决问题后，需要手动打开自动翻译。"
+
+#: languages/translatepress-multilingual.catalog.php:49
+#: includes/class-error-manager.php:172
+msgid "Why are these errors occuring"
+msgstr "为什么会发生这些错误"
+
+#: languages/translatepress-multilingual.catalog.php:48
+#: includes/class-error-manager.php:148
+msgid "These are the most recent 5 errors logged by TranslatePress:"
+msgstr "以下是TranslatePress记录的最新 5 个错误："
+
+#: languages/translatepress-multilingual.catalog.php:47
+#: includes/class-error-manager.php:147
+msgid "Logged errors"
+msgstr "记录的错误"
+
+#: languages/translatepress-multilingual.catalog.php:182
+#: includes/class-upgrade.php:132
+msgid "Updating original string ids for language %s..."
+msgstr "正在更新语言%s的原始字符串 id ..."
+
+#: languages/translatepress-multilingual.catalog.php:181
+#: includes/class-upgrade.php:124
+msgid "Cleaning original strings table for language %s..."
+msgstr "为语言%s清理原始元数据表…"
+
+#: languages/translatepress-multilingual.catalog.php:180
+#: includes/class-upgrade.php:115
+msgid "Inserting original strings for language %s..."
+msgstr "插入语言%s的原始字符串…"
+
+#: includes/class-elementor-language-for-blocks.php:192
+#: includes/class-wp-bakery-language-for-blocks.php:153
+msgid "The content of this element should be written in the default language."
+msgstr "此元素的内容应以默认语言编写。"
+
+#: includes/class-elementor-language-for-blocks.php:191
+#: includes/class-wp-bakery-language-for-blocks.php:146
+msgid "This element will still be visible when you are translating your website through the Translation Editor."
+msgstr "当您通过翻译编辑器翻译网站时，此元素仍将可见。"
+
+#: includes/class-elementor-language-for-blocks.php:187
+#: includes/class-wp-bakery-language-for-blocks.php:162
+msgid "Choose from which languages to exclude this element."
+msgstr "从中选择要排除此元素的语言。"
+
+#: includes/class-elementor-language-for-blocks.php:169
+#: includes/class-wp-bakery-language-for-blocks.php:158
+msgid "Select languages"
+msgstr "选择语言"
+
+#: includes/class-elementor-language-for-blocks.php:163
+#: includes/class-wp-bakery-language-for-blocks.php:141
+msgid "Exclude this element from specific languages."
+msgstr "从特定语言中排除此元素。"
+
+#: includes/class-elementor-language-for-blocks.php:161
+msgid "Exclude element from language"
+msgstr "从语言中排除元素"
+
+#: includes/class-elementor-language-for-blocks.php:149
+#: includes/class-wp-bakery-language-for-blocks.php:110
+msgid "Choose in which language to show this element."
+msgstr "选择显示此元素的语言。"
+
+#: includes/class-elementor-language-for-blocks.php:132
+#: includes/class-wp-bakery-language-for-blocks.php:106
+msgid "Select language"
+msgstr "选择语言"
+
+#: includes/class-elementor-language-for-blocks.php:126
+#: includes/class-wp-bakery-language-for-blocks.php:101
+msgid "Show this element only in one language."
+msgstr "仅在一种语言中显示此元素。"
+
+#: includes/class-elementor-language-for-blocks.php:124
+#: includes/class-wp-bakery-language-for-blocks.php:98
+msgid "Restrict element to language"
+msgstr "将元素限制为语言"
+
+#: includes/class-elementor-language-for-blocks.php:109
+#: includes/class-wp-bakery-language-for-blocks.php:138
+msgid "Exclude from Language"
+msgstr "从语言中排除"
+
+#: includes/class-elementor-language-for-blocks.php:91
+msgid "Restrict by Language"
+msgstr "按语言限制"
+
+#: languages/translatepress-multilingual.catalog.php:239
+#: partials/machine-translation-settings-page.php:54
+msgid "Please note that DeepL API usage is paid separately. See <a href=\"https://www.deepl.com/pro.html#developer\">DeepL pricing information</a>."
+msgstr "请注意，DeepL API 的使用是需要单独付费的。请参阅 <a href=\"https://www.deepl.com/pro.html#developer\">DeepL 定价信息</a>。"
+
+#: languages/translatepress-multilingual.catalog.php:233
+#: partials/machine-translation-settings-page.php:17
+msgid "Enable or disable the automatic translation of the site. To minimize translation costs, each untranslated string is automatically translated only once, then stored in the database."
+msgstr "启用或禁用站点自动翻译。为了最大限度地降低翻译成本，每个未翻译的字符串仅自动翻译一次，然后存储在数据库中。"
+
+#: languages/translatepress-multilingual.catalog.php:227
+#: partials/license-settings-page.php:48
+msgid "If you purchased a premium version, first install and activate any of the <a href=\"%s\">Advanced or Pro Addons</a>. After this you will be prompted with an input to enter your license key."
+msgstr "如果您购买了高级版本，请先安装并激活任一 <a href=\"%s\">高级或专业附加组件</a>。然后系统会提示您输入许可证密钥。"
+
+#: languages/translatepress-multilingual.catalog.php:226
+#: partials/error-manager-page.php:6
+msgid "There are no logged errors."
+msgstr "没有记录的错误。"
+
+#: languages/translatepress-multilingual.catalog.php:225
+#: partials/error-manager-page.php:3
+msgid "TranslatePress Errors"
+msgstr "TranslatePress错误"
+
+#: languages/translatepress-multilingual.catalog.php:45
+#: includes/class-error-manager.php:59
+msgid "Automatic translation has been disabled."
+msgstr "自动翻译已禁用。"
+
+#: languages/translatepress-multilingual.catalog.php:44
+#: includes/class-error-manager.php:50
+msgid "<strong>TranslatePress</strong> encountered SQL errors. <a href=\"%s\" title=\"View TranslatePress SQL Errors\">Check out the errors</a>."
+msgstr "<strong>TranslatePress</strong>遇到 SQL 错误。<a href=\"%s\" title=\"View TranslatePress SQL Errors\">查看错误</a>。"
+
+#: languages/translatepress-multilingual.catalog.php:340
+#: includes/advanced-settings/enable-hreflang-xdefault.php:9
+msgid "Enables the hreflang=\"x-default\" for an entire language. See documentation for more details."
+msgstr "启用所有语言的 hreflang=\"x-default\"。有关详细信息，请参阅文档。"
+
+#: languages/translatepress-multilingual.catalog.php:339
+#: includes/advanced-settings/enable-hreflang-xdefault.php:8
+msgid "Enable the hreflang x-default tag for language:"
+msgstr "为语言启用 hreflang x-default 标记："
+
+#: languages/translatepress-multilingual.catalog.php:280
+#: partials/test-api-settings-page.php:21
+msgid "Use this HTTP Referrer if the API lets you restrict key usage from its Dashboard."
+msgstr "如果API允许您在其仪表板中的限制密钥使用，请使用此 HTTP Referrer。"
+
+#: languages/translatepress-multilingual.catalog.php:278
+#: partials/test-api-settings-page.php:17
+msgid "API Key from settings page:"
+msgstr "来自设置页面的 API 密钥："
+
+#: languages/translatepress-multilingual.catalog.php:249
+#: partials/machine-translation-settings-page.php:124
+msgid "Only enable for testing purposes. Can impact performance.<br>All records are stored in the wp_trp_machine_translation_log database table. Use a plugin like <a href=\"https://wordpress.org/plugins/wp-data-access/\">WP Data Access</a> to browse the logs or directly from your database manager (PHPMyAdmin, etc.)"
+msgstr "启用此功能会影响性能，仅在测试时启用。<br>所有记录都存储在数据库wp_trp_machine_translation_log中。你可以使用类似 <a href=\"https://wordpress.org/plugins/wp-data-access/\">WP Data Access</a> 的插件或数据库管理器（PHPMyAdmin 等）浏览。"
+
+#: languages/translatepress-multilingual.catalog.php:246
+#: partials/machine-translation-settings-page.php:103
+msgid "Add a limit to the number of automatically translated characters so you can better budget your project."
+msgstr "对自动翻译的字符数添加限制，以便更好地为项目编制预算。"
+
+#: languages/translatepress-multilingual.catalog.php:244
+#: partials/machine-translation-settings-page.php:91
+msgid "Block crawlers from triggering automatic translations on your website."
+msgstr "阻止爬虫触发网站上的自动翻译。"
+
+#: languages/translatepress-multilingual.catalog.php:243
+#: partials/machine-translation-settings-page.php:84
+msgid "Block Crawlers"
+msgstr "阻止爬虫"
+
+#: languages/translatepress-multilingual.catalog.php:242
+#: partials/machine-translation-settings-page.php:75
+msgid "Click here to check if the selected translation engine is configured correctly."
+msgstr "单击此处检查所选翻译引擎配置是否正确。"
+
+#: languages/translatepress-multilingual.catalog.php:241
+#: partials/machine-translation-settings-page.php:73
+msgid "Test API credentials"
+msgstr "测试 API 凭据"
+
+#: languages/translatepress-multilingual.catalog.php:238
+#: partials/machine-translation-settings-page.php:53
+msgid "By upgrading you'll get access to all paid add-ons, premium support and help fund the future development of TranslatePress."
+msgstr "通过升级，您可以访问所有付费附加组件、高级支持，并帮助为TranslatePress的未来发展提供资金。"
+
+#: languages/translatepress-multilingual.catalog.php:235
+#: partials/machine-translation-settings-page.php:35
+msgid "Choose which engine you want to use in order to automatically translate your website."
+msgstr "选择要使用的引擎，以便自动翻译您的网站。"
+
+#: languages/translatepress-multilingual.catalog.php:234
+#: partials/machine-translation-settings-page.php:23
+msgid "Translation Engine"
+msgstr "翻译引擎"
+
+#: languages/translatepress-multilingual.catalog.php:231
+#: partials/machine-translation-settings-page.php:9
+msgid "Enable Automatic Translation"
+msgstr "启用自动翻译"
+
+#: languages/translatepress-multilingual.catalog.php:230
+#: partials/machine-translation-settings-page.php:4
+msgid "TranslatePress Automatic Translation"
+msgstr "TranslatePress自动翻译"
+
+#: languages/translatepress-multilingual.catalog.php:212
+#: partials/addons-settings-page.php:44
+msgid "Automatically translate your website through the DeepL API."
+msgstr "通过DeepL API自动翻译您的网站。"
+
+#: languages/translatepress-multilingual.catalog.php:78
+#: includes/class-plugin-notices.php:427
+msgid "The daily quota for machine translation characters exceeded. Please check the <strong>TranslatePress -> <a href=\"%s\">Automatic Translation</a></strong> page for more information."
+msgstr "超过机器翻译字符的每日配额。有关详细信息， <strong>请查看翻译 <a href=\"%s\">>-自动</a></strong> 翻译页面。"
+
+#: languages/translatepress-multilingual.catalog.php:74
+#: includes/class-plugin-notices.php:366
+msgid "Something went wrong, please try again."
+msgstr "出错了，请重试。"
+
+#: languages/translatepress-multilingual.catalog.php:67
+#: includes/class-machine-translation-tab.php:129
+msgid "DeepL"
+msgstr "DeepL"
+
+#: languages/translatepress-multilingual.catalog.php:66
+#: includes/class-machine-translation-tab.php:22
+msgid "Automatic Translation"
+msgstr "自动翻译"
+
+#: languages/translatepress-multilingual.catalog.php:354
+#: includes/advanced-settings/exclude-words-from-auto-translate.php:12
+msgid "Do not automatically translate these strings (ex. names, technical words...)<br>Paragraphs containing these strings will still be translated except for the specified part."
+msgstr "不要自动翻译这些字符串（例如名称、技术词...）<br>包含这些字符串的段落仍将翻译，但指定的部分除外。"
+
+#: languages/translatepress-multilingual.catalog.php:353
+#: includes/advanced-settings/exclude-words-from-auto-translate.php:11
+msgid "Exclude strings from automatic translation"
+msgstr "从自动转换中排除字符串"
+
+#: languages/translatepress-multilingual.catalog.php:352
+#: includes/advanced-settings/exclude-words-from-auto-translate.php:9
+msgid "String"
+msgstr "字符串"
+
+#: languages/translatepress-multilingual.catalog.php:248
+#: partials/machine-translation-settings-page.php:117
+msgid "Log machine translation queries."
+msgstr "记录机器翻译查询"
+
+#: languages/translatepress-multilingual.catalog.php:247
+#: partials/machine-translation-settings-page.php:109
+msgid "Today's character count:"
+msgstr "今天翻译的字符数"
+
+#: languages/translatepress-multilingual.catalog.php:245
+#: partials/machine-translation-settings-page.php:97
+msgid "Limit machine translation / characters per day"
+msgstr "限制机器翻译每天的字符数"
+
+#: languages/translatepress-multilingual.catalog.php:89
+#: includes/class-settings.php:69
+msgid "Top Left"
+msgstr "左上"
+
+#: languages/translatepress-multilingual.catalog.php:88
+#: includes/class-settings.php:68
+msgid "Top Right"
+msgstr "右上"
+
+#: languages/translatepress-multilingual.catalog.php:87
+#: includes/class-settings.php:67
+msgid "Bottom Left"
+msgstr "左下角"
+
+#: languages/translatepress-multilingual.catalog.php:86
+#: includes/class-settings.php:66
+msgid "Bottom Right"
+msgstr "右下角"
+
+#: languages/translatepress-multilingual.catalog.php:366
+#: includes/advanced-settings/show-dynamic-content-before-translation.php:9
+msgid "May help fix missing content inserted using JavaScript. <br> It shows dynamically inserted content in original language for a moment before the translation request is finished."
+msgstr "可能有助于修复使用 JavaScript 插入的缺失内容。 <br> 在翻译请求完成之前，它会以原始语言动态显示插入的内容。"
+
+#: languages/translatepress-multilingual.catalog.php:365
+#: includes/advanced-settings/show-dynamic-content-before-translation.php:8
+msgid "Fix missing dynamic content"
+msgstr "修复缺少的动态内容"
+
+#: languages/translatepress-multilingual.catalog.php:351
+#: includes/advanced-settings/exclude-selectors.php:12
+msgid "Do not translate strings that are found in html nodes matching these selectors.<br>Excludes all the children of HTML nodes matching these selectors from being translated."
+msgstr "不要翻译这些在 html 选择器节点中发现的字符串。<br>排除与这些选择器匹配的 HTML 节点的所有子节点可被翻译。"
+
+#: languages/translatepress-multilingual.catalog.php:350
+#: includes/advanced-settings/exclude-selectors.php:11
+msgid "Exclude selectors from translation"
+msgstr "从翻译中排除选择器"
+
+#: languages/translatepress-multilingual.catalog.php:349
+#: includes/advanced-settings/exclude-gettext-strings.php:13
+msgid "Exclude these strings from being translated as Gettext strings by TranslatePress. Leave the domain empty to take into account any Gettext string.<br/>Can still be translated through po/mo files."
+msgstr "排除这些字符串，使其不被TranslatePress翻译为Gettext字符串，留空此项可翻译所有 Gettext 字符串。<br/>您仍可以通过 po/mo 文件进行翻译。"
+
+#. Description of the plugin
+msgid "Experience a better way of translating your WordPress site using a visual front-end translation editor, with full support for WooCommerce and site builders."
+msgstr "使用前端可视化编辑器翻译网站，体验翻译WordPres网站的更好方式，完全支持WooCommerce和页面生成工具。"
+
+#: languages/translatepress-multilingual.catalog.php:155
+#: includes/class-translation-manager.php:159
+msgid "Click to Copy"
+msgstr "点击复制"
+
+#: languages/translatepress-multilingual.catalog.php:154
+#: includes/class-translation-manager.php:158
+msgid "Suggestions from translation memory"
+msgstr "来自翻译记忆库的建议"
+
+#: languages/translatepress-multilingual.catalog.php:153
+#: includes/class-translation-manager.php:157
+msgid "No available suggestions"
+msgstr "没有可用的建议"
+
+#: includes/class-advanced-tab.php:178
+msgid "Settings saved."
+msgstr "设置已保存。"
+
+#: languages/translatepress-multilingual.catalog.php:286
+#: partials/trp-remove-duplicate-rows.php:12
+msgid "IMPORTANT: It is strongly recommended to first backup the database!! Are you sure you want to continue?"
+msgstr "重要提示：强烈建议您先备份数据库！确实要继续吗？"
+
+#: languages/translatepress-multilingual.catalog.php:223
+#: partials/advanced-settings-page.php:5
+msgid "TranslatePress Advanced Settings"
+msgstr "TranslatePress高级设置"
+
+#: languages/translatepress-multilingual.catalog.php:187
+msgid ""
+"IMPORTANT: It is strongly recommended to first backup the database!\n"
+"Are you sure you want to continue?"
+msgstr ""
+"重要提示：强烈建议您先备份数据库！\n"
+"确实要继续吗？"
+
+#: languages/translatepress-multilingual.catalog.php:33
+#: includes/class-advanced-tab.php:502 includes/class-advanced-tab.php:513
+#: includes/class-advanced-tab.php:601 includes/class-advanced-tab.php:632
+msgid "Are you sure you want to remove this item?"
+msgstr "确定要删除此项吗?"
+
+#: languages/translatepress-multilingual.catalog.php:31
+#: includes/class-advanced-tab.php:19
+msgid "Advanced"
+msgstr "高级"
+
+#: languages/translatepress-multilingual.catalog.php:370
+#: includes/advanced-settings/strip-gettext-post-meta.php:9
+msgid "Filters gettext wrapping such as #!trpst#trp-gettext from all updated post meta. Does not affect previous post meta. <br/><strong>Database backup is recommended before switching on.</strong>"
+msgstr "从所有更新后的文章元数据中过滤gettext换行，如 #!trpst#trp-gettext，不影响上一个文章元数据。<br/><strong>建议在打开之前进行数据库备份。</strong>"
+
+#: languages/translatepress-multilingual.catalog.php:369
+#: includes/advanced-settings/strip-gettext-post-meta.php:8
+msgid "Filter Gettext wrapping from post meta"
+msgstr "从文章元数据中过滤Gettext包裹"
+
+#: languages/translatepress-multilingual.catalog.php:368
+#: includes/advanced-settings/strip-gettext-post-content.php:8
+msgid "Filters gettext wrapping such as #!trpst#trp-gettext from all updated post content and post title. Does not affect previous post content. <br/><strong>Database backup is recommended before switching on.</strong>"
+msgstr "从所有更新后的文章标题和内容中过滤gettext换行，如 #!trpst#trp-gettext，此操作不影响以前的文章内容。<br/><strong>建议在打开之前备份数据库。</strong>"
+
+#: languages/translatepress-multilingual.catalog.php:367
+#: includes/advanced-settings/strip-gettext-post-content.php:7
+msgid "Filter Gettext wrapping from post content and title"
+msgstr "从文章内容和标题中过滤 Gettext 包裹"
+
+#: languages/translatepress-multilingual.catalog.php:345
+#: includes/advanced-settings/exclude-dynamic-selectors.php:12
+msgid "Do not dynamically translate strings that are found in html nodes matching these selectors.<br>Excludes all the children of HTML nodes matching these selectors from being translated using JavaScript.<br/>These strings will still be translated on the server side if possible."
+msgstr "不要动态转换在与这些选择器匹配的html节点中找到的字符串。<br>排除与这些选择器匹配的所有HTML节点的子级，不使用JavaScript进行转换。<br/>如果可能，仍在服务器端转换这些字符串。"
+
+#: languages/translatepress-multilingual.catalog.php:344
+#: includes/advanced-settings/exclude-dynamic-selectors.php:11
+msgid "Exclude from dynamic translation"
+msgstr "从动态翻译中排除"
+
+#: languages/translatepress-multilingual.catalog.php:343
+#: includes/advanced-settings/exclude-selectors.php:9
+#: includes/advanced-settings/exclude-dynamic-selectors.php:9
+msgid "Selector"
+msgstr "选择器"
+
+#: languages/translatepress-multilingual.catalog.php:358
+#: includes/advanced-settings/fix-invalid-space-between-html-attr.php:9
+msgid "Fixes attributes without spaces between them because they are not valid HTML.<br> May help fix missing or broken content from the HTML on translated pages."
+msgstr "修复属性之间没有空格的问题，因为它们不是有效的HTML。<br>可能有助于修复翻译页上HTML中丢失或损坏的内容。"
+
+#: languages/translatepress-multilingual.catalog.php:357
+#: includes/advanced-settings/fix-invalid-space-between-html-attr.php:8
+msgid "Fix spaces between HTML attributes"
+msgstr "修复 HTML 属性之间的空格"
+
+#: languages/translatepress-multilingual.catalog.php:356
+#: includes/advanced-settings/fix-broken-html.php:9
+msgid "General attempt to fix broken or missing HTML on translated pages.<br/><strong>Only try this if the \"Fix spaces between html attribute\" did not solve the issue.</strong>"
+msgstr "尝试修复已翻译页面上损坏或丢失的HTML。<br/><strong>仅在“修复html属性之间的空格”不能解决问题时尝试此操作。</strong>"
+
+#: languages/translatepress-multilingual.catalog.php:355
+#: includes/advanced-settings/fix-broken-html.php:8
+msgid "Fix broken HTML"
+msgstr "修复损坏的 HTML"
+
+#: languages/translatepress-multilingual.catalog.php:348
+#: includes/advanced-settings/exclude-gettext-strings.php:12
+msgid "Exclude Gettext Strings"
+msgstr "排除Gettext字符串"
+
+#: languages/translatepress-multilingual.catalog.php:347
+#: includes/advanced-settings/exclude-gettext-strings.php:10
+msgid "Domain"
+msgstr "域名"
+
+#: languages/translatepress-multilingual.catalog.php:338
+#: includes/advanced-settings/enable-auto-translate-slug.php:9
+msgid "Generate automatic translations of slugs for posts, pages and Custom Post Types.<br/>Requires <a href=\"https://translatepress.com/docs/addons/seo-pack/\" title=\"TranslatePress Add-on SEO Pack documentation\" target=\"_blank\"> SEO Pack Add-on</a> to be installed and activated."
+msgstr "为文章、页面和自定义文章类型生成自动翻译的别名。<br/>需要安装和激活<a href=\"https://translatepress.com/docs/addons/seo-pack/\" title=\"TranslatePress Add-on SEO Pack documentation\" target=\"_blank\">SEO Pack Add-on</a>。"
+
+#: languages/translatepress-multilingual.catalog.php:337
+#: includes/advanced-settings/enable-auto-translate-slug.php:8
+msgid "Automatically translate slugs"
+msgstr "自动翻译别名"
+
+#: languages/translatepress-multilingual.catalog.php:328
+#: includes/advanced-settings/disable-dynamic-translation.php:9
+msgid "It disables detection of strings displayed dynamically using JavaScript. <br/>Strings loaded via a server side AJAX call will still be translated."
+msgstr "此项禁止使用JavaScript动态显示字符串的检测。<br/>通过服务器端Ajax调用加载的字符串仍将被翻译。"
+
+#: languages/translatepress-multilingual.catalog.php:327
+#: includes/advanced-settings/disable-dynamic-translation.php:8
+msgid "Disable dynamic translation"
+msgstr "禁用动态翻译"
+
+#: languages/translatepress-multilingual.catalog.php:209
+#: partials/addons-settings-page.php:29
+msgid "Add as many languages as you need for your project to go global.<br>Publish your language only when all your translations are done."
+msgstr "添加所需语言，使您的项目走向全球。<br>仅在完成所有翻译后才发布您的语言。"
+
+#: languages/translatepress-multilingual.catalog.php:216
+#: partials/addons-settings-page.php:76
+msgid "Configure different menu items for different languages."
+msgstr "为不同的语言配置不同的菜单项。"
+
+#: languages/translatepress-multilingual.catalog.php:215
+#: partials/addons-settings-page.php:68
+msgid "Navigate your website just like a particular user role would. <br/>Really useful for dynamic content or hidden content that appears for particular users."
+msgstr "像特定用户角色一样浏览您的网站。 <br/>对于为特定用户显示的动态内容或隐藏内容非常有用。"
+
+#: languages/translatepress-multilingual.catalog.php:214
+#: partials/addons-settings-page.php:60
+msgid "Create translator accounts for new users or allow existing users <br/>that are not administrators to translate your website."
+msgstr "为新用户创建翻译者帐户， <br/>或允许不是管理员的现有用户翻译您的网站。"
+
+#: languages/translatepress-multilingual.catalog.php:213
+#: partials/addons-settings-page.php:52
+msgid "Automatically redirects new visitors to their preferred language based on browser settings or IP address</br> and remembers the last visited language."
+msgstr "根据浏览器设置或IP地址自动将新访问者重定向到其首选语言</br>并记住上次访问的语言。"
+
+#: languages/translatepress-multilingual.catalog.php:211
+#: partials/addons-settings-page.php:36
+msgid "These addons extend your translation plugin and are available in the Business and Developer plans."
+msgstr "这些附加组件扩展了您的翻译插件，并在商业计划和开发计划中提供。"
+
+#: languages/translatepress-multilingual.catalog.php:210
+#: partials/addons-settings-page.php:35
+msgid "Pro Addons"
+msgstr "专业附加组件"
+
+#: languages/translatepress-multilingual.catalog.php:208
+#: partials/addons-settings-page.php:21
+msgid "SEO support for page slug, page title, description and facebook and twitter social graph information. </br> The HTML lang attribute is properly set."
+msgstr "SEO支持页面别名、页面标题、描述、和Facebook和Twitter社交图谱信息。</br>HTML lang 属性已正确设置。"
+
+#: languages/translatepress-multilingual.catalog.php:207
+#: partials/addons-settings-page.php:13
+msgid "These addons extend your translation plugin and are available in the Developer, Business and Personal plans."
+msgstr "这些插件扩展了您的翻译插件，并在开发人员计划、商业计划和个人计划中提供。"
+
+#: languages/translatepress-multilingual.catalog.php:206
+#: partials/addons-settings-page.php:12
+msgid "Advanced Addons"
+msgstr "高级附加组件"
+
+#: languages/translatepress-multilingual.catalog.php:288
+#: partials/trp-remove-duplicate-rows.php:19
+msgid "The number of rows to check at once.<br>Choosing a smaller number helps solve the 504 error \"Page took too long to respond\" on large databases.<br>May take several minutes depending on the database size."
+msgstr "要一次检查的行数。<br>选择较小的数字有助于解决大型数据库上的 504 错误\"页面响应时间过长\"。<br>可能需要几分钟时间，具体取决于数据库大小。"
+
+#: languages/translatepress-multilingual.catalog.php:285
+#: partials/trp-remove-duplicate-rows.php:10
+msgid "<strong>IMPORTANT NOTE: Before performing this action it is strongly recommended to first backup the database.</strong><br><br>This feature can be used to cleanup duplicate entries in TranslatePress trp_dictionary or trp_gettext tables. Such duplicates can appear in exceptional situations of unexpected behavior."
+msgstr "<strong>重要提示：在执行此操作之前，强烈建议您先备份数据库。</strong><br><br>此功能可用于清理TranslatePress中重复的条目trp_dictionary或trp_gettext表，此类重复项可能会在特殊情况下出现意外行为。"
+
+#: languages/translatepress-multilingual.catalog.php:275
+#: partials/main-settings-page.php:108
+msgid "Add a floating dropdown that follows the user on every page."
+msgstr "在每一页上添加跟随用户的浮动下拉菜单。"
+
+#: languages/translatepress-multilingual.catalog.php:265
+#: partials/main-settings-page.php:57
+msgid "Select Yes if you want to add the subdirectory in the URL for the default language.</br>By selecting Yes, the default language seen by website visitors will become the first one in the \"All Languages\" list."
+msgstr "如果你想为默认语言的URL添加子目录请选择是。</br>选择后，默认语言将被放在“所有语言”列表的第一个。"
+
+#: languages/translatepress-multilingual.catalog.php:264
+#: partials/main-settings-page.php:50
+msgid "Use a subdirectory for the default language"
+msgstr "为默认语言使用子目录"
+
+#: languages/translatepress-multilingual.catalog.php:263
+#: partials/main-settings-page.php:44
+msgid "Select Yes if you want to display languages in their native names. Otherwise, languages will be displayed in English."
+msgstr "如果要以语言的母语名称显示语言请选择是，选择否将以英语显示语言。"
+
+#: languages/translatepress-multilingual.catalog.php:257
+#: partials/main-settings-page.php:21
+msgid "Select the original language of your content."
+msgstr "选择默认语言。"
+
+#: languages/translatepress-multilingual.catalog.php:165
+#: includes/class-translation-manager.php:236
+msgid "Dynamically Added Strings"
+msgstr "动态添加的字符串"
+
+#: languages/translatepress-multilingual.catalog.php:149
+#: includes/class-translation-manager.php:152
+msgid "Different Menu Items for each Language"
+msgstr "每种语言使用不同的菜单项"
+
+#: languages/translatepress-multilingual.catalog.php:147
+#: includes/class-translation-manager.php:150
+msgid "Publish only when translation is complete"
+msgstr "仅在翻译完成时发布"
+
+#: languages/translatepress-multilingual.catalog.php:136
+#: includes/class-translation-manager.php:135
+msgid "Are you sure you want to split this phrase into smaller parts?"
+msgstr "确实要将此短语拆分为较小的部分吗？"
+
+#: languages/translatepress-multilingual.catalog.php:72
+#: includes/class-plugin-notices.php:338
+msgid "You are not using a permalink structure! Please <a href=\"%s\">enable</a> one or install our <a href=\"%s\">\"Language by GET parameter\"</a> addon, so that TranslatePress can function properly."
+msgstr "您没有使用固定链接结构！请<a href=\"%s\">启用</a>，或安装 <a href=\"%s\">我们的\"通过GET参数显示语言\"</a>附加组件，以便TranslatePress能够正常运行。"
+
+#: languages/translatepress-multilingual.catalog.php:2
+#: includes/class-settings.php:435
+msgid "Error! Duplicate URL slug values."
+msgstr "错误！网址别名重复。"
+
+#: languages/translatepress-multilingual.catalog.php:195
+#: includes/class-upgrade.php:219 includes/class-upgrade.php:325
+#: includes/class-upgrade.php:478 includes/class-upgrade.php:483
+msgid "Back to TranslatePress Settings"
+msgstr "返回 TranslatePress 设置"
+
+#: languages/translatepress-multilingual.catalog.php:374
+#: includes/google-translate/functions.php:22
+msgid "Your HTTP referrer is: %s"
+msgstr "您的 HTTP referrer是： %s"
+
+#: languages/translatepress-multilingual.catalog.php:43
+#: includes/class-editor-api-regular-strings.php:48
+msgid "Others"
+msgstr "其他"
+
+#: languages/translatepress-multilingual.catalog.php:164
+#: includes/class-translation-manager.php:235
+msgid "Images"
+msgstr "图片"
+
+#: languages/translatepress-multilingual.catalog.php:163
+#: includes/class-translation-manager.php:234
+msgid "Gettext Strings"
+msgstr "Gettext 字符串"
+
+#: languages/translatepress-multilingual.catalog.php:160
+#: includes/class-translation-manager.php:231
+msgid "Slugs"
+msgstr "别名"
+
+#: languages/translatepress-multilingual.catalog.php:142
+#: includes/class-translation-manager.php:144
+msgid "Strings that are user-created cannot be modified, only those from themes and plugins."
+msgstr "无法修改用户创建的字符串，只能修改主题和插件中的字符串。"
+
+#: languages/translatepress-multilingual.catalog.php:139
+#: includes/class-translation-manager.php:139
+msgid "To translate slugs, please update the SEO Pack add-on to the latest version."
+msgstr "要翻译别名，请将 SEO Pack add-on更新到最新版本。"
+
+#: languages/translatepress-multilingual.catalog.php:138
+#: includes/class-translation-manager.php:138
+msgid "For this option to work, please update the Browse as other role add-on to the latest version."
+msgstr "要使此选项起作用，请将“作为其他角色浏览”附加组件更新到最新版本。"
+
+#: languages/translatepress-multilingual.catalog.php:137
+#: includes/class-translation-manager.php:136
+msgid "This string is not ready for translation yet. <br>Try again in a moment..."
+msgstr "此字符串尚未准备好进行翻译。 <br>稍后再试..."
+
+#: languages/translatepress-multilingual.catalog.php:133
+#: includes/class-translation-manager.php:131
+msgid "Discard changes to this text box. To discard changes to all text boxes use shortcut: CTRL(⌘) + ALT + Z"
+msgstr "放弃对此文本框的更改。要放弃对所有文本框的更改，请使用快捷方式：CTRL（⌘） + ALT + Z"
+
+#: languages/translatepress-multilingual.catalog.php:132
+#: includes/class-translation-manager.php:130
+msgid "Discard all changes. Shortcut: CTRL(⌘) + ALT + Z"
+msgstr "放弃所有更改。快捷方式： Ctrl （⌘） + ALT + Z"
+
+#: languages/translatepress-multilingual.catalog.php:131
+#: includes/class-translation-manager.php:129
+msgid "Navigate to previous string in dropdown list. Shortcut: CTRL(⌘) + ALT + Left Arrow"
+msgstr "导航到下拉列表中的上一个字符串。快捷方式： CTRL（⌘） + ALT+ 左箭头"
+
+#: languages/translatepress-multilingual.catalog.php:130
+#: includes/class-translation-manager.php:128
+msgid "Navigate to next string in dropdown list. Shortcut: CTRL(⌘) + ALT + Right Arrow"
+msgstr "导航到下拉列表中的下一个字符串。快捷方式： CTRL（⌘）+ ALT+ 右箭头"
+
+#: languages/translatepress-multilingual.catalog.php:129
+#: includes/class-translation-manager.php:127
+msgid "Save changes to translation. Shortcut: CTRL(⌘) + S"
+msgstr "保存对翻译的更改。快捷键：CTRL（⌘）+ S"
+
+#: languages/translatepress-multilingual.catalog.php:125
+#: includes/class-translation-manager.php:121
+msgid "Use this media"
+msgstr "使用这个媒体"
+
+#: languages/translatepress-multilingual.catalog.php:124
+#: includes/class-translation-manager.php:120
+msgid "Select or Upload Media"
+msgstr "选择或上传媒体"
+
+#: languages/translatepress-multilingual.catalog.php:122
+#: includes/class-translation-manager.php:116
+msgid "View As"
+msgstr "查看为"
+
+#: languages/translatepress-multilingual.catalog.php:120
+#: includes/class-translation-manager.php:114
+msgid "Add Media"
+msgstr "添加媒体"
+
+#: languages/translatepress-multilingual.catalog.php:117
+#: includes/class-translation-manager.php:111
+msgid "To"
+msgstr "到"
+
+#: languages/translatepress-multilingual.catalog.php:116
+#: includes/class-translation-manager.php:110
+msgid "From"
+msgstr "从"
+
+#: languages/translatepress-multilingual.catalog.php:115
+#: includes/class-translation-manager.php:109
+msgid "Close Editor"
+msgstr "关闭编辑器"
+
+#: languages/translatepress-multilingual.catalog.php:113
+#: includes/class-translation-manager.php:107
+msgid "Loading Strings..."
+msgstr "正在加载字符串..."
+
+#: languages/translatepress-multilingual.catalog.php:112
+#: includes/class-translation-manager.php:106
+msgid "Discard All"
+msgstr "全部舍弃"
+
+#: languages/translatepress-multilingual.catalog.php:109
+#: includes/class-translation-manager.php:103
+msgid "Saving translation..."
+msgstr "正在保存翻译..."
+
+#: languages/translatepress-multilingual.catalog.php:107
+#: includes/class-translation-manager.php:101
+msgid "Saved"
+msgstr "已保存"
+
+#: languages/translatepress-multilingual.catalog.php:106
+#: includes/class-translation-manager.php:99
+msgid "Text"
+msgstr "文本"
+
+#: languages/translatepress-multilingual.catalog.php:105
+#: includes/class-translation-manager.php:98
+msgid "Submit attribute"
+msgstr "提交属性"
+
+#: languages/translatepress-multilingual.catalog.php:104
+#: includes/class-translation-manager.php:97
+msgid "Placeholder attribute"
+msgstr "占位符属性"
+
+#: languages/translatepress-multilingual.catalog.php:103
+#: includes/class-translation-manager.php:96
+msgid "Anchor link"
+msgstr "锚点链接"
+
+#: languages/translatepress-multilingual.catalog.php:102
+#: includes/class-translation-manager.php:95
+msgid "Title attribute"
+msgstr "标题属性"
+
+#: languages/translatepress-multilingual.catalog.php:101
+#: includes/class-translation-manager.php:94
+msgid "Alt attribute"
+msgstr "Alt属性"
+
+#: languages/translatepress-multilingual.catalog.php:100
+#: includes/class-translation-manager.php:93
+msgid "Image source"
+msgstr "图片来源"
+
+#: languages/translatepress-multilingual.catalog.php:77
+#: includes/class-plugin-notices.php:403
+msgid "NEW: Display different images based on language. Find out <a href=\"https://translatepress.com/docs/image-translation/\" >how to translate images, sliders and more</a> from the TranslatePress editor."
+msgstr "新：基于不同语言显示不同的图片。从TranslatePress编辑器中探索 <a href=\"https://translatepress.com/docs/image-translation/\" >怎么翻译图片，幻灯和更多内容</a>。"
+
+#: languages/translatepress-multilingual.catalog.php:5 index.php:62
+msgid "<strong>TranslatePress</strong> requires at least PHP version 5.6.20+ to run. It is the <a href=\"%s\">minimum requirement of the latest WordPress version</a>. Please contact your server administrator to update your PHP version."
+msgstr "<strong>TranslatePress</strong>至少需要PHP版本5.6.20+才能运行。这是<a href=\"%s\">最新WordPress版本的最低要求</a>，请联系您的服务器管理员更新 PHP 版本。"
+
+#: includes/class-edd-sl-plugin-updater.php:417
+msgid "Error"
+msgstr "错误"
+
+#: includes/class-edd-sl-plugin-updater.php:417
+msgid "You do not have permission to install plugin updates"
+msgstr "您无权安装插件更新"
+
+#: includes/class-edd-sl-plugin-updater.php:223
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s or %5$supdate now%6$s."
+msgstr "新版本 %1$s 可用。 %2$s 查看版本 %3$s 详细信息 %4$s 或者 %5$s 现在更新 %6$s。"
+
+#: includes/class-edd-sl-plugin-updater.php:215
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr "新版本 %1$s 已经准备好了， %2$s 查看版本 %3$s 详细信息 %4$s。"
+
+#: includes/class-plugin-notices.php:387
+msgid "Your <strong>TranslatePress</strong> license will expire on %1$s. Please %2$sRenew Your Licence%3$s to continue receiving access to product downloads, automatic updates and support."
+msgstr "您的 <strong>TranslatePress</strong> 许可证将在 %1$s内过期 。请%2$s续订您的%3$s许可证，以继续访问产品下载、自动更新和支持。"
+
+#: includes/class-plugin-notices.php:364
+msgid "Your <strong>TranslatePress</strong> license has expired. <br/>Please %1$sRenew Your Licence%2$s to continue receiving access to product downloads, automatic updates and support. %3$sRenew now %4$s"
+msgstr "您的 <strong>TranslatePress</strong> 许可证已过期。 <br/>请 %1$s 续订您的 %2$s 许可证，以继续访问产品下载、自动更新和支持。 %3$s 立即续订 %4$s"
+
+#: includes/class-plugin-notices.php:362
+msgid "Your <strong>TranslatePress</strong> serial number is invalid or missing. <br/>Please %1$sregister your copy%2$s to receive access to automatic updates and support. Need a license key? %3$sPurchase one now%4$s"
+msgstr "您的 <strong>TranslatePress</strong> 序列号无效或丢失。 <br/>请 %1$s 注册您的副本 %2$s 以接收自动更新和支持的访问权限。需要许可证密钥？ %3$s立即购买%4$s"
+
+#: languages/translatepress-multilingual.catalog.php:228
+#: partials/license-settings-page.php:27
+msgid "Your license is invalid"
+msgstr "您的许可无效"
+
+#: languages/translatepress-multilingual.catalog.php:229
+#: partials/license-settings-page.php:25
+msgid "Active on this site"
+msgstr "在此站点上激活"
+
+#: languages/translatepress-multilingual.catalog.php:42
+#: includes/class-edd-sl-plugin-updater.php:752
+msgid "You have successfully activated your license"
+msgstr "您已成功激活许可证"
+
+#: languages/translatepress-multilingual.catalog.php:40
+#: includes/class-edd-sl-plugin-updater.php:718
+msgid "Your license key has reached its activation limit."
+msgstr "您的许可证密钥已达到其激活限制。"
+
+#: languages/translatepress-multilingual.catalog.php:39
+#: includes/class-edd-sl-plugin-updater.php:715
+msgid "This appears to be an invalid license key for %s."
+msgstr "%s的无效许可证密钥似乎是无效的。"
+
+#: languages/translatepress-multilingual.catalog.php:38
+#: includes/class-edd-sl-plugin-updater.php:712
+msgid "Your license is not active for this URL."
+msgstr "您的许可证对此URL无效。"
+
+#: languages/translatepress-multilingual.catalog.php:37
+#: includes/class-edd-sl-plugin-updater.php:708
+msgid "Invalid license."
+msgstr "许可证无效。"
+
+#: languages/translatepress-multilingual.catalog.php:36
+#: includes/class-edd-sl-plugin-updater.php:705
+msgid "Your license key has been disabled."
+msgstr "您的许可证密钥已被禁用。"
+
+#: languages/translatepress-multilingual.catalog.php:35
+#: includes/class-edd-sl-plugin-updater.php:700
+msgid "Your license key expired on %s."
+msgstr "你的许可证将期于%s过。"
+
+#: languages/translatepress-multilingual.catalog.php:41
+#: includes/class-edd-sl-plugin-updater.php:689
+#: includes/class-edd-sl-plugin-updater.php:721
+#: includes/class-edd-sl-plugin-updater.php:792
+msgid "An error occurred, please try again."
+msgstr "出现错误，请重试。"
+
+#: languages/translatepress-multilingual.catalog.php:292
+#: partials/trp-update-database.php:3
+msgid "TranslatePress Database Updater"
+msgstr "TranslatePress数据库更新程序"
+
+#: languages/translatepress-multilingual.catalog.php:197
+#: includes/class-upgrade.php:293 includes/class-upgrade.php:300
+msgid " done."
+msgstr " 完成。"
+
+#: languages/translatepress-multilingual.catalog.php:192
+#: includes/class-upgrade.php:246
+msgid "Update aborted! Incorrect language code."
+msgstr "语言代码不正确，更新已中止！"
+
+#: languages/translatepress-multilingual.catalog.php:191
+#: includes/class-upgrade.php:243
+msgid "Update aborted! Incorrect action."
+msgstr "操作不正确，更新已中止！"
+
+#: languages/translatepress-multilingual.catalog.php:194
+#: includes/class-upgrade.php:236 includes/class-upgrade.php:296
+msgid "Processing table for language %s..."
+msgstr "为语言%s处理数据表..."
+
+#: languages/translatepress-multilingual.catalog.php:193
+#: includes/class-upgrade.php:232
+msgid "Updating database to version %s+"
+msgstr "将数据库更新为版本 %s+"
+
+#: languages/translatepress-multilingual.catalog.php:196
+#: includes/class-upgrade.php:223
+msgid "Successfully updated database!"
+msgstr "已成功更新数据库！"
+
+#: languages/translatepress-multilingual.catalog.php:190
+#: includes/class-upgrade.php:204
+msgid "Update aborted! Invalid nonce."
+msgstr "nonce无效，更新已中止！"
+
+#: languages/translatepress-multilingual.catalog.php:189
+#: includes/class-upgrade.php:199
+msgid "Update aborted! Your user account doesn't have the capability to perform database updates."
+msgstr "更新已中止！您的用户帐户无法执行数据库更新。"
+
+#: languages/translatepress-multilingual.catalog.php:293
+#: partials/trp-update-database.php:7
+msgid "Updating TranslatePress tables"
+msgstr "升级TranslatePress数据表"
+
+#: languages/translatepress-multilingual.catalog.php:188
+#: includes/class-upgrade.php:183
+msgid "Run the updater"
+msgstr "运行更新程序"
+
+#: languages/translatepress-multilingual.catalog.php:186
+#: includes/class-upgrade.php:182
+msgid "We need to update your translations database to the latest version."
+msgstr "我们需要将您的翻译数据库更新为最新版本。"
+
+#: languages/translatepress-multilingual.catalog.php:185
+#: includes/class-upgrade.php:182
+msgid "TranslatePress data update"
+msgstr "TranslatePress数据更新"
+
+#: languages/translatepress-multilingual.catalog.php:170
+#: includes/class-translation-manager.php:1342
+msgid "<strong>Warning:</strong> Some strings have possibly incorrectly encoded characters. This may result in breaking the queries, rendering the page untranslated in live mode. Consider revising the following strings or their method of outputting."
+msgstr "<strong>警告：</strong> 某些字符串可能错误地编码了字符。这可能会导致中断查询，使页面在实时模式下未翻译。请考虑修改以下字符串或其输出方法。"
+
+#: languages/translatepress-multilingual.catalog.php:19
+#: partials/main-settings-language-selector.php:8
+msgid "Code"
+msgstr "代码"
+
+#: languages/translatepress-multilingual.catalog.php:279
+#: partials/test-api-settings-page.php:20
+msgid "HTTP Referrer:"
+msgstr "HTTP 参考："
+
+#: languages/translatepress-multilingual.catalog.php:373
+#: includes/google-translate/functions.php:21
+msgid "Visit <a href=\"https://cloud.google.com/docs/authentication/api-keys\" target=\"_blank\">this link</a> to see how you can set up an API key, <strong>control API costs</strong> and set HTTP referrer restrictions."
+msgstr "点击<a href=\"https://cloud.google.com/docs/authentication/api-keys\" target=\"_blank\">这里</a>获取API key。<strong>控制API成本</strong>并设置HTTP referrer 限制。"
+
+#: languages/translatepress-multilingual.catalog.php:152
+#: includes/class-translation-manager.php:155
+msgid "Find Out More"
+msgstr "了解更多"
+
+#: languages/translatepress-multilingual.catalog.php:150
+#: includes/class-translation-manager.php:153
+msgid "Automatic User Language Detection"
+msgstr "自动用户语言检测"
+
+#: languages/translatepress-multilingual.catalog.php:148
+#: includes/class-translation-manager.php:151
+msgid "Translate by Browsing as User Role"
+msgstr "通过浏览翻译为用户角色"
+
+#: languages/translatepress-multilingual.catalog.php:145
+#: includes/class-translation-manager.php:148
+msgid "Yoast SEO support"
+msgstr "Yoast SEO支持"
+
+#: languages/translatepress-multilingual.catalog.php:144
+#: includes/class-translation-manager.php:147
+msgid "Support for 221 Extra Languages"
+msgstr "支持 221 种额外语言"
+
+#: languages/translatepress-multilingual.catalog.php:143
+#: includes/class-translation-manager.php:146
+msgid "Extra Translation Features"
+msgstr "额外的翻译功能"
+
+#: languages/translatepress-multilingual.catalog.php:99
+#: includes/class-settings.php:567
+msgid "Pro Features"
+msgstr "专业版功能"
+
+#: languages/translatepress-multilingual.catalog.php:359
+#: includes/advanced-settings/remove-duplicates-from-db.php:7
+msgid "Remove duplicate rows"
+msgstr "删除重复行"
+
+#: languages/translatepress-multilingual.catalog.php:287
+#: partials/trp-remove-duplicate-rows.php:15
+msgid "Batch size"
+msgstr "批量大小"
+
+#: includes/class-upgrade.php:183
+msgid "IMPORTANT: It is strongly recommended to first backup the database!\\nAre you sure you want to continue?"
+msgstr "重要提示：强烈建议您首先备份数据库！\\n确定要继续吗？"
+
+#: languages/translatepress-multilingual.catalog.php:284
+#: partials/trp-remove-duplicate-rows.php:7
+msgid "Remove duplicate rows from TranslatePress tables"
+msgstr "从TranslatePress翻译表中删除重复行"
+
+#: languages/translatepress-multilingual.catalog.php:203
+#: includes/class-upgrade.php:587 includes/class-upgrade.php:676
+msgid "click here"
+msgstr "点击这里"
+
+#: languages/translatepress-multilingual.catalog.php:202
+#: includes/class-upgrade.php:587 includes/class-upgrade.php:676
+msgid "If the page does not redirect automatically"
+msgstr "如果页面没有自动重定向"
+
+#: languages/translatepress-multilingual.catalog.php:201
+#: includes/class-upgrade.php:549
+msgid "%s duplicates removed"
+msgstr "%s重复项已删除"
+
+#: languages/translatepress-multilingual.catalog.php:200
+#: includes/class-upgrade.php:507
+msgid "Querying table <strong>%s</strong>"
+msgstr "查询表 <strong>%s</strong>"
+
+#: languages/translatepress-multilingual.catalog.php:199
+#: includes/class-upgrade.php:483
+msgid "Invalid nonce."
+msgstr "随机数无效。"
+
+#: languages/translatepress-multilingual.catalog.php:198
+#: includes/class-upgrade.php:478
+msgid "Done."
+msgstr "完成。"
+
+#: includes/compatibility-functions.php:63
+msgid "&hellip;"
+msgstr "&hellip;"
+
+#: languages/translatepress-multilingual.catalog.php:205
+#: includes/compatibility-functions.php:28
+msgid "<strong>TranslatePress</strong> requires <strong><a href=\"http://php.net/manual/en/book.mbstring.php\">Multibyte String PHP library</a></strong>. Please contact your server administrator to install it on your server."
+msgstr "<strong>TranslatePress</strong>需要 <strong><a href=\"http://php.net/manual/en/book.mbstring.php\">Multibyte String PHP 库</a></strong>才能工作，请联系您的服务器管理员安装。"
+
+#: languages/translatepress-multilingual.catalog.php:17
+msgid "Select how the language should be detected for first time visitors.<br>The visitor's last displayed language will be remembered through cookies."
+msgstr "选择检测新访客语言的方法<br>，访客最后一次访问的语言将被记录在 Cookies 中。"
+
+#: languages/translatepress-multilingual.catalog.php:16
+msgid "Method of language detection"
+msgstr "语言检测方法"
+
+#: languages/translatepress-multilingual.catalog.php:10
+msgid "WARNING. Cannot determine your language preference based on your current IP.<br>This is most likely because the website is on a local environment."
+msgstr "警告。无法根据当前 IP 确定您的语言首选项。<br>这很可能是因为网站位于本地环境中。"
+
+#: languages/translatepress-multilingual.catalog.php:9
+msgid "Only by IP address"
+msgstr "仅按 IP 地址"
+
+#: languages/translatepress-multilingual.catalog.php:8
+msgid "Only by browser language"
+msgstr "仅按浏览器语言"
+
+#: languages/translatepress-multilingual.catalog.php:7
+msgid "First by IP address, then by browser language"
+msgstr "先按 IP 地址，然后按浏览器语言"
+
+#: languages/translatepress-multilingual.catalog.php:6
+msgid "First by browser language, then IP address (recommended)"
+msgstr "首先按浏览器语言，然后 IP 地址（推荐）"
+
+#: languages/translatepress-multilingual.catalog.php:261
+#: partials/main-settings-page.php:28
+msgid "replace the default flag"
+msgstr "替换默认标志"
+
+#: languages/translatepress-multilingual.catalog.php:260
+#: partials/main-settings-page.php:27
+msgid "In most cases changing the default flag is all it is needed: "
+msgstr "在大多数情况下，需要更改默认标志： "
+
+#: languages/translatepress-multilingual.catalog.php:259
+#: partials/main-settings-page.php:26
+msgid "Even changing from en_US to en_GB, because they are treated as two different languages."
+msgstr "即使从en_US 到 en_GB，因为它们被视为两种不同的语言。"
+
+#: languages/translatepress-multilingual.catalog.php:258
+#: partials/main-settings-page.php:25
+msgid "WARNING. Changing the default language will invalidate existing translations."
+msgstr "警告。更改默认语言将使现有翻译无效。"
+
+#: languages/translatepress-multilingual.catalog.php:273
+#: partials/main-settings-page.php:97
+msgid "Learn more in our documentation."
+msgstr "请在我们的文档中了解更多信息。"
+
+#: languages/translatepress-multilingual.catalog.php:128
+#: includes/class-translation-manager.php:126
+msgid "Split block to translate strings individually"
+msgstr "拆分块以单独翻译字符串"
+
+#: languages/translatepress-multilingual.catalog.php:127
+#: includes/class-translation-manager.php:125
+msgid "Translate entire block element"
+msgstr "翻译整个块元素"
+
+#: languages/translatepress-multilingual.catalog.php:126
+#: includes/class-translation-manager.php:124
+msgid "Translate"
+msgstr "翻译"
+
+#. Author URI of the plugin
+msgid "https://cozmoslabs.com/"
+msgstr "https://cozmoslabs.com/"
+
+#. Author of the plugin
+msgid "Cozmoslabs, Razvan Mocanu, Madalin Ungureanu, Cristophor Hurduban"
+msgstr "Cozmoslabs, Razvan Mocanu, Madalin Ungureanu, Cristophor Hurduban"
+
+#. Plugin URI of the plugin
+msgid "https://translatepress.com/"
+msgstr "https://translatepress.com/"
+
+#. Plugin Name of the plugin
+msgid "TranslatePress - Multilingual"
+msgstr "TranslatePress - 多语言"
+
+#: languages/translatepress-multilingual.catalog.php:224
+#: partials/machine-translation-settings-page.php:132
+#: partials/main-settings-page.php:123 partials/advanced-settings-page.php:16
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: languages/translatepress-multilingual.catalog.php:30
+msgid "Allow this user to translate the website."
+msgstr "允许此用户翻译网站。"
+
+#: languages/translatepress-multilingual.catalog.php:29
+msgid "Translator"
+msgstr "翻译者"
+
+#: languages/translatepress-multilingual.catalog.php:28
+msgid " TranslatePress Settings"
+msgstr " TranslatePress设置"
+
+#: languages/translatepress-multilingual.catalog.php:220
+#: partials/addons-settings-page.php:97 partials/addons-settings-page.php:111
+msgid "Learn More"
+msgstr "学习更多"
+
+#: languages/translatepress-multilingual.catalog.php:151
+#: includes/class-translation-manager.php:154
+msgid "Supported By Real People"
+msgstr "由真人提供支持"
+
+#: languages/translatepress-multilingual.catalog.php:146
+#: includes/class-translation-manager.php:149
+msgid "Translate SEO Title, Description, Slug"
+msgstr "翻译SEO标题，说明，固定链接地址"
+
+#: languages/translatepress-multilingual.catalog.php:141
+#: includes/class-translation-manager.php:143
+msgid "However, you can still use TranslatePress to <strong style=\"background: #f5fb9d;\">modify gettext strings</strong> available in your page."
+msgstr "但是，您仍然可以在网页中使用TranslatePress<strong style=\"background: #f5fb9d;\">修改gettext字符串</strong>。"
+
+#: languages/translatepress-multilingual.catalog.php:140
+#: includes/class-translation-manager.php:142
+msgid "You can add a new language from <a href=\"%s\">Settings->TranslatePress</a>"
+msgstr "您可以从<a href=\"%s\">设置→翻译按钮</a>添加新的语言"
+
+#: languages/translatepress-multilingual.catalog.php:121
+#: includes/class-translation-manager.php:115
+msgid "Other languages"
+msgstr "其他语言"
+
+#: languages/translatepress-multilingual.catalog.php:111
+#: includes/class-translation-manager.php:105
+msgid "Discard changes"
+msgstr "放弃修改"
+
+#: languages/translatepress-multilingual.catalog.php:110
+#: includes/class-translation-manager.php:104
+msgid "You have unsaved changes!"
+msgstr "您有未保存的修改！"
+
+#: languages/translatepress-multilingual.catalog.php:123
+#: includes/class-translation-manager.php:117
+msgid "Available in our Pro Versions"
+msgstr "在我们的Pro版本中可用"
+
+#: includes/class-translation-manager.php:359
+msgid "Logged Out"
+msgstr "注销"
+
+#: includes/class-translation-manager.php:358
+msgid "Current User"
+msgstr "当前用户"
+
+#: languages/translatepress-multilingual.catalog.php:118
+#: includes/class-translation-manager.php:112
+msgid "Next"
+msgstr "下一页"
+
+#: languages/translatepress-multilingual.catalog.php:119
+#: includes/class-translation-manager.php:113
+msgid "Previous"
+msgstr "上一页"
+
+#: languages/translatepress-multilingual.catalog.php:346
+#: includes/advanced-settings/exclude-gettext-strings.php:9
+msgid "Gettext String"
+msgstr "获取文本字符串"
+
+#: languages/translatepress-multilingual.catalog.php:114
+#: includes/class-translation-manager.php:108
+msgid "Select string to translate..."
+msgstr "选择要翻译的字符串..."
+
+#: languages/translatepress-multilingual.catalog.php:108
+#: includes/class-translation-manager.php:102
+msgid "Save translation"
+msgstr "保存翻译"
+
+#: languages/translatepress-multilingual.catalog.php:283
+#: partials/test-api-settings-page.php:32
+msgid "Entire Response From wp_remote_get():"
+msgstr "来自wp_remote_get()的响应："
+
+#: languages/translatepress-multilingual.catalog.php:282
+#: partials/test-api-settings-page.php:27
+msgid "Response Body:"
+msgstr "正文响应："
+
+#: languages/translatepress-multilingual.catalog.php:281
+#: partials/test-api-settings-page.php:23
+msgid "Response:"
+msgstr "响应："
+
+#: languages/translatepress-multilingual.catalog.php:274
+#: partials/main-settings-page.php:101
+msgid "Floating language selection"
+msgstr "浮动语言选择框"
+
+#: partials/main-settings-page.php:96
+msgid "Go to  %1$s Appearance -> Menus%2$s to add languages to the Language Switcher in any menu."
+msgstr "转到 %1$s 外观 -> 菜单%2$s 将语言切换工具添加到任一菜单中。"
+
+#: languages/translatepress-multilingual.catalog.php:271
+#: partials/main-settings-page.php:88
+msgid "Menu item"
+msgstr "菜单项"
+
+#: languages/translatepress-multilingual.catalog.php:270
+#: partials/main-settings-page.php:84
+msgid "Use shortcode on any page or widget."
+msgstr "在任意页面或小工具中使用短代码。"
+
+#: languages/translatepress-multilingual.catalog.php:269
+#: partials/main-settings-page.php:79
+msgid "Shortcode "
+msgstr "短代码 "
+
+#: languages/translatepress-multilingual.catalog.php:268
+#: partials/main-settings-page.php:76
+msgid "Language Switcher"
+msgstr "语言切换"
+
+#: languages/translatepress-multilingual.catalog.php:372
+#: includes/google-translate/functions.php:17
+msgid "Google Translate API Key"
+msgstr "谷歌翻译API密钥"
+
+#: languages/translatepress-multilingual.catalog.php:371
+#: includes/google-translate/functions.php:5
+msgid "Google Translate v2"
+msgstr "谷歌翻译 v2"
+
+#: languages/translatepress-multilingual.catalog.php:267
+#: partials/main-settings-page.php:70
+msgid "Select Yes if you want to force custom links without language encoding to keep the currently selected language."
+msgstr "如果您想强制没有语言编码的自定义链接保留当前选定的语言，请选择是。"
+
+#: languages/translatepress-multilingual.catalog.php:266
+#: partials/main-settings-page.php:63
+msgid "Force language in custom links"
+msgstr "自定义链接中的强制语言"
+
+#: languages/translatepress-multilingual.catalog.php:32
+#: includes/class-error-manager.php:155 includes/class-advanced-tab.php:305
+#: partials/machine-translation-settings-page.php:13
+#: partials/machine-translation-settings-page.php:88
+#: partials/machine-translation-settings-page.php:121
+#: partials/main-settings-page.php:41 partials/main-settings-page.php:54
+#: partials/main-settings-page.php:67
+msgid "Yes"
+msgstr "是"
+
+#: languages/translatepress-multilingual.catalog.php:232
+#: partials/machine-translation-settings-page.php:12
+#: partials/main-settings-page.php:40 partials/main-settings-page.php:53
+#: partials/main-settings-page.php:66
+msgid "No"
+msgstr "否"
+
+#: languages/translatepress-multilingual.catalog.php:262
+#: partials/main-settings-page.php:37
+msgid "Native language name"
+msgstr "母语名称"
+
+#: languages/translatepress-multilingual.catalog.php:256
+#: partials/main-settings-page.php:10
+msgid "Default Language"
+msgstr "默认语言"
+
+#: languages/translatepress-multilingual.catalog.php:253
+#: partials/main-settings-language-selector.php:75
+msgid "Not only are you getting extra features and premium support, but you also help fund the future development of TranslatePress."
+msgstr "您不仅可以获得额外的功能和高级支持，还可以资助TranslatePress的未来发展。"
+
+#: languages/translatepress-multilingual.catalog.php:250
+#: partials/main-settings-language-selector.php:59
+msgid "Select the language you wish to make your website available in."
+msgstr "选择网站需要显示的语言。"
+
+#: languages/translatepress-multilingual.catalog.php:4
+#: partials/main-settings-language-selector.php:2
+msgid "All Languages"
+msgstr "所有语言"
+
+#: languages/translatepress-multilingual.catalog.php:26
+msgid "Select the languages you wish to make your website available in."
+msgstr "选择您希望使您的网站可用的翻译语言。"
+
+#: languages/translatepress-multilingual.catalog.php:25
+#: includes/class-advanced-tab.php:513 includes/class-advanced-tab.php:632
+#: partials/main-settings-language-selector.php:55
+msgid "Add"
+msgstr "添加"
+
+#: languages/translatepress-multilingual.catalog.php:24
+#: partials/main-settings-language-selector.php:48
+msgid "Choose..."
+msgstr "选择..."
+
+#: languages/translatepress-multilingual.catalog.php:23
+#: includes/class-advanced-tab.php:502 includes/class-advanced-tab.php:513
+#: includes/class-advanced-tab.php:601 includes/class-advanced-tab.php:632
+#: partials/main-settings-language-selector.php:40
+msgid "Remove"
+msgstr "删除"
+
+#: languages/translatepress-multilingual.catalog.php:22
+#: partials/main-settings-language-selector.php:40
+msgid "Are you sure you want to remove this language?"
+msgstr "你确定要删除这个语言吗？"
+
+#: languages/translatepress-multilingual.catalog.php:21
+#: includes/class-settings.php:162 includes/class-install-plugins.php:34
+msgid "Active"
+msgstr "启用"
+
+#: languages/translatepress-multilingual.catalog.php:20
+#: partials/main-settings-language-selector.php:9
+msgid "Slug"
+msgstr "别名"
+
+#: languages/translatepress-multilingual.catalog.php:18
+#: partials/main-settings-language-selector.php:7
+msgid "Language"
+msgstr "语言"
+
+#: languages/translatepress-multilingual.catalog.php:15
+#: partials/license-settings-page.php:22
+msgid "Deactivate License"
+msgstr "停用许可证"
+
+#: languages/translatepress-multilingual.catalog.php:14
+#: partials/license-settings-page.php:32
+msgid "Activate License"
+msgstr "激活许可证"
+
+#: languages/translatepress-multilingual.catalog.php:13
+#: partials/license-settings-page.php:38
+msgid "Enter your license key."
+msgstr "输入您的许可证密钥。"
+
+#: languages/translatepress-multilingual.catalog.php:12
+#: partials/license-settings-page.php:14
+msgid "License Key"
+msgstr "许可证"
+
+#: languages/translatepress-multilingual.catalog.php:11
+#: partials/main-settings-page.php:5 partials/trp-remove-duplicate-rows.php:3
+#: partials/test-api-settings-page.php:11 partials/addons-settings-page.php:3
+#: partials/license-settings-page.php:8 partials/license-settings-page.php:46
+msgid "TranslatePress Settings"
+msgstr "网站翻译设置"
+
+#: languages/translatepress-multilingual.catalog.php:3
+msgid "Limit this menu item to the following languages"
+msgstr "将此菜单项限制为以下语言"
+
+#: languages/translatepress-multilingual.catalog.php:177
+#: includes/class-translation-render.php:184
+msgid "Page Title"
+msgstr "页面标题"
+
+#: languages/translatepress-multilingual.catalog.php:27
+msgid "Post Slug"
+msgstr "文章别名"
+
+#: languages/translatepress-multilingual.catalog.php:176
+#: includes/class-translation-render.php:180
+msgid "Twitter Description"
+msgstr "Twitter描述"
+
+#: languages/translatepress-multilingual.catalog.php:175
+#: includes/class-translation-render.php:174
+msgid "Twitter Title"
+msgstr "Twitter标题"
+
+#: languages/translatepress-multilingual.catalog.php:174
+#: includes/class-translation-render.php:168
+msgid "OG Description"
+msgstr "OG说明"
+
+#: languages/translatepress-multilingual.catalog.php:173
+#: includes/class-translation-render.php:162
+msgid "OG Site Name"
+msgstr "OG网站名称"
+
+#: languages/translatepress-multilingual.catalog.php:172
+#: includes/class-translation-render.php:156
+msgid "OG Title"
+msgstr "OG标题"
+
+#: languages/translatepress-multilingual.catalog.php:171
+#: includes/class-translation-render.php:150
+msgid "Description"
+msgstr "简介"
+
+#: languages/translatepress-multilingual.catalog.php:162
+#: includes/class-translation-manager.php:233
+msgid "String List"
+msgstr "字符串列表"
+
+#: languages/translatepress-multilingual.catalog.php:161
+#: includes/class-translation-manager.php:232
+msgid "Meta Information"
+msgstr "元信息"
+
+#: languages/translatepress-multilingual.catalog.php:169
+#: includes/class-translation-manager.php:1268
+msgid "Security check"
+msgstr "安全检查"
+
+#: languages/translatepress-multilingual.catalog.php:98
+#: includes/class-settings.php:563 includes/class-translation-manager.php:470
+msgid "Settings"
+msgstr "设置"
+
+#: languages/translatepress-multilingual.catalog.php:168
+#: includes/class-translation-manager.php:451
+msgid "Translate Page"
+msgstr "翻译页面"
+
+#: includes/class-translation-manager.php:49
+#: includes/string-translation/class-string-translation.php:92
+msgid "Sorry, you are not allowed to access this page."
+msgstr "抱歉，您不能访问此页面。"
+
+#: includes/class-translation-manager.php:48
+#: includes/string-translation/class-string-translation.php:91
+msgid "Cheatin&#8217; uh?"
+msgstr "开玩笑，呵？"
+
+#: languages/translatepress-multilingual.catalog.php:96
+#: includes/class-settings.php:527
+msgid "Addons"
+msgstr "附加功能"
+
+#: languages/translatepress-multilingual.catalog.php:97
+#: includes/class-settings.php:535
+msgid "License"
+msgstr "许可证"
+
+#: languages/translatepress-multilingual.catalog.php:95
+#: includes/class-settings.php:522 includes/class-translation-manager.php:438
+msgid "Translate Site"
+msgstr "翻译网站"
+
+#: languages/translatepress-multilingual.catalog.php:94
+#: includes/class-settings.php:517
+msgid "General"
+msgstr "通用"
+
+#: languages/translatepress-multilingual.catalog.php:93
+#: includes/class-settings.php:476
+msgid "Current Language"
+msgstr "当前语言"
+
+#: languages/translatepress-multilingual.catalog.php:84
+#: includes/class-settings.php:30
+msgid "Only Flags"
+msgstr "仅标志"
+
+#: languages/translatepress-multilingual.catalog.php:83
+#: includes/class-settings.php:29
+msgid "Flags with Short Language Names"
+msgstr "标志+语言简称"
+
+#: languages/translatepress-multilingual.catalog.php:82
+#: includes/class-settings.php:28
+msgid "Flags with Full Language Names"
+msgstr "标志+语言全称"
+
+#: languages/translatepress-multilingual.catalog.php:81
+#: includes/class-settings.php:27
+msgid "Short Language Names"
+msgstr "语言简称"
+
+#: languages/translatepress-multilingual.catalog.php:80
+#: includes/class-settings.php:26
+msgid "Full Language Names"
+msgstr "语言全称"
+
+#: languages/translatepress-multilingual.catalog.php:46
+#: includes/class-error-manager.php:129 includes/class-plugin-notices.php:340
+#: includes/class-plugin-notices.php:372 includes/class-plugin-notices.php:391
+#: includes/class-plugin-notices.php:405 includes/class-plugin-notices.php:430
+#: includes/class-plugin-notices.php:454
+msgid "Dismiss this notice."
+msgstr "忽略此提示。"

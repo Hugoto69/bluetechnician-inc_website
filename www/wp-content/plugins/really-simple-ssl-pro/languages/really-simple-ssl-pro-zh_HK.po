@@ -1,0 +1,1424 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Really Simple SSL pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-07 08:36+0100\n"
+"PO-Revision-Date: 2020-12-07 07:55+0000\n"
+"Last-Translator: \n"
+"Language-Team: Chinese (Hong Kong)\n"
+"Language: zh_HK\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.3; wp-5.5.3"
+
+#: EDD_SL_Plugin_Updater.php:250
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:258
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:502
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:502
+msgid "Error"
+msgstr ""
+
+#: class-cert-expiration.php:11
+msgid "Not detected"
+msgstr ""
+
+#: class-cert-expiration.php:76
+msgid "Once Daily"
+msgstr ""
+
+#: class-cert-expiration.php:81
+msgid "Once 10 minutes"
+msgstr ""
+
+#: class-cert-expiration.php:86
+msgid "Once 1 minutes"
+msgstr ""
+
+#: class-cert-expiration.php:181
+msgid "SSL certificate expiration warning"
+msgstr ""
+
+#: class-cert-expiration.php:182
+msgid "According to the check that was performed just now on "
+msgstr ""
+
+#: class-cert-expiration.php:183
+msgid " the SSL certificate is expiring soon. The ValidTo date is:"
+msgstr ""
+
+#: class-cert-expiration.php:185
+msgid "Please renew your certificate before the expiry date."
+msgstr ""
+
+#: class-importer.php:12 class-licensing.php:18 class-multisite.php:28
+#: class-premium-options.php:12 class-scan.php:48 class-support.php:14
+#: csp-violation-endpoint.php:15
+#, php-format
+msgid "%s is a singleton class and you cannot create a second instance."
+msgstr " %s 是一個單例級而且你無法建立第二例"
+
+#: class-importer.php:40
+msgid "Roll back file changes"
+msgstr ""
+
+#: class-importer.php:90
+msgid ""
+"Someting went wrong. If this doesn't work, you can put the original files "
+"back by changing files named 'rsssl-bkp-filename' to filename."
+msgstr ""
+
+#: class-importer.php:101
+msgid "Your files were restored."
+msgstr ""
+
+#: class-importer.php:103
+msgid "Your files already were restored."
+msgstr ""
+
+#: class-importer.php:119 class-importer.php:160 class-importer.php:201
+#: class-importer.php:249 class-importer.php:287
+msgid ""
+"Something went wrong. Please refresh the page and try again, or fix manually."
+msgstr ""
+
+#: class-importer.php:135
+msgid "There was a problem editing the file. Please try manually."
+msgstr ""
+
+#: class-importer.php:179
+msgid ""
+"The file could not be downloaded. It might not exist, or downloading is "
+"blocked. Fix manually."
+msgstr ""
+
+#: class-importer.php:226 class-importer.php:266 class-importer.php:308
+msgid ""
+"The file could not be downloaded. The file might not exist, or downloading "
+"is be blocked by the server. Fix manually."
+msgstr ""
+
+#: class-importer.php:545
+msgid "Something went wrong."
+msgstr ""
+
+#: class-licensing.php:92
+msgid "Really Simple SSL Pro license key"
+msgstr ""
+
+#: class-licensing.php:192 class-licensing.php:446 class-licensing.php:452
+#: class-licensing.php:471 class-licensing.php:534
+#: class-premium-options.php:1143 class-premium-options.php:1150
+#: class-premium-options.php:1157 class-premium-options.php:1164
+#: class-premium-options.php:1171
+msgid "License"
+msgstr "執照"
+
+#: class-licensing.php:401
+msgid "unlimited"
+msgstr ""
+
+#: class-licensing.php:406
+msgid "Not available"
+msgstr ""
+
+#: class-licensing.php:408
+msgid "You have a lifetime license."
+msgstr ""
+
+#: class-licensing.php:408
+#, php-format
+msgid "Valid until %s."
+msgstr ""
+
+#: class-licensing.php:414
+#, php-format
+msgid "Upgrade to a %s5 sites or Agency%s license."
+msgstr ""
+
+#: class-licensing.php:417
+#, php-format
+msgid "Upgrade to an %sAgency%s license."
+msgstr ""
+
+#: class-licensing.php:420
+#, php-format
+msgid "You can renew your license on your %saccount%s."
+msgstr ""
+
+#: class-licensing.php:425
+msgid "Unlimited activations available."
+msgstr ""
+
+#: class-licensing.php:427 class-licensing.php:535
+#, php-format
+msgid "%s/%s activations available."
+msgstr ""
+
+#: class-licensing.php:440
+msgid "Valid"
+msgstr ""
+
+#: class-licensing.php:447
+#, php-format
+msgid "Valid license for %s."
+msgstr ""
+
+#: class-licensing.php:459
+msgid "Multisite"
+msgstr ""
+
+#: class-licensing.php:460
+#, php-format
+msgid "Multisite detected. Please consider upgrading to %smultisite%s."
+msgstr ""
+
+#: class-licensing.php:481
+msgid "No response"
+msgstr ""
+
+#: class-licensing.php:482
+msgid ""
+"The license information could not be retrieved at this moment. Please try "
+"again at a later time."
+msgstr ""
+
+#: class-licensing.php:488 class-licensing.php:497
+msgid "Open"
+msgstr ""
+
+#: class-licensing.php:489
+#, php-format
+msgid "Please enter your license key. Available in your %saccount%s."
+msgstr ""
+
+#: class-licensing.php:498
+msgid "Please activate your license key."
+msgstr ""
+
+#: class-licensing.php:504 class-licensing.php:511 class-licensing.php:519
+#: class-licensing.php:526 class-licensing.php:541
+#: grid/templates/scan-results-element.php:5
+msgid "Warning"
+msgstr ""
+
+#: class-licensing.php:505
+#, php-format
+msgid "Your license has been revoked. Please contact %ssupport%s."
+msgstr ""
+
+#: class-licensing.php:512
+#, php-format
+msgid ""
+"Your license could not be found in our system. Please contact %ssupport%s."
+msgstr ""
+
+#: class-licensing.php:520
+#, php-format
+msgid "This license is not valid. Find out why on your %saccount%s."
+msgstr ""
+
+#: class-licensing.php:527
+#, php-format
+msgid ""
+"This license is not valid for this product. Find out why on your %saccount%s."
+msgstr ""
+
+#: class-licensing.php:542
+#, php-format
+msgid ""
+"Your license key has expired. Please renew your license key on your "
+"%saccount%s."
+msgstr ""
+
+#: class-licensing.php:598
+msgid ""
+"You haven't activated your Really Simple SSL Pro Multisite license yet. To "
+"get all future updates, enter your license on the network settings page."
+msgstr ""
+
+#: class-licensing.php:600
+#, php-format
+msgid "%sGo to the settings page%s or %spurchase a license%s."
+msgstr ""
+
+#: class-licensing.php:609
+msgid "License not activated"
+msgstr ""
+
+#: class-licensing.php:625
+msgid "Really Simple SSL Pro Multisite license key"
+msgstr ""
+
+#: class-multisite.php:108
+msgid "Sites"
+msgstr ""
+
+#: class-multisite.php:200 class-premium-options.php:174
+msgid "Search"
+msgstr ""
+
+#: class-multisite.php:201
+#, php-format
+msgid "Show %s results"
+msgstr ""
+
+#: class-multisite.php:202
+msgid "No results found"
+msgstr ""
+
+#: class-multisite.php:203
+#, php-format
+msgid "%s to %s of %s results"
+msgstr ""
+
+#: class-multisite.php:204
+msgid "No results to show"
+msgstr ""
+
+#: class-multisite.php:205
+#, php-format
+msgid "(filtered from %s results)"
+msgstr ""
+
+#: class-multisite.php:207
+msgid "No results found in the table"
+msgstr ""
+
+#: class-multisite.php:210 class-premium-options.php:179
+msgid "First"
+msgstr ""
+
+#: class-multisite.php:211 class-premium-options.php:177
+msgid "Previous"
+msgstr ""
+
+#: class-multisite.php:212 class-premium-options.php:178
+msgid "Next"
+msgstr ""
+
+#: class-multisite.php:213 class-premium-options.php:180
+msgid "Last"
+msgstr ""
+
+#: class-multisite.php:346
+msgid "deactivate"
+msgstr ""
+
+#: class-multisite.php:346
+msgid "activate"
+msgstr ""
+
+#: class-multisite.php:365
+msgid "Enable this if you want to automatically replace mixed content."
+msgstr ""
+
+#: class-multisite.php:366
+msgid "Auto replace mixed content"
+msgstr ""
+
+#: class-multisite.php:367
+msgid "Enable this if you want to hide the SSL menu on subsites."
+msgstr ""
+
+#: class-multisite.php:368
+msgid "Hide menu for subsites"
+msgstr ""
+
+#: class-multisite.php:369
+msgid ""
+"Enable this if you want to use the internal WordPress 301 redirect for all "
+"SSL websites. Needed on NGINX servers, or if the .htaccess redirect cannot "
+"be used."
+msgstr ""
+
+#: class-multisite.php:370
+msgid "WordPress 301 redirection to SSL for all SSL sites"
+msgstr ""
+
+#: class-multisite.php:371
+msgid "Enable this if you want to enable certificate expiration notices."
+msgstr ""
+
+#: class-multisite.php:372 class-premium-options.php:814
+msgid "Receive an email when your certificate is about to expire"
+msgstr ""
+
+#: class-multisite.php:373
+msgid "Enable this if you want the mixed content fixer for admin."
+msgstr ""
+
+#: class-multisite.php:374 class-premium-options.php:816
+msgid "Mixed content fixer on the WordPress back-end"
+msgstr ""
+
+#: class-multisite.php:377
+msgid "Enable this if you want to redirect ALL websites to SSL using .htaccess"
+msgstr ""
+
+#: class-multisite.php:379
+msgid "Enable this if you want to redirect SSL websites using .htaccess. "
+msgstr ""
+
+#: class-multisite.php:381
+msgid "htaccess redirection to SSL on the network"
+msgstr ""
+
+#: class-multisite.php:382
+msgid "Enable this if you want to block the htaccess file from being edited."
+msgstr ""
+
+#: class-multisite.php:383
+msgid "Stop editing the .htaccess file"
+msgstr ""
+
+#: class-premium-options.php:90
+msgid "SSL configuration finished!"
+msgstr ""
+
+#: class-premium-options.php:150
+msgid ""
+"You have scanned your site before, but the scan results are cleared from the "
+"cache. Run a new scan to see the results."
+msgstr ""
+
+#: class-premium-options.php:152
+msgid "No mixed content has been found!"
+msgstr ""
+
+#: class-premium-options.php:154
+msgid "No scan done yet. Start a quick or full scan to identify any issues."
+msgstr ""
+
+#: class-premium-options.php:176
+msgid "No items reported yet. Come back at a later time."
+msgstr ""
+
+#: class-premium-options.php:267
+msgid "Premium support"
+msgstr ""
+
+#: class-premium-options.php:276
+msgid "Premium settings"
+msgstr ""
+
+#: class-premium-options.php:307
+msgid "Mixed content scan"
+msgstr ""
+
+#: class-premium-options.php:331
+msgid "Content Security Policy configuration"
+msgstr ""
+
+#: class-premium-options.php:812
+msgid ""
+"If your certificate expires, your site goes offline. Uptime robots don't "
+"alert you when this happens."
+msgstr ""
+
+#: class-premium-options.php:813
+#, php-format
+msgid ""
+"This option sends an email to the administrator email address (%s) when your "
+"certificate is about to expire within 2 weeks."
+msgstr ""
+
+#: class-premium-options.php:815
+msgid ""
+"Use this option if you do not have the green lock in the WordPress admin."
+msgstr ""
+
+#: class-premium-options.php:823
+msgid ""
+"This is an additional header to force all incoming http:// requests to https:"
+"//."
+msgstr ""
+
+#: class-premium-options.php:824
+msgid "Upgrade insecure request"
+msgstr ""
+
+#: class-premium-options.php:826
+msgid ""
+"This header protects your site from cross-site scripting attacks. If a cross-"
+"site scripting attack is detected, the browser will automatically sanitize "
+"(remove) unsafe parts (scripts) when this header is enabled."
+msgstr ""
+
+#: class-premium-options.php:829
+msgid ""
+"This header prevents MIME-sniffing, which can be used to upload malicious "
+"files disguised as another content type."
+msgstr ""
+
+#: class-premium-options.php:832
+msgid ""
+"This header only sets a referrer when navigating to the same protocol (HTTPS-"
+">HTTPS) and not when downgrading (HTTPS->HTTP)."
+msgstr ""
+
+#: class-premium-options.php:835
+msgid ""
+"This header enforces certificate transparency. This is done by expecting "
+"valid Signed Certificate Timestamps (SCTs)."
+msgstr ""
+
+#: class-premium-options.php:838
+msgid ""
+"This header prevents your site from being loaded in an iFrame on other "
+"domains. This is used to prevent clickjacking attacks."
+msgstr ""
+
+#: class-premium-options.php:842 class-premium-options.php:847
+msgid ""
+"This header allows you to restrict browser features on your own and embedded "
+"pages."
+msgstr ""
+
+#: class-premium-options.php:843 class-premium-options.php:848
+msgid ""
+"It is recommended to enable this feature as soon as your site is running "
+"smoothly on SSL, as it greatly improves security."
+msgstr ""
+
+#: class-premium-options.php:855
+msgid ""
+"HSTS, HTTP Strict Transport Security improves your security by forcing all "
+"your visitors to go to the SSL version of your website for at least a year."
+msgstr ""
+
+#: class-premium-options.php:855
+msgid ""
+"It is recommended to enable this feature as soon as your site is running "
+"smoothly on SSL, as it improves your security."
+msgstr ""
+
+#: class-premium-options.php:859
+msgid ""
+"The preload list offers even more security, as browsers will be instructed "
+"to load the site over HTTPS, even before the first visit."
+msgstr ""
+
+#: class-premium-options.php:860
+msgid ""
+"Please ensure that your site is running over SSL smoothly, and note that all "
+"subdomains, including www and non-www domain need to be HTTPS!"
+msgstr ""
+
+#: class-premium-options.php:861
+msgid "Configure your site for the HSTS preload list"
+msgstr "為了 HSTS 預載入列表您要配置您的網站"
+
+#: class-premium-options.php:865
+msgid ""
+"Content Security Policy reporting. This will detect new entries for the "
+"Content Security Policy, but won't enforce them yet."
+msgstr ""
+
+#: class-premium-options.php:866
+msgid "Content Security Policy reporting"
+msgstr ""
+
+#: class-premium-options.php:870
+msgid ""
+"A Content Security Policy is a whitelist of trusted sources. This will add "
+"an additional block to the settings page where you can select which trusted "
+"sources should be added to your Content Security Policy"
+msgstr ""
+
+#: class-premium-options.php:871
+msgid "Enforce Content Security Policy"
+msgstr ""
+
+#: class-premium-options.php:882
+#, php-format
+msgid "These settings are only available under the %snetwork settings%s."
+msgstr ""
+
+#: class-premium-options.php:886
+#, php-format
+msgid ""
+"These settings are only available on the network settings, available with "
+"the %sAgency license%s."
+msgstr ""
+
+#: class-premium-options.php:937
+msgid "Elementor mixed content successfully converted."
+msgstr ""
+
+#: class-premium-options.php:950
+msgid "No redirect to http detected."
+msgstr ""
+
+#: class-premium-options.php:954
+msgid "Potential redirect loop."
+msgstr ""
+
+#: class-premium-options.php:955
+msgid "A redirect to http was detected. This might result in redirect loops."
+msgstr ""
+
+#: class-premium-options.php:955
+#, php-format
+msgid "%sRead more%s."
+msgstr ""
+
+#: class-premium-options.php:956
+msgid "Re-check the redirect"
+msgstr ""
+
+#: class-premium-options.php:969
+#, php-format
+msgid "Your certificate needs to be renewed soon, it is valid to: %s"
+msgstr ""
+
+#: class-premium-options.php:973
+#, php-format
+msgid "Your certificate is valid to: %s"
+msgstr ""
+
+#: class-premium-options.php:985
+#, php-format
+msgid "Recommended security headers not enabled (%sRead more%s)."
+msgstr ""
+
+#: class-premium-options.php:990
+msgid "Recommended security headers enabled."
+msgstr ""
+
+#: class-premium-options.php:1002
+msgid "HTTP Strict Transport Security was set."
+msgstr ""
+
+#: class-premium-options.php:1006
+#, php-format
+msgid ""
+"HTTP Strict Transport Security was set, but with PHP headers, %swhich might "
+"cause issues in combination in combination with caching.%s "
+msgstr ""
+
+#: class-premium-options.php:1011
+msgid "HTTP Strict Transport Security is not enabled. "
+msgstr ""
+
+#: class-premium-options.php:1024
+#, php-format
+msgid ""
+"Your site has been configured for the HSTS preload list. If you have "
+"submitted your site, it will be preloaded. Click %shere%s to submit."
+msgstr ""
+
+#: class-premium-options.php:1029
+msgid "Your site is not yet configured for the HSTS preload list."
+msgstr ""
+
+#: class-premium-options.php:1044
+msgid "TLS version is up-to-date"
+msgstr ""
+
+#: class-premium-options.php:1049
+msgid ""
+"Your site uses an outdated version of TLS. Upgrade to TLS 1.2 or TLS 1.3 to "
+"keep your site secure."
+msgstr ""
+
+#: class-premium-options.php:1062
+msgid ""
+"Your site redirects 404 pages to the http:// version of your homepage. This "
+"can cause mixed content issues with images."
+msgstr ""
+
+#: class-premium-options.php:1077
+msgid "You have new rules that can be added to your Content Security Policy"
+msgstr ""
+
+#: class-premium-options.php:1083
+msgid "No Content Security Policy violations found"
+msgstr ""
+
+#: class-premium-options.php:1089
+msgid "Start scan"
+msgstr ""
+
+#: class-premium-options.php:1095 class-premium-options.php:1108
+msgid "Great! Your scan last completed without errors."
+msgstr "太好了! 你的最後掃瞄已毫無錯誤完成了。"
+
+#: class-premium-options.php:1099
+msgid ""
+"The last scan was completed with errors. Only migrate if you are sure the "
+"found errors are not a problem for your site."
+msgstr "最後的掃瞄已完成帶有錯誤。若你確定所發現的錯誤並不會對你的網站造成問題你才遷移。"
+
+#: class-premium-options.php:1104
+msgid ""
+"You haven't scanned the site yet, you should scan your site to check for "
+"possible issues."
+msgstr "你還沒有掃瞄你的網站，你應為檢查一些潛在的問題而掃瞄你的網站。"
+
+#: class-premium-options.php:1112
+#, fuzzy
+#| "The last scan was completed with errors. Are you sure these issues don't "
+#| "impact your site?."
+msgid ""
+"The last scan was completed with errors. Are you sure these issues don't "
+"impact your site?"
+msgstr "最後的掃瞄已完成但帶有錯誤。你確定這不會對你的網站有影響嗎?"
+
+#: class-premium-options.php:1124
+msgid ""
+"You have a multisite environment. To leverage all configuration options in "
+"Really Simple SSL, we recommend to enabled the plugin networkwide, then use "
+"the 'activate per site' option to enable SSL per site."
+msgstr ""
+
+#: class-premium-options.php:1131
+#, php-format
+msgid "You can upgrade on your %saccount%s."
+msgstr ""
+
+#: class-premium-options.php:1137
+#, php-format
+msgid "%sActivate%s your license."
+msgstr ""
+
+#: class-premium-options.php:1144
+msgid ""
+"Your Really Simple SSL Pro license key has expired. Please renew your "
+"license to continue receiving updates and premium support."
+msgstr ""
+
+#: class-premium-options.php:1151
+msgid ""
+"Your Really Simple SSL Pro license key is not activated. Please activate "
+"your license to continue receiving updates and premium support."
+msgstr ""
+
+#: class-premium-options.php:1158
+msgid ""
+"This domain is not activated for this Really Simple SSL Pro license. Please "
+"activate the license for this domain."
+msgstr ""
+
+#: class-premium-options.php:1165
+msgid ""
+"You do not have any activations left on your Really Simple SSL Pro license. "
+"Please upgrade your plan for additional activations."
+msgstr ""
+
+#: class-premium-options.php:1172
+msgid ""
+"Your Really Simple SSL Pro license key hasn't been activated yet. You can "
+"activate your license key on the license tab."
+msgstr ""
+
+#: class-premium-options.php:1409 class-premium-options.php:1441
+msgid "This option is enabled on the network menu."
+msgstr ""
+
+#: class-premium-options.php:1477
+#, php-format
+msgid ""
+"After enabling this option, you have to %ssubmit%s your site. Please read "
+"the instructions on this page carefully before doing so."
+msgstr ""
+
+#: class-premium-options.php:1672
+msgid "Settings"
+msgstr ""
+
+#: class-premium-options.php:1827
+msgid "You finished a scan without errors."
+msgstr ""
+
+#: class-premium-options.php:1833
+#, php-format
+msgid ""
+"No scan completed yet. Before migrating to SSL, you should do a %sscan%s"
+msgstr ""
+
+#: class-premium-options.php:1839
+msgid "Previous scan completed with issues"
+msgstr ""
+
+#: class-premium-options.php:1847
+#, php-format
+msgid "%sScan again%s"
+msgstr ""
+
+#: class-premium-options.php:1851
+#, php-format
+msgid "%sScan for issues%s"
+msgstr ""
+
+#: class-premium-options.php:1980
+msgid ""
+"To set the httponly secure cookie settings, your wp-config.php has to be "
+"edited, but the file is not writable."
+msgstr ""
+
+#: class-premium-options.php:1981
+msgid "Add the following lines of code to your wp-config.php."
+msgstr ""
+
+#: class-premium-options.php:1991
+msgid "Or set your wp-config.php to writable and reload this page."
+msgstr ""
+
+#: class-premium-options.php:1996
+msgid "Could not insert httponly secure cookie settings."
+msgstr ""
+
+#: class-premium-options.php:2025
+msgid "Follow these steps to complete the setup:"
+msgstr ""
+
+#: class-premium-options.php:2027
+msgid "Let it gather data from the website for a couple of days"
+msgstr ""
+
+#: class-premium-options.php:2028
+msgid "Newly found rules can be found in the Content Security Policy tab"
+msgstr ""
+
+#: class-premium-options.php:2029
+#, php-format
+msgid ""
+"When no new exceptions have been found, you can enforce the Content Security "
+"Policy rules by enabling the 'Enforce Content Security Policy' option in the "
+"%ssecurity headers block%s"
+msgstr ""
+
+#: class-premium-options.php:2030
+#, php-format
+msgid ""
+"For a detailed explanation of the Content Security Policy, see this %slink%s"
+msgstr ""
+
+#: class-premium-options.php:2035
+msgid "Content Security Policy reporting enabled"
+msgstr ""
+
+#: class-premium-options.php:2036
+msgid "Remind me in one week"
+msgstr ""
+
+#: class-premium-options.php:2159
+msgid ""
+"Really Simple SSL has detected NGINX as webserver. The security headers can "
+"be set in two ways: via an nginx.conf file in the websites root directory, "
+"or via PHP."
+msgstr ""
+
+#: class-premium-options.php:2160
+msgid ""
+"If you use caching, it is recommended that you use the nginx.conf. You can "
+"ask your hosting company to add the following lines to your nginx.conf:"
+msgstr ""
+
+#: class-premium-options.php:2179
+#, php-format
+msgid ""
+"For more information about NGINX and HSTS see %sHTTP Strict Transport "
+"Security and NGINX%s"
+msgstr ""
+
+#: class-premium-options.php:2209
+msgid "NGINX detected"
+msgstr ""
+
+#: class-scan.php:228 class-scan.php:2179
+msgid "Never"
+msgstr "從不"
+
+#: class-scan.php:236
+msgid "at"
+msgstr ""
+
+#: class-scan.php:278
+msgid "Generating web page list"
+msgstr ""
+
+#: class-scan.php:298
+#, php-format
+msgid ""
+"Searching for js and css files and links to external resources in website, "
+"%s of %s"
+msgstr ""
+
+#: class-scan.php:320
+#, php-format
+msgid "Searching for mixed content in css and js files, %s of %s"
+msgstr ""
+
+#: class-scan.php:337
+msgid "Generating file list"
+msgstr "使檔案名單產生"
+
+#: class-scan.php:356
+#, php-format
+msgid "Checking posts for external URLs, %s of %s"
+msgstr ""
+
+#: class-scan.php:372
+msgid "Checking widgets for external URLs"
+msgstr ""
+
+#: class-scan.php:386
+msgid "Checking which postmeta contain external resources"
+msgstr ""
+
+#: class-scan.php:405
+#, php-format
+msgid "Checking which resources can't load over ssl, %s of %s"
+msgstr ""
+
+#: class-scan.php:429
+#, php-format
+msgid "Checking if external js or css files contain http links, %s of %s"
+msgstr ""
+
+#: class-scan.php:449
+#, php-format
+msgid "Looking up blocked resources in files, %s of %s"
+msgstr ""
+
+#: class-scan.php:465
+msgid "Looking up blocked resources in posts"
+msgstr "查尋在貼文裡被封鎖的來源"
+
+#: class-scan.php:480
+msgid "Looking up blocked resources in postmeta"
+msgstr ""
+
+#: class-scan.php:496
+msgid "Looking up blocked resources in widgets"
+msgstr ""
+
+#: class-scan.php:505
+msgid "Finished scan"
+msgstr ""
+
+#: class-scan.php:1802 class-scan.php:1871
+msgid "theme file"
+msgstr ""
+
+#: class-scan.php:1805 class-scan.php:1874
+msgid "mu plugin file"
+msgstr ""
+
+#: class-scan.php:1808 class-scan.php:1877
+msgid "plugin file"
+msgstr ""
+
+#: class-scan.php:1812
+msgid "in uploads directory, possibly generated by plugin or theme"
+msgstr ""
+
+#: class-scan.php:1816 class-scan.php:1890
+msgid "file"
+msgstr ""
+
+#: class-scan.php:1822
+msgid "PHP file with mixed content"
+msgstr ""
+
+#: class-scan.php:1825 class-scan.php:1898
+#, php-format
+msgid "Mixed content in %s"
+msgstr ""
+
+#: class-scan.php:1830 class-scan.php:1914 class-scan.php:2016
+#: class-scan.php:2065 class-scan.php:2127
+#, php-format
+msgid "Blocked URL: %s"
+msgstr ""
+
+#: class-scan.php:1830
+msgid "You can edit the source file manually by pressing the edit button."
+msgstr ""
+
+#: class-scan.php:1832 class-scan.php:1925 class-scan.php:1967
+#: class-scan.php:2020 class-scan.php:2070 class-scan.php:2128
+msgid "Details"
+msgstr ""
+
+#: class-scan.php:1881
+msgid "uploads file, possibly generated by plugin or theme"
+msgstr ""
+
+#: class-scan.php:1886
+msgid "cached file, deactivate cache to see the actual source"
+msgstr ""
+
+#: class-scan.php:1899
+msgid "JS or CSS file with mixed content"
+msgstr ""
+
+#: class-scan.php:1916
+msgid ""
+"Can be fixed automatically by pressing the Fix button. If fixing fails, the "
+"source file can be edited manually by pressing the Edit button."
+msgstr ""
+
+#: class-scan.php:1919 class-scan.php:2019 class-scan.php:2069
+#: class-scan.php:2125
+msgid "Fix"
+msgstr ""
+
+#: class-scan.php:1961
+msgid "Mixed content in CSS/JS file from other domain"
+msgstr ""
+
+#: class-scan.php:1965
+msgid ""
+"Cannot be fixed automatically, as the mixed content is coming from an "
+"external domain. Contact the owner of the domain to update the CSS/JS file"
+msgstr ""
+
+#: class-scan.php:1966
+#, php-format
+msgid "Mixed content resources: %s"
+msgstr ""
+
+#: class-scan.php:1983
+msgid "Mixed content in remote file"
+msgstr ""
+
+#: class-scan.php:1999
+msgid "Post with mixed content"
+msgstr ""
+
+#: class-scan.php:2017
+msgid ""
+"Mixed content found in in a post. Can be fixed automatically by pressing the "
+"fix button. Pressing the edit button allows you to update the link in the "
+"post manually."
+msgstr ""
+
+#: class-scan.php:2035
+msgid "In post: "
+msgstr ""
+
+#: class-scan.php:2050
+msgid "Post field with mixed content"
+msgstr ""
+
+#: class-scan.php:2061
+msgid "Mixed content in the postmeta table"
+msgstr ""
+
+#: class-scan.php:2063
+msgid "iFrame in the wp_postmeta database table"
+msgstr ""
+
+#: class-scan.php:2066
+msgid ""
+"Mixed content from a postmeta table in your database. Usually won't cause "
+"any mixed content on the front-end. Check the post if it causes mixed "
+"content. If so, the link can be replace directly in the database."
+msgstr ""
+
+#: class-scan.php:2072
+#, php-format
+msgid "In field: %s"
+msgstr ""
+
+#: class-scan.php:2107
+msgid "Widget with mixed content"
+msgstr ""
+
+#: class-scan.php:2110
+msgid "Mixed content in a widget"
+msgstr ""
+
+#: class-scan.php:2120
+#, php-format
+msgid "Widget area \"%s\""
+msgstr ""
+
+#: class-scan.php:2127
+msgid ""
+"Mixed content found in a widget. Press the edit link to edit the widget "
+"manually."
+msgstr ""
+
+#: class-scan.php:2497 class-scan.php:2586 class-scan.php:2626
+#: class-scan.php:2706
+msgid "Import and insert file"
+msgstr ""
+
+#: class-scan.php:2501 class-scan.php:2590 class-scan.php:2630
+#: class-scan.php:2710
+msgid "Copyright warning!"
+msgstr ""
+
+#: class-scan.php:2504 class-scan.php:2593 class-scan.php:2632
+#: class-scan.php:2712
+msgid ""
+"Downloading files from other websites can cause serious copyright issues! It "
+"is always illegal to use images, files, or any copyright protected material "
+"on your own site without the consent of the copyrightholder. Please ask the "
+"copyrightholder for permission. Use this function at your own risk."
+msgstr ""
+
+#: class-scan.php:2507 class-scan.php:2596
+msgid ""
+"This downloads the file from the domain without SSL, inserts it into WP "
+"media, and changes the URL to the new URL."
+msgstr ""
+
+#: class-scan.php:2515 class-scan.php:2604
+msgid "I have read the warning, continue"
+msgstr ""
+
+#: class-scan.php:2557 class-scan.php:2784
+#, fuzzy
+#| msgid "edit"
+msgid "Edit"
+msgstr "編輯"
+
+#: class-scan.php:2560
+msgid "Help"
+msgstr ""
+
+#: class-scan.php:2566
+msgid "Ignore"
+msgstr ""
+
+#: class-scan.php:2635 class-scan.php:2715
+msgid ""
+"This function downloads the file from the domain without SSL, inserts it "
+"into WP media, and changes the URL to the new URL."
+msgstr ""
+
+#: class-scan.php:2637 class-scan.php:2672 class-scan.php:2717
+#: class-scan.php:2789
+msgid "Always backup first!"
+msgstr ""
+
+#: class-scan.php:2639
+msgid ""
+"Be very carefull with this function! Please backup your site before "
+"proceeding. This function will also create a backup of each changed file, "
+"name rsssl-bkp-filename. You can use the 'roll back files' function to "
+"restore the original files."
+msgstr ""
+
+#: class-scan.php:2648 class-scan.php:2728
+msgid "I have read the warnings, continue"
+msgstr ""
+
+#: class-scan.php:2668
+msgid "Fix http in CSS and JS files"
+msgstr ""
+
+#: class-scan.php:2674
+msgid ""
+"This function will change the urls to the protocol independent // instead of "
+"http://"
+msgstr ""
+
+#: class-scan.php:2677
+msgid ""
+"If these files are generated by a theme or plugin, it is best to change the "
+"settings in that plugin instead. Otherwise your changes maybe overwritten by "
+"the plugin."
+msgstr ""
+
+#: class-scan.php:2686
+msgid "Fix URLs"
+msgstr ""
+
+#: class-scan.php:2719
+msgid ""
+"Be very carefull with this function! Please backup your site before "
+"proceeding."
+msgstr ""
+
+#: class-scan.php:2748
+msgid "Roll back changes made to your files"
+msgstr ""
+
+#: class-scan.php:2752
+msgid ""
+"This will put the files back that were changed by the fix option in Really "
+"Simple SSL pro."
+msgstr ""
+
+#: class-scan.php:2755
+msgid ""
+"Please note that any changes you have made since to your current files, will "
+"be lost. "
+msgstr ""
+
+#: class-scan.php:2764
+msgid "Restore files"
+msgstr ""
+
+#: class-scan.php:2791
+msgid "Editing files can break your site if you do not do it right!"
+msgstr ""
+
+#: class-scan.php:2795
+msgid "File editing blocked in WordPress!"
+msgstr ""
+
+#: class-scan.php:2797
+msgid ""
+"File editing is blocked in WordPress. To edit these files, please use your "
+"FTP client."
+msgstr ""
+
+#: class-scan.php:2804
+msgid "Go to editor"
+msgstr ""
+
+#: grid/templates/csp.php:15
+msgid "Found"
+msgstr ""
+
+#: grid/templates/csp.php:17
+msgid "On page"
+msgstr ""
+
+#: grid/templates/csp.php:19
+msgid "Directive"
+msgstr ""
+
+#: grid/templates/csp.php:21
+msgid "Domain/protocol"
+msgstr ""
+
+#: grid/templates/csp.php:22
+msgid "Add to policy"
+msgstr ""
+
+#: grid/templates/csp.php:38
+msgid "Today"
+msgstr ""
+
+#: grid/templates/csp.php:40
+msgid "ago"
+msgstr ""
+
+#: grid/templates/csp.php:49
+msgid "Allow"
+msgstr ""
+
+#: grid/templates/feature-policy.php:10
+msgid "* is the default value. This means the feature is allowed."
+msgstr ""
+
+#: grid/templates/feature-policy.php:11
+msgid ""
+"self means this is feature is only allowed for content on your own domain. "
+"External scripts won't be able to use it."
+msgstr ""
+
+#: grid/templates/feature-policy.php:12
+msgid ""
+"none means that this feature is not allowed. Enable this to disable the "
+"feature entirely on your site."
+msgstr ""
+
+#: grid/templates/feature-policy.php:18
+msgid "Feature"
+msgstr ""
+
+#: grid/templates/license-footer.php:9
+msgid "Save"
+msgstr ""
+
+#: grid/templates/license-footer.php:12
+msgid "Deactivate license"
+msgstr ""
+
+#: grid/templates/license-footer.php:14
+msgid "Activate license"
+msgstr ""
+
+#: grid/templates/license-footer.php:17
+msgid ""
+"Disable access to the license page for all other accounts except your own."
+msgstr ""
+
+#: grid/templates/license-footer.php:19
+msgid "Disable for all users, except yourself"
+msgstr ""
+
+#: grid/templates/license-footer.php:29
+msgid "User not found"
+msgstr ""
+
+#: grid/templates/license-footer.php:31
+#, php-format
+msgid ""
+"The license key is only visible to %s. Add &rsssl_unlock_license={your "
+"license key} behind the URL to unlock the license block."
+msgstr ""
+
+#: grid/templates/license.php:15
+msgid "Enter your license key"
+msgstr ""
+
+#: grid/templates/scan-footer.php:9
+#, fuzzy
+#| msgid "Scan"
+msgid "SCAN"
+msgstr "掃瞄"
+
+#: grid/templates/scan-footer.php:11
+#, fuzzy
+#| msgid "Quick scan"
+msgid "Quick Scan"
+msgstr "快速掃瞄"
+
+#: grid/templates/scan-footer.php:12
+#, fuzzy
+#| msgid "Full scan"
+msgid "Full Scan"
+msgstr "完全掃瞄"
+
+#: grid/templates/scan-footer.php:14
+msgid "Stop scan"
+msgstr ""
+
+#: grid/templates/scan-footer.php:16
+msgid "Resume"
+msgstr ""
+
+#: grid/templates/scan-footer.php:21
+msgid ""
+"When you enable this option, the URL's that were previously ignored are "
+"shown again."
+msgstr ""
+
+#: grid/templates/scan-footer.php:23
+msgid "Show ignored URLs"
+msgstr ""
+
+#: grid/templates/scan-results-container.php:6 grid_ms/templates/sites.php:69
+msgid "Status"
+msgstr ""
+
+#: grid/templates/scan-results-container.php:7
+msgid "Description"
+msgstr ""
+
+#: grid/templates/scan-results-container.php:7
+msgid "The file that's causing a potential mixed content issue."
+msgstr ""
+
+#: grid/templates/scan-results-container.php:8
+msgid "Location"
+msgstr ""
+
+#: grid/templates/scan-results-container.php:9 grid_ms/templates/sites.php:71
+msgid "Action"
+msgstr ""
+
+#: grid/templates/support-footer.php:2
+msgid "Send"
+msgstr ""
+
+#: grid/templates/support.php:6
+msgid ""
+"When you send this form we will attach the following information: license "
+"key, scan results, your domain, .htaccess file, debug log and a list of "
+"active plugins"
+msgstr ""
+
+#: grid_ms/templates/sites.php:70
+msgid "Site"
+msgstr ""
+
+#: really-simple-ssl-pro-multisite.php:39
+msgid ""
+"Really Simple SSL pro cannot be activated. The plugin requires PHP 5.6 or "
+"higher"
+msgstr ""
+
+#: really-simple-ssl-pro-multisite.php:45
+msgid ""
+"Really Simple SSL pro cannot be activated. The plugin requires WordPress 4.9 "
+"or higher"
+msgstr ""
+
+#: really-simple-ssl-pro-multisite.php:203
+#: really-simple-ssl-pro-multisite.php:223
+#, fuzzy
+#| msgid "Plugin dependency error."
+msgid "Plugin dependency error"
+msgstr "外掛程式出錯。"
+
+#: really-simple-ssl-pro-multisite.php:204
+msgid ""
+"Really Simple SSL pro is an add-on for Really Simple SSL, and cannot do it "
+"on its own :("
+msgstr "Really Simple SSL pro 是 Really Simple SSL一個附加元件, 無法自己來:("
+
+#: really-simple-ssl-pro-multisite.php:207
+msgid "Please activate Really Simple SSL network wide."
+msgstr ""
+
+#: really-simple-ssl-pro-multisite.php:209
+msgid ""
+"Please install and activate Really Simple SSL before activating this add-on."
+msgstr "你還沒有啟動你的 Really Simple SSL pro 認證。要取得未來所有的更新，請在設定網頁上輸入你的認證。"
+
+#: really-simple-ssl-pro-multisite.php:215
+#, php-format
+msgid ""
+"The Really Simple SSL plugin folder in the /wp-content/plugins/ directory "
+"has been renamed to %s. Therefore Really Simple SSL pro cannot work properly."
+" To fix this you can rename the Really Simple SSL folder back to the default "
+"%s"
+msgstr ""
+
+#: really-simple-ssl-pro-multisite.php:224
+msgid ""
+"Really Simple SSL needs to be updated to the latest version to be compatible."
+msgstr ""
+
+#: really-simple-ssl-pro-multisite.php:225
+msgid ""
+"Please upgrade to the latest version to be able use the full functionality "
+"of the plugin."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Really Simple SSL pro multisite"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://really-simple-ssl.com/pro"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Add on for Really Simple SSL"
+msgstr "為Really Siimple SSL 的附加元件。"
+
+#. Author of the plugin/theme
+msgid "Really Simple Plugins"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.really-simple-plugins.com"
+msgstr ""

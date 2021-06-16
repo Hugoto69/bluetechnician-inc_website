@@ -1,0 +1,857 @@
+# Translation of Plugins - Really Simple SSL - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Really Simple SSL - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-05-19 06:00:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Really Simple SSL - Stable (latest release)\n"
+
+#: grid/templates/tips-tricks.php:39
+msgid "Adding a Permission Policy"
+msgstr "Permissions Policy を追加"
+
+#: grid/templates/tips-tricks.php:31
+msgid "Adding a Content Security Policy"
+msgstr "Content Security Policy を追加"
+
+#: class-admin.php:3079
+msgid "Or set your wp-config.php to writable and reload this page."
+msgstr "または、wp-config.php を書き込み可能に設定し、このページを再読み込みしてください。"
+
+#: class-admin.php:3071
+msgid "Add the following lines of code to your wp-config.php."
+msgstr "以下のコードを wp-config.php に追加してください。"
+
+#: class-admin.php:3071
+msgid "To set the httponly secure cookie settings, your wp-config.php has to be edited, but the file is not writable."
+msgstr "HttpOnly の secure cookie を設定するには、wp-config.php を編集する必要がありますが、このファイルは書き込み可能になっていません。"
+
+#: class-admin.php:3064
+msgid "HttpOnly Secure cookies not set."
+msgstr "HttpOnly の secure cookie が未設定です。"
+
+#: class-admin.php:3057
+msgid "New feature! HttpOnly Secure cookies have been set automatically!"
+msgstr "新機能 ! HttpOnly の secure cookie が自動設定されました !"
+
+#: class-admin.php:3104
+msgid "Due to a recent update by WP Engine, we have changed your settings automatically to adapt."
+msgstr "最近の WP エンジンの更新に基づいて、自動で設定を変更し適応させました。"
+
+#: class-admin.php:2819
+msgid "The Really Simple SSL plugin folder in the /wp-content/plugins/ directory has been renamed to %s. This might cause issues when deactivating, or with premium add-ons. To fix this you can rename the Really Simple SSL folder back to the default %s."
+msgstr "wp-content/plugins/ ディレクトリ内の Really Simple SSL プラグインのフォルダ名が %s に変更されました。このことで無効化したり、プレミアム拡張機能を使用する際に問題が発生する可能性があります。修正するには、Really Simple SSL フォルダ名を標準名の %s に戻してください。"
+
+#: class-site-health.php:76
+msgid "Not all recommended security headers are installed"
+msgstr "推奨セキュリティヘッダーがインストール済みではありません"
+
+#: grid/templates/other-plugins.php:40
+msgid "Beautiful recipes optimized for Google "
+msgstr "Google に最適化された綺麗なレシピ集"
+
+#: class-site-health.php:64
+msgid "The recommended security headers are detected on your site."
+msgstr "推奨するセキュリティヘッダーが検出されています。"
+
+#: class-site-health.php:56
+msgid "Recommended security headers installed"
+msgstr "推奨するセキュリティヘッダーはインストール済み"
+
+#: class-site-health.php:39
+msgid "Security Headers Test"
+msgstr "セキュリティー用ヘッダーのテスト"
+
+#: class-site-health.php:33
+msgid "SSL Status Test"
+msgstr "SSL 状態のテスト"
+
+#: class-admin.php:2897
+msgid "No SSL detected"
+msgstr "SSL 検出無し"
+
+#: class-site-health.php:81
+msgid "Learn more about security headers"
+msgstr "セキュリティヘッダーについての詳細"
+
+#: class-site-health.php:77
+msgid "Your .htaccess file does not contain all recommended security headers."
+msgstr "サイトの .htaccess ファイルには、推奨セキュリティヘッダーがすべて揃っているわけではありません。"
+
+#: class-site-health.php:147
+msgid "Enable 301 redirect"
+msgstr "301転送を有効化"
+
+#: class-site-health.php:142
+msgid "To ensure all traffic passes through SSL, please enable a 301 redirect."
+msgstr "すべてのアクセスを SSL に渡すには、301転送を有効にしてください。"
+
+#: class-site-health.php:139
+msgid "No 301 redirect to SSL enabled."
+msgstr "SSL への301転送が有効ではありません"
+
+#: class-site-health.php:133
+msgid "Really Simple SSL is installed, but no valid SSL certificate is detected."
+msgstr "Really Simple SSL はインストール済みですが、有効な SSL 証明書が検出できません。"
+
+#: class-site-health.php:120
+msgid "Really Simple SSL detected an SSL certificate, but has not been configured to enforce SSL."
+msgstr "Really Simple SSL は SSL 証明書を検出しましたが、SSL 利用を強化するように設定されていません。"
+
+#: class-site-health.php:117
+msgid "SSL is not enabled."
+msgstr "SSL は有効化されていません。"
+
+#: class-admin.php:4301
+msgid "Deactivate, revert to http"
+msgstr "無効化、HTTP に戻す"
+
+#: class-admin.php:4300
+msgid "Deactivate, keep https"
+msgstr "無効化、HTTPS のままに"
+
+#: class-admin.php:4287
+msgid "The WordPress 301 redirect will stop working"
+msgstr "WordPress による301転送は動作を停止します"
+
+#: class-admin.php:4282
+msgid "Deactivate, and revert to http. This will remove all changes by the plugin."
+msgstr "無効化し、HTTP に戻す。これは本プラグインによるすべての変更を消去します。"
+
+#: class-admin.php:4281
+msgid "Deactivate, but stay on SSL."
+msgstr "無効化しますが、SSL のままを保ちます。"
+
+#: class-admin.php:4279
+msgid "To deactivate the plugin correctly, please select if you want to:"
+msgstr "本プラグインを正しく無効化するために選択してください:"
+
+#: class-admin.php:4002
+msgid "If the setting 'stop editing the .htaccess file' is enabled, you can't change this setting."
+msgstr "設定の「.htaccess ファイルの編集を停止」が有効であれば、この設定は変更できません。"
+
+#: class-admin.php:3861
+msgid "Enable this option to permanently dismiss all +1 notices in the 'Your progress' tab"
+msgstr "このオプションを有効にすると、「進行状態」タブのすべての+1通知が永久的に削除されます。"
+
+#: class-admin.php:3858
+msgid "Fire mixed content fixer with different method"
+msgstr "混在コンテンツ修正機能を異なる方法で実行"
+
+#: class-admin.php:3840
+msgid "Enable WordPress 301 redirect"
+msgstr "WordPress 301転送の有効化"
+
+#: class-admin.php:3839
+msgid "Redirects all requests over HTTP to HTTPS using a PHP 301 redirect. Enable if the .htaccess redirect cannot be used, for example on NGINX servers."
+msgstr "PHP の301転送を使い、HTTP へのすべてのアクセスを HTTPS に転送します。NGINX サーバーなど、.htaccess 転送が利用できない場合に有効にします。"
+
+#: class-admin.php:3807
+msgid "Copied!"
+msgstr "コピーしました !"
+
+#: class-admin.php:3801
+msgid " You still have %s tasks open."
+msgstr "%s個の作業待ちがあります。"
+
+#: class-admin.php:3706
+msgid "Premium"
+msgstr "プレミアム"
+
+#: class-admin.php:3704
+msgid "Open"
+msgstr "作業待ち"
+
+#: class-admin.php:3702
+msgid "Warning"
+msgstr "警告"
+
+#: class-admin.php:3700
+msgid "Completed"
+msgstr "完了"
+
+#: class-admin.php:3634
+msgid "Instructions manual"
+msgstr "説明書"
+
+#: class-admin.php:3579
+msgid "Upgrade to pro"
+msgstr "プロへアップグレード"
+
+#: class-admin.php:3581
+msgid "Installed"
+msgstr "インストール済み"
+
+#: class-admin.php:3576
+msgid "Install"
+msgstr "インストール"
+
+#: class-admin.php:3463
+msgid "Tips & Tricks"
+msgstr "ヒント"
+
+#: class-admin.php:3217
+msgid "%sEnable%s or %sdismiss%s"
+msgstr "%s有効化%sまたは%s非表示%s"
+
+#: class-admin.php:3214
+msgid "%sMore info%s or %sdismiss%s"
+msgstr "%s詳細%sまたは%s非表示%s"
+
+#: class-admin.php:3093
+msgid "Recommended security headers not enabled (%sRead more%s)."
+msgstr "推奨するセキュリティヘッダーが有効ではありません (%s詳細%s)"
+
+#: class-admin.php:3025
+msgid "Your site uses Divi. This can require some additional steps before getting the secure lock."
+msgstr "このサイトは Divi を使用中です。そのため安全性を示す鍵マークを取得するには、少し追加の手順が必要です。"
+
+#: class-admin.php:3011
+msgid "Your site uses Elementor. This can require some additional steps before getting the secure lock."
+msgstr "このサイトは Elementor を使用中です。そのため安全性を示す鍵マークを取得するには、少し追加の手順が必要です。"
+
+#: class-admin.php:2996
+msgid "The .htaccess redirect rules selected by this plugin failed in the test. Set manually or dismiss to leave on WordPress redirect."
+msgstr "本プラグインに選択された .htaccess による転送ルールはテストに失敗しました。手動で設定するか、WordPress による転送にするため非表示にしてください。"
+
+#: class-admin.php:2990
+msgid "The %s file is not writable. You can either use the WordPress redirect, add the rules manually, or set the file to %swritable%s."
+msgstr "%s ファイルは書き込み可能ではありません。WordPress による転送を使用するか、手動でルールを追加するか、ファイルを%s書き込み可能%sに設定してください。"
+
+#: class-admin.php:2978
+msgid "WordPress 301 redirect enabled. We recommend to enable a 301 .htaccess redirect."
+msgstr "WordPress による301転送が有効です。.htaccess による.301転送を推奨します。"
+
+#: class-admin.php:2938
+msgid "Mixed content fixer not enabled. Enable the option to fix mixed content on your site."
+msgstr "混合コンテンツ修正機能が有効になっていません。このサイトの混合コンテンツを修正するオプションを有効にします。"
+
+#: class-admin.php:2927
+msgid "The mixed content fixer is active, but was not detected on the frontpage."
+msgstr "混在コンテンツ修正機能は有効化されていますが、フロントページからは検出されませんでした。"
+
+#: class-admin.php:2920
+msgid "Really Simple SSL has received no response from the webpage."
+msgstr "このウェブページからの応答がありませんでした。"
+
+#: class-admin.php:2898
+msgid "No SSL detected. See our guide on how to %sget a free SSL certificate%s. If you do have an SSL certificate, try to reload this page over https by clicking this link: %sReload over https.%s"
+msgstr "SSL の検出なし。%s無料の SSL 証明書を取得する%sための解説をご覧ください。SSL証明書をお持ちであれば、以下のリンクをクリックして、このページを https で再読み込みしてください。%shttps を介して再読み込み。%s"
+
+#: class-admin.php:2893
+msgid "Cannot activate SSL due to system configuration."
+msgstr "システムの設定が原因で SSL を有効化できません"
+
+#: class-admin.php:2882
+msgid "SSL is not enabled yet."
+msgstr "SSL はまだ有効化されていません。"
+
+#: class-admin.php:2865
+msgid "Really Simple SSL 4.0. Learn more about our newest major release."
+msgstr "Really Simple SSL バージョン 4.0。最新版についてご確認ください。"
+
+#: class-admin.php:2864
+msgid "https://really-simple-ssl.com/really-simple-ssl-4-a-new-dashboard"
+msgstr "https://really-simple-ssl.com/really-simple-ssl-4-a-new-dashboard"
+
+#: class-admin.php:2835
+msgid "SSL is now activated. Check if your website is secure by following this article."
+msgstr "SSLが有効になりました。この記事をお読みになり、このサイトが安全かご確認ください。"
+
+#: class-admin.php:2786
+msgid "No recommended redirect rules detected."
+msgstr "推奨する転送ルールが検出されません。"
+
+#: class-admin.php:2707
+msgid "General"
+msgstr "全般"
+
+#: class-admin.php:502
+msgid "Before you migrate, please check for: "
+msgstr "移行前に以下をご確認ください:"
+
+#: rlrsssl-really-simple-ssl.php:165
+msgid "Please upgrade to the latest version to be able use the full functionality of the plugin."
+msgstr "本プラグインの完全な機能を利用するには、最新版にアップグレードしてください。"
+
+#: rlrsssl-really-simple-ssl.php:164
+msgid "You have a premium add-on with a version that is not compatible with the >4.0 release of Really Simple SSL."
+msgstr "お使いの Really Simple SSL のプレミアム拡張機能は、>4.0リリースに未対応のバージョンです。"
+
+#: rlrsssl-really-simple-ssl.php:163
+msgid "Plugin dependency error"
+msgstr "プラグインの依存関係のエラー"
+
+#: rlrsssl-really-simple-ssl.php:41
+msgid "Really Simple SSL cannot be activated. The plugin requires WordPress 4.8 or higher"
+msgstr "Really Simple SSL を有効化できませんでした。本プラグインには WordPress 4.8以上が必要です"
+
+#: rlrsssl-really-simple-ssl.php:35
+msgid "Really Simple SSL cannot be activated. The plugin requires PHP 5.6 or higher"
+msgstr "Really Simple SSL を有効化できませんでした。本プラグインには PHP 5.6以上が必要です"
+
+#: class-multisite.php:1014
+msgid "Really Simple SSL has converted all your websites to non SSL."
+msgstr "Really Simple SSL はこのサイトのすべてで SSL を使わないよう変換しました。"
+
+#: class-multisite.php:1011
+msgid "Really Simple SSL has converted all your websites to SSL."
+msgstr "Really Simple SSL はこのサイトのすべてを SSL に変換しました。"
+
+#: class-multisite.php:1009
+msgid "Conversion of websites completed."
+msgstr "サイトの変換は完了しました。"
+
+#: class-multisite.php:1004
+msgid "Site conversion in progress. Please refresh this page to check if the process has finished. It will proceed in the background."
+msgstr "サイトを変換中。この処理が完了したかは、このページを更新しご確認ください。バックグラウンドで進行しています。"
+
+#: class-multisite.php:542
+msgid "Setup"
+msgstr "設定"
+
+#: class-multisite.php:398 class-admin.php:3471
+msgid "Our plugins"
+msgstr "私たちのほかのプラグイン"
+
+#: class-multisite.php:390 class-admin.php:3478
+msgid "Support forum"
+msgstr "サポート用掲示板"
+
+#: class-multisite.php:374 class-admin.php:3448
+msgid "Your progress"
+msgstr "進行状態"
+
+#: class-multisite.php:353
+msgid "Choose option"
+msgstr "選択してください"
+
+#: class-multisite.php:236 class-admin.php:4361
+msgid "Upgrade to premium"
+msgstr "プレミアム版入手"
+
+#: class-multisite.php:228 class-multisite.php:447 class-admin.php:2731
+#: class-admin.php:4353
+msgid "Support"
+msgstr "サポート掲示板"
+
+#: class-multisite.php:125
+msgid "SSL is enabled per site."
+msgstr "サイトごとに SSL を有効化しています。"
+
+#: class-multisite.php:121
+msgid "SSL is enabled networkwide."
+msgstr "SSL はネットワーク上で有効化されています。"
+
+#: class-multisite.php:92
+msgid "SSL is activated network wide."
+msgstr "SSL はネットワーク上で有効化されています。"
+
+#: class-multisite.php:90
+msgid "No choice has been made regarding networkwide or per site activation."
+msgstr "ネットワーク全体、またはサイトごとに有効化する以外に選択肢はありません。"
+
+#: grid/templates/progress-footer.php:39
+msgid "301 Redirect"
+msgstr "301転送"
+
+#: grid/templates/progress-footer.php:25 class-site-health.php:126
+msgid "Activate SSL"
+msgstr "SSL を有効化"
+
+#: grid/templates/progress-footer.php:19
+msgid "Go PRO!"
+msgstr "プロ版を入手 !"
+
+#: grid/templates/progress-footer.php:9
+msgid "SSL Not activated"
+msgstr "SSL は有効化されていません"
+
+#: grid/templates/progress.php:39 class-admin.php:3797
+msgid "SSL is not yet enabled on this site."
+msgstr "このサイトでまだ SSL が有効化されていません。"
+
+#: grid/templates/progress.php:33 class-admin.php:3793
+msgid "Basic SSL configuration finished! Improve your score with %sReally Simple SSL Pro%s."
+msgstr "基本的な SSL 設定は完了です ! %sReally Simple SSL プロ%sでさらに評価を改善できます。"
+
+#: grid/templates/progress.php:28
+msgid "SSL configuration finished!"
+msgstr "SSL の設定は完了です !"
+
+#: grid/templates/progress.php:25 class-admin.php:3800
+msgid "You still have %s task open."
+msgid_plural "You still have %s tasks open."
+msgstr[0] "まだ%s作業あります。"
+
+#: grid/templates/progress.php:25 class-admin.php:3795
+msgid "SSL is activated on your site."
+msgstr "SSL はこのサイト上で有効化されています。"
+
+#: grid/templates/support.php:42
+msgid "Elementor"
+msgstr "Elementor"
+
+#: grid/templates/support.php:35
+msgid "Mixed Content"
+msgstr "混在コンテンツ"
+
+#: grid/templates/support.php:21
+msgid "Multisite"
+msgstr "マルチサイト"
+
+#: grid/templates/support.php:14
+msgid "Redirect loops"
+msgstr "転送ループ"
+
+#: grid/templates/support.php:7
+msgid "General Issues"
+msgstr "一般的な問題"
+
+#: grid/templates/header.php:5
+msgid "Save settings"
+msgstr "設定の保存"
+
+#: grid/templates/support-footer.php:7
+msgid "SSL type:"
+msgstr "SSL 種別:"
+
+#: grid/templates/support-footer.php:6
+msgid "Server type:"
+msgstr "サーバ種別:"
+
+#: grid/templates/support-footer.php:3
+msgid "Download system status"
+msgstr "システムの状態情報をダウンロード"
+
+#: grid/templates/tips-tricks.php:56
+msgid "Any questions? See the %sdocumentation%s or the %sWordPress Forum%s."
+msgstr "お困りですか ? %s解説文書%sや %sWordPress の掲示板%sをご覧ください。"
+
+#: grid/templates/tips-tricks.php:47
+msgid "Information about landing page redirects"
+msgstr "最初のページへの転送に関する情報"
+
+#: grid/templates/tips-tricks.php:23
+msgid "Improve security: Add security headers"
+msgstr "安全性改善: セキュリティ用のヘッダーを追加"
+
+#: grid/templates/tips-tricks.php:15
+msgid "Improve security: Enable HTTP Strict Transport Security (HSTS)"
+msgstr "安全性改善: HTTP Strict Transport Security (HSTS) 有効化"
+
+#: grid/templates/tips-tricks.php:10 grid/templates/tips-tricks.php:18
+#: grid/templates/tips-tricks.php:26 grid/templates/tips-tricks.php:34
+#: grid/templates/tips-tricks.php:42 grid/templates/tips-tricks.php:50
+msgid "Read more"
+msgstr "詳細"
+
+#: grid/templates/tips-tricks.php:7
+msgid "Is your site still not secure? Do the extensive site scan"
+msgstr "まだサイトが保護されていないですか ? 検査しましょう"
+
+#: grid/templates/progress-header.php:15
+msgid "Remaining tasks"
+msgstr "残りの作業"
+
+#: grid/templates/progress-header.php:7
+msgid "All tasks"
+msgstr "すべての作業"
+
+#. Author of the plugin
+msgid "Really Simple Plugins"
+msgstr "Really Simple プラグイン"
+
+#: grid/templates/support.php:28
+msgid "Really Simple SSL Pro"
+msgstr "Really Simple SSL プロ"
+
+#: class-admin.php:2455
+msgid "Hi, Really Simple SSL has kept your site secure for some time now, awesome! If you have a moment, please consider leaving a review on WordPress.org to spread the word. We greatly appreciate it! If you have any questions or feedback, leave us a %smessage%s."
+msgstr "こんにちは Really Simple SSL は、このサイトの安全性を維持しています! お時間があれば、評判を広めるために WordPress.org に評価を残すことをご検討ください。私たちは強く感謝します。質問や意見があれば、私たちへの%sメッセージ%sをお待ちしております。"
+
+#: class-admin.php:522
+msgid "Check out Really Simple SSL Pro"
+msgstr "Really Simple SSL プロを検討"
+
+#: class-admin.php:755
+msgid "Get ready with PRO!"
+msgstr "プロ版で備える"
+
+#: class-admin.php:506
+msgid "Images, stylesheets or scripts from a domain without an SSL certificate: remove them or move to your own server"
+msgstr "SSL 証明書のないドメインからの画像やスタイルシート、スクリプト: 削除するか、自身のサーバーに移動してください"
+
+#: class-admin.php:2465
+msgid "Don't show again"
+msgstr "今後表示しない"
+
+#: class-admin.php:2944
+msgid "The mixed content fixer could not be detected due to a cURL error: %s. cURL errors are often caused by an outdated version of PHP or cURL and don't affect the front-end of your site. Contact your hosting provider for a fix."
+msgstr "cURL エラーが原因で混在コンテンツ修正機能が検出できませんでした: %s。cURL エラーは多くの場合、古いバージョンの PHP や cURL が原因で発生し、このサイトのフロントエンドには影響しません。修正するにはホスティング業者にお問い合わせください。"
+
+#: class-admin.php:2932
+msgid "Error occurred when retrieving the webpage."
+msgstr "ページの取得中にエラーが発生しました。"
+
+#: class-site-health.php:154
+msgid "The 301 .htaccess redirect is the fastest and most reliable redirect option."
+msgstr "301 .htaccess 転送は、最速で最も信頼性の高い転送の選択肢です。"
+
+#: class-site-health.php:151
+msgid "301 .htaccess redirect is not enabled."
+msgstr "301 .htaccess 転送が無効です。"
+
+#: class-site-health.php:108
+msgid "You have set a 301 redirect to SSL. This is important for SEO purposes"
+msgstr "SSL へと301転送するよう設定しました。これは SEO 対策として重要です"
+
+#: class-site-health.php:100
+msgid "301 SSL redirect enabled"
+msgstr "301 SSL 転送は有効です"
+
+#: class-admin.php:3862
+msgid "Dismiss all Really Simple SSL notices"
+msgstr "Really Simple SSL の通知をすべて非表示"
+
+#: class-admin.php:3042
+msgid "HTTP Strict Transport Security is not enabled %s(Read more)%s."
+msgstr "HTTP Strict Transport Security が有効化されていません (%s詳細%s)"
+
+#: class-admin.php:2973
+msgid "301 redirect to https set: .htaccess redirect."
+msgstr "https への301転送を設定中: .htaccess による転送です。"
+
+#: class-multisite.php:1005
+msgid "If the conversion does not proceed after a few minutes, click %shere%s to force the conversion process."
+msgstr "数分経過後に変換が進まなければ、%s強制的に変換を実行%sをクリックしてください。"
+
+#: class-admin.php:2805
+msgid "The 'force-deactivate.php' file has to be renamed to .txt. Otherwise your ssl can be deactivated by anyone on the internet."
+msgstr "ファイル force-deactivate.php の名前を .txt に変更する必要があります。そうしなければ、インターネット上の誰でもが SSL を無効化できてしまいます。"
+
+#: multisite-cron.php:11
+msgid "Once every minute"
+msgstr "毎分"
+
+#: class-multisite.php:1003
+msgid "Conversion of websites %s percent complete."
+msgstr "サイト変換が%s%完了しました。"
+
+#: class-admin.php:2464
+msgid "Maybe later"
+msgstr "後ほど"
+
+#: class-admin.php:2463
+msgid "Leave a review"
+msgstr "レビューを書く"
+
+#: class-admin.php:2457
+msgid "Hi, Really Simple SSL has kept your site secure for a month now, awesome! If you have a moment, please consider leaving a review on WordPress.org to spread the word. We greatly appreciate it! If you have any questions or feedback, leave us a %smessage%s."
+msgstr "こんにちは Really Simple SSL は、1か月間このサイトを安全性を維持しました! お時間があれば、WordPress.org に評価を残すことをご検討ください。私たちはとても感謝することでしょう。質問や意見があれば、私たちへの%sメッセージ%sをお待ちしております。"
+
+#: class-multisite.php:158
+msgid "Activate SSL per site or install a wildcard certificate to fix this."
+msgstr "サイトごとに SSL を有効にするか、ワイルドカード証明書をインストールしこれを修正します。"
+
+#: class-multisite.php:157
+msgid "This leads to issues when activating SSL networkwide since subdomains will be forced over SSL as well while they don't have a valid certificate."
+msgstr "有効な証明書がなければ、サブドメインでも強制的に SSL を通すことになるため、ネットワーク全体で SSL を有効化する際の問題につながります。"
+
+#: class-multisite.php:156
+msgid "You run a Multisite installation with subdomains, but your site doesn't have a wildcard certificate."
+msgstr "サブドメインのあるマルチサイトのインストールを実行していますが、このサイトにはワイルドカード証明書がありません。"
+
+#: class-admin.php:4299
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: class-admin.php:4289
+msgid "The .htaccess redirect will remain active"
+msgstr "* .htaccess 転送は有効なままです"
+
+#: class-admin.php:4288
+msgid "Your site address will remain https://"
+msgstr "* サイトのアドレスは https:// のままです"
+
+#: class-admin.php:4286
+msgid "The mixed content fixer will stop working"
+msgstr "* 混在コンテンツ修正機能は動作を停止"
+
+#: class-admin.php:4284
+msgid "Deactivating the plugin while keeping SSL will do the following:"
+msgstr "SSL を維持したままプラグインを停止するとこうなります。"
+
+#: class-admin.php:4266
+msgid "Are you sure?"
+msgstr "本当によろしいですか ?"
+
+#: class-admin.php:3754
+msgid "More info"
+msgstr "詳細"
+
+#: class-admin.php:115
+msgid "Really Simple SSL and Really Simple SSL add-ons do not process any personal identifiable information, so the GDPR does not apply to these plugins or usage of these plugins on your website. You can find our privacy policy <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr "Really Simple SSL とその拡張機能は、個人を特定する情報を扱いません。そのため GDPR (EU一般データ保護規則) はこれらのプラグインの使用には適用されません。<a href=\"%s\" target=\"_blank\">個人情報保護方針</a>は、こちらでご覧になれます。"
+
+#: class-admin.php:512
+msgid "We strongly recommend to create a %sbackup%s of your site before activating SSL"
+msgstr "SSL を有効化する前に、このサイトを%sバックアップ%sすることを強く推奨します"
+
+#. Author URI of the plugin
+msgid "https://really-simple-plugins.com"
+msgstr "https://really-simple-plugins.com"
+
+#: class-admin.php:2850
+msgid "Don't forget to change your settings in Google Analytics and Search Console."
+msgstr "Google アナリティクスと Search Console の設定変更をお忘れなく。"
+
+#: class-admin.php:3857
+msgid "If this option is set to true, the mixed content fixer will fire on the init hook instead of the template_redirect hook. Only use this option when you experience problems with the mixed content fixer.\""
+msgstr "このオプションを有効にすると、混合コンテンツ修正機能は、template_redirect のフックではなく init のフックで実行されます。このオプションは、混合コンテンツ修正に問題がある場合にのみ使用してください。"
+
+#: class-admin.php:518
+msgid "You can also let the automatic scan of the pro version handle this for you, and get premium support, increased security with HSTS and more!"
+msgstr "また、有料版の自動スキャンにこれを処理させ、プレミアムサポートと HSTS を含むセキュリティ強化を入手することもできます。"
+
+#: class-multisite.php:94
+msgid "SSL is activated per site."
+msgstr "サイトごとに SSL を有効化しています。"
+
+#: class-multisite.php:429
+msgid "Options saved."
+msgstr "設定を保存しました。"
+
+#: class-multisite.php:336
+msgid "Select to enable SSL networkwide or per site."
+msgstr "SSL の有効化をサイトネットワーク全体で行うか、サイトごとに行うか選択してください。"
+
+#: class-multisite.php:356
+msgid "per site"
+msgstr "サイトごと"
+
+#: class-multisite.php:355
+msgid "networkwide"
+msgstr "ネットワーク全体"
+
+#: class-multisite.php:337
+msgid "Enable SSL"
+msgstr "SSL の有効化"
+
+#: class-admin.php:3969 class-admin.php:3999 class-admin.php:4322
+msgid "This option is enabled on the network menu."
+msgstr "この設定はネットワークメニューから有効化されています。"
+
+#: class-admin.php:513
+msgid "You may need to login in again."
+msgstr "再度ログインしてください。"
+
+#: class-admin.php:3995
+msgid "Before you enable the htaccess redirect, make sure you know how to %sregain access%s to your site in case of a redirect loop."
+msgstr "htaccess による転送を有効にする前に、転送ループが起きた場合にこのサイトへの%sアクセスを回復%sする方法を確認してください。"
+
+#: class-admin.php:3844
+msgid "A .htaccess redirect is faster and works better with caching. Really Simple SSL detects the redirect code that is most likely to work (99% of websites), but this is not 100%. Make sure you know how to regain access to your site if anything goes wrong!"
+msgstr ".htaccess による転送は高速で、キャッシュともうまく動作します。Really Simple SSL は最も動作する可能性の高い (99%のサイトで動作) 転送コードを検出しますが、100%ではありません。問題発生時に、サイトへのアクセスを回復する方法について確認してください !"
+
+#: class-site-health.php:159 class-admin.php:3845
+msgid "Enable 301 .htaccess redirect"
+msgstr "301 .htaccess 転送を有効化"
+
+#: class-admin.php:2961
+msgid "No 301 redirect is set. Enable the WordPress 301 redirect in the settings to get a 301 permanent redirect."
+msgstr "301転送が設定されていません。301による恒久的転送を行うには、設定から WordPress の301転送を有効にしてください。"
+
+#: class-admin.php:2984
+msgid "Enable a .htaccess redirect or WordPress redirect in the settings to create a 301 redirect."
+msgstr "301転送を作成するには、設定から .htaccess による転送か、WordPress による転送を有効にします。"
+
+#: class-admin.php:3834
+msgid "In most cases you need to leave this enabled, to prevent mixed content issues on your site."
+msgstr "多くの場合、サイト内の混在コンテンツの問題が発生することを防ぐために、有効のままにしておく必要があります。"
+
+#: class-admin.php:3851
+msgid "If you want to customize the Really Simple SSL .htaccess, you need to prevent Really Simple SSL from rewriting it. Enabling this option will do that."
+msgstr "Really Simple SSL の .htaccess をカスタマイズするには、Really Simple SSL 上書きしないようにする必要があります。この設定を有効化してください。"
+
+#: class-admin.php:3038
+msgid "HTTP Strict Transport Security was enabled."
+msgstr "HTTP Strict Transport Security が有効化されました。"
+
+#: class-admin.php:2957
+msgid "301 redirect to https set."
+msgstr "HTTPS への301転送を設定: "
+
+#: class-multisite.php:548 class-multisite.php:576
+msgid "You can also let the automatic scan of the pro version handle this for you, and get premium support and increased security with HSTS included."
+msgstr "また、プロ版の自動スキャンにこれを処理させ、プレミアムサポートと HSTS を含むセキュリティ強化を入手することもできます。"
+
+#: class-multisite.php:230 class-admin.php:4355
+msgid "Premium Support"
+msgstr "プレミアムサポート"
+
+#: class-multisite.php:550 class-multisite.php:578
+msgid "Check out Really Simple SSL Premium"
+msgstr "Really Simple SSL プレミアムを検討する"
+
+#: class-admin.php:752
+msgid "Go ahead, activate SSL!"
+msgstr "はい、SSL を有効化します。"
+
+#: class-multisite.php:129
+msgid "SSL is not enabled yet"
+msgstr "SSL はまだ有効化されていません"
+
+#: class-admin.php:2878
+msgid "SSL is enabled on your site."
+msgstr "SSL はこのサイト上で有効化されています。"
+
+#: grid/templates/progress-footer.php:6
+msgid "SSL Activated"
+msgstr "SSL 有効化済み"
+
+#: class-admin.php:2338
+msgid "Because your server does not pass a variable with which WordPress can detect SSL, WordPress may create redirect loops on SSL."
+msgstr "WordPress が SSL 上で転送ループを起こす可能性があります。WordPress が SSL を検出するための変数を、このサーバーが出力していないことが原因です。"
+
+#: class-admin.php:2332
+msgid "Or set your wp-config.php to %swritable%s and reload this page."
+msgstr "または wp-config.php を%s書き込み可能%sに設定し、このページを再読み込みしてください。"
+
+#: class-admin.php:2316
+msgid "Because your site is behind a loadbalancer and is_ssl() returns false, you should add the following line of code to your wp-config.php."
+msgstr "サイトがロードバランサーの後ろにあり、is_ssl() が false を返しているため、以下のコードを wp-config.php に追加する必要があります。"
+
+#: class-admin.php:2315
+msgid "Your wp-config.php has to be edited, but is not writable."
+msgstr "wp-config.php を編集する必要がありますが、書き込み可能ではありません。"
+
+#: class-admin.php:2312 class-admin.php:2339
+msgid "Set your wp-config.php to %swritable%s and reload this page."
+msgstr "wp-config.php を%s書き込み可能%sに設定し、このページを再読み込みしてください。"
+
+#: class-admin.php:2310
+msgid "A definition of a siteurl or homeurl was detected in your wp-config.php, but the file is not writable."
+msgstr "siteurl または homeurl が wp-config.php で定義されていることが検出されましたが、ファイルが書き込み可能ではありません。"
+
+#: class-admin.php:2345
+msgid "System detection encountered issues"
+msgstr "システム検出の際に問題が発生しました"
+
+#: class-multisite.php:546
+msgid "Images, stylesheets or scripts from a domain without an SSL certificate: remove them or move to your own server."
+msgstr "SSL 証明書のないドメインからの画像やスタイルシート、スクリプト: 削除するか、自身のサーバーに移動してください。"
+
+#: class-multisite.php:545 class-admin.php:505
+msgid "Http references in your .css and .js files: change any http:// into https://"
+msgstr ".css と .js ファイル内の HTTP 参照: すべての http:// を https:// に変更してください"
+
+#: class-multisite.php:543
+msgid "Some things can't be done automatically. Before you migrate, please check for: "
+msgstr "一部の項目は自動実行できません。移行前に以下をご確認ください。"
+
+#: class-admin.php:492
+msgid "Almost ready to migrate to SSL!"
+msgstr "SSL に移行する準備がほぼ完了しました。"
+
+#: class-multisite.php:561
+msgid "Networkwide activation does not check if a site has an SSL certificate. It just migrates all sites to SSL."
+msgstr "ネットワーク全体での有効化を行っても、各サイトが SSL 証明書を持っているかはチェックされません。すべてのサイトを SSL へ移行するだけです。"
+
+#: class-multisite.php:558
+msgid "Activate SSL per site"
+msgstr "サイトごとに SSL を有効化"
+
+#: class-multisite.php:555
+msgid "Activate SSL networkwide"
+msgstr "ネットワーク全体で SSL を有効化"
+
+#: class-mixed-content-fixer.php:13 class-certificate.php:14
+#: class-site-health.php:12 class-multisite.php:27 class-help.php:9
+#: class-cache.php:10 class-front-end.php:18 class-admin.php:49
+msgid "%s is a singleton class and you cannot create a second instance."
+msgstr "%s は singleton クラスであり、2つ目のインスタンスを作成することはできません。"
+
+#: class-admin.php:4034
+msgid ".htaccess is currently not %swritable%s."
+msgstr ".htaccess は、%s書き込み可能%sになっていません。 "
+
+#: class-admin.php:2915
+msgid "Mixed content fixer was successfully detected on the front-end."
+msgstr "フロントエンドの混在コンテンツ修正機能が正常に検出されました。"
+
+#: grid/templates/tips-tricks-footer.php:3 class-multisite.php:441
+#: class-admin.php:2725
+msgid "Documentation"
+msgstr "文書"
+
+#. Description of the plugin
+msgid "Lightweight plugin without any setup to make your site SSL proof"
+msgstr "設定なしでサイトを SSL 対応にする軽量プラグイン"
+
+#. Plugin URI of the plugin
+msgid "https://really-simple-ssl.com"
+msgstr "https://really-simple-ssl.com"
+
+#. Plugin Name of the plugin
+msgid "Really Simple SSL"
+msgstr "Really Simple SSL"
+
+#: class-admin.php:3852
+msgid "Stop editing the .htaccess file"
+msgstr ".htaccess ファイルの編集を中止"
+
+#: grid/templates/settings-footer.php:3
+msgid "Save"
+msgstr "保存"
+
+#: class-admin.php:2903
+msgid "An SSL certificate was detected on your site."
+msgstr "このサイト上に SSL 証明書を検出しました。"
+
+#: class-site-health.php:130
+msgid "No SSL detected."
+msgstr "SSL の検出なし"
+
+#: class-multisite.php:224 class-multisite.php:335 class-multisite.php:382
+#: class-admin.php:2670 class-admin.php:3456 class-admin.php:3832
+#: class-admin.php:4349
+msgid "Settings"
+msgstr "設定"
+
+#: class-admin.php:3835
+msgid "Mixed content fixer"
+msgstr "混合コンテンツ修正"
+
+#: class-admin.php:2648
+msgid "SSL"
+msgstr "SSL"
+
+#: class-admin.php:2647
+msgid "SSL settings"
+msgstr "SSL 設定"
+
+#: class-multisite.php:145
+msgid "Activate networkwide to fix this."
+msgstr "これを修正するにはネットワーク全体で有効化してください。"
+
+#: class-multisite.php:144
+msgid "Because the $_SERVER[\"HTTPS\"] variable is not set, your website may experience redirect loops."
+msgstr "$_SERVER[\"HTTPS\"] 変数が設定されていないため、サイトに転送ループが発生する可能性があります。"
+
+#: class-multisite.php:143
+msgid "You run a Multisite installation with subfolders, which prevents this plugin from fixing your missing server variable in the wp-config.php."
+msgstr "マルチサイトをサブフォルダーで運用しています。このため、プラグインは wp-config.php 内に不足しているサーバー変数を修正できません。"
+
+#: class-admin.php:2806
+msgid "Check again"
+msgstr "再び確認"
+
+#: class-admin.php:2804
+msgid "Major security issue!"
+msgstr "重大なセキュリティ問題。"

@@ -1,0 +1,633 @@
+# Translation of Themes - Twenty Twenty in Basque
+# This file is distributed under the same license as the Themes - Twenty Twenty package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-02-04 13:00:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: eu_ES\n"
+"Project-Id-Version: Themes - Twenty Twenty\n"
+
+#. Description of the theme
+msgid "Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors."
+msgstr "2020. urterako lehenetsitako itxura, izan ere, bloke-editorearen malgutasunez abantaila osoa hartzeko diseinaturik dago. Talde- eta zutabe-blokeak erabiliz, erakundeek eta negozioek hamaika diseinudun helburu-orrialde dinamikoak sortzea daukate. Eduki zentratudun zutabeari eta finki-egokitutako tipografiari esker, perfektua da ohizko blogetarako. Editore-estilo osoek zure edukiaren itxuraren ikuspegi doia ematen dizute, baita argitaratu aurretik ere. Pertsonalizatzailean atzekaldeko koloreak eta nabarmentze-kolorea aldatuz, ukitu pertsonal bat eman diezaiokezu zure guneari. Zure gunearen elementu guztien koloreak automatikoki kalkulatzen dira, zuk aukeratutako koloreetan oinarrituz eta zure bisitarientzako kolore-kontraste eta erabilgarritasun handia ziurtatuz.      "
+
+#. Theme Name of the theme
+#: inc/block-patterns.php:20
+msgid "Twenty Twenty"
+msgstr "Twenty Twenty"
+
+#: classes/class-twentytwenty-customize.php:126
+msgctxt "color"
+msgid "Custom"
+msgstr "Pertsonalizatu"
+
+#: classes/class-twentytwenty-customize.php:125
+msgctxt "color"
+msgid "Default"
+msgstr "Lehenetsia"
+
+#: inc/block-patterns.php:197
+msgid "With seven floors of striking architecture, UMoMA shows exhibitions of international contemporary art, sometimes along with art historical retrospectives. Existential, political, and philosophical issues are intrinsic to our program. As visitor, you are invited to guided tours artist talks, lectures, film screenings, and other events with free admission."
+msgstr "Arkitektura deigarriko zazpi solairurekin, UMoMAk nazioarteko arte garaikidearen erakusketak jartzen ditu ikusgai, batzuetan atzera begirako arte-historikoekin batera. Gai existentzialak, politikoak eta filosofikoak berezkoak dira gure programan. Bisitari gisa, noski, artisten hitzaldien bisita gidatuetara, zinema emanaldietara eta doako sarrera duten beste ekitaldietara gonbidatuta zaude."
+
+#: inc/block-patterns.php:194
+msgid "The Premier Destination for Modern Art in Sweden"
+msgstr "Suediako Arte Modernorako Lehen Helmuga"
+
+#: inc/block-patterns.php:187
+msgid "Introduction"
+msgstr "Sarrera"
+
+#: inc/block-patterns.php:157 inc/block-patterns.php:171
+msgid "August 1 — December 1"
+msgstr "Abuztuaren 1etik — Abenduaren 1era arte"
+
+#: inc/block-patterns.php:151 inc/block-patterns.php:165
+msgid "Abstract Rectangles"
+msgstr "Laukizuzen Abstraktuak"
+
+#: inc/block-patterns.php:142
+msgid "Featured Content"
+msgstr "Nabarmendutako Edukia"
+
+#: inc/block-patterns.php:128
+msgid "<em>Price</em><br>Included"
+msgstr "<em>Salneurria</em><br>barne"
+
+#: inc/block-patterns.php:123
+msgid "<em>Location</em><br>Exhibit Hall B"
+msgstr "<em>Kokalekua</em><br>B Erakusketa-gela"
+
+#: inc/block-patterns.php:118
+msgid "<em>Dates</em><br>Aug 1 — Dec 1"
+msgstr "<em>Datak</em><br>Abu. 1etik — Abe. 1era arte"
+
+#: inc/block-patterns.php:108
+msgid "Event Details"
+msgstr "Ekitaldiaren Xehetasunak"
+
+#: inc/block-patterns.php:93
+msgid "Shop Now"
+msgstr "Eros ezazu Orain"
+
+#: inc/block-patterns.php:89
+msgid "An awe-inspiring collection of books, prints, and gifts from our exhibitions."
+msgstr "Gure erakusketetako liburu, grabatu eta oparien bilduma ikaragarria."
+
+#: inc/block-patterns.php:86
+msgid "The Store"
+msgstr "Denda"
+
+#: inc/block-patterns.php:74
+msgid "Award-winning exhibitions featuring internationally-renowned artists."
+msgstr "Nazioartean ospe handia duten artisten erakusketa sarituak."
+
+#: inc/block-patterns.php:71
+msgid "The Museum"
+msgstr "Museoa"
+
+#: inc/block-patterns.php:61
+msgid "Double Call to Action"
+msgstr "Ekintzatarako Dei bikoitza"
+
+#: inc/block-patterns.php:48
+msgid "Become a Member"
+msgstr "Egin zaitez Kide"
+
+#: inc/block-patterns.php:42
+msgid "Support the Museum and Get Exclusive Offers"
+msgstr "Egin zaitez Museoaren euskarri, eta Eskura itzazu Eskaintza Esklusiboak"
+
+#: inc/block-patterns.php:33
+msgid "Call to Action"
+msgstr "Ekintzatarako deia"
+
+#: template-parts/modal-menu.php:73
+msgctxt "menu"
+msgid "Mobile"
+msgstr "Mugikorra"
+
+#: template-parts/modal-menu.php:48
+msgctxt "menu"
+msgid "Expanded"
+msgstr "Handitua"
+
+#: header.php:88
+msgctxt "menu"
+msgid "Horizontal"
+msgstr "Horizontala"
+
+#: header.php:53 header.php:157
+msgctxt "toggle text"
+msgid "Search"
+msgstr "Bilaketa"
+
+#: functions.php:498
+msgctxt "color"
+msgid "Secondary"
+msgstr "Bigarren mailakoa"
+
+#: functions.php:493
+msgctxt "color"
+msgid "Primary"
+msgstr "Lehen mailakoa"
+
+#: index.php:51
+msgid "Nothing Found"
+msgstr "Ez da ezer Aurkitu"
+
+#: classes/class-twentytwenty-customize.php:246
+msgid "Show author bio"
+msgstr "Erakuts ezazu Egileraren biografia"
+
+#: template-parts/entry-author-bio.php:29
+msgid "View Archive <span aria-hidden=\"true\">&rarr;</span>"
+msgstr "Ikus ezazu artxiboa <span aria-hidden=\"true\">&rarr;</span>"
+
+#: inc/starter-content.php:39
+msgctxt "Theme starter content"
+msgid "The New UMoMA Opens its Doors"
+msgstr "UMoMA berriak ateak irekitzen ditu"
+
+#: inc/template-tags.php:396
+msgctxt "A string that is output before one or more categories"
+msgid "In"
+msgstr "Non:"
+
+#: inc/starter-content.php:151
+msgid "Join the Club"
+msgstr "Klubera bazkidetu"
+
+#: inc/block-patterns.php:45 inc/starter-content.php:148
+msgid "Members get access to exclusive exhibits and sales. Our memberships cost $99.99 and are billed annually."
+msgstr "Bazkideek erakustaldi eta salmenta berezietarako sarbidea dute. Gure bazkidetzak 99,99$ balio dute, eta urtean behin kobratzen dira."
+
+#: inc/starter-content.php:145
+msgid "Become a Member and Get Exclusive Offers!"
+msgstr "Bihurtu zaitez Bazkide, eta lor itzazu eskaintza bereziak!"
+
+#: inc/starter-content.php:137
+msgid "The exhibitions are produced by UMoMA in collaboration with artists and museums around the world and they often attract international attention. UMoMA has received a Special Commendation from the European Museum of the Year, and was among the top candidates for the Swedish Museum of the Year Award as well as for the Council of Europe Museum Prize."
+msgstr "Erakustaldiak UMoMAk ekoizturik daude, mundu osoko artista eta museoekin elkarlanean, eta nazioarteko arreta erakarri ohi dute. UMoMAk Urteko Europar Museoaren Goraipamen Berezia jaso izan du, eta, Urteko Museo Suediarraren Saria nahiz Europako Museoen Kontseiluaren Saria eskuratzeko, hautagai nagusien artean egon zen. "
+
+#: inc/starter-content.php:134
+msgid "With seven floors of striking architecture, UMoMA shows exhibitions of international contemporary art, sometimes along with art historical retrospectives. Existential, political and philosophical issues are intrinsic to our programme. As visitor you are invited to guided tours artist talks, lectures, film screenings and other events with free admission"
+msgstr "Arkitektura harrigarriko zazpi solairutan, UMoMAk nazioarteko arte garaikideari buruzko erakusketak eskaintzen ditu, noiz edo noiz aspaldiko arte historikoarekin batera. Gai existentzial, politiko eta filosofikoak gure egitarauaren bere-berekoak dira. Bisitari gisa, noski, bisita gidatuetara gonbidatuta zaude, baita ere artisten hitzaldietara, film emanaldietara eta sarrera dohaineko bestelako emanaldietara.  "
+
+#: inc/starter-content.php:130
+msgid "&#8220;Cyborgs, as the philosopher Donna Haraway established, are not reverent. They do not remember the cosmos.&#8221;"
+msgstr "”Cyborgak, Donna Haraway filosofoak adierazi bezala, ez dira adeitsuak. Ez dute kosmosa gogoratzen”."
+
+#: inc/starter-content.php:114
+msgid "From Signac to Matisse"
+msgstr "Signac-engandik Matisse-enganaino"
+
+#: inc/block-patterns.php:168 inc/starter-content.php:99
+msgid "The Life I Deserve"
+msgstr "Merezi dudan bizitza"
+
+#: inc/starter-content.php:85 inc/starter-content.php:117
+msgid "October 1 -- December 1"
+msgstr "Otsailaren 1etik — Abenduaren 1era arte"
+
+#: inc/starter-content.php:82
+msgid "Theatre of Operations"
+msgstr "Operazio-gunea"
+
+#: inc/block-patterns.php:78 inc/block-patterns.php:160
+#: inc/block-patterns.php:174 inc/starter-content.php:73
+#: inc/starter-content.php:88 inc/starter-content.php:105
+#: inc/starter-content.php:120
+msgid "Read More"
+msgstr "Gehiago irakurri"
+
+#: inc/starter-content.php:70 inc/starter-content.php:102
+msgid "August 1 -- December 1"
+msgstr "Abuztuaren 1etik — Abenduaren 1era arte"
+
+#: inc/block-patterns.php:154 inc/starter-content.php:67
+msgid "Works and Days"
+msgstr "Lanak eta Egunak"
+
+#: inc/starter-content.php:56
+msgid "The premier destination for modern art in Northern Sweden. Open from 10 AM to 6 PM every day during the summer months."
+msgstr "Arte garaikidearen helburu gailena, Suediako Iparraldean. 10 AMtatik 6 PMra arte irekita, egunero udako hilabeteetan."
+
+#: inc/starter-content.php:48
+msgid "The New UMoMA Opens its Doors"
+msgstr "UMoMA berriak bere ateak irekitzen ditu"
+
+#: classes/class-twentytwenty-customize.php:395
+msgid "Overlay Opacity"
+msgstr "Gainezarketaren Opakutasuna"
+
+#: classes/class-twentytwenty-customize.php:375
+msgid "The color used for the text in the overlay."
+msgstr "Gainezarketaren testurako, erabilitako kolorea."
+
+#: classes/class-twentytwenty-customize.php:374
+msgid "Overlay Text Color"
+msgstr "Gainezarketaren testuaren kolorea"
+
+#: classes/class-twentytwenty-customize.php:353
+msgid "The color used for the overlay. Defaults to the accent color."
+msgstr "Gainezarketan, erabilitako kolorea. Lehenetsia nabarmentze-kolorea da."
+
+#: classes/class-twentytwenty-customize.php:352
+msgid "Overlay Background Color"
+msgstr "Atzealdeko Kolore Gainezarria"
+
+#: classes/class-twentytwenty-customize.php:283
+msgid "Settings for the \"Cover Template\" page template. Add a featured image to use as background."
+msgstr "«Azaleko txantiloi»dun orrialdearen, txantiloi-ezarpenak. Irudi nabarmen bat gehi ezazu atzealdeko irudi bezala erabiltzeko."
+
+#: classes/class-twentytwenty-customize.php:183
+msgid "Apply a custom color for links, buttons, featured images."
+msgstr "Ezar ezazu esteka, botoi eta irudi nabarmenentzako kolore pertsonalizatu bat."
+
+#: classes/class-twentytwenty-customize.php:123
+msgid "Primary Color"
+msgstr "Kolore Nagusia"
+
+#: template-parts/modal-search.php:20 searchform.php:24
+msgid "Search for:"
+msgstr "Hau bilatu:"
+
+#: index.php:101
+msgid "search again"
+msgstr "berbilatu"
+
+#. translators: %s: Number of search results.
+#: index.php:39
+msgid "We found %s result for your search."
+msgid_plural "We found %s results for your search."
+msgstr[0] "Zure bilaketarako, %s emaitza aurkitu dugu."
+msgstr[1] "Zure bilaketarako, %s emaitzak aurkitu ditugu."
+
+#. translators: %s: HTML character for up arrow.
+#: footer.php:49
+msgid "Up %s"
+msgstr "Gora %s"
+
+#. translators: %s: HTML character for up arrow.
+#: footer.php:43
+msgid "To the top %s"
+msgstr "Gora jo %s"
+
+#. translators: Copyright date format, see
+#. https://www.php.net/manual/datetime.format.php
+#: footer.php:25
+msgctxt "copyright date format"
+msgid "Y"
+msgstr "Y"
+
+#: 404.php:24
+msgid "404 not found"
+msgstr "404 ez da aurkitu"
+
+#. Template Name of the theme
+msgid "Full Width Template"
+msgstr "Zabalera osoko txantiloia"
+
+#: template-parts/pagination.php:25
+msgid "Older <span class=\"nav-short\">Posts</span>"
+msgstr "<span class=\"nav-short\">Argitalpen</span> zaharragoak"
+
+#: template-parts/pagination.php:21
+msgid "Newer <span class=\"nav-short\">Posts</span>"
+msgstr "<span class=\"nav-short\">Argitalpen</span> berriagoak"
+
+#: template-parts/navigation.php:25
+msgid "Post"
+msgstr "Argitalpena"
+
+#: template-parts/modal-search.php:26
+msgid "Close search"
+msgstr "Itxi ezazu bilatzailea"
+
+#: template-parts/modal-menu.php:117
+msgid "Expanded Social links"
+msgstr "Hedatutako Esteka Sozialak"
+
+#: template-parts/modal-menu.php:21
+msgid "Close Menu"
+msgstr "Itxi ezazu Menua"
+
+#: template-parts/footer-menus-widgets.php:57
+msgid "Social links"
+msgstr "Esteka sozialak"
+
+#: template-parts/footer-menus-widgets.php:37
+msgid "Footer"
+msgstr "Orri-oina"
+
+#. translators: %s: Author name.
+#: template-parts/entry-author-bio.php:20 inc/template-tags.php:357
+msgid "By %s"
+msgstr "%s-(e)tik"
+
+#: template-parts/content.php:48 template-parts/content-cover.php:138
+msgid "Pages:"
+msgstr "Orrialdeak:"
+
+#: template-parts/content.php:48 template-parts/content-cover.php:138
+msgid "Page"
+msgstr "Orrialdea"
+
+#: template-parts/content-cover.php:88
+msgid "Scroll Down"
+msgstr "Beherantz Korritu"
+
+#: searchform.php:27
+msgctxt "submit button"
+msgid "Search"
+msgstr "Bilatu"
+
+#: searchform.php:25
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Bilatu &hellip;"
+
+#: index.php:48
+msgid "We could not find any results for your search. You can give it another try through the search form below."
+msgstr "Ezin izan dugu emaitzarik aurkitu zure bilaketarako. Berriz saia zaitezke azpiko bilaketa-formularioz baliaturik."
+
+#: index.php:32
+msgid "Search:"
+msgstr "Bilatu:"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:207
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Editatu <span class=\"screen-reader-text\">%s</span>"
+
+#: inc/template-tags.php:448
+msgid "Sticky post"
+msgstr "Argitalpen itsaskorra"
+
+#: inc/template-tags.php:410
+msgid "Tags"
+msgstr "Etiketak"
+
+#: template-parts/content-cover.php:70 template-parts/entry-header.php:36
+#: inc/template-tags.php:392
+msgid "Categories"
+msgstr "Kategoriak"
+
+#: inc/template-tags.php:374
+msgid "Post date"
+msgstr "Argitalpenaren data"
+
+#: inc/template-tags.php:350
+msgid "Post author"
+msgstr "Argitalpenaren egilea"
+
+#: inc/starter-content.php:197
+msgid "Social Links Menu"
+msgstr "Esteka Sozialen Menua"
+
+#: inc/starter-content.php:177 inc/starter-content.php:187
+msgid "Primary"
+msgstr "Nagusia"
+
+#: header.php:76 header.php:137
+msgid "Menu"
+msgstr "Menua"
+
+#: template-parts/content.php:36
+msgid "Continue reading"
+msgstr "Jarrai ezazu irakurtzen"
+
+#: functions.php:550
+msgctxt "Short name of the larger font size in the block editor."
+msgid "XL"
+msgstr "XL"
+
+#: functions.php:549
+msgctxt "Name of the larger font size in the block editor"
+msgid "Larger"
+msgstr "Handiagoa"
+
+#: functions.php:544
+msgctxt "Short name of the large font size in the block editor."
+msgid "L"
+msgstr "L"
+
+#: functions.php:543
+msgctxt "Name of the large font size in the block editor"
+msgid "Large"
+msgstr "Handia"
+
+#: functions.php:538
+msgctxt "Short name of the regular font size in the block editor."
+msgid "M"
+msgstr "M"
+
+#: functions.php:537
+msgctxt "Name of the regular font size in the block editor"
+msgid "Regular"
+msgstr "Erregularra"
+
+#: functions.php:532
+msgctxt "Short name of the small font size in the block editor."
+msgid "S"
+msgstr "S"
+
+#: functions.php:531
+msgctxt "Name of the small font size in the block editor"
+msgid "Small"
+msgstr "Txikia"
+
+#: functions.php:516
+msgid "Background Color"
+msgstr "Atzealdeko kolorea"
+
+#: functions.php:503
+msgid "Subtle Background"
+msgstr "Atzealde leuna"
+
+#: functions.php:488
+msgid "Accent Color"
+msgstr "Nabarmentze-kolorea"
+
+#: functions.php:383
+msgid "Widgets in this area will be displayed in the second column in the footer."
+msgstr "Gune honetako widgetak orri-oineko bigarren zutabean erakutsiko dira."
+
+#: functions.php:381
+msgid "Footer #2"
+msgstr "2. orri-oina"
+
+#: functions.php:371
+msgid "Widgets in this area will be displayed in the first column in the footer."
+msgstr "Gune honetako widgetak orri-oineko lehenengo zutabean erakutsiko dira."
+
+#: functions.php:369
+msgid "Footer #1"
+msgstr "1. orri-oina"
+
+#: functions.php:344
+msgid "Skip to the content"
+msgstr "Edukira jauzi egin"
+
+#: functions.php:266
+msgid "Social Menu"
+msgstr "Menu soziala"
+
+#: functions.php:265
+msgid "Footer Menu"
+msgstr "Orri-oineko menua"
+
+#: functions.php:264
+msgid "Mobile Menu"
+msgstr "Mugikorretako menua"
+
+#: functions.php:263
+msgid "Desktop Expanded Menu"
+msgstr "Mahaigaineko menu hedatua"
+
+#: functions.php:262
+msgid "Desktop Horizontal Menu"
+msgstr "Mahaigaineko menu horizontala"
+
+#: footer.php:33
+msgid "Powered by WordPress"
+msgstr "WordPressek sustatua"
+
+#: comments.php:127
+msgid "Comments are closed."
+msgstr "Iruzkin-atala itxita dago."
+
+#: comments.php:88
+msgid "Comments"
+msgstr "Iruzkinak"
+
+#: comments.php:75
+msgid "Older Comments"
+msgstr "Iruzkin zaharragoak"
+
+#: comments.php:74
+msgid "Newer Comments"
+msgstr "Iruzkin berriagoak"
+
+#. translators: 1: Number of comments, 2: Post title.
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s reply on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s replies on &ldquo;%2$s&rdquo;"
+msgstr[0] "erantzun ezazu %1$s &ldquo;%2$s&rdquo-(e)an"
+msgstr[1] "erantzun itzazu %1$s &ldquo;%2$s&rdquo-(e)an"
+
+#. translators: %s: Post title.
+#: comments.php:37
+msgctxt "comments title"
+msgid "One reply on &ldquo;%s&rdquo;"
+msgstr "Erantzun bat &ldquo;%s&rdquo-(e)an"
+
+#: comments.php:34
+msgid "Leave a comment"
+msgstr "Egizu iruzkin bat"
+
+#: classes/class-twentytwenty-walker-page.php:107 inc/template-tags.php:558
+msgid "Show sub menu"
+msgstr "Azpimenua erakutsi"
+
+#. translators: %d: ID of a post.
+#: classes/class-twentytwenty-walker-page.php:70
+msgid "#%d (no title)"
+msgstr "#%d (izenbururik ez)"
+
+#: classes/class-twentytwenty-walker-comment.php:133
+msgid "By Post Author"
+msgstr "Argitaratzaile-bidalketaren arabera"
+
+#: classes/class-twentytwenty-walker-comment.php:98
+msgid "Your comment is awaiting moderation."
+msgstr "Zure iruzkina moderatzeke dago."
+
+#: classes/class-twentytwenty-walker-comment.php:82
+msgid "Edit"
+msgstr "Edita ezazu"
+
+#. translators: 1: Comment date, 2: Comment time.
+#: classes/class-twentytwenty-walker-comment.php:68
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s-(e)an"
+
+#: classes/class-twentytwenty-walker-comment.php:56
+msgid "says:"
+msgstr "dio:"
+
+#: classes/class-twentytwenty-customize.php:396
+msgid "Make sure that the contrast is high enough so that the text is readable."
+msgstr "Ziurta ezazu kontrastea testua irakurtzeko adinakoa dela."
+
+#: classes/class-twentytwenty-customize.php:306
+msgid "Creates a parallax effect when the visitor scrolls."
+msgstr "Parallax efektua sortzen du bisitariak beherantz korritzen duenean."
+
+#: classes/class-twentytwenty-customize.php:305
+msgid "Fixed Background Image"
+msgstr "Atzealdeko irudi finkoa"
+
+#. Template Name of the theme
+#: classes/class-twentytwenty-customize.php:281
+msgid "Cover Template"
+msgstr "Azalaren txantiloia"
+
+#: classes/class-twentytwenty-customize.php:270
+msgid "Summary"
+msgstr "Laburpena"
+
+#: classes/class-twentytwenty-customize.php:269
+msgid "Full text"
+msgstr "Testu osoa"
+
+#: classes/class-twentytwenty-customize.php:267
+msgid "On archive pages, posts show:"
+msgstr "Artxibo-orrialdeetan, argitalpenek hau erakusten dute:"
+
+#: classes/class-twentytwenty-customize.php:225
+msgid "Show search in header"
+msgstr "Goiburuan, erakuts ezazu bilatzailea "
+
+#: classes/class-twentytwenty-customize.php:202
+msgid "Theme Options"
+msgstr "Itxuraren aukerak"
+
+#: classes/class-twentytwenty-customize.php:101
+msgid "Header &amp; Footer Background Color"
+msgstr "Goiburuko eta orri-oineko atzealdeko kolorea"
+
+#: classes/class-twentytwenty-customize.php:82
+msgid "Scales the logo to half its uploaded size, making it sharp on high-res screens."
+msgstr "Bereizmen handiko pantailetan zorrotzago agertuz, logoa bere tamainaren erdira igotzen da."
+
+#: classes/class-twentytwenty-customize.php:81
+msgid "Retina logo"
+msgstr "'Retina' logoa"
+
+#: 404.php:19
+msgid "The page you were looking for could not be found. It might have been removed, renamed, or did not exist in the first place."
+msgstr "Bilatzen ari zinen orrialdea ezin izan da aurkitu. Baliteke ezabatuta egotea edo berrizendatuta edota, besterik gabe, ez existitzea."
+
+#: 404.php:17
+msgid "Page Not Found"
+msgstr "Ez da orrialdea aurkitu"
+
+#. Author URI of the theme
+#: footer.php:32
+msgid "https://wordpress.org/"
+msgstr "https://eu.wordpress.org/"
+
+#. Author of the theme
+msgid "the WordPress team"
+msgstr "WordPress taldea"
+
+#. Theme URI of the theme
+msgid "https://wordpress.org/themes/twentytwenty/"
+msgstr "https://wordpress.org/themes/twentytwenty/"

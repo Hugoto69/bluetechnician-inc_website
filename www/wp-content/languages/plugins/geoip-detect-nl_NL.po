@@ -1,0 +1,751 @@
+# Translation of Plugins - Geolocation IP Detection - Development (trunk) in Dutch
+# This file is distributed under the same license as the Plugins - Geolocation IP Detection - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-06-05 18:08:22+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Geolocation IP Detection - Development (trunk)\n"
+
+#: admin-ui.php:108
+msgid "Warning: The external IP \"%s\" is not a public internet IP, so it will probably not work."
+msgstr "Waarschuwing: het externe IP adres \"%s\" is geen openbaar internet IP, dus het zal waarschijnlijk niet werken."
+
+#: admin-ui.php:104
+msgid "The external IP \"%s\" is not a valid IP."
+msgstr "Het externe IP adres \"%s\" is geen geldig IP adres."
+
+#: admin-ui.php:69
+msgid "The cache has been emptied successfully."
+msgstr "De cache is met succes geleegd."
+
+#: views/options.php:99
+msgid "(JS Helper functions are added automatically for pages that contain ajax shortcodes.)"
+msgstr "(JS Helper functies worden automatisch toegevoegd voor pagina's die ajax shortcodes bevatten.)"
+
+#: views/lookup.php:296
+msgid "Empty cache"
+msgstr "Leeg cache"
+
+#: views/lookup.php:291
+msgid "All record data from this source is cached locally for %s"
+msgstr "Alle recordgegevens van deze bron worden lokaal in de cache opgeslagen voor %s"
+
+#: views/lookup.php:124
+msgid "(From cache.)"
+msgstr "(Vanuit cache.)"
+
+#: data-sources/manual.php:72
+msgid "Privacy Exclusions next Update: %s"
+msgstr "Privacy uitsluitingen volgende update: %s"
+
+#: views/options.php:97
+msgid "Resolve shortcodes (via AJAX)."
+msgstr "Vul shortcodes aan (via AJAX)."
+
+#: views/options.php:95
+msgid "This requires the JS Helper functions, either by ticking the option above, or by enqueuing it manually for the sites that need it."
+msgstr "Dit vereist de JS Helper functies, hetzij door de bovenstaande optie aan te vinken, hetzij door deze handmatig in de wachtrij te plaatsen voor de sites die het nodig hebben."
+
+#: views/options.php:93
+msgid "Add a country-specific CSS class to the &lt;body&gt;-Tag (via AJAX)."
+msgstr "Voeg een landspecifieke CSS-klasse toe aan de &lt;body&gt;-Tag (via AJAX)."
+
+#: views/options.php:91
+msgid "This enables you code geo-dependent behavior in JS (see <a href=\"https://github.com/yellowtree/geoip-detect/wiki/API%3A-AJAX\" target=\"_blank\">documentation</a>)"
+msgstr "Hiermee kun je geo afhankelijk gedrag coderen in JS (zie <a href=\"https://github.com/yellowtree/geoip-detect/wiki/API%3A-AJAX\" target=\"_blank\">documentatie</a>)"
+
+#: views/options.php:89
+msgid "Add JS Helper functions to all pages."
+msgstr "Voeg JS Helper functies toe aan alle pagina's."
+
+#: views/options.php:70
+msgid "Add a country-specific CSS class to the &lt;body&gt;-Tag on every page."
+msgstr "Voeg op elke pagina een landspecifieke CSS-klasse toe aan de &lt;body&gt;-tag."
+
+#: data-sources/auto.php:253
+msgid "The downloaded file seems to be corrupt. Try again ..."
+msgstr "Het gedownloade bestand lijkt beschadigd te zijn. Probeer het opnieuw ..."
+
+#: init.php:127
+msgid "(It will be used to enable the Privacy Exclusions API.)"
+msgstr "(Het wordt gebruikt om de API voor privacyuitsluitingen in te schakelen.)"
+
+#: init.php:126
+msgid "Please go to your <a href=\"https://www.maxmind.com/en/account/login\" target=\"_blank\">Maxmind Account</a>, click on \"My License Key\" and copy your Account ID (\"Account/User ID\") to the options here."
+msgstr "Ga naar je <a href=\"https://www.maxmind.com/en/account/login\" target=\"_blank\">Maxmind account</a>, klik op \"Mijn licentiesleutel\" en kopieer je account ID (\"Account/Gebruiker ID\") naar de opties hier."
+
+#: init.php:125
+msgid "You have entered a License Key in the options, but no Account ID."
+msgstr "Je hebt een licentiesleutel ingevoerd in de opties, maar geen account ID."
+
+#: init.php:122
+msgid "Geolocation IP Detection: Maxmind Account ID is missing"
+msgstr "Geolocation IP Detection: Maxmind account ID ontbreekt"
+
+#: views/lookup.php:128
+msgid "No information has been found for the IP %s ..."
+msgstr "Er is geen informatie gevonden voor het IP %s ..."
+
+#: views/lookup.php:63 views/lookup.php:107
+msgid "This is an IP internal to your network. When looking up this IP, it will use the external IP of the server instead: %s"
+msgstr "Dit is een intern IP adres van je netwerk. Bij het opzoeken van dit IP zal het in plaats daarvan het externe IP van de server gebruiken: %s"
+
+#: admin-ui.php:177
+msgid "Privacy Exclusions could not be updated"
+msgstr "Privacy uitsluitingen kunnen niet worden geüpdatet"
+
+#: lib/ccpa.php:157
+msgid "Please enter your Maxmind Account ID."
+msgstr "Voer je Maxmind account ID in."
+
+#: lib/ccpa.php:53
+msgid "This IP has no informations attached by request of the IP owner (Reason: %s)."
+msgstr "Dit IP heeft geen informatie bijgevoegd op aanvraag van de IP eigenaar (Reden: %s)."
+
+#: data-sources/auto.php:238
+msgid "WP Filesystem could not be initialized (does not support FTP credential access. Can you upload files to the media library?)."
+msgstr "WP bestandssysteem kon niet worden geïnitialiseerd (ondersteunt geen toegang tot FTP referenties. Kan je bestanden uploaden naar de mediabibliotheek?)."
+
+#: data-sources/auto.php:80
+msgid "Please add your Maxmind Account ID to the options. You find it in your Maxmind Account under \"My License Key\". This will enable the Maxmind Privacy Exclusions API."
+msgstr "Voeg je Maxmind account ID toe aan de opties. Je vindt deze in je Maxmind account onder \"Mijn licentiesleutel\". Hierdoor wordt de Maxmind Privacy Exclusions API ingeschakeld."
+
+#: data-sources/auto.php:69
+msgid "After logging in, generate a license key and copy the Account ID and the key to the options below."
+msgstr "Genereer na het inloggen een licentiesleutel en kopieer het account ID en de sleutel naar de onderstaande opties."
+
+#: data-sources/auto.php:46
+msgid "Next database update: %s"
+msgstr "Volgende database update: %s"
+
+#: data-sources/hostinfo.php:102
+msgid "You can choose a different data source below."
+msgstr "Je kunt hieronder een andere gegevensbron kiezen."
+
+#: data-sources/manual.php:127
+msgid "This is not a valid Maxmind Account ID."
+msgstr "Dit is geen geldig Maxmind account ID."
+
+#: data-sources/manual.php:82
+msgid "Account ID:"
+msgstr "Account ID:"
+
+#: data-sources/manual.php:69
+msgid "(has %d entries)"
+msgstr "(heeft %d invoegingen)"
+
+#: data-sources/manual.php:67
+msgid "Privacy Exclusions last updated: %s"
+msgstr "Privacy uitsluitingen laatst geüpdatet: %s"
+
+#: data-sources/manual.php:52
+msgid "Database generated: %s"
+msgstr "Database gegenereerd: %s"
+
+#: data-sources/manual.php:51
+msgid "Database last updated: %s"
+msgstr "Database laatst geüpdatet: %s"
+
+#: views/options.php:120
+msgid "Warning: As you didn't tick the option \"%s\" above, setting trusted IPs has no effect. This is only used for reverse proxies."
+msgstr "Waarschuwing: aangezien je de optie \"%s\" hierboven niet hebt aangevinkt, heeft het instellen van vertrouwde IP-adressen geen effect. Dit wordt alleen gebruikt voor reverse proxy's."
+
+#: views/options.php:20
+msgid "An error occured on Cron Execution (background task):"
+msgstr "Er is een fout opgetreden bij Cron uitvoering (achtergrondtaak):"
+
+#: init.php:99
+msgid "Geolocation IP Detection: No database installed"
+msgstr "Geolocation IP Detection: geen database geïnstalleerd"
+
+#: admin-ui.php:29
+msgid "Geolocation Lookup"
+msgstr "Geolocation Lookup"
+
+#: admin-ui.php:29
+msgid "Geolocation IP Detection Lookup"
+msgstr "Geolocation IP Detection Lookup"
+
+#: data-sources/auto.php:203
+msgid "Error: The license key is invalid. If you have created this license key just now, please wait for some minutes and try again."
+msgstr "Fout: de licentiesleutel is ongeldig. Als je deze licentiesleutel zojuist hebt aangemaakt, wacht dan een paar minuten en probeer het opnieuw."
+
+#: data-sources/manual.php:151
+msgid "This key contains characters other than a-z and 0-9."
+msgstr "Deze sleutel bevat karakters anders dan a-z en 0-9."
+
+#: data-sources/manual.php:148
+msgid "This key is %d chars long."
+msgstr "Deze sleutel is %d karakters lang."
+
+#: data-sources/manual.php:145
+msgid "Do not use the \"unhashed format\" when generating the license key."
+msgstr "Gebruik niet het \"ongehashte formaat\" bij het genereren van de licentiesleutel."
+
+#: data-sources/manual.php:143 data-sources/manual.php:150
+msgid "The license key usually is a 16-char alphanumeric string. Are you sure this is the right key?"
+msgstr "De licentiesleutel is meestal een alfanumerieke reeks van 16 tekens. Weet je zeker dat dit de juiste sleutel is?"
+
+#. Plugin Name of the plugin
+#: admin-ui.php:30 views/options.php:7 views/lookup.php:39
+#: views/client-ip.php:4
+msgid "Geolocation IP Detection"
+msgstr "Geolocation IP Detection"
+
+#: init.php:103
+msgid "For comparison of the different options, see <a href=\"https://github.com/yellowtree/geoip-detect/wiki/FAQ#which-data-source-should-i-choose\" target=\"_blank\">Which data source should I choose?</a>."
+msgstr "Voor vergelijking van de verschillende opties, zie <a href=\"https://github.com/yellowtree/geoip-detect/wiki/FAQ#which-data-source-should-i-choose\" target=\"_blank\">Welke gegevensbron moet ik kiezen?</a>."
+
+#: init.php:102
+msgid "The Plugin %s is currently using the Webservice <a href=\"http://hostip.info\" target=\"_blank\">hostip.info</a> as data source. <br />You can choose a different data source in the options page."
+msgstr "De plugin %s gebruikt momenteel de webservice <a href=\"http://hostip.info\" target=\"_blank\">hostip.info</a> als gegevensbron. <br />Je  kunt een andere gegevensbron kiezen op de optiepagina."
+
+#: data-sources/auto.php:183
+msgid "Error: Before updating, you need to enter a license key from maxmind.com."
+msgstr "Fout: voordat je de update uitvoert, moet je een licentiesleutel invoeren van maxmind.com."
+
+#: data-sources/auto.php:68
+msgid "You can signup for a free Maxmind-Account here: <a href=\"%s\" target=\"_blank\">Sign Up</a>."
+msgstr "Je kan je hier aanmelden voor een gratis Maxmind-account: <a href=\"%s\" target=\"_blank\">Aanmelden</a>."
+
+#: data-sources/auto.php:67
+msgid "Maxmind Automatic Download only works with a given license key."
+msgstr "Maxmind Automatic Download werkt alleen met een bepaalde licentiesleutel."
+
+#: data-sources/auto.php:34
+msgid "(License: See <a href=\"https://www.maxmind.com/en/site-license-overview\" target=\"_blank\">Site Licence Overview</a> or <a href=\"https://www.maxmind.com/en/end-user-license-agreement\" target=\"_blank\">End User Licence Agreement</a>.)"
+msgstr "(Licentie: zie <a href=\"https://www.maxmind.com/en/site-license-overview\" target=\"_blank\">Site Licence Overview</a> or <a href=\"https://www.maxmind.com/en/end-user-license-agreement\" target=\"_blank\">End User Licence Agreement</a>.)"
+
+#: data-sources/auto.php:32
+msgid "%s (updated weekly)"
+msgstr "%s (wekelijks geüpdatet)"
+
+#: data-sources/hostinfo.php:101
+msgid "Free (Licence: GPL)<br />(only English names, does only have some fields)"
+msgstr "Gratis (Licentie: GPL)<br />(alleen Engelse namen, heeft maar enkele velden)"
+
+#: init.php:188
+msgid "In order to increase the performance of this site, it is setting a cookie called \"geoip-detect-result\" containing the geographic information of the current user. (Explain how the information stored in this cookie will be used, e.g.: This information is not used for tracking purposes, but ...) The cookie will automatically deleted after 1 day by your browser."
+msgstr "Om de prestaties van deze site te verbeteren, plaatst deze een cookie genaamd \"geoip-detect-result\" die de geografische informatie van de huidige gebruiker bevat. (Leg uit hoe de informatie die in deze cookie is opgeslagen, wordt gebruikt, bijvoorbeeld: deze informatie wordt niet gebruikt voor trackingdoeleinden, maar ...) De cookie wordt na 1 dag automatisch verwijderd door je browser."
+
+#: views/options.php:86
+msgid "Warning: In theory, other websites could use your API credits over AJAX, this cannot be prevented completely (see <a href=\"%s\" target=\"_blank\">documentation</a> for more infos). You should use a different data source or disable AJAX."
+msgstr "Waarschuwing: in theorie zouden andere sites je API-tegoeden kunnen gebruiken boven AJAX, dit kan niet volledig worden voorkomen (zie <a href=\"%s\" target=\"_blank\">documentatie</a> voor meer informatie). Je moet een andere gegevensbron gebruiken of AJAX uitschakelen."
+
+#: views/options.php:55
+msgid "Help"
+msgstr "Help"
+
+#: views/lookup.php:275
+msgid "(More properties might be available for other IPs and with other data sources.)"
+msgstr "(Mogelijk zijn er meer eigenschappen beschikbaar voor andere IP's en met andere gegevensbronnen.)"
+
+#: views/lookup.php:274
+msgid "Show all available properties"
+msgstr "Toon alle beschikbare eigenschappen"
+
+#: views/lookup.php:273
+msgid "Show only the most common properties"
+msgstr "Toon alleen de meest voorkomende eigenschappen"
+
+#: views/lookup.php:118
+msgid "AJAX and JS must be enabled in the preferences!"
+msgstr "AJAX en JS moeten zijn ingeschakeld in de voorkeuren!"
+
+#: views/lookup.php:115
+msgid "You can use the following shortcodes."
+msgstr "Je kan de volgende shortcodes gebruiken."
+
+#: views/lookup.php:113 views/lookup.php:116 views/lookup.php:119
+msgid "See %s for more information."
+msgstr "Zie %s voor meer informatie."
+
+#: views/lookup.php:83
+msgid "JS Syntax"
+msgstr "JS syntax"
+
+#: views/lookup.php:82
+msgid "Shortcode Syntax"
+msgstr "Shortcode syntax"
+
+#: views/lookup.php:81
+msgid "PHP Syntax"
+msgstr "PHP syntax"
+
+#: views/lookup.php:79
+msgid "Which syntax:"
+msgstr "Welke syntax:"
+
+#: init.php:180
+msgid "This site is sending the visitor's IP to (add Provider name) in order to receive the geographic information. (You will need to have a data-processing contract with this provider.)"
+msgstr "Deze site stuurt het IP-adres van de bezoeker naar (voeg naam provider toe) om de geografische informatie te ontvangen. (Je moet een gegevensverwerkingsovereenkomst hebben met deze provider.)"
+
+#: data-sources/ipstack.php:212
+msgid "HTTPS (with encryption - paid plans only)"
+msgstr "HTTPS (met codering - alleen betaalde abonnementen)"
+
+#: data-sources/ipstack.php:211
+msgid "HTTP (without encryption, not GDPR-compatible)"
+msgstr "HTTP (zonder encryptie, niet compatibel met GDPR)"
+
+#: data-sources/ipstack.php:203
+msgid "Access the API via SSL:"
+msgstr "Toegang tot de API via SSL:"
+
+#: data-sources/ipstack.php:202
+msgid "API Access Key:"
+msgstr "API toegangssleutel:"
+
+#: data-sources/ipstack.php:196 data-sources/ipstack.php:234
+msgid "Ipstack only works with an API key."
+msgstr "Ipstack werkt alleen met een API sleutel."
+
+#: data-sources/ipstack.php:192
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#: data-sources/ipstack.php:192
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+#: data-sources/ipstack.php:192
+msgid "SSL: %s"
+msgstr "SSL: %s"
+
+#: data-sources/ipstack.php:188
+msgid "<a href=\"https://ipstack.com/\">Ipstack</a>"
+msgstr "<a href=\"https://ipstack.com/\">Ipstack</a>"
+
+#: data-sources/ipstack.php:186
+msgid "Ipstack Web-API"
+msgstr "Ipstack Web-API"
+
+#: views/options.php:83
+msgid "Enable AJAX endpoint to get the information for the current IP even on cached pages."
+msgstr "Schakel het AJAX-eindpunt in om de informatie voor het huidige IP-adres op te halen, zelfs op pagina's in de cache."
+
+#: data-sources/auto.php:272
+msgid "Downloaded file could not write or overwrite %s."
+msgstr "Het gedownloade bestand kan %s niet schrijven of overschrijven."
+
+#: views/options.php:124
+msgid "Make sure to add both IPv4 and IPv6 adresses of the proxy!"
+msgstr "Zorg ervoor dat je zowel IPv4- als IPv6-adressen van de proxy toevoegt!"
+
+#: views/options.php:123
+msgid "If specified, only IPs in this list will be treated as proxy."
+msgstr "Indien opgegeven, worden alleen IP-adressen in deze lijst als proxy behandeld."
+
+#: views/options.php:116
+msgid "IPs of trusted proxies:"
+msgstr "IP's van vertrouwde proxy's:"
+
+#: views/options.php:106
+msgid "Client IP debug panel"
+msgstr "Client IP debug scherm"
+
+#: views/lookup.php:61
+msgid "Not correct?"
+msgstr "Onjuist?"
+
+#: views/lookup.php:60
+msgid "Your current IP:"
+msgstr "Je huidige IP:"
+
+#: views/client-ip.php:29
+msgid "(unset)"
+msgstr "(uitgeschakeld)"
+
+#: init.php:183
+msgid "This site is using %s to identify the geographic location of your IP adress. %s (Add here: how this information is used, how long it is retained. Be especially careful when using this information to change prices or selling options, as this might not be legal.)"
+msgstr "Deze site gebruikt %s om de geografische locatie van je IP-adres te identificeren. %s (Hier toevoegen: hoe deze informatie wordt gebruikt, hoe lang deze wordt bewaard. Wees vooral voorzichtig wanneer je deze informatie gebruikt om prijzen of verkoopopties te wijzigen, aangezien dit mogelijk niet legaal is.)"
+
+#: init.php:177
+msgid "This site is saving the IP of the visitors of the last %s for performance reasons."
+msgstr "Deze site slaat het IP-adres van de bezoekers van de laatste %s op om prestatieredenen."
+
+#: data-sources/auto.php:161
+msgid "It has not changed since the last update."
+msgstr "Het is niet veranderd sinds de laatste update."
+
+#: data-sources/auto.php:150
+msgid "Could not create temporary file."
+msgstr "Kon tijdelijk bestand niet aanmaken."
+
+#: admin-ui.php:171
+msgid "File was not updated"
+msgstr "Bestand is niet geüpdatet"
+
+#: data-sources/manual.php:83 data-sources/precision.php:107
+msgid "License key:"
+msgstr "Licentie sleutel:"
+
+#: shortcodes/cf7.php:163
+msgid "Data from: %s"
+msgstr "Gegevens van: %s"
+
+#: shortcodes/cf7.php:160
+msgid "City: %s"
+msgstr "Plaats: %s"
+
+#: shortcodes/cf7.php:158
+msgid "State or region: %s"
+msgstr "Staat of regio: %s"
+
+#: shortcodes/cf7.php:156
+msgid "Country: %s"
+msgstr "Land: %s"
+
+#: shortcodes/cf7.php:152
+msgid "IP of the user: %s"
+msgstr "IP van de gebruiker: %s"
+
+#: data-sources/header.php:127
+msgid "Hosting Provider:"
+msgstr "Hostingprovider:"
+
+#: data-sources/header.php:120
+msgid "None"
+msgstr "Geen"
+
+#: data-sources/header.php:94
+msgid "Which Hosting Provider:"
+msgstr "Welke hostingprovider:"
+
+#: data-sources/header.php:85
+msgid "This needs to be enabled in the admin panel: see <a href=\"%s\">Help</a>."
+msgstr "Dit moet zijn ingeschakeld in het beheer-paneel: zie <a href=\"%s\">Help</a>."
+
+#: data-sources/header.php:72
+msgid "These servers already do geodetection, but only of the visitor's country."
+msgstr "Deze servers doen al geodetectie, maar alleen van het land van de bezoeker."
+
+#: data-sources/header.php:70
+msgid "Special Hosting Providers (Cloudflare, Amazon AWS CloudFront)"
+msgstr "Speciale hostingproviders (Cloudflare, Amazon AWS CloudFront)"
+
+#: data-sources/auto.php:42
+msgid "(Was rescheduled just now)"
+msgstr "(was zojuist opnieuw gepland)"
+
+#: views/lookup.php:98
+msgid "Lookup Result"
+msgstr "Lookup resultaat"
+
+#: views/lookup.php:67
+msgid "Test IP Detection Lookup "
+msgstr "Test IP Detection Lookup "
+
+#: views/footer.php:6
+msgid "http://www.jmem-hainichen.de/homepage"
+msgstr "http://www.jmem-hainichen.de/homepage"
+
+#: data-sources/manual.php:174
+msgid "e.g. wp-content/uploads/GeoLite2-Country.mmdb or absolute filepath"
+msgstr "b.v. wp-content/uploads/GeoLite2-Country.mmdb of absolute bestandspad"
+
+#: data-sources/manual.php:173
+msgid "Filepath to mmdb-file:"
+msgstr "Bestandspad naar mmdb-bestand:"
+
+#. Author of the plugin
+msgid "Yellow Tree (Benjamin Pick)"
+msgstr "Yellow Tree (Benjamin Pick)"
+
+#. Description of the plugin
+msgid "Retrieving Geo-Information using the Maxmind GeoIP (Lite) Database."
+msgstr "Geo-informatie ophalen met behulp van de Maxmind GeoIP (Lite) Database."
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "http://www.yellowtree.de"
+msgstr "http://www.yellowtree.de"
+
+#: views/plugin_page.php:126
+msgid "(With Proxy: %s - Without Proxy: %s)"
+msgstr "(met proxy: %s - zonder proxy: %s)"
+
+#: views/plugin_page.php:34
+msgid "(The file is updated automatically once a month.)"
+msgstr "(Het bestand wordt automatisch één keer per maand geüpdatet.)"
+
+#: views/plugin_page.php:14
+msgid "Selected data source: %s"
+msgstr "Geselecteerde gegevensbron: %s"
+
+#: views/options.php:146
+msgid "Your version of PHP is compiled without IPv6-support, so it is not possible to lookup adresses like \"2001:4860:4801:5::91\". For more information see <a href=\"https://php.net/manual/en/function.inet-pton.php\">PHP documentation & user comments</a>."
+msgstr "Je versie van PHP is gecompileerd zonder IPv6-ondersteuning, dus het is niet mogelijk om adressen op te zoeken zoals \"2001:4860:4801:5::91\". Voor meer informatie zie <a href=\"https://php.net/manual/en/function.inet-pton.php\">PHP documentatie & gebruikerscommentaar</a>."
+
+#: views/options.php:144
+msgid "IPv6 not supported"
+msgstr "IPv6 niet ondersteund"
+
+#: views/options.php:133
+msgid "(This external adress will be used when the request IP adress is not a public IP, e.g. 127.0.0.1)"
+msgstr "(Dit externe adres wordt gebruikt als het IP-adres van het verzoek geen openbaar IP-adres is, b.v. 127.0.0.1)"
+
+#: views/options.php:132
+msgid "If empty: Try to use an ip service to detect it (Internet connection is necessary). If this is not possible, 0.0.0.0 will be returned."
+msgstr "Indien leeg: probeer een ip-service te gebruiken om het te detecteren (internetverbinding is vereist). Als dit niet mogelijk is, wordt 0.0.0.0 geretourneerd."
+
+#: views/options.php:131
+msgid "Current value:"
+msgstr "Huidige waarde:"
+
+#: views/options.php:129
+msgid "detect automatically"
+msgstr "automatisch detecteren"
+
+#: views/options.php:129
+msgid "External IP of this server:"
+msgstr "Externe IP van deze server:"
+
+#: views/options.php:111
+msgid "(This doesn't seem to be the case.)"
+msgstr "(Dit lijkt niet het geval te zijn.)"
+
+#: views/options.php:109
+msgid "(With Proxy: %s - Without Proxy: %s - Client IP with current configuration: %s)"
+msgstr "(Met proxy: %s - zonder proxy: %s - IP-adres van client met huidige configuratie: %s)"
+
+#: views/options.php:105 views/options.php:120
+msgid "The server is behind a reverse proxy"
+msgstr "De server bevindt zich achter een omgekeerde proxy"
+
+#: views/options.php:78
+msgid "Warning: As the CSS option above is active, this means that all pages are not cached."
+msgstr "Waarschuwing: aangezien de CSS-optie hierboven actief is, betekent dit dat niet alle pagina's in de cache worden opgeslagen."
+
+#: views/options.php:75
+msgid "At least WP SuperCache, W3TotalCache and ZenCache are supported."
+msgstr "Ten minste WP SuperCache, W3TotalCache en ZenCache worden ondersteund."
+
+#: views/options.php:73
+msgid "Disable caching a page that contains a shortcode or API call to geo-dependent functions."
+msgstr "Schakel het cachen van een pagina uit die een shortcode of API-aanroep naar geo-afhankelijke functies bevat."
+
+#: views/plugin_page.php:120
+msgid "Add a country-specific CSS class to the &lt;body&gt;-Tag."
+msgstr "Voeg een landspecifieke CSS-klasse toe aan de &lt;body&gt;-tag."
+
+#: views/options.php:68
+msgid "General Options"
+msgstr "Algemene opties"
+
+#: views/options.php:54
+msgid "Choose data source:"
+msgstr "Kies gegevensbron:"
+
+#: views/options.php:42 views/options.php:63 views/options.php:139
+#: views/plugin_page.php:154
+msgid "Save"
+msgstr "Bewaar"
+
+#: views/options.php:35
+msgid "Options for this data source"
+msgstr "Opties voor deze gegevensbron"
+
+#: views/options.php:8 views/client-ip.php:6
+msgid "Test IP Detection Lookup"
+msgstr "Test IP Detection Lookup"
+
+#: views/lookup.php:287 views/plugin_page.php:110
+msgid "See %s for more documentation."
+msgstr "Zie %s voor meer documentatie."
+
+#: views/lookup.php:280 views/plugin_page.php:105
+msgid "No information found about this IP."
+msgstr "Geen informatie gevonden over dit IP."
+
+#: views/lookup.php:140 views/plugin_page.php:62
+msgid "Value"
+msgstr "Waarde"
+
+#: views/plugin_page.php:61
+msgid "Key"
+msgstr "Code"
+
+#: views/lookup.php:101
+msgid "(Served from cache. Was cached %s ago)"
+msgstr "(Aangeboden vanuit cache. Is %s geleden in de cache opgeslagen)"
+
+#: views/lookup.php:123
+msgid "Lookup duration: %.5f s"
+msgstr "Lookup looptijd: %.5f s"
+
+#: views/lookup.php:112 views/plugin_page.php:56
+msgid "The function %s returns an object:"
+msgstr "De functie %s retourneert een object:"
+
+#: views/lookup.php:86
+msgid "Skip cache"
+msgstr "Cache overslaan"
+
+#: views/lookup.php:76
+msgid "French, English otherwise"
+msgstr "Frans, anders Engels"
+
+#: views/lookup.php:75
+msgid "English only"
+msgstr "alleen Engels"
+
+#: views/lookup.php:74
+msgid "Default (Current site language, English otherwise)"
+msgstr "Standaard (huidige sitetaal, anders Engels)"
+
+#: views/lookup.php:72
+msgid "Use these locales:"
+msgstr "Gebruik deze landinstellingen:"
+
+#: views/lookup.php:71
+msgid "Enter an IP (v4 or v6)"
+msgstr "Voer een IP-adres in (v4 of v6)"
+
+#: views/lookup.php:71
+msgid "IP"
+msgstr "IP"
+
+#: views/options.php:29 views/lookup.php:50
+msgid "<b>Selected data source:</b> %s"
+msgstr "<b>Geselecteerde gegevensbron:</b> %s"
+
+#: views/footer.php:10
+msgid "This product includes GeoLite2 data created by MaxMind, available from <a href=\"http://www.maxmind.com/\">http://www.maxmind.com</a>."
+msgstr "Dit product bevat GeoLite2-gegevens gemaakt door MaxMind, verkrijgbaar bij <a href=\"http://www.maxmind.com/\">http://www.maxmind.com</a>."
+
+#: views/footer.php:4
+msgid "This extension is \"charity-ware\". You can use it for free but if you want to do me a favor, please <a href=\"%s\" target=\"_blank\">donate</a> to <a href=\"%s\" target=\"_blank\">this charity</a>. (See <a href=\"%s\" target=\"_blank\">FAQ</a> for more infos.)"
+msgstr ""
+"Deze extensie is \"charity-ware\". Je kunt het gratis gebruiken, maar als je me een plezier wilt doen,\n"
+" <a href=\"%s\" target=\"_blank\">doneer</a> dan aan <a href=\"%s\" target=\"_blank\">dit goede doel</a>. (Zie <a href=\"%s\" target=\"_blank\">FAQ</a> voor meer informatie.)"
+
+#: init.php:106
+msgid "Keep using hostip.info"
+msgstr "Blijf hostip.info gebruiken"
+
+#: views/options.php:17 views/options.php:23 init.php:87
+msgid "Dismiss notice"
+msgstr "Bericht negeren"
+
+#: data-sources/precision.php:108
+msgid "API Type:"
+msgstr "API type:"
+
+#: data-sources/precision.php:106
+msgid "User ID:"
+msgstr "Gebruikers-ID"
+
+#: data-sources/precision.php:96 data-sources/precision.php:145
+msgid "Maxmind Precision only works with a given user id and secret."
+msgstr "Maxmind Precision werkt alleen met een bepaald gebruikers-ID en geheim."
+
+#: data-sources/precision.php:92
+msgid "Remaining Credits: ca. %s"
+msgstr "Overgebleven Credits: ca. %s"
+
+#: data-sources/precision.php:88
+msgid "API Type: %s"
+msgstr "API-type: %s"
+
+#: data-sources/precision.php:85
+msgid "<a href=\"https://www.maxmind.com/en/geoip2-precision-services\">Maxmind Precision Services</a>"
+msgstr "<a href=\"https://www.maxmind.com/en/geoip2-precision-services\">Maxmind Precision Services</a>"
+
+#: data-sources/precision.php:83
+msgid "Maxmind Precision Web-API"
+msgstr "Maxmind Precision Web-API"
+
+#: data-sources/manual.php:270 data-sources/manual.php:277
+msgid "Maxmind File Database (file does not exist or is not readable)"
+msgstr "Maxmind File Database (bestand bestaat niet of is niet leesbaar)"
+
+#: data-sources/manual.php:213 data-sources/header.php:143
+msgid "Error while creating reader for \"%s\": %s"
+msgstr "Fout bij het aanmaken van lezer voor \"%s\": %s"
+
+#: data-sources/manual.php:193
+msgid "The manual datafile has not been found or is not a mmdb-File. "
+msgstr "Het handmatige gegevensbestand is niet gevonden of is geen mmdb-bestand. "
+
+#: data-sources/manual.php:170
+msgid "Current value: %s"
+msgstr "Huidige waarde: %s"
+
+#: views/plugin_page.php:18
+msgid "Database data from: %s"
+msgstr "Database gegevens van: %s"
+
+#: views/plugin_page.php:29
+msgid "Last updated: %s"
+msgstr "Laatst geüpdatet: %s"
+
+#: data-sources/manual.php:44
+msgid "Database file: %s"
+msgstr "Database bestand: %s"
+
+#: data-sources/manual.php:40
+msgid "No Maxmind database found."
+msgstr "Geen Maxmind database gevonden."
+
+#: data-sources/manual.php:32
+msgid "<a href=\"http://dev.maxmind.com/geoip/geoip2/geolite2/\" target=\"_blank\">Free version</a> - <a href=\"https://www.maxmind.com/en/geoip2-country-database\" target=\"_blank\">Commercial Version</a>"
+msgstr "<a href=\"http://dev.maxmind.com/geoip/geoip2/geolite2/\" target=\"_blank\">Gratis versie</a> - <a href=\"https://www.maxmind.com/en/geoip2-country-database\" target=\"_blank\">Commerciële versie</a>"
+
+#: data-sources/manual.php:30
+msgid "Manual download & update of a Maxmind City or Country database"
+msgstr "Handmatige download en update van een Maxmind City of Country-database"
+
+#: data-sources/hostinfo.php:99
+msgid "HostIP.info Web-API"
+msgstr "HostIP.info Web-API"
+
+#: data-sources/auto.php:230 updater.php:33
+msgid "Database could not be written (%s)."
+msgstr "Database kon niet worden geschreven (%s)."
+
+#: data-sources/auto.php:228 data-sources/auto.php:268 updater.php:31
+msgid "Downloaded file could not be opened for reading."
+msgstr "Gedownload bestand kan niet worden geopend om te lezen."
+
+#: data-sources/auto.php:85 views/plugin_page.php:40
+msgid "Update now"
+msgstr "Maak nu up-to-date"
+
+#: geoip-detect-lib.php:542 views/plugin_page.php:29 views/plugin_page.php:33
+msgid "Never"
+msgstr "Nooit"
+
+#: views/plugin_page.php:33
+msgid "Next update: %s"
+msgstr "Volgende update: %s"
+
+#: data-sources/auto.php:31
+msgid "Automatic download & update of Maxmind GeoIP Lite City"
+msgstr "Automatische download en update van Maxmind GeoIP Lite City"
+
+#: check_requirements.php:59 check_requirements.php:95
+msgid "Geolocation IP Detection: Minimum requirements not met."
+msgstr "Geolocation IP Detection: Minimumvereisten niet gehaald."
+
+#: admin-ui.php:167
+msgid "Updated successfully."
+msgstr "Update geslaagd."
+
+#: admin-ui.php:38 views/lookup.php:41 views/client-ip.php:8 init.php:105
+#: init.php:129
+msgid "Options"
+msgstr "Opties"
+
+#: admin-ui.php:35 views/lookup.php:88 views/plugin_page.php:51
+msgid "Lookup"
+msgstr "Raadplegen"
+
+#: views/plugin_page.php:5
+msgid "GeoIP Detection"
+msgstr "GeoIP detectie"

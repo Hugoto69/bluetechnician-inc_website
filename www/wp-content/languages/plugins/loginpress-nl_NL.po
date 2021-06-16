@@ -1,0 +1,1368 @@
+# Translation of Plugins - Custom Login Page Customizer | LoginPress - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Custom Login Page Customizer | LoginPress - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-06-16 10:21:26+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Custom Login Page Customizer | LoginPress - Stable (latest release)\n"
+
+#: custom.php:1507
+msgid "%1$s will be replaced with the current year."
+msgstr "%1$s wordt vervangen door het huidige jaar."
+
+#: custom.php:1464
+msgid "\"Copyright\" Text Color:"
+msgstr "\"Copyright\" tekstkleur:"
+
+#: custom.php:1448
+msgid "\"Copyright\" Background Color:"
+msgstr "\"Copyright\" achtergrondkleur:"
+
+#: custom.php:422
+msgid "Login page title that is shown on WordPress login page."
+msgstr "Titel van login pagina die wordt weergegeven op de login pagina van WordPress."
+
+#: custom.php:420
+msgid "Login Page Title:"
+msgstr "Titel login pagina:"
+
+#: include/customizer-strings.php:111
+msgid "Button Text Color (Hover):"
+msgstr "Knop tekstkleur (Hover):"
+
+#: classes/class-loginpress-custom-password.php:128
+msgid "If you have already set your own password, you may disregard this email and use the password you have already set."
+msgstr "Als je al je eigen wachtwoord hebt ingesteld, kan je deze e-mail negeren en het wachtwoord gebruiken dat je al hebt ingesteld."
+
+#: custom.php:313
+msgid "Animated Wapo 2"
+msgstr "Geanimeerde Wapo 2"
+
+#: classes/class-loginpress-setup.php:180
+msgid "Keep remember me option always checked on login page"
+msgstr "Onthoud mij optie altijd aangevinkt op login pagina"
+
+#: classes/class-loginpress-setup.php:179
+msgid "Auto Remember Me"
+msgstr "Auto Onthoud mij"
+
+#: classes/class-loginpress-addons.php:114
+msgid "Deactivating "
+msgstr "Deactiveren"
+
+#: classes/class-loginpress-addons.php:98
+msgid "Activating "
+msgstr "Activeren"
+
+#: custom.php:312
+msgid "Animated Wapo"
+msgstr "Geanimeerde Wapo"
+
+#: classes/class-loginpress-notifications.php:348
+msgid ""
+"<strong>Biggest Summer Deal</strong> in the WordPress Universe! Get <strong>LoginPress Pro and all Premium Add-ons</strong> with <strong>20%% OFF</strong> [Limited Availability].<a href=\"https://wpbrigade.com/wordpress/plugins/loginpress-pro/?utm_source=loginpress-lite&utm_medium=freepluginbanner-button&utm_campaign=early20\" target=\"_blank\" style=\"text-decoration: none;\"><span class=\"dashicons dashicons-smiley\" style=\"margin-left: 10px;\"></span> Grab The Deal</a>\n"
+"    \t\t\t\t\t<a href=\"%1$s\" style=\"text-decoration: none; margin-left: 10px;\"><span class=\"dashicons dashicons-dismiss\"></span> I'm good with free version</a>"
+msgstr ""
+"<strong>Grootste zomer deal</strong> in het WordPress universum! Download <strong>LoginPress Pro en alle Premium add-ons</strong> met <strong>20 %% KORTING</strong> [Beperkte beschikbaarheid]. <a href=\"https://wpbrigade.com/wordpress/plugins/loginpress-pro/?utm_source=loginpress-lite&utm_medium=freepluginbanner-button&utm_campaign=early20\" target=\"_blank\" style=\"text-decoration: none;\"><span class=\"dashicons dashicons-smiley\" style=\"margin-left: 10px;\"></span> Grijp de deal</a>\n"
+"    \t\t\t\t\t  <a href=\"%1$s\" style=\"text-decoration: none; margin-left: 10px;\"><span class=\"dashicons dashicons-dismiss\"></span> Ik ben tevreden met gratis versie</a>"
+
+#: custom.php:416
+msgid "Logo Title:"
+msgstr "Logo titel:"
+
+#: classes/class-loginpress-promotion.php:122
+#: classes/class-loginpress-addons.php:188
+#: classes/class-loginpress-addons.php:293
+#: classes/class-loginpress-addons.php:352
+msgid "UPGRADE NOW"
+msgstr "UPGRADE NU"
+
+#: loginpress.php:431
+msgid "Rate"
+msgstr "Waardeer"
+
+#: custom.php:1547
+msgid "Right"
+msgstr "Rechts"
+
+#: custom.php:1546
+msgid "Left"
+msgstr "Links"
+
+#: custom.php:1214
+msgid "Select Text Decoration:"
+msgstr "Selecteer tekst decoratie:"
+
+#: custom.php:732
+msgid "Muted Video?"
+msgstr "Video zonder geluid?"
+
+#: custom.php:714
+msgid "50% 50%"
+msgstr "50% 50%"
+
+#: custom.php:709
+msgid "Object Postion:"
+msgstr "Object postie:"
+
+#: custom.php:688
+msgid "Video Size:"
+msgstr "Video grootte:"
+
+#: custom.php:674
+msgid "Select File"
+msgstr "Selecteer bestand"
+
+#: custom.php:673
+msgid "Remove"
+msgstr "Verwijder"
+
+#: custom.php:672
+msgid "Default"
+msgstr "Standaard"
+
+#: custom.php:671
+msgid "Change Video"
+msgstr "Wijzig video"
+
+#: custom.php:670
+msgid "Select Video"
+msgstr "Selecteer video"
+
+#: custom.php:665
+msgid "Background Video:"
+msgstr "Achtergrond video:"
+
+#: custom.php:647
+msgid "Enable Background Video?"
+msgstr "Activeer achtergrond video?"
+
+#: custom.php:508
+msgid "Select Image"
+msgstr "Selecteer afbeelding"
+
+#: include/customizer-strings.php:39
+msgid "Customize the background Video."
+msgstr "Pas de achtergrond video aan."
+
+#: include/customizer-strings.php:38
+msgid "Customize the background Image."
+msgstr "Pas de achtergrondafbeelding aan."
+
+#: include/customizer-strings.php:30
+msgid "Background Video"
+msgstr "Achtergrond video"
+
+#: include/customizer-strings.php:29
+msgid "Background Image"
+msgstr "Achtergrond afbeelding"
+
+#: include/privacy-policy.php:13
+msgid "%1$sPrivacy Policy%2$s."
+msgstr "%1$sPrivacybeleid%2$s."
+
+#: classes/class-loginpress-notifications.php:324
+msgid ""
+"<strong>Biggest Winter Deal</strong> in the WordPress Universe! Get <strong>LoginPress Pro and all Premium Add-ons</strong> with <strong>20%% OFF</strong> [Limited Availability].<a href=\"https://wpbrigade.com/wordpress/plugins/loginpress-pro/?utm_source=loginpress-lite&utm_medium=freepluginbanner-button&utm_campaign=early20\" target=\"_blank\" style=\"text-decoration: none;\"><span class=\"dashicons dashicons-smiley\" style=\"margin-left: 10px;\"></span> Grab The Deal</a>\n"
+"  \t\t\t\t\t<a href=\"%1$s\" style=\"text-decoration: none; margin-left: 10px;\"><span class=\"dashicons dashicons-dismiss\"></span> I'm good with free version</a>"
+msgstr ""
+"<strong>Grootste Winter Aanbieding</strong> in het WordPress Universum! Neem <strong>LoginPress Pro en alle premium add-ons</strong> met <strong>20%% KORTING</strong> [Gelimiteerd beschikbaar].<a href=\"https://wpbrigade.com/wordpress/plugins/loginpress-pro/?utm_source=loginpress-lite&utm_medium=freepluginbanner-button&utm_campaign=early20\" target=\"_blank\" style=\"text-decoration: none;\"><span class=\"dashicons dashicons-smiley\" style=\"margin-left: 10px;\"></span> Pak Die Aanbieding</a>\n"
+"  \t\t\t\t\t<a href=\"%1$s\" style=\"text-decoration: none; margin-left: 10px;\"><span class=\"dashicons dashicons-dismiss\"></span> De gratis versie is voldoende voor mij</a>"
+
+#: classes/class-loginpress-notifications.php:299
+msgid "FLAT 51% OFF"
+msgstr "51% KORTING"
+
+#: js/script-login.php:23
+msgid "Caps Lock is on"
+msgstr "Caps Lock staat aan"
+
+#: classes/class-loginpress-setup.php:359
+msgid "This tool will remove all LoginPress settings %1$s upon uninstall."
+msgstr "Deze tool verwijdert alle LoginPress instellingen %1$s bij het verwijderen."
+
+#: classes/class-loginpress-setup.php:358
+msgid "Remove Settings on Uninstall"
+msgstr "Verwijder instellingen bij deinstallatie"
+
+#: classes/class-loginpress-setup.php:353
+msgid "and LoginPress page"
+msgstr "en LoginPress pagina"
+
+#: classes/class-loginpress-setup.php:336
+msgid "Use WordPress default lost password URL instead of WooCommerce custom lost password URL."
+msgstr "Gebruik standaard vergeten wachtwoord URL van WordPress in plaats van WooCommerce aangepaste URL."
+
+#: classes/class-loginpress-setup.php:335
+msgid "Lost Password URL"
+msgstr "Wachtwoord vergeten URL"
+
+#: classes/class-loginpress-notifications.php:168
+msgid "Learn More"
+msgstr "Leer meer"
+
+#: classes/class-loginpress-notifications.php:164
+msgid "Extend LoginPress with these add-ons and supercharge your login pages."
+msgstr "Breid LoginPress uit met deze add-ons en maak je login pagina's nog beter."
+
+#: classes/class-loginpress-notifications.php:163
+msgid "Introducing LoginPress Addons!"
+msgstr "Introduceert LoginPress add-ons!"
+
+#: include/template-loginpress.php:534
+msgid "Remember Me"
+msgstr "Herinner mij"
+
+#: include/template-loginpress.php:508 include/template-loginpress.php:536
+msgid "Log In"
+msgstr "Log In"
+
+#: include/template-loginpress.php:493 include/template-loginpress.php:552
+#: custom.php:1190
+msgid "Lost your password?"
+msgstr "Wachtwoord vergeten?"
+
+#: include/template-loginpress.php:484
+msgid "Registration confirmation will be emailed to you."
+msgstr "Registratie bevestiging wordt naar je e-mailadres gestuurd."
+
+#: include/template-loginpress.php:473
+msgid "Email"
+msgstr "E-mail"
+
+#: include/template-loginpress.php:465
+msgid "Registration Form"
+msgstr "Registratie formulier"
+
+#: include/template-loginpress.php:400 include/template-loginpress.php:487
+#: include/template-loginpress.php:544
+msgid "Register"
+msgstr "Registreer"
+
+#: include/template-loginpress.php:393
+msgid "Get New Password"
+msgstr "Verkrijg nieuw wachtwoord"
+
+#: include/template-loginpress.php:370
+msgid "Lost Password"
+msgstr "Wachtwoord vergeten"
+
+#. translators: %s: site title
+#: include/template-loginpress.php:250
+msgctxt "site"
+msgid "&larr; Back to %s"
+msgstr "&larr; Terug naar %s"
+
+#: include/template-loginpress.php:148
+msgid "Powered by WordPress"
+msgstr "Aangedreven door WordPress"
+
+#: include/template-loginpress.php:147
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#. translators: Login screen title. 1: Login screen name, 2: Network or site
+#. name
+#: include/template-loginpress.php:70
+msgid "%1$s &lsaquo; %2$s &#8212; WordPress"
+msgstr "%1$s &lsaquo; %2$s &#8212; WordPress"
+
+#: include/deactivate_modal.php:152
+msgid "No need to deactivate this LoginPress Core version. Pro version works as an add-on with Core version."
+msgstr "Geen noodzaak om deze LoginPress core versie te deactiveren. Pro versie werkt als een add-on met de core versie."
+
+#: include/deactivate_modal.php:150
+msgid " I upgraded to LoginPress Pro"
+msgstr " Ik heb een upgrade naar LoginPress Pro uitgevoerd"
+
+#: include/deactivate_modal.php:139
+msgid "Quick feedback about LoginPress"
+msgstr "Snelle terugkoppeling over LoginPress"
+
+#: include/customizer-strings.php:116
+msgid "Text Size:"
+msgstr "Lettergrootte:"
+
+#: include/customizer-strings.php:116
+msgid "Shadow Opacity:"
+msgstr "Schaduwdekking:"
+
+#: include/customizer-strings.php:116
+msgid "Shadow:"
+msgstr "Schaduw:"
+
+#: include/customizer-strings.php:116
+msgid "Radius:"
+msgstr "Radius:"
+
+#: include/customizer-strings.php:116
+msgid "Button Bottom Padding:"
+msgstr "Knop bodem padding:"
+
+#: include/customizer-strings.php:116
+msgid "Button Top Padding:"
+msgstr "Knop top padding:"
+
+#: include/customizer-strings.php:116
+msgid "Button Size:"
+msgstr "Knop grootte:"
+
+#: include/customizer-strings.php:92
+msgid "Password Label:"
+msgstr "Wachtwoord label:"
+
+#: include/customizer-strings.php:91
+msgid "Username Label:"
+msgstr "Gebruikersnaam label:"
+
+#: include/template-loginpress.php:382 include/template-loginpress.php:514
+#: include/customizer-strings.php:86 custom.php:1861
+msgid "Username or Email Address"
+msgstr "Gebruikersnaam of e-mailadres"
+
+#: include/customizer-strings.php:82
+msgid "Remember me Label Color:"
+msgstr "Herinner mij label kleur:"
+
+#: include/customizer-strings.php:81
+msgid "Input Field Label Color:"
+msgstr "Labelkleur invoerveld:"
+
+#: include/customizer-strings.php:59
+msgid "Remember Me Font Size:"
+msgstr "Onthoud mij lettertype grootte:"
+
+#: include/customizer-strings.php:58
+msgid "Input Field Label Font Size:"
+msgstr "Invoerveld label lettertype grootte:"
+
+#: include/customizer-strings.php:57
+msgid "Input Text Field Shadow Opacity:"
+msgstr "Invoer tekstveld schaduwdekking:"
+
+#: include/customizer-strings.php:56
+msgid "Input Text Field Shadow:"
+msgstr "Schaduw invoer tekstveld:"
+
+#: include/customizer-strings.php:55
+msgid "Input Text Field Radius:"
+msgstr "Invoer tekstveld radius:"
+
+#: include/customizer-strings.php:53
+msgid "Form Shadow Opacity:"
+msgstr "Formulier schaduw dekking:"
+
+#: include/customizer-strings.php:52
+msgid "Form Shadow:"
+msgstr "Formulier schaduw:"
+
+#: include/customizer-strings.php:51
+msgid "Form Radius:"
+msgstr "Formulier radius:"
+
+#: include/customizer-strings.php:37
+msgid "Customize the copyright note and branding sections at the footer of login page."
+msgstr "Pas het copyright bericht en merk secties aan in de footer van de login pagina."
+
+#: include/customizer-strings.php:36
+msgid "Customize the \"Back to\" text section under the form."
+msgstr "Pas de \"Terug naar\" tekst sectie onder het formulier aan."
+
+#: include/customizer-strings.php:35
+msgid " Customize the \"Lost your password\" and \"Register\" text section under the form."
+msgstr " Pas de tekst secties \"Wachtwoord vergeten\" en \"Registreer\" aan onder het formulier."
+
+#: include/customizer-strings.php:34
+msgid "This section helps you to easily Customize the login form elements whether they are form lables, fields or backgrounds."
+msgstr "Dit gedeelte helpt je om eenvoudig de elementen van het login formulier aan te passen, of het nu formulierlabels, velden of achtergronden zijn."
+
+#: include/customizer-strings.php:33
+msgid "This section helps you to easily Customize the login form input field labels."
+msgstr "Deze sectie helpt je om eenvoudig de invoerveld labels van het aanmeldingsformulier aan te passen."
+
+#: include/customizer-strings.php:32
+msgid "This section helps you to easily Customize the login form input field elements."
+msgstr "Dit gedeelte helpt je om eenvoudig de elementen van het invoerveld voor het aanmeldingsformulier aan te passen."
+
+#: include/customizer-strings.php:28
+msgid "LoginPress Footer Text"
+msgstr "LoginPress footer tekst"
+
+#: include/customizer-strings.php:27
+msgid "Back To Site Text"
+msgstr "Terug naar site tekst"
+
+#: include/customizer-strings.php:26
+msgid "Lost Your Password Text"
+msgstr "Je wachtwoord vergeten tekst"
+
+#: include/customizer-strings.php:25
+msgid "Login Form:"
+msgstr "Login formulier:"
+
+#: include/customizer-strings.php:24
+msgid "Input Field Labels:"
+msgstr "Labels voor invoerveld:"
+
+#: include/customizer-strings.php:23
+msgid "Input Fields:"
+msgstr "Invoervelden:"
+
+#: include/customizer-strings.php:9
+msgid "Space Bottom:"
+msgstr "Ruimte Bodem:"
+
+#: include/create-loginpress-page.php:68
+msgctxt "Page title"
+msgid "LoginPress"
+msgstr "LoginPress"
+
+#: include/create-loginpress-page.php:67
+msgctxt "Page slug"
+msgid "loginpress"
+msgstr "loginpress"
+
+#. translators: 1: Name of this plugin
+#: include/create-loginpress-page.php:62
+msgid "<p>This page is used by %1$s to preview the login page in the Customizer.</p>"
+msgstr "<p>Deze pagina wordt gebruikt door %1$s om de login pagina in de Customizer voor te vertonen.</p>"
+
+#: custom.php:1859
+msgid "Email Address"
+msgstr "E-mailadres"
+
+#: include/template-loginpress.php:469 custom.php:1857
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: custom.php:1540
+msgid "Love Position:"
+msgstr "Love positie:"
+
+#: custom.php:1436
+msgid "Enable Copyright Note:"
+msgstr "Copyright opmerking inschakelen:"
+
+#: custom.php:1410
+msgid "\"Back to\" Background Color:"
+msgstr "\"Terug naar\" achtergrond kleur:"
+
+#: custom.php:1313
+msgid "Enable \"Back to\" Text:"
+msgstr "Inschakelen \"Terug naar\" tekst:"
+
+#: custom.php:1183
+msgid "Enable Footer Text:"
+msgstr "Footer inschakelen:"
+
+#: custom.php:765
+msgid "Enable Form Transparency:"
+msgstr "Activeer formulier transparantie:"
+
+#: custom.php:488
+msgid "Enable Background Image?"
+msgstr "Activeer achtergrond afbeelding?"
+
+#: custom.php:383
+msgid "Disable Logo:"
+msgstr "Uitschakelen logo:"
+
+#: classes/controls/group.php:53
+msgid "Info:"
+msgstr "Info:"
+
+#: custom.php:552
+msgid "Background Gallery:"
+msgstr "Achtergrond galerij:"
+
+#: classes/class-loginpress-addons.php:402
+msgid "You need to upgrade to LoginPress Pro to access these add-ons."
+msgstr "Je moet upgraden naar LoginPress Pro om toegang te krijgen tot deze add-ons."
+
+#: classes/class-loginpress-addons.php:389
+msgid "You need to activate your license to download the following add-ons."
+msgstr "Je moet je licentie activeren om de volgende add-ons te downloaden."
+
+#: classes/class-loginpress-addons.php:375
+msgid "Your (%2$s) license key is valid until %s."
+msgstr "Je (%2$s) licentiesleutel is geldig tot %s."
+
+#: classes/class-loginpress-addons.php:371
+msgid "You have a lifetime license, it will never expire."
+msgstr "Je hebt een levenslange licentie, deze verloopt nooit."
+
+#: custom.php:344
+msgid "Custom Design"
+msgstr "Aangepast ontwerp"
+
+#: classes/class-loginpress-setup.php:192
+msgid "Enable users to login using their username and/or email address."
+msgstr "Sta gebruikers toe om in te loggen met hun gebruikersnaam en/of e-mail adres."
+
+#: classes/class-loginpress-setup.php:191
+msgid "Login Order"
+msgstr "Login volgorde"
+
+#: classes/class-loginpress-setup.php:186
+msgid "Enable custom password fields on registration form."
+msgstr "Activeer aangepaste wachtwoord velden op registratieformulier."
+
+#: classes/class-loginpress-setup.php:185
+msgid "Custom Password Fields"
+msgstr "Aangepaste wachtwoord velden"
+
+#: classes/class-loginpress-custom-password.php:77
+msgid "<strong>ERROR</strong>: Please enter the same password in the end password fields."
+msgstr "<strong>FOUT</strong>: Voer hetzelfde wachtwoord in bij de eind wachtwoord velden."
+
+#: classes/class-loginpress-custom-password.php:73
+msgid "<strong>ERROR</strong>: Please enter your password twice."
+msgstr "<strong>FOUT</strong>: Voer je wachtwoord twee keer in."
+
+#: classes/class-loginpress-custom-password.php:52
+msgid "Confirm Password"
+msgstr "Bevestig wachtwoord"
+
+#: classes/class-loginpress-custom-password.php:48
+#: include/template-loginpress.php:518 include/customizer-strings.php:86
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: include/template-loginpress.php:465 custom.php:1938
+msgid "Register For This Site"
+msgstr "Registreer voor deze site"
+
+#: include/template-loginpress.php:370 custom.php:1930
+msgid "Please enter your username or email address. You will receive a link to create a new password via email."
+msgstr "Voer je gebruikersnaam of e-mailadres in. Je zal een link via e-mail ontvangen om een nieuw wachtwoord te kunnen maken."
+
+#: include/loginpress-import-export.php:44
+msgid "Export LoginPress Settings."
+msgstr "Exporteer LoginPress instellingen."
+
+#: include/loginpress-import-export.php:43
+msgid "LoginPress Settings Exported Successfully!"
+msgstr "LoginPress instellingen succesvol geëxporteerd!"
+
+#: include/loginpress-import-export.php:38
+msgid "Export"
+msgstr "Exporteer"
+
+#: include/loginpress-import-export.php:35
+msgid "Export Settings:"
+msgstr "Exporteer instellingen:"
+
+#: include/loginpress-import-export.php:30
+msgid "Select a file and click on Import to start processing."
+msgstr "Selecteer een bestand en klik op Import om het proces te starten."
+
+#: include/loginpress-import-export.php:28
+msgid "LoginPress Settings Imported Successfully."
+msgstr "LoginPress instellingen succesvol geïmporteerd."
+
+#: include/loginpress-import-export.php:23
+msgid "Import"
+msgstr "Importeer"
+
+#: include/loginpress-import-export.php:19
+msgid "Import Settings:"
+msgstr "Importeer Instellingen:"
+
+#: include/loginpress-import-export.php:14
+msgid "Import/Export your LoginPress Settings for/from other sites. This will export/import all the settings including Customizer settings as well."
+msgstr "Importeer/Exporteer je LoginPress Instellingen voor/van andere sites. Alle instellingen inclusief de Customizer instellingen worden ook geexporteerd/geimporteerd."
+
+#: include/customizer-strings.php:161
+msgid "Login with Email Message:"
+msgstr "Login met e-mail bericht:"
+
+#: classes/class-loginpress-setup.php:279
+msgid "Download Log File"
+msgstr "Download log bestand"
+
+#: classes/class-loginpress-setup.php:269
+msgid "For premium features, add-ons and priority email support, %1$s upgrade to pro%2$s."
+msgstr "Voor premium kenmerken, add-ons en voorrang e-mail ondersteuning, %1$s upgrade naar pro%2$s."
+
+#: classes/class-loginpress-setup.php:265
+msgid "Free plugin support is available on the %1$s plugin support forums%2$s."
+msgstr "Gratis ondersteuning voor plugins is beschikbaar op de %1$s ondersteuningsforums voor plugins%2$s."
+
+#: classes/class-loginpress-setup.php:112
+msgid "Add-Ons"
+msgstr "Add-Ons"
+
+#: classes/class-loginpress-setup.php:110
+msgid "Import / Export"
+msgstr "Importeer / Exporteer"
+
+#: classes/class-loginpress-setup.php:110
+#: include/loginpress-import-export.php:13
+msgid "Import/Export LoginPress Settings"
+msgstr "Importeer/Exporteer LoginPress instellingen"
+
+#: classes/class-loginpress-setup.php:108
+msgid "Help"
+msgstr "Help"
+
+#: classes/class-loginpress-filter-plugin.php:220
+msgid "LoginPress Plugin by WPBrigade holds a lot of customization fields to change the layout of the login page of WordPress. You can modify the look and feel of login page completely even the login error messages, forgot error messages, registration error messages, forget password hint message and many more."
+msgstr "LoginPress Plugin van WPBrigade bevat veel aanpassingsvelden om de lay-out van de inlogpagina van WordPress te wijzigen. Je kan het uiterlijk van de inlogpagina volledig wijzigen, zelfs de login foutmeldingen, foutmeldingen vergeten, registratie foutmeldingen, hintbericht wachtwoord vergeten en nog veel meer."
+
+#: classes/class-loginpress-filter-plugin.php:210
+msgid "LoginPress Pro"
+msgstr "LoginPress Pro"
+
+#: classes/class-loginpress-filter-plugin.php:207
+msgid "Related Post Thumbnails plugin is for those who want the showcase of their related posts after the post detail. The plugin allows customizing thumbnail sizes, display settings, and type of relations. The plugin is using original WordPress taxonomy. It returns generated HTML, that is essential for page load speed of blogs that use many Javascript widgets."
+msgstr "Gerelateerde Post Thumbnails plugin is voor diegenen die extra nadruk willen leggen op hun gerelateerde berichten. De plugin maakt het mogelijk om de groottes van de thumbnail, display instellingen en type van relaties te wijzigen. De plugin gebruikt de originele WordPress taxonomie. Het genereert HTML die essentieel is voor pagina laadsnelheid in blogs waar veel Javascript widgets gebruikt worden."
+
+#: classes/class-loginpress-filter-plugin.php:198
+msgid "Related Posts"
+msgstr "Gerelateerde berichten"
+
+#: classes/class-loginpress-filter-plugin.php:195
+msgid "Analytify is reshaping Google Analytics in WordPress. See Social Media, Keywords, Realtime, Country, Mobile and Browsers Statistics under pages and posts."
+msgstr "Plugin Analytify wijzigt Google Analytics in WordPress. Zie Social Media, Keywords, Realtime, Land, Mobile en Browsers Statistieken bij de pagina's en berichten."
+
+#: classes/class-loginpress-filter-plugin.php:186
+msgid "Analytify"
+msgstr "Analytify"
+
+#: classes/class-loginpress-filter-plugin.php:43
+msgid "Buy Now"
+msgstr "Koop nu"
+
+#: classes/class-loginpress-filter-plugin.php:42
+msgid "Buy %s now"
+msgstr "Koop %s nu"
+
+#: classes/class-loginpress-login-order.php:92
+#: include/customizer-strings.php:150
+msgid "%1$sError:%2$s Invalid Email Address"
+msgstr "%1$sFout:%2$s Ongeldig e-mailadres"
+
+#: classes/class-loginpress-addons.php:917
+msgid "Extend the functionality of LoginPress with these awesome Add-ons"
+msgstr "Breidt de functionaliteit van LoginPress uit met deze geweldige add-ons"
+
+#: classes/class-loginpress-setup.php:246
+msgid "LoginPress - Rebranding your boring WordPress Login pages"
+msgstr "LoginPress - Rebranding van je saaie WordPress login pagina's"
+
+#: include/template-loginpress.php:397 include/template-loginpress.php:491
+#: custom.php:1960
+msgid "Log in"
+msgstr "Log in"
+
+#: custom.php:1956 custom.php:1960
+msgid "Your password has been reset."
+msgstr "Je wachtwoord is opnieuw ingesteld."
+
+#: custom.php:1559
+msgid "Custom CSS/JS"
+msgstr "Aangepaste CSS/JS"
+
+#: classes/class-loginpress-setup.php:156
+msgid "10"
+msgstr "10"
+
+#: classes/class-loginpress-setup.php:155
+msgid "Set the session expiration time in minutes. e.g: 10"
+msgstr "Zet de sessie expiratietijd in minuten. bijv.: 10"
+
+#: classes/class-loginpress-setup.php:154
+msgid "Session Expire"
+msgstr "Sessie verloopt"
+
+#: classes/class-loginpress-promotion.php:63
+msgid "Upgrade to Pro for More Features"
+msgstr "Upgrade naar Pro voor meer functies"
+
+#: classes/class-loginpress-promo.php:31
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#: classes/class-loginpress-promo.php:9
+msgid "Google Fonts"
+msgstr "Google lettertypes"
+
+#: custom.php:1592
+msgid "Custom JS doen't make effect live. For preview please save the setting and visit %1$s login%2$s page or after save refresh the customizer."
+msgstr "Aangepaste JS werkt niet live. Sla voor een voorbeeld de instelling op en bezoek de pagina %1$s login%2$s of ververs na het opslaan de customizer."
+
+#: custom.php:1577
+msgid "Custom CSS doen't make effect live. For preview please save the setting and visit %1$s login%2$s page or after save refresh the customizer."
+msgstr "Aangepaste CSS is niet live zichtbaar. Voor een voorbeeld sla de instellingen op en bezoek %1$s login%2$s pagina of ververs de customizer."
+
+#: include/customizer-strings.php:159
+msgid "Email Already Exist Message:"
+msgstr "Bericht e-mail bestaat al:"
+
+#: include/customizer-strings.php:158
+msgid "Username Already Exist Message:"
+msgstr "Bericht gebruikersnaam bestaat al:"
+
+#: include/customizer-strings.php:149 custom.php:1779
+msgid "%1$sError:%2$s Invalid username or email."
+msgstr "%1$sFout:%2$s Ongeldig(e) gebruiker naam of e-mailadres."
+
+#: include/customizer-strings.php:148 custom.php:1777
+msgid "%1$sError:%2$s This email is already registered, please choose another one."
+msgstr "%1$sFout:%2$s Dit emailadres is al geregistreerd, kies een andere."
+
+#: include/customizer-strings.php:147 custom.php:1775
+msgid "%1$sError:%2$s This username is already registered. Please choose another one."
+msgstr "%1$sFout:%2$s Deze gebruikersnaam is al geregistreerd. Kies een andere."
+
+#: include/customizer-strings.php:146 custom.php:1773
+msgid "%1$sError:%2$s Please type your email address."
+msgstr "%1$sFout: %2$s Typ je e-mailadres."
+
+#: include/customizer-strings.php:145 custom.php:1771
+msgid "%1$sError:%2$s The email address isn't correct.."
+msgstr "%1$sFout:%2$s Het emailadres is niet correct.."
+
+#: classes/class-loginpress-login-order.php:71
+#: include/customizer-strings.php:144 custom.php:1769
+msgid "%1$sError:%2$s The password field is empty."
+msgstr "%1$sFout:%2$s Het wachtwoord veld is leeg."
+
+#: classes/class-loginpress-login-order.php:69
+#: include/customizer-strings.php:143 custom.php:1767
+msgid "%1$sError:%2$s The username field is empty."
+msgstr "%1$sFout:%2$s Het gebruikersnaam veld is leeg."
+
+#: include/customizer-strings.php:142 custom.php:1765
+msgid "%1$sError:%2$s Invalid Password."
+msgstr "%1$sFout:%2$s Incorrect wachtwoord."
+
+#: classes/class-loginpress-login-order.php:114
+#: include/customizer-strings.php:142 custom.php:1763
+msgid "%1$sError:%2$s Invalid Username."
+msgstr "%1$sFout:%2$s Ongeldige gebruikersnaam."
+
+#: loginpress.php:543
+msgid " | %1$s Opt In %2$s "
+msgstr " | %1$s Opt In %2$s "
+
+#: loginpress.php:541
+msgid " | %1$s Opt Out %2$s "
+msgstr " | %1$s Opt Out %2$s "
+
+#: loginpress.php:278
+msgid "Activate"
+msgstr "Activeer"
+
+#: include/loginpress-optout-form.php:120
+msgid "On second thought - I want to continue helping"
+msgstr "Bij nader inzien - Ik wil doorgaan met helpen"
+
+#: include/loginpress-optout-form.php:113
+msgid "By clicking \"Opt Out\", we will no longer be sending any data to %1$s LoginPress%2$s."
+msgstr "Na het klikken van \"Opt Out\" zullen we niet langer gegevens verzenden naar %1$s LoginPress%2$s."
+
+#: include/loginpress-optout-form.php:112
+msgid "Usage tracking is done in the name of making %1$s LoginPress %2$s better. Making a better user experience, prioritizing new features, and more good things. We'd really appreciate if you'll reconsider letting us continue with the tracking."
+msgstr "Gebruikstracking wordt uitgevoerd om %1$s LoginPress %2$s beter te maken. Een betere gebruikservaring, prioriteren van nieuwe kenmerken, en meer goede dingen. We zouden het erg leuk vinden als je wil heroverwegen om de tracking te laten voortduren."
+
+#: include/loginpress-optout-form.php:108
+msgid "We appreciate your help in making the plugin better by letting us track some usage data."
+msgstr "We waarderen dat je ons helpt de plugin beter te maken door toe te staan dat sommige gebruiksgegevens opgeslagen worden."
+
+#: include/loginpress-optout-form.php:103
+#: include/loginpress-optout-form.php:119
+msgid "Opt Out"
+msgstr "Opt Out"
+
+#: include/loginpress-optin-form.php:323
+msgid "Active, Deactive, Uninstallation and How you use this plugin's features and settings. This is limited to usage data. It does not include any of your sensitive LoginPress data, such as traffic. This data helps us learn which features are most popular, so we can improve the plugin further."
+msgstr "Actief, Deactief, Verwijderen en hoe je de functies en instellingen van deze plugin gebruikt. Dit is beperkt tot gebruiksgegevens. Het bevat geen van je gevoelige LoginPress gegevens, zoals verkeer. Deze gegevens helpen ons erachter te komen welke functies het populairst zijn, zodat we de plugin verder kunnen verbeteren."
+
+#: include/loginpress-optin-form.php:322
+msgid "Plugin Actions"
+msgstr "Plugin acties"
+
+#: include/loginpress-optin-form.php:320
+msgid "Updates, Announcement, Marketing. No Spam, I promise."
+msgstr "Updates, Aankondiging, Marketing, Geen spam, Ik beloof het."
+
+#: include/loginpress-optin-form.php:319
+msgid "Admin Notices"
+msgstr "Beheerder berichten"
+
+#: include/loginpress-optin-form.php:317
+msgid "Your name and email address."
+msgstr "Je naam en e-mailadres."
+
+#: include/loginpress-optin-form.php:316
+msgid "Your Profile Overview"
+msgstr "Je profiel overzicht"
+
+#: include/loginpress-optin-form.php:314
+msgid "Your Site URL, WordPress & PHP version, plugins & themes. This data lets us make sure this plugin always stays compatible with the most popular plugins and themes."
+msgstr "Je Site URL, WordPress & PHP versie, plugins & thema's. Deze data zorgt ervoor dat wij deze plugin altijd compatibel laten zijn met de meest populaire plugins en thema's."
+
+#: include/loginpress-optin-form.php:313
+msgid "Your Website Overview"
+msgstr "Je site overzicht"
+
+#: include/loginpress-optin-form.php:311
+msgid "What permissions are being granted?"
+msgstr "Welke rechten worden toegekend?"
+
+#: include/loginpress-optin-form.php:309
+msgid "Skip This Step"
+msgstr "Deze stap overslaan"
+
+#: include/loginpress-optin-form.php:308
+msgid "Allow and Continue  "
+msgstr "Toestaan en doorgaan  "
+
+#: include/loginpress-optin-form.php:307
+msgid "%1$s Hey %2$s,  %4$s If you opt-in some data about your installation of LoginPress will be sent to WPBrigade.com (This doesn't include stats)%4$s and You will receive new feature updates, security notifications etc %5$sNo Spam, I promise.%6$s %4$s%4$s Help us %7$sImprove LoginPress%8$s %4$s %4$s "
+msgstr "%1$s Hallo %2$s, %4$s Als je jezelf aanmeldt, worden sommige gegevens over je installatie van LoginPress verzonden naar WPBrigade.com (dit omvat geen statistieken) %4$s en ontvang je nieuwe functie updates, beveiliging berichten enz. %5$sGeen spam, dat beloof ik. %6$s %4$s%4$s Help ons %7$sVerbeteren van LoginPress%8$s %4$s %4$s"
+
+#: include/loginpress-optin-form.php:301
+msgid "Welcome to LoginPress"
+msgstr "Welkom bij LoginPress"
+
+#: custom.php:1617 custom.php:1619
+msgid "Powered by:"
+msgstr "Aangedreven door:"
+
+#: custom.php:1524
+msgid "Show some Love. Please help others learn about this free plugin by placing small link in footer. Thank you very much!"
+msgstr "Toon wat liefde. Help anderen om meer te weten te komen over deze gratis plugin door een kleine link in de footer te plaatsen. Hartelijk dank!"
+
+#. Description of the plugin
+msgid "LoginPress is the best <code>wp-login</code> Login Page Customizer plugin by <a href=\"https://wpbrigade.com/\">WPBrigade</a> which allows you to completely change the layout of login, register and forgot password forms."
+msgstr "LoginPress is de beste <code>wp-login</code> login pagina customizer plugin door <a href=\"https://wpbrigade.com/\">WPBrigade</a> die het je mogelijk maakt om de gehele  lay-out van de login, registratie en vergeten wachtwoord fomulieren te wijzigen."
+
+#: include/deactivate_modal.php:226
+msgid "Submit & Deactivate"
+msgstr "Verzenden & Deactiveren"
+
+#: include/deactivate_modal.php:223
+msgid "Skip & Deactivate"
+msgstr "Sla over & Deactiveer"
+
+#: include/deactivate_modal.php:171
+msgid "Kindly tell us the Plugin name."
+msgstr "Vertel ons de naam van de plugin."
+
+#: loginpress.php:549
+msgid "%1$s %3$s Upgrade Pro %4$s %2$s"
+msgstr "%1$s %3$s Upgrade Pro %4$s %2$s"
+
+#: loginpress.php:537
+msgid "%1$s Settings %2$s | %3$s Customize %4$s"
+msgstr "%1$s Instellingen %2$s | %3$s Aanpassen %4$s"
+
+#: classes/class-loginpress-notifications.php:138
+msgid "Never show again"
+msgstr "Nooit meer tonen"
+
+#: classes/class-loginpress-notifications.php:137
+msgid "Maybe Later"
+msgstr "Misschien later"
+
+#: classes/class-loginpress-notifications.php:136
+msgid "I've already left a review"
+msgstr "Ik heb al een beoordeling achtergelaten"
+
+#: classes/class-loginpress-notifications.php:135
+msgid "Sure! I'd love to!"
+msgstr "Zeker! Doe ik met liefde!"
+
+#: classes/class-loginpress-notifications.php:133
+msgid "We hope you've enjoyed using LoginPress! Would you consider leaving us a review on WordPress.org?"
+msgstr "We hopen dat je met veel plezier LoginPress gebruikt! Zou je overwegen om een beoordeling voor ons achter te laten op WordPress.org?"
+
+#: classes/class-loginpress-notifications.php:132
+msgid "Leave A Review?"
+msgstr "Een beoordeling achterlaten?"
+
+#: include/deactivate_modal.php:227
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: include/deactivate_modal.php:222
+msgid "Anonymous feedback"
+msgstr "Anonieme feedback"
+
+#: include/deactivate_modal.php:217
+msgid "Kindly tell us the reason so we can improve."
+msgstr "Vertel ons alstublieft de reden opdat wij iets kunnen verbeteren."
+
+#: include/deactivate_modal.php:214
+msgid "Other"
+msgstr "Anders"
+
+#: include/deactivate_modal.php:205
+msgid "It's a temporary deactivation. I'm just debugging an issue."
+msgstr "Het is een tijdelijke deactivatie. Ik ben iets aan het debuggen."
+
+#: include/deactivate_modal.php:196
+msgid "I no longer need the plugin"
+msgstr "Ik heb de plugin niet langer nodig"
+
+#: include/deactivate_modal.php:187
+msgid "The plugin suddenly stopped working"
+msgstr "De plugin stopte opeens met werken"
+
+#: include/deactivate_modal.php:178
+msgid "The plugin broke my site"
+msgstr "De plugin heeft mijn site kapot gemaakt"
+
+#: include/deactivate_modal.php:168
+msgid "I found a better plugin"
+msgstr "Ik heb een betere plugin gevonden"
+
+#: include/deactivate_modal.php:159
+msgid "I only needed the plugin for a short period"
+msgstr "Ik had de plugin alleen voor een korte periode nodig"
+
+#: include/deactivate_modal.php:142
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr "Als je een ogenblik hebt laat ons dan weten waarom je deactiveert:"
+
+#: custom.php:1471 custom.php:1499 custom.php:1642
+msgid "© %1$s %2$s, All Rights Reserved."
+msgstr "© %1$s %2$s, Alle rechten voorbehouden."
+
+#: classes/class-loginpress-setup.php:122
+msgid "Everything else is customizable through %1$sWordPress Customizer%2$s."
+msgstr "Verder is alles aanpasbaar via %1$sWordPress Customizer%2$s."
+
+#: classes/class-loginpress-settings-api.php:660
+msgid "Getting Started Video"
+msgstr "Hoe te beginnen video"
+
+#: classes/class-loginpress-settings-api.php:692
+msgid "Support Request"
+msgstr "Ondersteuning aanvraag"
+
+#: classes/class-loginpress-settings-api.php:690
+msgid "Got a Question, Idea, Problem or Praise?"
+msgstr "Een vraag, idee, probleem of ophemeling?"
+
+#: classes/class-loginpress-settings-api.php:687
+msgid "Plugin Support"
+msgstr "Plugin ondersteuning"
+
+#: classes/class-loginpress-settings-api.php:678
+msgid "See What's In The Pro Version"
+msgstr "Bekijk wat er in de Pro versie zit"
+
+#: classes/class-loginpress-settings-api.php:673
+msgid "Full customization with Custom CSS & JS"
+msgstr "Volledig aanpasbaar met aangepaste CSS & JS"
+
+#: classes/class-loginpress-settings-api.php:672
+msgid "20+ Custom Login Themes"
+msgstr "20+ Aangepaste login thema's"
+
+#: classes/class-loginpress-settings-api.php:671
+msgid "Secure login with Google reCaptcha"
+msgstr "Veilige login met Google reCaptcha"
+
+#: classes/class-loginpress-settings-api.php:668
+msgid "Why Go Pro?"
+msgstr "Waarom Pro?"
+
+#: classes/control-presets.php:78
+msgid "Contact us for Custom Design"
+msgstr "Neem contact met ons op voor Aangepast ontwerp"
+
+#: classes/control-presets.php:74 classes/class-loginpress-promo.php:26
+#: classes/class-loginpress-promo.php:47
+msgid "Unlock Premium Feature"
+msgstr "Ontsluit premium functie"
+
+#: include/class-remote-notification-client.php:722
+msgid "Cannot decode the response content"
+msgstr "Kan de reactie inhoud niet decoderen"
+
+#: include/class-remote-notification-client.php:716
+msgid "The server response is empty"
+msgstr "De server reactie is leeg"
+
+#: include/class-remote-notification-client.php:710
+msgid "The server response was invalid (code %s)"
+msgstr "De server reactie was ongeldig (code %s)"
+
+#: include/class-remote-notification-client.php:502
+msgid "Dismiss notification"
+msgstr "Negeer bericht"
+
+#: include/class-remote-notification-client.php:126
+#: include/class-remote-notification-client.php:137
+msgid "Cheatin&#8217; huh?"
+msgstr "Vals spelen 'huh?"
+
+#: classes/class-loginpress-setup.php:106
+msgid "Customizer"
+msgstr "Customizer"
+
+#: custom.php:311
+msgid "Photographers"
+msgstr "Fotografen"
+
+#: custom.php:310
+msgid "Innovation"
+msgstr "Innovatie"
+
+#: custom.php:309
+msgid "Geek"
+msgstr "Freak"
+
+#: custom.php:307
+msgid "Writers"
+msgstr "Schrijvers"
+
+#: custom.php:306
+msgid "Shopping"
+msgstr "Winkelen"
+
+#: custom.php:305
+msgid "Fitness"
+msgstr "Fitness"
+
+#: custom.php:304 custom.php:532
+msgid "Bikers"
+msgstr "Motorrijders"
+
+#: custom.php:302 custom.php:530
+msgid "Wedding #2"
+msgstr "Huwelijk #2"
+
+#: custom.php:301 custom.php:529
+msgid "Wedding"
+msgstr "Huwelijk"
+
+#: custom.php:300 custom.php:528
+msgid "Startup"
+msgstr "Startup"
+
+#: custom.php:298 custom.php:299 custom.php:526 custom.php:527
+msgid "Corporate"
+msgstr "Zakelijk"
+
+#: custom.php:297 custom.php:308 custom.php:525
+msgid "Persona"
+msgstr "Persona"
+
+#: custom.php:296 custom.php:303 custom.php:524 custom.php:531
+msgid "Company"
+msgstr "Bedrijf"
+
+#: custom.php:282
+msgid "Choose Theme"
+msgstr "Kies thema"
+
+#: custom.php:281
+msgid "Themes"
+msgstr "Thema's"
+
+#: classes/class-loginpress-setup.php:210
+msgid "Remove my custom settings."
+msgstr "Verwijder mijn aangepaste instellingen."
+
+#: classes/class-loginpress-setup.php:209
+msgid "Reset Default Settings"
+msgstr "Reset standaard instellingen"
+
+#: classes/class-loginpress-setup.php:104
+#: classes/class-loginpress-setup.php:121
+msgid "Settings"
+msgstr "Instellingen"
+
+#: classes/class-loginpress-setup.php:53
+msgid "Default Settings Restored"
+msgstr "Standaard Instellingen hersteld"
+
+#: classes/class-loginpress-settings-api.php:393 custom.php:675
+msgid "Choose File"
+msgstr "Kies bestand"
+
+#: loginpress.php:428
+msgid "Vote!"
+msgstr "Stem!"
+
+#. Plugin Name of the plugin
+msgid "LoginPress - Customizing the WordPress Login"
+msgstr "LoginPress - Aanpassen van de WordPress login"
+
+#: loginpress.php:280 classes/class-loginpress-setup.php:102 custom.php:267
+msgid "LoginPress"
+msgstr "LoginPress"
+
+#. Author URI of the plugin
+msgid "https://WPBrigade.com/"
+msgstr "https://WPBrigade.com/"
+
+#. Author of the plugin
+msgid "WPBrigade"
+msgstr "WPBrigade"
+
+#. Plugin URI of the plugin
+msgid "https://WPBrigade.com/wordpress/plugins/loginpress/"
+msgstr "https://WPBrigade.com/wordpress/plugins/loginpress/"
+
+#: custom.php:1587
+msgid "Customize JS:"
+msgstr "Pas JS aan:"
+
+#: custom.php:1572
+msgid "Customize CSS:"
+msgstr "Pas CSS aan:"
+
+#: custom.php:1506
+msgid "Copyright Note:"
+msgstr "Copyright opmerking:"
+
+#: custom.php:1393
+msgid "\"Back to\" Text Font Size:"
+msgstr "\"Terug naar\" tekst lettertype grootte:"
+
+#: custom.php:1365
+msgid "\"Back to\" Text Hover Color:"
+msgstr "\"Terug naar\" tekst hover kleur:"
+
+#: custom.php:1350
+msgid "\"Back to\" Text Color:"
+msgstr "\"Terug naar\" tekst kleur:"
+
+#: custom.php:1329
+msgid "\"Back to\" Text Decoration:"
+msgstr "\"Terug naar\" tekst decoratie:"
+
+#: custom.php:1288
+msgid "Footer Background Color:"
+msgstr "Footer achtergrond kleur:"
+
+#: custom.php:1271
+msgid "Text Font Size:"
+msgstr "Lettertype grootte van tekst:"
+
+#: custom.php:1250
+msgid "Footer Text Hover Color:"
+msgstr "Footer hover kleur:"
+
+#: custom.php:1235
+msgid "Footer Text Color:"
+msgstr "Tesktkleur footer:"
+
+#: custom.php:1198
+msgid "Lost Password Text:"
+msgstr "Wachtwoord vergeten tekst:"
+
+#: custom.php:1160
+msgid "Form Footer"
+msgstr "Formulier footer"
+
+#: custom.php:1048
+msgid "Message Field Background Color:"
+msgstr "Achtergrond kleur berichtveld:"
+
+#: include/customizer-strings.php:176
+msgid "Message Field Border: ( Example: 1px solid #00a0d2; )"
+msgstr "Bericht veldrand: ( Bijvoorbeeld: 1px solid #00a0d2; )"
+
+#: include/customizer-strings.php:175
+msgid "Logout Message:"
+msgstr "Uitlog bericht:"
+
+#: include/customizer-strings.php:174
+msgid "Welcome Message on Registration:"
+msgstr "Welkomstbericht bij registratie:"
+
+#: include/customizer-strings.php:173
+msgid "Welcome Message on Login Page:"
+msgstr "Welkomstbericht op de login pagina:"
+
+#: include/customizer-strings.php:172
+msgid "Welcome Message on Lost Password:"
+msgstr "Welkomstbericht bij wachtwoord vergeten:"
+
+#: custom.php:1010
+msgid "Welcome Messages"
+msgstr "Welkomst berichten"
+
+#: include/customizer-strings.php:160
+msgid "Forget Password Message:"
+msgstr "Bericht wachtwoord vergeten:"
+
+#: include/customizer-strings.php:157
+msgid "Empty Email Message:"
+msgstr "Bericht lege e-mail:"
+
+#: include/customizer-strings.php:156
+msgid "Invalid Email Message:"
+msgstr "Bericht ongeldige e-mail:"
+
+#: include/customizer-strings.php:155
+msgid "Empty Password Message:"
+msgstr "Bericht leeg wachtwoord:"
+
+#: include/customizer-strings.php:154
+msgid "Empty Username Message:"
+msgstr "Bericht lege gebruikersnaam:"
+
+#: include/customizer-strings.php:153
+msgid "Incorrect Password Message:"
+msgstr "Bericht onjuist wachtwoord:"
+
+#: include/customizer-strings.php:152
+msgid "Incorrect Username Message:"
+msgstr "Bericht onjuiste gebruikersnaam:"
+
+#: custom.php:979
+msgid "Error Messages"
+msgstr "Fout berichten"
+
+#: include/customizer-strings.php:110
+msgid "Button Text Color:"
+msgstr "Tekstkleur knop:"
+
+#: include/customizer-strings.php:109
+msgid "Button Box Shadow:"
+msgstr "Knop box schaduw:"
+
+#: include/customizer-strings.php:108
+msgid "Button Border (Hover):"
+msgstr "Knop rand (Hover):"
+
+#: include/customizer-strings.php:107
+msgid "Button Color (Hover):"
+msgstr "Knop kleur (Hover):"
+
+#: include/customizer-strings.php:106
+msgid "Button Border Color:"
+msgstr "Knop rand kleur:"
+
+#: include/customizer-strings.php:105
+msgid "Button Color:"
+msgstr "Knopkleur:"
+
+#: custom.php:947
+msgid "Button Beauty"
+msgstr "Knop schoonheid"
+
+#: custom.php:937
+msgid "Forget Form Background Color:"
+msgstr "Vergeet formulier achtergrond kleur:"
+
+#: custom.php:922
+msgid "Forget Form Background Image:"
+msgstr "Vergeet formulier achtergrond afbeelding:"
+
+#: custom.php:908
+msgid "Customize Forget Form"
+msgstr "Aanpassen vergeet formulier"
+
+#: include/customizer-strings.php:80
+msgid "Input Field Text Color:"
+msgstr "Invoerveld tekstkleur:"
+
+#: include/customizer-strings.php:79
+msgid "Input Field Background Color:"
+msgstr "Achtergrond kleur invoerveld:"
+
+#: include/customizer-strings.php:78
+msgid "Form Background Color:"
+msgstr "Formulier achtergrond kleur:"
+
+#: include/customizer-strings.php:90
+msgid "Input Text Field Margin:"
+msgstr "Invoer tekstveld marge:"
+
+#: include/customizer-strings.php:54
+msgid "Input Text Field Width:"
+msgstr "Breedte invoertekstveld:"
+
+#: include/customizer-strings.php:89
+msgid "Border (Example: 2px dotted black):"
+msgstr "Rand (voorbeeld:2px gestippeld zwart):"
+
+#: include/customizer-strings.php:88
+msgid "Form Padding:"
+msgstr "Formulier padding:"
+
+#: include/customizer-strings.php:50
+msgid "Form Minimum Height:"
+msgstr "Formulier minimum hoogte:"
+
+#: include/customizer-strings.php:49
+msgid "Form Width:"
+msgstr "Formulier breedte:"
+
+#: custom.php:779
+msgid "Form Background Image:"
+msgstr "Formulier achtergrond afbeelding:"
+
+#: custom.php:742
+msgid "Customize Login Form"
+msgstr "Pas login formulier aan"
+
+#: custom.php:617
+msgid "Background Image Size: "
+msgstr "Achtergrond afbeelding grootte: "
+
+#: custom.php:591
+msgid "Select Position:"
+msgstr "Selecteer positie:"
+
+#: custom.php:566
+msgid "Background Repeat:"
+msgstr "Achtergrond herhalen:"
+
+#: custom.php:465
+msgid "Background Color:"
+msgstr "Achtergrondkleur:"
+
+#: custom.php:503
+msgid "Background Image:"
+msgstr "Achtergrond afbeelding:"
+
+#: custom.php:450
+msgid "Background"
+msgstr "Achtergrond"
+
+#: custom.php:414
+msgid "Logo Hover Title:"
+msgstr "Logo hover titel:"
+
+#: custom.php:420
+msgid "Logo URL:"
+msgstr "Logo URL:"
+
+#: include/customizer-strings.php:9
+msgid "Logo Height:"
+msgstr "Logo hoogte:"
+
+#: include/customizer-strings.php:9
+msgid "Logo Width:"
+msgstr "Logo breedte:"
+
+#: custom.php:397
+msgid "Logo Image:"
+msgstr "Logo afbeelding:"
+
+#: custom.php:363
+msgid "Customize Your Logo Section"
+msgstr "Pas je logo sectie aan"
+
+#: custom.php:362
+msgid "Logo"
+msgstr "Logo"
+
+#: custom.php:268
+msgid "Customize Your WordPress Login Page with LoginPress :)"
+msgstr "Pas je WordPress login pagina aan met LoginPress :)"

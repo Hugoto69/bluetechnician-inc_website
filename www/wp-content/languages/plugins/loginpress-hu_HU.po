@@ -1,0 +1,272 @@
+# Translation of Plugins - Custom Login Page Customizer | LoginPress - Stable (latest release) in Hungarian
+# This file is distributed under the same license as the Plugins - Custom Login Page Customizer | LoginPress - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-11-10 06:48:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: hu\n"
+"Project-Id-Version: Plugins - Custom Login Page Customizer | LoginPress - Stable (latest release)\n"
+
+#. Plugin Name of the plugin
+msgid "LoginPress - Customizing the WordPress Login"
+msgstr "LoginPress - A WordPress belépés testreszabása"
+
+#: classes/class-loginpress-setup.php:102 loginpress.php:280 custom.php:267
+msgid "LoginPress"
+msgstr "LoginPress"
+
+#. Author of the plugin
+msgid "WPBrigade"
+msgstr "WPBrigade"
+
+#: custom.php:1582
+msgid "Customize JS:"
+msgstr "JS testreszabás"
+
+#: custom.php:1567
+msgid "Customize CSS:"
+msgstr "CSS testreszabás"
+
+#: custom.php:1502
+msgid "Copyright Note:"
+msgstr "Szerzői jogfenntartás:"
+
+#: custom.php:1393
+msgid "\"Back to\" Text Font Size:"
+msgstr "\"Vissza\" szöveg betűméret"
+
+#: custom.php:1365
+msgid "\"Back to\" Text Hover Color:"
+msgstr "\"Vissza\" szövegszín a kurzor föléhúzáskor:"
+
+#: custom.php:1350
+msgid "\"Back to\" Text Color:"
+msgstr "\"Vissza\" szövegszín:"
+
+#: custom.php:1329
+msgid "\"Back to\" Text Decoration:"
+msgstr "\"Vissza\" szöveg dekorálás:"
+
+#: custom.php:1288
+msgid "Footer Background Color:"
+msgstr "Lábrész háttérszín:"
+
+#: custom.php:1271
+msgid "Text Font Size:"
+msgstr "Szöveg betűméret:"
+
+#: custom.php:1250
+msgid "Footer Text Hover Color:"
+msgstr "Lábrész szövegszín a kurzor föléhúzásakor:"
+
+#: custom.php:1235
+msgid "Footer Text Color:"
+msgstr "Lábrész szövegszín:"
+
+#: custom.php:1198
+msgid "Lost Password Text:"
+msgstr "Elveszett jelszó szöveg"
+
+#: custom.php:1160
+msgid "Form Footer"
+msgstr "Lábrész forma"
+
+#: custom.php:1048
+msgid "Message Field Background Color:"
+msgstr "Üzenetmező háttérszín:"
+
+#: include/customizer-strings.php:176
+msgid "Message Field Border: ( Example: 1px solid #00a0d2; )"
+msgstr "Üzenetmező kerete (pl.: 1 px solid #00a0d2; ):"
+
+#: include/customizer-strings.php:175
+msgid "Logout Message:"
+msgstr "Kijelentkezési üzenet:"
+
+#: include/customizer-strings.php:174
+msgid "Welcome Message on Registration:"
+msgstr "Köszöntő üzenet a regisztrációs részen:"
+
+#: include/customizer-strings.php:173
+msgid "Welcome Message on Login Page:"
+msgstr "Köszöntő üzenet a honlapon (front page):"
+
+#: include/customizer-strings.php:172
+msgid "Welcome Message on Lost Password:"
+msgstr "Köszöntő üzenet az elfelejtett jelszó részen:"
+
+#: custom.php:1010
+msgid "Welcome Messages"
+msgstr "Köszöntő üzenet:"
+
+#: include/customizer-strings.php:160
+msgid "Forget Password Message:"
+msgstr "Elfelejtett jelszó üzenet:"
+
+#: include/customizer-strings.php:157
+msgid "Empty Email Message:"
+msgstr "Üres e-mail üzenet:"
+
+#: include/customizer-strings.php:156
+msgid "Invalid Email Message:"
+msgstr "Hibás e-mail üzenet:"
+
+#: include/customizer-strings.php:155
+msgid "Empty Password Message:"
+msgstr "Üres jelszó-mező üzenet:"
+
+#: include/customizer-strings.php:154
+msgid "Empty Username Message:"
+msgstr "Üres felhasználói név üzenet:"
+
+#: include/customizer-strings.php:153
+msgid "Incorrect Password Message:"
+msgstr "Hibás jelszó üzenet:"
+
+#: include/customizer-strings.php:152
+msgid "Incorrect Username Message:"
+msgstr "Hibás felhasználói név üzenet:"
+
+#: custom.php:979
+msgid "Error Messages"
+msgstr "Hibaüzenetek"
+
+#: include/customizer-strings.php:110
+msgid "Button Text Color:"
+msgstr "Gombszöveg színe:"
+
+#: include/customizer-strings.php:109
+msgid "Button Box Shadow:"
+msgstr "Gom árnyékolása:"
+
+#: include/customizer-strings.php:108
+msgid "Button Border (Hover):"
+msgstr "Gombkeret (kurzor föléhúzáskor):"
+
+#: include/customizer-strings.php:107
+msgid "Button Color (Hover):"
+msgstr "Gombszín (kurzor föléhúzáskor):"
+
+#: include/customizer-strings.php:106
+msgid "Button Border Color:"
+msgstr "Gomb keretének színe:"
+
+#: include/customizer-strings.php:105
+msgid "Button Color:"
+msgstr "Gomb színe"
+
+#: custom.php:947
+msgid "Button Beauty"
+msgstr "Gomb-szépítés"
+
+#: custom.php:937
+msgid "Forget Form Background Color:"
+msgstr "Elfelejtett jelszó rész háttérszíne"
+
+#: custom.php:922
+msgid "Forget Form Background Image:"
+msgstr "Elfelejtett jelszó rész háttérkép"
+
+#: custom.php:908
+msgid "Customize Forget Form"
+msgstr "Elfelejtett jelszó rész testreszabás"
+
+#: include/customizer-strings.php:80
+msgid "Input Field Text Color:"
+msgstr "Beírómező szövegszín:"
+
+#: include/customizer-strings.php:79
+msgid "Input Field Background Color:"
+msgstr "Beírómező háttérszín:"
+
+#: include/customizer-strings.php:78
+msgid "Form Background Color:"
+msgstr "Elfelejtett jelszó rész háttérszíne:"
+
+#: include/customizer-strings.php:90
+msgid "Input Text Field Margin:"
+msgstr "Beírómező margó:"
+
+#: include/customizer-strings.php:54
+msgid "Input Text Field Width:"
+msgstr "Beírómező szélesség:"
+
+#: include/customizer-strings.php:89
+msgid "Border (Example: 2px dotted black):"
+msgstr "Keret (pl.: 2px dotted black;):"
+
+#: include/customizer-strings.php:88
+msgid "Form Padding:"
+msgstr "Forma belső kerete:"
+
+#: include/customizer-strings.php:50
+msgid "Form Minimum Height:"
+msgstr "Forma minimális magassága:"
+
+#: include/customizer-strings.php:49
+msgid "Form Width:"
+msgstr "Forma szélessége:"
+
+#: custom.php:742
+msgid "Customize Login Form"
+msgstr "Bejelentkező rész testreszabás"
+
+#: custom.php:617
+msgid "Background Image Size: "
+msgstr "Háttérkép mérete:"
+
+#: custom.php:591
+msgid "Select Position:"
+msgstr "Elhelyezkedés kiválasztása:"
+
+#: custom.php:566
+msgid "Background Repeat:"
+msgstr "Háttér ismétlése:"
+
+#: custom.php:465
+msgid "Background Color:"
+msgstr "Háttérszín:"
+
+#: custom.php:503
+msgid "Background Image:"
+msgstr "Háttérkép:"
+
+#: custom.php:450
+msgid "Background"
+msgstr "Háttér"
+
+#: custom.php:414
+msgid "Logo Hover Title:"
+msgstr "Logó címe a kurzor föléhúzáskor:"
+
+#: custom.php:420
+msgid "Logo URL:"
+msgstr "Logó URL:"
+
+#: include/customizer-strings.php:9
+msgid "Logo Height:"
+msgstr "Logó magassága:"
+
+#: include/customizer-strings.php:9
+msgid "Logo Width:"
+msgstr "Logó szélessége"
+
+#: custom.php:397
+msgid "Logo Image:"
+msgstr "Logó kép:"
+
+#: custom.php:363
+msgid "Customize Your Logo Section"
+msgstr "Logó rész testreszabás"
+
+#: custom.php:362
+msgid "Logo"
+msgstr "Logó"
+
+#: custom.php:268
+msgid "Customize Your WordPress Login Page with LoginPress :)"
+msgstr "Szabjuk testre a WordPress bejelentkezési oldalt a LoginPress bővítménnyel :)"

@@ -1,0 +1,551 @@
+# Copyright (C) 2021 WP White Security
+# This file is distributed under the same license as the WP Activity Log for Yoast SEO plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Activity Log for Yoast SEO 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/activity-log-yoast-seo\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-04-27T10:55:24+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: activity-log-wp-seo\n"
+
+#. Plugin Name of the plugin
+msgid "WP Activity Log for Yoast SEO"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wpactivitylog.com/extensions/"
+msgstr ""
+
+#. Description of the plugin
+msgid "A WP Activity Log plugin extension for Yoast SEO"
+msgstr ""
+
+#. Author of the plugin
+msgid "WP White Security"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.wpwhitesecurity.com/"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:8
+msgid "Yoast SEO"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:9
+msgid "Post Changes"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:13
+msgid "User changed title of a post"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:14
+msgid "Changed the <strong>SEO title</strong> of the post %PostTitle% to %NewSEOTitle%."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:16
+#: wp-security-audit-log/custom-alerts.php:33
+#: wp-security-audit-log/custom-alerts.php:51
+#: wp-security-audit-log/custom-alerts.php:68
+#: wp-security-audit-log/custom-alerts.php:84
+#: wp-security-audit-log/custom-alerts.php:101
+#: wp-security-audit-log/custom-alerts.php:119
+#: wp-security-audit-log/custom-alerts.php:136
+msgid "Post ID"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:17
+#: wp-security-audit-log/custom-alerts.php:34
+#: wp-security-audit-log/custom-alerts.php:52
+#: wp-security-audit-log/custom-alerts.php:69
+#: wp-security-audit-log/custom-alerts.php:85
+#: wp-security-audit-log/custom-alerts.php:102
+#: wp-security-audit-log/custom-alerts.php:120
+#: wp-security-audit-log/custom-alerts.php:137
+msgid "Post type"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:18
+#: wp-security-audit-log/custom-alerts.php:35
+#: wp-security-audit-log/custom-alerts.php:53
+#: wp-security-audit-log/custom-alerts.php:70
+#: wp-security-audit-log/custom-alerts.php:86
+#: wp-security-audit-log/custom-alerts.php:103
+#: wp-security-audit-log/custom-alerts.php:121
+#: wp-security-audit-log/custom-alerts.php:138
+msgid "Post status"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:19
+#: wp-security-audit-log/custom-alerts.php:168
+#: wp-security-audit-log/custom-alerts.php:449
+#: wp-security-audit-log/custom-alerts.php:493
+msgid "Previous title"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:30
+msgid "User changed the meta description of a post"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:31
+msgid "Changed the <strong>Meta description</strong> of the post %PostTitle%."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:36
+#: wp-security-audit-log/custom-alerts.php:180
+#: wp-security-audit-log/custom-alerts.php:461
+#: wp-security-audit-log/custom-alerts.php:505
+msgid "Previous description"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:37
+#: wp-security-audit-log/custom-alerts.php:181
+msgid "New description"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:48
+msgid "User changed setting to allow search engines to show post in search results of a post"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:49
+msgid "Changed the setting <strong>Allow seach engines to show post in search results</strong> for the post %PostTitle% to %NewStatus%."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:54
+#: wp-security-audit-log/custom-alerts.php:87
+#: wp-security-audit-log/custom-alerts.php:193
+#: wp-security-audit-log/custom-alerts.php:357
+#: wp-security-audit-log/custom-alerts.php:369
+msgid "Previous setting"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:65
+msgid "User Enabled/Disabled the option for search engine to follow links of a post"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:66
+msgid "Changed the status of the setting <strong>Search engines to follow links in post</strong> in the post %PostTitle%."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:81
+msgid "User set the Meta robots advanced setting of a post"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:82
+msgid "Changed the <strong>Meta robots advanced</strong> setting for the post %PostTitle% to %NewStatus%."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:98
+msgid "User changed the canonical URL of a post"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:99
+msgid "Changed the <strong>Canonical URL</strong> of the post %PostTitle%."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:104
+msgid "Previous URL"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:105
+#: wp-security-audit-log/custom-alerts.php:343
+msgid "New URL"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:116
+msgid "User changed the focus keyword of a post"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:117
+msgid "Changed the <strong>focus keyword</strong> for the post %PostTitle% to %new_keywords%."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:122
+msgid "Previous keyword"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:133
+msgid "User Enabled/Disabled the option Cornerston Content of a post"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:134
+msgid "Changed the setting <strong>Cornerstone content</strong> in the post %PostTitle%."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:148
+msgid "Website Changes"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:152
+msgid "User changed the Title Separator"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:153
+msgid "Changed the <strong>Title separator</strong> in the plugin settings to %new%."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:155
+msgid "Previous separator"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:165
+msgid "User changed the Homepage Title"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:166
+#: wp-security-audit-log/custom-alerts.php:191
+msgid "Changed the <strong>Knowledge Graph & Schema.org</strong> in the plugin settings to %new%."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:177
+msgid "User changed the Homepage Meta description"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:178
+msgid "Changed the homepage Meta description."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:190
+msgid "User changed the Knowledge Graph & Schema.org"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:201
+msgid "Plugin Settings Changes"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:205
+msgid "User Enabled/Disabled SEO analysis in the Yoast SEO plugin settings"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:206
+msgid "Changed the status of the <strong>SEO Analysis</strong> plugin feature."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:215
+msgid "User Enabled/Disabled readability analysis in the Yoast SEO plugin settings"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:216
+msgid "Changed the <strong>Readability Analysis</strong> plugin feature."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:225
+msgid "User Enabled/Disabled cornerstone content in the Yoast SEO plugin settings"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:226
+msgid "Changed the <strong>Cornerstone content</strong> plugin feature."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:235
+msgid "User Enabled/Disabled the text link counter in the Yoast SEO plugin settings"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:236
+msgid "Changed the <strong>Text link counter</strong> plugin feature."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:245
+msgid "User Enabled/Disabled XML sitemaps in the Yoast SEO plugin settings"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:246
+msgid "Changed the <strong>XML sitemap</strong> plugin feature."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:255
+msgid "User Enabled/Disabled ryte integration in the Yoast SEO plugin settings"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:256
+msgid "Changed the <strong>Ryte integration</strong> plugin feature."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:265
+msgid "User Enabled/Disabled the admin bar menu in the Yoast SEO plugin settings"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:266
+msgid "Changed the <strong>Admin bar menu</strong> plugin feature."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:275
+msgid "User changed the Posts/Pages meta description template in the Yoast SEO plugin settings"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:276
+msgid "Changed the %SEOPostType% Meta description template to %new%."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:278
+#: wp-security-audit-log/custom-alerts.php:426
+msgid "Previous template"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:287
+msgid "User set the option to show the Yoast SEO Meta Box for Posts/Pages in the Yoast SEO plugin settings"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:288
+msgid "Changed the status of the option to show the <strong>Yoast SEO Meta Box</strong> for %SEOPostType%."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:297
+msgid "User Enabled/Disabled the advanced or schema settings for authors in the Yoast SEO plugin settings"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:298
+msgid "Changed the setting <strong>Security: advanced or schema settings for authors</strong> in the plugin."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:307
+msgid "User Enabled/Disabled redirecting attachment URLs in the Yoast SEO plugin settings"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:308
+msgid "Changed the status of the setting <strong>Redirect attachment URLs</strong> in the <strong>Media</strong> search appearance settings."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:318
+msgid "User Enabled/Disabled Usage tracking in the Yoast SEO plugin settings"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:319
+msgid "Changed the status of the <strong>Usage tracking</strong> plugin setting."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:328
+msgid "User Enabled/Disabled REST API: Head endpoint in the Yoast SEO plugin settings"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:329
+msgid "Changed the status of the <strong>REST API: Head endpoint</strong> plugin setting."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:338
+msgid "User Added/Removed a social profile in the Yoast SEO plugin settings"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:339
+msgid "Changed the URL of an <strong>Organization social profile</strong>."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:341
+msgid "Social media profile"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:342
+msgid "Old URL"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:354
+msgid "User changed who should have access to the setting on Network Level"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:355
+msgid "Changed the setting <strong>Who should have access to the Yoast SEO settings</strong> on a multisite network to %new%."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:366
+msgid "New sites inherit their SEO options from site changed"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:367
+msgid "Changed the setting <strong>New sites in the network inherit their SEO settings from this site</strong> to %new%."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:378
+msgid "Reset the site's SEO settings to default"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:379
+msgid "Reset the SEO settings of the site %old% to default."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:381
+msgid "Site ID"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:392
+msgid "Disabled a plugin feature networkwide"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:393
+msgid "Disabled the plugin feature %feature_name% networkwide."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:402
+msgid "Allowed site administrators to toggle a plugin feature on or off for their site"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:403
+msgid "Allowed site administrators to toggle the plugin feature %feature_name% on or off on their sites."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:413
+msgid "User Enabled/Disabled the option Show Posts/Pages in Search Results in the Yoast SEO plugin settings"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:414
+msgid "Changed the status of the content type setting to show %SEOPostType% in search results."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:423
+msgid "User changed the Posts/Pages title template in the Yoast SEO plugin settings"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:424
+msgid "Changed the %SEOPostType% SEO title template in the plugin settings to %new%."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:436
+msgid "User Enabled/Disabled the taxonomies to show in search results setting in the Yoast SEO plugin settings"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:437
+msgid "Changed the status of the taxonomies setting to show %SEOPostType% in search results."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:446
+msgid "User Modified the SEO title template for a taxonomy in the Yoast SEO plugin settings"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:447
+msgid "Changed the SEO title template for the taxonomy %SEOPostType% to %new%."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:458
+msgid "User Modified the Meta description template for a taxonomy in the Yoast SEO plugin settings"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:459
+msgid "Changed the Meta description template for the taxonomy %SEOPostType% to %new%."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:470
+msgid "User Enabled/Disabled Author or Data archives in Yoast SEO plugin settings"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:480
+msgid "User Enabled/Disabled showing Author or Date archives in search results in Yoast SEO plugin settings"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:481
+msgid "Changed the status of the setting to show the %archive_type% archives in the search results."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:490
+msgid "User Modified the SEO title template for Author or Date archives in the Yoast SEO plugin settings"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:491
+msgid "Changed the SEO title template for the %archive_type% archives to %new%."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:502
+msgid "User Modified the SEO Meta description for Author or Date archives in the Yoast SEO plugin settings"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:503
+msgid "Changed the Meta description template for the %archive_type% archives to %new%."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:514
+msgid "User Enabled/Disabled the SEO meta box for a taxonomy"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:515
+msgid "Changed the status of the setting to show SEO settings for the %SEOPostType% taxonomy."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:524
+msgid "User Added/Removed/Modified a Webmaster Tools verification code for a search engine"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:525
+msgid "Changed the <strong>Webmaster Tools verification code</strong> for a search engine."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:527
+msgid "Search engine"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:528
+msgid "Previous code"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:529
+msgid "New code"
+msgstr ""
+
+#: wp-security-audit-log/custom-sensors/YoastSEO.php:278
+#: wp-security-audit-log/custom-sensors/YoastSEO.php:472
+#: wp-security-audit-log/custom-sensors/YoastSEO.php:931
+#: wp-security-audit-log/custom-sensors/YoastSEO.php:932
+#: wp-security-audit-log/custom-sensors/YoastSEO.php:937
+#: wp-security-audit-log/custom-sensors/YoastSEO.php:938
+#: wp-security-audit-log/custom-sensors/YoastSEO.php:980
+#: wp-security-audit-log/custom-sensors/YoastSEO.php:981
+msgid "Not provided"
+msgstr ""
+
+#: wp-security-audit-log/custom-sensors/YoastSEO.php:954
+#: wp-security-audit-log/custom-sensors/YoastSEO.php:955
+msgid "None"
+msgstr ""
+
+#: wp-security-audit-log/custom-sensors/YoastSEO.php:1053
+msgid "SEO Analysis"
+msgstr ""
+
+#: wp-security-audit-log/custom-sensors/YoastSEO.php:1056
+msgid "Readability Analysis"
+msgstr ""
+
+#: wp-security-audit-log/custom-sensors/YoastSEO.php:1059
+msgid "Cornerstone content"
+msgstr ""
+
+#: wp-security-audit-log/custom-sensors/YoastSEO.php:1062
+msgid "Text link counter"
+msgstr ""
+
+#: wp-security-audit-log/custom-sensors/YoastSEO.php:1065
+msgid "XML sitemap"
+msgstr ""
+
+#: wp-security-audit-log/custom-sensors/YoastSEO.php:1068
+msgid "Admin bar menu"
+msgstr ""
+
+#: wp-security-audit-log/custom-sensors/YoastSEO.php:1071
+msgid "Security: advanced or schema settings for authors"
+msgstr ""
+
+#: wp-security-audit-log/custom-sensors/YoastSEO.php:1074
+msgid "Usage tracking"
+msgstr ""
+
+#: wp-security-audit-log/custom-sensors/YoastSEO.php:1077
+msgid "REST API: Head endpoint"
+msgstr ""
+
+#: wp-security-audit-log/custom-sensors/YoastSEO.php:1080
+msgid "Slack sharing"
+msgstr ""
+
+#: wp-security-audit-log/custom-sensors/YoastSEO.php:1100
+#: wp-security-audit-log/custom-sensors/YoastSEO.php:1278
+msgid "Date"
+msgstr ""
+
+#: wp-security-audit-log/custom-sensors/YoastSEO.php:1283
+msgid "Categories"
+msgstr ""
