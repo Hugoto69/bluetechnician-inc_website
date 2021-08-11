@@ -1,15 +1,20 @@
-# Translation of WordPress - 5.7.x - Development - Administration - Network Admin in Romanian
-# This file is distributed under the same license as the WordPress - 5.7.x - Development - Administration - Network Admin package.
+# Translation of WordPress - 5.8.x - Development - Administration - Network Admin in Romanian
+# This file is distributed under the same license as the WordPress - 5.8.x - Development - Administration - Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-05-10 15:19:40+0000\n"
+"PO-Revision-Date: 2021-07-29 19:08:11+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2);\n"
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: ro\n"
-"Project-Id-Version: WordPress - 5.7.x - Development - Administration - Network Admin\n"
+"Project-Id-Version: WordPress - 5.8.x - Development - Administration - Network Admin\n"
+
+#. translators: %s: Theme name.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:734
+msgid "Child theme of %s"
+msgstr "Tema copil a %s"
 
 #: wp-admin/network/settings.php:63
 msgid "<a href=\"https://wordpress.org/support/article/network-admin-settings-screen/\">Documentation on Network Settings</a>"
@@ -150,11 +155,11 @@ msgstr "Constanta %s nu poate fi definită când se creează o rețea."
 
 #: wp-admin/network/sites.php:195
 msgid "You are about to delete the following sites:"
-msgstr "Ești pe cale să ștergi următoarele situri:"
+msgstr "Ești pe cale să ștergi următoarele site-uri:"
 
 #: wp-admin/network/site-users.php:243
 msgid "User could not be added to this site."
-msgstr "Utilizatorul nu a putut fi adăugat la acest sit."
+msgstr "Utilizatorul nu a putut fi adăugat la acest site."
 
 #: wp-admin/network/site-new.php:263
 msgid "The username and a link to set the password will be mailed to this email address."
@@ -173,7 +178,7 @@ msgstr "Instalare subdomeniu"
 msgid "Sub-directory Installation"
 msgstr "Instalare sub-director"
 
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:909
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:917
 msgid "Active Child Theme"
 msgstr "Temă copil activă"
 
@@ -182,24 +187,18 @@ msgid "Attributes"
 msgstr "Atribute"
 
 #. translators: %s: File size in kilobytes.
-#: wp-admin/network/settings.php:407
+#: wp-admin/network/settings.php:424
 msgid "%s KB"
 msgstr "%s KO"
 
 #. translators: %s: Default network title.
 #: wp-admin/includes/network.php:172
 msgid "%s Sites"
-msgstr "Situri %s"
-
-#. translators: %s: Theme name.
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:624
-msgctxt "theme"
-msgid "Delete %s"
-msgstr "Șterge %s"
+msgstr "Site-uri %s"
 
 #: wp-admin/network/themes.php:101
 msgid "Sorry, you are not allowed to delete themes for this site."
-msgstr "Regret, nu ai voie să ștergi temele acestui sit."
+msgstr "Regret, nu ai voie să ștergi temele acestui site."
 
 #: wp-admin/network/themes.php:14
 msgid "Sorry, you are not allowed to manage network themes."
@@ -207,29 +206,33 @@ msgstr "Regret, nu ai voie să administrezi temele din rețea."
 
 #: wp-admin/network/sites.php:320
 msgid "Sorry, you are not allowed to delete that site."
-msgstr "Regret, nu ai voie să ștergi acest sit."
+msgstr "Regret, nu ai voie să ștergi acest site."
 
 #: wp-admin/network/site-themes.php:14
 msgid "Sorry, you are not allowed to manage themes for this site."
-msgstr "Regret, nu ai voie să administrezi teme din acest sit."
+msgstr "Regret, nu ai voie să administrezi teme din acest site."
 
 #: wp-admin/network/site-new.php:17
 msgid "Sorry, you are not allowed to add sites to this network."
-msgstr "Regret, nu ai voie să adaugi situri în această rețea."
+msgstr "Regret, nu ai voie să adaugi site-uri în această rețea."
 
-#: wp-admin/network/site-info.php:14 wp-admin/network/site-users.php:14
-#: wp-admin/network/site-settings.php:14
+#: wp-admin/network/site-info.php:14 wp-admin/network/site-settings.php:14
+#: wp-admin/network/site-users.php:14
 msgid "Sorry, you are not allowed to edit this site."
-msgstr "Regret, nu ai voie să editezi acest sit."
+msgstr "Regret, nu ai voie să editezi acest site."
 
-#: wp-admin/network/settings.php:357
+#: wp-admin/network/settings.php:374
 msgid "The email address of the first comment author on a new site."
-msgstr "Adresa de email a primului autor de comentariu pe un sit nou."
+msgstr "Adresa de email a primului autor de comentariu pe un site nou."
 
-#: wp-admin/network/settings.php:353
+#: wp-admin/network/settings.php:370
 msgid "First Comment Email"
 msgstr "Email la primul comentariu"
 
+#. translators: This string should only be translated if wp-config-sample.php
+#. is localized. You can check the localized release package or
+#. https://i18n.svn.wordpress.org/<locale code>/branches/<wp
+#. version>/dist/wp-config-sample.php
 #: wp-admin/includes/network.php:485
 msgid "That&#8217;s all, stop editing! Happy publishing."
 msgstr "Asta e tot, oprește editarea! Publicare fericită."
@@ -274,7 +277,7 @@ msgstr "Îți recomandăm să faci o copie de siguranță a fișierelor %1$s și
 #. translators: 1: localhost, 2: localhost.localdomain
 #: wp-admin/includes/network.php:306
 msgid "Because you are using %1$s, the sites in your WordPress network must use sub-directories. Consider using %2$s if you wish to use sub-domains."
-msgstr "Deoarece folosești %1$s, siturile din rețeaua ta WordPress trebuie să folosească sub-directoare. Folosește %2$s dacă dorești ca acestea să folosească sub-domenii."
+msgstr "Deoarece folosești %1$s, site-urile din rețeaua ta WordPress trebuie să folosească sub-directoare. Folosește %2$s dacă dorești ca acestea să folosească sub-domenii."
 
 #. translators: %s: Host name.
 #: wp-admin/includes/network.php:288 wp-admin/includes/network.php:348
@@ -284,7 +287,7 @@ msgstr "Adresa de internet a rețelei tale va fi %s."
 #. translators: 1: Site URL, 2: Host name, 3: www.
 #: wp-admin/includes/network.php:274
 msgid "We recommend you change your site domain to %1$s before enabling the network feature. It will still be possible to visit your site using the %3$s prefix with an address like %2$s but any links will not have the %3$s prefix."
-msgstr "Înainte de activarea funcționalității de rețea, îți recomandăm să schimbi domeniul sitului în %1$s. Încă este posibil să-ți vizitezi sitului folosind prefixul %3$s cu o adresă precum %2$s, dar toate legăturile nu vor avea prefixul %3$s."
+msgstr "Înainte de activarea funcționalității de rețea, îți recomandăm să schimbi domeniul site-ului în %1$s. Încă este posibil să-ți vizitezi site-ului folosind prefixul %3$s cu o adresă precum %2$s, dar nu toate legăturile vor avea prefixul %3$s."
 
 #: wp-admin/includes/network.php:229
 msgid "You cannot change this later."
@@ -292,7 +295,7 @@ msgstr "Ulterior nu vei mai putea schimba asta."
 
 #: wp-admin/includes/network.php:228
 msgid "Please choose whether you would like sites in your WordPress network to use sub-domains or sub-directories."
-msgstr "Te rog să alegi dacă siturile tale din rețeaua ta WordPress să folosească sub-domenii sau sub-directoare."
+msgstr "Te rog să alegi dacă site-urile tale din rețeaua ta WordPress să folosească sub-domenii sau sub-directoare."
 
 #. translators: 1: mod_rewrite, 2: mod_rewrite documentation URL, 3: Google
 #. search for mod_rewrite.
@@ -340,7 +343,7 @@ msgstr "Marchează ca spam"
 
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:727
 msgid "Visit Theme Site"
-msgstr "Vizitează situl temei"
+msgstr "Vizitează site-ul temei"
 
 #. translators: %s: Theme name.
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:721
@@ -422,13 +425,9 @@ msgstr[0] "Total <span class=\"count\">(%s)</span>"
 msgstr[1] "Total <span class=\"count\">(%s)</span>"
 msgstr[2] "Total <span class=\"count\">(%s)</span>"
 
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:331
-msgid "Theme"
-msgstr "Temă"
-
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:319
 msgid "No themes found."
-msgstr "Nicio temă găsită."
+msgstr "Nu am găsit nicio temă."
 
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:706
 msgctxt "verb; site"
@@ -471,7 +470,7 @@ msgstr "Marchează ca spam"
 
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:207
 msgid "No sites found."
-msgstr "Niciun sit găsit."
+msgstr "Niciun site găsit."
 
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:42
 #: wp-admin/network/site-info.php:190
@@ -495,14 +494,14 @@ msgstr "Spam"
 msgid "Archived"
 msgstr "Arhivat"
 
-#: wp-admin/network/user-new.php:136 wp-admin/network/site-users.php:355
+#: wp-admin/network/site-users.php:355 wp-admin/network/user-new.php:136
 msgid "A password reset link will be sent to the user via email."
 msgstr "O legătură pentru resetarea parolei îți va fi trimisă pe email."
 
 #. translators: 1: NOBLOGREDIRECT, 2: wp-config.php
 #: wp-admin/network/settings.php:212
 msgid "If registration is disabled, please set %1$s in %2$s to a URL you will redirect visitors to if they visit a non-existent site."
-msgstr "Dacă înregistrarea este dezactivată, te rog setează %1$s în %2$s la un URL la care vei redirecționa vizitatorii, dacă vizitează un sit inexistent."
+msgstr "Dacă înregistrarea este dezactivată, te rog setează %1$s în %2$s la un URL la care vei redirecționa vizitatorii, dacă vizitează un site inexistent."
 
 #. translators: 1: WP_ALLOW_MULTISITE, 2: wp-config.php
 #: wp-admin/network.php:44
@@ -515,35 +514,35 @@ msgstr "Navigare în listă teme"
 
 #: wp-admin/network/sites.php:52
 msgid "Sites list"
-msgstr "Listă situri"
+msgstr "Listă site-uri"
 
 #: wp-admin/network/sites.php:51
 msgid "Sites list navigation"
-msgstr "Navigare în listă situri"
+msgstr "Navigare în listă site-uri"
 
 #: wp-admin/network/site-users.php:27
 msgid "Site users list"
-msgstr "Listă de utilizatori sit"
+msgstr "Listă de utilizatori site"
 
 #: wp-admin/network/site-users.php:26
 msgid "Site users list navigation"
-msgstr "Navigare în listă utilizatori sit"
+msgstr "Navigare în listă utilizatori site"
 
 #: wp-admin/network/site-users.php:25
 msgid "Filter site users list"
-msgstr "Filtrează lista de utilizatori sit"
+msgstr "Filtrează lista de utilizatori site"
 
 #: wp-admin/network/site-themes.php:24
 msgid "Site themes list"
-msgstr "Listă teme sit"
+msgstr "Listă teme site"
 
 #: wp-admin/network/site-themes.php:23
 msgid "Site themes list navigation"
-msgstr "Navigare în listă teme sit"
+msgstr "Navigare în listă teme site"
 
 #: wp-admin/network/site-themes.php:22
 msgid "Filter site themes list"
-msgstr "Filtrează lista de teme sit"
+msgstr "Filtrează lista de teme site"
 
 #: wp-admin/network/site-new.php:121
 msgid "The domain or path entered conflicts with an existing username."
@@ -556,52 +555,52 @@ msgstr "Acțiunea cerută nu e validă."
 #. translators: %s: Site URL.
 #: wp-admin/network/sites.php:81
 msgid "You are about to mark the site %s as not mature."
-msgstr "Ești pe cale să marchezi situl %s ca imatur."
+msgstr "Ești pe cale să anulezi marcarea site-ului %s ca matur."
 
 #. translators: %s: Site URL.
 #: wp-admin/network/sites.php:79
 msgid "You are about to mark the site %s as mature."
-msgstr "Ești pe cale să marchezi situl %s ca matur."
+msgstr "Ești pe cale să marchezi site-ul %s ca matur."
 
 #. translators: %s: Site URL.
 #: wp-admin/network/sites.php:77
 msgid "You are about to delete the site %s."
-msgstr "Ești pe cale să ștergi situl %s."
+msgstr "Ești pe cale să ștergi site-ul %s."
 
 #. translators: %s: Site URL.
 #: wp-admin/network/sites.php:75
 msgid "You are about to mark the site %s as spam."
-msgstr "Ești pe cale să marchezi situl %s ca spam."
+msgstr "Ești pe cale să marchezi site-ul %s ca spam."
 
 #. translators: %s: Site URL.
 #: wp-admin/network/sites.php:73
 msgid "You are about to unspam the site %s."
-msgstr "Ești pe cale să demarchezi ca spam situl %s."
+msgstr "Ești pe cale să demarchezi ca spam site-ul %s."
 
 #. translators: %s: Site URL.
 #: wp-admin/network/sites.php:71
 msgid "You are about to archive the site %s."
-msgstr "Ești pe cale să arhivezi situl %s."
+msgstr "Ești pe cale să arhivezi site-ul %s."
 
 #. translators: %s: Site URL.
 #: wp-admin/network/sites.php:69
 msgid "You are about to unarchive the site %s."
-msgstr "Ești pe cale să dezarhivezi situl %s."
+msgstr "Ești pe cale să dezarhivezi site-ul %s."
 
 #. translators: %s: Site URL.
 #: wp-admin/network/sites.php:67
 msgid "You are about to deactivate the site %s."
-msgstr "Ești pe cale să dezactivezi situl %s."
+msgstr "Ești pe cale să dezactivezi site-ul %s."
 
 #. translators: %s: Site URL.
 #: wp-admin/network/sites.php:65
 msgid "You are about to activate the site %s."
-msgstr "Ești pe cale să activezi situl %s."
+msgstr "Ești pe cale să activezi site-ul %s."
 
-#: wp-admin/network/site-info.php:28 wp-admin/network/site-users.php:46
-#: wp-admin/network/site-themes.php:53 wp-admin/network/site-settings.php:28
+#: wp-admin/network/site-info.php:28 wp-admin/network/site-settings.php:28
+#: wp-admin/network/site-themes.php:53 wp-admin/network/site-users.php:46
 msgid "The requested site does not exist."
-msgstr "Situl cerut nu există."
+msgstr "Site-ul cerut nu există."
 
 #: wp-admin/network/user-new.php:29 wp-admin/network/users.php:230
 msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Users_Screen\">Documentation on Network Users</a>"
@@ -614,7 +613,7 @@ msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Themes_Screen\">Docu
 #. translators: 1: Site URL, 2: Server error message.
 #: wp-admin/network/upgrade.php:98
 msgid "Warning! Problem updating %1$s. Your server may not be able to connect to sites running on it. Error message: %2$s"
-msgstr "Atenție! Problemă la actualizarea %1$s. Este posibil ca serverul tău să nu se poată conecta la siturile care rulează pe el. Mesaj de eroare: %2$s"
+msgstr "Atenție! Problemă la actualizarea %1$s. Serverul tău s-ar putea să nu se poată conecta la site-urile care rulează pe el. Mesaj de eroare: %2$s"
 
 #. translators: %s: Number of themes.
 #: wp-admin/network/themes.php:392
@@ -625,7 +624,7 @@ msgstr[1] "%s teme șterse."
 msgstr[2] "%s de teme șterse."
 
 #. translators: %s: Number of themes.
-#: wp-admin/network/themes.php:383 wp-admin/network/site-themes.php:204
+#: wp-admin/network/site-themes.php:204 wp-admin/network/themes.php:383
 msgid "%s theme disabled."
 msgid_plural "%s themes disabled."
 msgstr[0] "%s temă dezactivată."
@@ -633,7 +632,7 @@ msgstr[1] "%s teme dezactivate."
 msgstr[2] "%s de teme dezactivate."
 
 #. translators: %s: Number of themes.
-#: wp-admin/network/themes.php:374 wp-admin/network/site-themes.php:195
+#: wp-admin/network/site-themes.php:195 wp-admin/network/themes.php:374
 msgid "%s theme enabled."
 msgid_plural "%s themes enabled."
 msgstr[0] "%s temă activată."
@@ -650,7 +649,7 @@ msgstr "Ești pe cale să îndepărtezi următoarele teme:"
 
 #: wp-admin/network/themes.php:141
 msgid "These themes may be active on other sites in the network."
-msgstr "Aceste teme pot fi active pe alte situri din rețea."
+msgstr "Aceste teme pot fi active pe alte site-uri din rețea."
 
 #: wp-admin/network/themes.php:140
 msgid "Delete Themes"
@@ -658,17 +657,17 @@ msgstr "Șterge teme"
 
 #: wp-admin/network/site-info.php:196
 msgid "Set site attributes"
-msgstr "Setează atribute sit"
+msgstr "Setează atribute site"
 
-#: wp-admin/network/settings.php:479
+#: wp-admin/network/settings.php:496
 msgid "Enable menus"
 msgstr "Activează meniuri"
 
-#: wp-admin/network/settings.php:412
+#: wp-admin/network/settings.php:429
 msgid "Size in kilobytes"
 msgstr "Mărime în kilobytes"
 
-#: wp-admin/network/settings.php:396
+#: wp-admin/network/settings.php:413
 msgid "Allowed file types. Separate types by spaces."
 msgstr "Tipuri de fișiere permise. Separă tipurile cu spații."
 
@@ -687,11 +686,11 @@ msgstr "Confirmă-ți acțiunea"
 
 #: wp-admin/network/users.php:220
 msgid "Hover over any user on the list to make the edit links appear. The Edit link on the left will take you to their Edit User profile page; the Edit link on the right by any site name goes to an Edit Site screen for that site."
-msgstr "Treci peste oricare utilizator din listă pentru a face să apară legăturile de editare. Legătura de editare din stânga te va duce la pagina de profil Editează utilizatorul; legătura de editare din dreapta, pentru orice nume de sit, te va duce la un ecran Editează situl, pentru situl respectiv."
+msgstr "Treci peste oricare utilizator din listă pentru a face să apară legăturile de editare. Legătura de editare din stânga te va duce la pagina de profil Editează utilizatorul; legătura de editare din dreapta, pentru orice nume de site, te va duce la ecranul Editează site-ul, pentru site-ul respectiv."
 
 #: wp-admin/network/index.php:43
 msgid "To search for a site, <strong>enter the path or domain</strong>."
-msgstr "Pentru a căuta un sit, <strong>introdu calea sau domeniul</strong>."
+msgstr "Pentru a căuta un site, <strong>introdu calea sau domeniul</strong>."
 
 #: wp-admin/network/index.php:42
 msgid "To search for a user, <strong>enter an email address or username</strong>. Use a wildcard to search for a partial username, such as user&#42;."
@@ -699,7 +698,7 @@ msgstr "Pentru a căuta un utilizator, <strong>introdu o adresă de email sau un
 
 #: wp-admin/network/index.php:40
 msgid "To add a new site, <strong>click Create a New Site</strong>."
-msgstr "Pentru a adăuga un nou sit, <strong>dă clic pe Creează un sit nou</strong>."
+msgstr "Pentru a adăuga un nou site, <strong>dă clic pe Creează un site nou</strong>."
 
 #: wp-admin/network/index.php:39
 msgid "To add a new user, <strong>click Create a New User</strong>."
@@ -711,11 +710,11 @@ msgstr "Sarcini rapide"
 
 #: wp-admin/network/index.php:41
 msgid "To search for a user or site, use the search boxes."
-msgstr "Pentru a căuta un sit sau un utilizator poți folosi casetele de căutare."
+msgstr "Pentru a căuta un site sau un utilizator poți folosi casetele de căutare."
 
 #: wp-admin/network/index.php:38
 msgid "The Right Now widget on this screen provides current user and site counts on your network."
-msgstr "Piesa Chiar acum de pe acest ecran oferă informații despre numărul total de situri și utilizatori din rețea."
+msgstr "Piesa Chiar acum de pe acest ecran oferă informații despre numărul total de site-uri și utilizatori din rețea."
 
 #: wp-admin/network/index.php:28
 msgid "Modify global network settings"
@@ -731,7 +730,7 @@ msgstr "Instalează și activează teme și module"
 
 #: wp-admin/network/index.php:25
 msgid "Add and manage sites or users"
-msgstr "Adăugă și administrează situri și utilizatori"
+msgstr "Adăugă și administrează site-uri și utilizatori"
 
 #: wp-admin/network/index.php:24
 msgid "From here you can:"
@@ -739,18 +738,18 @@ msgstr "De aici poți:"
 
 #: wp-admin/network/index.php:23
 msgid "Welcome to your Network Admin. This area of the Administration Screens is used for managing all aspects of your Multisite Network."
-msgstr "Bun venit în Administrare rețea. Această zonă a ecranelor de administrare e folosită pentru a administra toate aspectele rețelei tale multi-sit."
+msgstr "Bun venit în Administrare rețea. Această zonă a ecranelor de administrare e folosită pentru a administra toate aspectele rețelei tale multi-site."
 
 #: wp-admin/network/upgrade.php:140
 msgid "WordPress has been updated! Before we send you on your way, we need to individually upgrade the sites in your network."
-msgstr "WordPress a fost actualizat! Înainte de a merge fiecare la treburile lui, trebuie să actualizăm individual fiecare sit din rețea."
+msgstr "WordPress a fost actualizat! Înainte de a merge fiecare la treburile lui, trebuie să actualizăm individual fiecare site din rețea."
 
 #: wp-admin/network/upgrade.php:23
 msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
-msgstr "Această pagină trebuie folosită doar după actualizarea la o nouă versiune de WordPress prin intermediul Actualizări/Actualizări disponibile (din meniul de navigare în Administrarea rețelei sau bara de unelte). Un clic pe Actualizare rețea te va duce prin fiecare sit din rețea, câte 5 odată, pentru a te asigura că s-au aplicat toate actualizările bazei de date."
+msgstr "Această pagină trebuie folosită doar după actualizarea la o nouă versiune de WordPress prin intermediul Actualizări/Actualizări disponibile (din meniul de navigare în Administrarea rețelei sau bara de unelte). Un clic pe Actualizare rețea te va duce prin fiecare site din rețea, câte 5 odată, pentru a te asigura că s-au aplicat toate actualizările bazei de date."
 
-#: wp-admin/network/upgrade.php:15 wp-admin/network/upgrade.php:42
-#: wp-admin/network/upgrade.php:144 wp-admin/network/menu.php:46
+#: wp-admin/network/menu.php:46 wp-admin/network/upgrade.php:15
+#: wp-admin/network/upgrade.php:42 wp-admin/network/upgrade.php:144
 msgid "Upgrade Network"
 msgstr "Actualizează rețeaua"
 
@@ -763,15 +762,15 @@ msgstr "Rețelele instalate în subdirectoare ar putea fi incompatibile cu unele
 msgid "Add the designated lines of code to wp-config.php (just before <code>/*...stop editing...*/</code>) and <code>.htaccess</code> (replacing the existing WordPress rules)."
 msgstr ""
 "Adaugă liniile de cod desemnate în wp-config.php (chiar înainte de <code>\n"
-"/* ...am terminat cu editarea...*/</code>) și în <code>.htaccess</code> (înlocuind regulile WordPress existente)."
+"/*...stop editing...*/</code>) și în <code>.htaccess</code> (înlocuind regulile WordPress existente)."
 
-#: wp-admin/network/settings.php:423
+#: wp-admin/network/settings.php:440
 msgid "Language Settings"
 msgstr "Setări limbă"
 
 #: wp-admin/network/settings.php:238
 msgid "Allow site administrators to add new users to their site via the \"Users &rarr; Add New\" page"
-msgstr "Permite administratorilor de situri să adauge utilizatori noi pe siturile lor prin pagina „Utilizatori &rarr; Adaugă utilizator”."
+msgstr "Permite administratorilor de site-uri să adauge utilizatori noi pe site-urile lor prin pagina „Utilizatori &rarr; Adaugă utilizator”."
 
 #: wp-admin/network/settings.php:57
 msgid "Super admins can no longer be added on the Options screen. You must now go to the list of existing users on Network Admin > Users and click on Username or the Edit action link below that name. This goes to an Edit User page where you can check a box to grant super admin privileges."
@@ -799,36 +798,36 @@ msgstr "Introdu numele de utilizator al unui utilizator existent."
 
 #: wp-admin/network/site-users.php:240
 msgid "User is already a member of this site."
-msgstr "Utilizatorul e deja un membru al acestui sit."
+msgstr "Utilizatorul e deja un membru al acestui site."
 
 #: wp-admin/network/site-settings.php:78
 msgid "Site options updated."
-msgstr "Opțiunile sitului au fost actualizate."
+msgstr "Opțiunile site-ului au fost actualizate."
 
 #: wp-admin/network/site-new.php:177 wp-admin/network/site-new.php:187
 msgid "Add New Site"
-msgstr "Adaugă sit nou"
+msgstr "Adaugă site nou"
 
 #. translators: 1: Dashboard URL, 2: Network admin edit URL.
 #: wp-admin/network/site-new.php:170
 msgid "Site added. <a href=\"%1$s\">Visit Dashboard</a> or <a href=\"%2$s\">Edit Site</a>"
-msgstr "Sit adăugat. <a href=\"%1$s\">Vizitează Panoul de control</a> sau <a href=\"%2$s\">Editează situl</a>"
+msgstr "Site adăugat. <a href=\"%1$s\">Vizitează Panoul de control</a> sau <a href=\"%2$s\">Editează site-ul</a>"
 
 #: wp-admin/network/site-new.php:25
 msgid "This screen is for Super Admins to add new sites to the network. This is not affected by the registration settings."
-msgstr "Acest ecran este pentru super-administratori pentru a adăuga situri noi în rețea. El nu este afectat de setările de înregistrare."
+msgstr "Acest ecran este pentru super-administratori pentru a adăuga site-uri noi în rețea. El nu este afectat de setările pentru înregistrare."
 
 #: wp-admin/network/site-info.php:121
 msgid "Site info updated."
-msgstr "Informațiile despre sit sunt actualizate."
+msgstr "Informațiile despre site sunt actualizate."
 
 #: wp-admin/network/themes.php:416
 msgid "You cannot delete a theme while it is active on the main site."
-msgstr "Nu poți șterge o temă cât timp ea este activă pe situl principal."
+msgstr "Nu poți șterge o temă cât timp ea este activă pe site-ul principal."
 
 #: wp-admin/network/themes.php:301
 msgid "Themes can be enabled on a site by site basis by the network admin on the Edit Site screen (which has a Themes tab); get there via the Edit action link on the All Sites screen. Only network admins are able to install or edit themes."
-msgstr "Temele pot fi activate de administratorii de rețea, pentru fiecare sit în parte, din ecranul Editează situl (care are o filă Teme); ajungi acolo prin legătura de acțiune Editează din ecranul Toate siturile. Numai administratorii de rețea pot instala sau edita teme."
+msgstr "Temele pot fi activate de administratorii de rețea, pentru fiecare site în parte, din ecranul Editează site-ul (care are o filă Teme); ajungi acolo prin legătura de acțiune Editează din ecranul Toate site-urile. Numai administratorii de rețea pot instala sau edita teme."
 
 #: wp-admin/network/themes.php:182
 msgid "No, return me to the theme list"
@@ -848,7 +847,7 @@ msgstr "Ești pe cale să înlături următoarea temă:"
 
 #: wp-admin/network/themes.php:137
 msgid "This theme may be active on other sites in the network."
-msgstr "Această temă poate fi activă pe alte situri din rețea."
+msgstr "Această temă poate fi activă pe alte site-uri din rețea."
 
 #: wp-admin/network/themes.php:136
 msgid "Delete Theme"
@@ -858,33 +857,33 @@ msgstr "Șterge tema"
 msgid "Network enabled themes are not shown on this screen."
 msgstr "Temele activate în rețea nu sunt arătate pe acest ecran."
 
-#: wp-admin/network/themes.php:414 wp-admin/network/site-themes.php:208
+#: wp-admin/network/site-themes.php:208 wp-admin/network/themes.php:414
 msgid "No theme selected."
 msgstr "Nicio temă selectată."
 
-#: wp-admin/network/themes.php:380 wp-admin/network/site-themes.php:201
+#: wp-admin/network/site-themes.php:201 wp-admin/network/themes.php:380
 msgid "Theme disabled."
 msgstr "Temă dezactivată."
 
-#: wp-admin/network/themes.php:371 wp-admin/network/site-themes.php:192
+#: wp-admin/network/site-themes.php:192 wp-admin/network/themes.php:371
 msgid "Theme enabled."
 msgstr "Temă activată."
 
 #. translators: %s: Site title.
-#: wp-admin/network/site-info.php:126 wp-admin/network/site-users.php:199
-#: wp-admin/network/site-themes.php:170 wp-admin/network/site-settings.php:83
+#: wp-admin/network/site-info.php:126 wp-admin/network/site-settings.php:83
+#: wp-admin/network/site-themes.php:170 wp-admin/network/site-users.php:199
 msgid "Edit Site: %s"
-msgstr "Editează situl: %s"
+msgstr "Editează site-ul: %s"
 
-#: wp-admin/network/site-info.php:23 wp-admin/network/site-users.php:41
-#: wp-admin/network/site-themes.php:46 wp-admin/network/site-settings.php:23
+#: wp-admin/network/site-info.php:23 wp-admin/network/site-settings.php:23
+#: wp-admin/network/site-themes.php:46 wp-admin/network/site-users.php:41
 msgid "Invalid site ID."
-msgstr "ID sit invalid."
+msgstr "ID invalid pentru site."
 
 #. translators: %s: Site URL.
 #: wp-admin/network/sites.php:167
 msgid "Sorry, you are not allowed to delete the site %s."
-msgstr "Regret, nu ai voie să ștergi situl %s."
+msgstr "Regret, nu ai voie să ștergi site-ul %s."
 
 #: wp-admin/network/sites.php:39
 msgid "Clicking on bold headings can re-sort this table."
@@ -896,17 +895,17 @@ msgstr "Ștergerea este o acțiune definitivă după ecranul de confirmare."
 
 #: wp-admin/network/sites.php:34
 msgid "Dashboard leads to the Dashboard for that site."
-msgstr "Panoul control te duce la Panoul de control al acelui sit."
+msgstr "Panoul control te duce la panoul de control al acelui site."
 
 #: wp-admin/network/sites.php:33
 msgid "An Edit link to a separate Edit Site screen."
-msgstr "O legătură de editare la un ecran distinct Editează situl."
+msgstr "O legătură de editare la un ecran distinct Editează site-ul."
 
 #: wp-admin/network/sites.php:30
 msgid "Add New takes you to the Add New Site screen. You can search for a site by Name, ID number, or IP address. Screen Options allows you to choose how many sites to display on one page."
-msgstr "Adaugă nou te duce pe ecranul Adăugă sit nou. Poți căuta un sit după nume, număr ID sau adresă IP. Opțiunile ecranului îți permit să alegi câte situri să fie afișate pe o pagină."
+msgstr "Adaugă nou te duce pe ecranul Adăugă site nou. Poți căuta un site după nume, număr ID sau adresă IP. Opțiunile ecranului îți permit să alegi câte site-uri să afișezi pe o pagină."
 
-#: wp-admin/network/user-new.php:148 wp-admin/network/site-users.php:318
+#: wp-admin/network/site-users.php:318 wp-admin/network/user-new.php:148
 msgid "Add User"
 msgstr "Adaugă utilizator"
 
@@ -922,7 +921,7 @@ msgstr "Adaugă utilizator va inițializa un cont de utilizator nou în rețea �
 msgid "Updates"
 msgstr "Actualizări"
 
-#: wp-admin/network/settings.php:20 wp-admin/network/menu.php:111
+#: wp-admin/network/menu.php:111 wp-admin/network/settings.php:20
 msgid "Network Settings"
 msgstr "Setări rețea"
 
@@ -930,14 +929,9 @@ msgstr "Setări rețea"
 msgid "Installed Themes"
 msgstr "Teme instalate"
 
-#. translators: %s: Number of available theme updates.
-#: wp-admin/network/menu.php:63
-msgid "Themes %s"
-msgstr "Teme %s"
-
 #: wp-admin/network/menu.php:52
 msgid "All Sites"
-msgstr "Toate siturile"
+msgstr "Toate site-urile"
 
 #: wp-admin/includes/network.php:680
 msgid "Once you complete these steps, your network is enabled and configured. You will have to log in again."
@@ -949,7 +943,7 @@ msgstr "Pentru a securiza mai mult instalarea, ar trebui să adaugi de asemenea:
 
 #: wp-admin/includes/network.php:440
 msgid "Complete the following steps to enable the features for creating a network of sites."
-msgstr "Parcurge următorii pași pentru a activa funcționalitățile pentru crearea unei rețele de situri."
+msgstr "Parcurge următorii pași pentru a activa funcționalitățile pentru crearea unei rețele de site-uri."
 
 #: wp-admin/includes/network.php:439
 msgid "Enabling the Network"
@@ -981,16 +975,16 @@ msgstr "Titlu rețea"
 
 #: wp-admin/includes/network.php:335
 msgid "Because your installation is not new, the sites in your WordPress network must use sub-domains."
-msgstr "Deoarece instalarea ta nu este nouă, siturile din rețeaua ta WordPress trebuie să folosească subdomenii."
+msgstr "Deoarece instalarea ta nu este nouă, site-urile din rețeaua WordPress trebuie să folosească subdomenii."
 
 #: wp-admin/includes/network.php:322
 msgid "Because your installation is in a directory, the sites in your WordPress network must use sub-directories."
-msgstr "Deoarece instalarea ta este într-un director, siturile din rețeaua ta WordPress trebuie să folosească sub-directori."
+msgstr "Deoarece instalarea ta este într-un director, site-urile din rețeaua WordPress trebuie să folosească sub-directori."
 
 #: wp-admin/includes/network.php:312 wp-admin/includes/network.php:325
 #: wp-admin/includes/network.php:336
 msgid "The main site in a sub-directory installation will need to use a modified permalink structure, potentially breaking existing links."
-msgstr "Instalarea sitului principal într-un sub-director va trebui să folosească o structură de legături permanente modificată, care poate rupe legăturile existente."
+msgstr "Instalarea site-ului principal într-un sub-director va trebui să folosească o structură de legături permanente modificată, care poate rupe legăturile existente."
 
 #: wp-admin/includes/network.php:297
 msgid "Network Details"
@@ -1005,7 +999,7 @@ msgstr "Adresă server"
 #: wp-admin/includes/network.php:251
 msgctxt "subdirectory examples"
 msgid "like <code>%1$s/site1</code> and <code>%1$s/site2</code>"
-msgstr "cum ar fi <code>%1$s/sit1</code> și <code>%1$s/sit2</code>"
+msgstr "cum ar fi <code>%1$s/site1</code> și <code>%1$s/site2</code>"
 
 #: wp-admin/includes/network.php:246
 msgid "Sub-directories"
@@ -1015,7 +1009,7 @@ msgstr "Sub-directoare"
 #: wp-admin/includes/network.php:239
 msgctxt "subdomain examples"
 msgid "like <code>site1.%1$s</code> and <code>site2.%1$s</code>"
-msgstr "de felul <code>sit1.%1$s</code> și <code>sit2.%1$s</code>"
+msgstr "cum ar fi <code>site1.%1$s</code> și <code>site2.%1$s</code>"
 
 #: wp-admin/includes/network.php:234
 msgid "Sub-domains"
@@ -1027,7 +1021,7 @@ msgstr "Vei avea nevoie de o înregistrare DNS cu un metacaracter pentru a putea
 
 #: wp-admin/includes/network.php:227
 msgid "Addresses of Sites in your Network"
-msgstr "Adresele siturilor din rețeaua ta"
+msgstr "Adresele site-urilor din rețeaua ta"
 
 #: wp-admin/includes/network.php:195
 msgid "Note:"
@@ -1035,7 +1029,7 @@ msgstr "Notă:"
 
 #: wp-admin/includes/network.php:182
 msgid "Fill in the information below and you&#8217;ll be on your way to creating a network of WordPress sites. We will create configuration files in the next step."
-msgstr "Completează informațiile de mai jos pentru începe crearea unei rețele de situri WordPress. În pasul următor vom crea fișierele de configurare."
+msgstr "Completează informațiile de mai jos pentru începe crearea unei rețele de site-uri WordPress. În pasul următor vom crea fișierele de configurare."
 
 #: wp-admin/includes/network.php:181
 msgid "Welcome to the Network installation process!"
@@ -1047,7 +1041,7 @@ msgstr "EROARE: rețeaua nu a putut fi creată."
 
 #: wp-admin/includes/network.php:142
 msgid "You cannot install a network of sites with your server address."
-msgstr "Nu poți instala o rețea de situri cu adresa ta de server."
+msgstr "Nu poți instala o rețea de site-uri cu adresa ta de server."
 
 #: wp-admin/includes/network.php:133
 msgid "Once the network is created, you may reactivate your plugins."
@@ -1064,11 +1058,11 @@ msgstr "Rețea"
 
 #: wp-admin/network.php:64
 msgid "The choice of subdirectory sites is disabled if this setup is more than a month old because of permalink problems with &#8220;/blog/&#8221; from the main site. This disabling will be addressed in a future version."
-msgstr "Opțiunea de situri în subdirectoare este dezactivată dacă această instalare este mai veche de o lună datorită problemelor cu legăturile permanente cu &#8222;/blog/&#8221; din situl principal. Într-o versiune viitoare va fi rezolvată această problemă."
+msgstr "Opțiunea de site-uri în subdirectoare este dezactivată dacă această instalare este mai veche de o lună datorită problemelor cu legăturile permanente cu &#8222;/blog/&#8221; din site-ul principal. Într-o versiune viitoare va fi rezolvată această problemă."
 
 #: wp-admin/network.php:63
 msgid "Once you add this code and refresh your browser, multisite should be enabled. This screen, now in the Network Admin navigation menu, will keep an archive of the added code. You can toggle between Network Admin and Site Admin by clicking on the Network Admin or an individual site name under the My Sites dropdown in the Toolbar."
-msgstr "După ce ai adăugat acest cod și ți-ai reîmprospătat navigatorul, opțiunea multi-sit ar trebui să fie activată. Acest ecran, acum accesibil din meniul Administrare rețea, va păstra o arhivă a codului adăugat. Poți comuta între Administrare rețea și Administrare sit dând clic pe Administrare rețea sau pe un nume de sit individual în meniul derulant din Bara de unelte."
+msgstr "După ce ai adăugat acest cod și ți-ai reîmprospătat navigatorul, ar trebui activată opțiunea multi-site. Acest ecran, acum accesibil din meniul Administrare rețea, va păstra o arhivă a codului adăugat. Poți comuta între Administrare rețea și Administrare site dând clic pe Administrare rețea sau pe un nume de site individual în meniul derulant din Bara de unelte."
 
 #: wp-admin/network.php:61
 msgid "The next screen for Network Setup will give you individually-generated lines of code to add to your wp-config.php and .htaccess files. Make sure the settings of your FTP client make files starting with a dot visible, so that you can find .htaccess; you may have to create this file if it really is not there. Make backup copies of those two files."
@@ -1080,11 +1074,11 @@ msgstr "Alege subdomenii sau sub-directori; poți comuta și ulterior prin recon
 
 #: wp-admin/network.php:59
 msgid "This screen allows you to configure a network as having subdomains (<code>site1.example.com</code>) or subdirectories (<code>example.com/site1</code>). Subdomains require wildcard subdomains to be enabled in Apache and DNS records, if your host allows it."
-msgstr "Acest ecran îți permite să configurezi o rețea care să aibă subdomenii (<code>sit1.exemplu.ro</code>) sau subdirectoare (<code>exemplu.ro/sit1</code>). Subdomeniile necesită ca subdomeniile cu metacaracter să fie activate în Apache și în înregistrările DNS, dacă gazda ta permite asta."
+msgstr "Acest ecran îți permite să configurezi o rețea care să aibă subdomenii (<code>site1.exemplu.ro</code>) sau subdirectoare (<code>exemplu.ro/site1</code>). Subdomeniile necesită activarea subdomeniilor cu metacaracter în Apache și în înregistrările DNS, dacă serviciul tău de găzduire permite asta."
 
 #: wp-admin/network.php:55
 msgid "Create a Network of WordPress Sites"
-msgstr "Creează o rețea de situri WordPress"
+msgstr "Creează o rețea de site-uri WordPress"
 
 #: wp-admin/network.php:29
 msgid "The Network creation panel is not for WordPress MU networks."
@@ -1097,11 +1091,11 @@ msgstr "Atenție! Utilizatorul nu poate fi modificat. Utilizatorul %s este un ad
 
 #: wp-admin/network/site-new.php:26
 msgid "If the admin email for the new site does not exist in the database, a new user will also be created."
-msgstr "Dacă emailul administratorului pentru noul sit nu există în baza de date, va fi creat un nou utilizator cu această adresă."
+msgstr "Dacă emailul administratorului pentru noul site nu există în baza de date, va fi creat un nou utilizator cu această adresă."
 
 #: wp-admin/network/sites.php:38
 msgid "The site ID is used internally, and is not shown on the front end of the site or to users/viewers."
-msgstr "ID-ul sitului este folosit intern și nu este arătat în partea din față a sitului sau utilizatorilor/vizitatorilor."
+msgstr "ID-ul site-ului este folosit intern și nu este arătat în partea din față a site-ului sau utilizatorilor/vizitatorilor."
 
 #: wp-admin/network/sites.php:35
 msgid "Deactivate, Archive, and Spam which lead to confirmation screens. These actions can be reversed later."
@@ -1109,7 +1103,7 @@ msgstr "Legăturile Dezactivare, Arhivare și Spam vor duce spre ecrane de confi
 
 #: wp-admin/network/sites.php:32
 msgid "Hovering over each site reveals seven options (three for the primary site):"
-msgstr "Trecerea pe fiecare sit va dezvălui șapte opțiuni (doar trei pentru situl principal):"
+msgstr "Trecerea pe fiecare site va dezvălui șapte opțiuni (doar trei pentru site-ul principal):"
 
 #: wp-admin/network/settings.php:51
 msgid "Operational settings has fields for the network&#8217;s name and admin email."
@@ -1125,11 +1119,11 @@ msgstr "De asemenea, poți merge la pagina de profil a utilizatorului dând clic
 
 #: wp-admin/network/settings.php:54
 msgid "Upload settings control the size of the uploaded files and the amount of available upload space for each site. You can change the default value for specific sites when you edit a particular site. Allowed file types are also listed (space separated only)."
-msgstr "Setările pentru încărcare controlează dimensiunea fișierelor încărcate și dimensiunea spațiul alocat fiecărui sit pentru încărcare. Poți schimba valoarea implicită pentru fiecare sit în parte când editezi acel sit. Sunt listate de asemenea tipurile de fișiere permise la încărcare (separate doar cu spațiu)."
+msgstr "Setările pentru încărcare controlează dimensiunea fișierelor încărcate și dimensiunea spațiul alocat fiecărui site pentru încărcare. Poți schimba valoarea implicită pentru fiecare site în parte când editezi acel site. Sunt listate de asemenea tipurile de fișiere permise la încărcare (separate doar cu spațiu)."
 
 #: wp-admin/network/sites.php:37
 msgid "Visit to go to the front-end site live."
-msgstr "Vizitare te va duce pe situl live public."
+msgstr "Vizitare te va duce pe site-ul live public."
 
 #: wp-admin/network/users.php:224
 msgid "You can make an existing user an additional super admin by going to the Edit User profile page and checking the box to grant that privilege."
@@ -1137,7 +1131,7 @@ msgstr "Poți să-l faci pe un utilizator existent - super-administrator, mergâ
 
 #: wp-admin/network/user-new.php:23
 msgid "Users who are signed up to the network without a site are added as subscribers to the main or primary dashboard site, giving them profile pages to manage their accounts. These users will only see Dashboard and My Sites in the main navigation until a site is created for them."
-msgstr "Utilizatorii care sunt înregistrați în rețea fără un sit sunt adăugați ca abonați ai sitului principal, cu acces la paginile lor de profil pentru a-și gestiona conturile. Acești utilizatori vor vedea în meniul principal de navigare doar Panoul de control și Siturile proprii până ce va fi creat un sit pentru ei."
+msgstr "Utilizatorii care sunt înregistrați în rețea fără un site sunt adăugați ca abonați ai site-ului principal, cu acces la paginile lor de profil pentru a-și gestiona conturile. Acești utilizatori vor vedea în meniul principal de navigare doar Panoul de control și Site-urile proprii până ce va fi creat un site pentru ei."
 
 #: wp-admin/network/users.php:222
 msgid "You can sort the table by clicking on any of the table headings and switch between list and excerpt views by using the icons above the users list."
@@ -1145,11 +1139,11 @@ msgstr "Poți sorta tabelul dând clic pe oricare dintre antetele în aldine și
 
 #: wp-admin/network/users.php:219
 msgid "This table shows all users across the network and the sites to which they are assigned."
-msgstr "Acest tabel afișează toți utilizatorii din întreaga rețea și siturile cu care sunt asociați."
+msgstr "Acest tabel afișează toți utilizatorii din întreaga rețea și site-urile cu care sunt asociați."
 
 #: wp-admin/network/upgrade.php:25
 msgid "If this process fails for any reason, users logging in to their sites will force the same update."
-msgstr "Dacă acest proces nu reușește, dintr-un motiv oarecare, autentificarea utilizatorilor în siturile proprii va forța aceeași actualizare."
+msgstr "Dacă acest proces nu reușește, dintr-un motiv oarecare, autentificarea utilizatorilor în site-urile proprii va forța aceeași actualizare."
 
 #: wp-admin/network/upgrade.php:24
 msgid "If a version update to core has not happened, clicking this button won&#8217;t affect anything."
@@ -1157,31 +1151,31 @@ msgstr "Dacă nu s-a întâmplat actualizarea versiunii nucleului, un clic pe ac
 
 #: wp-admin/network/themes.php:300
 msgid "If the network admin disables a theme that is in use, it can still remain selected on that site. If another theme is chosen, the disabled theme will not appear in the site&#8217;s Appearance > Themes screen."
-msgstr "Dacă administratorul de rețea dezactivează o temă care este în uz, ea poate rămâne selectată pe situl care o folosește. Dacă este aleasă o altă temă, tema dezactivată nu va mai apărea în ecranul sitului la Aspect > Teme."
+msgstr "Dacă administratorul de rețea dezactivează o temă care este în uz, ea poate rămâne selectată pe site-ul care o folosește. Dacă este aleasă o altă temă, tema dezactivată nu va mai apărea în ecranul Aspect > Teme pentru site-ul respectiv."
 
 #: wp-admin/network/themes.php:299
 msgid "This screen enables and disables the inclusion of themes available to choose in the Appearance menu for each site. It does not activate or deactivate which theme a site is currently using."
-msgstr "Acest ecran activează și dezactivează includerea de teme disponibile pentru a fi alese în meniul Aspect al fiecărui sit. El nu activează sau dezactivează tema pe care o folosește în prezent un sit."
+msgstr "Acest ecran activează și dezactivează includerea de teme disponibile pentru a fi alese în meniul Aspect al fiecărui site. El nu activează sau dezactivează tema pe care o folosește în prezent un site."
 
 #: wp-admin/network/sites.php:31
 msgid "This is the main table of all sites on this network. Switch between list and excerpt views by using the icons above the right side of the table."
-msgstr "Acesta este tabelul principal cu toate siturile acestei rețele. Comută vizualizarea în mod listă și rezumat prin apăsarea iconurilor din partea dreaptă, deasupra tabelului."
+msgstr "Acesta este tabelul principal cu toate site-urile acestei rețele. Comută vizualizarea în mod listă și rezumat prin apăsarea iconurilor din partea dreaptă, deasupra tabelului."
 
 #: wp-admin/network/settings.php:56
 msgid "Menu setting enables/disables the plugin menus from appearing for non super admins, so that only super admins, not site admins, have access to activate plugins."
-msgstr "Setările pentru meniu pot valida/invalida apariția modulelor de meniuri pentru ne- super-administratori, astfel doar super-administratorii, nu și administratorii de situri, au acces la activarea modulelor."
+msgstr "Setările pentru meniu pot valida/invalida apariția modulelor de meniuri pentru ne- super-administratori, astfel doar super-administratorii, nu și administratorii de site-uri, au acces la activarea modulelor."
 
 #: wp-admin/network/settings.php:53
 msgid "New site settings are defaults applied when a new site is created in the network. These include welcome email for when a new site or user account is registered, and what&#8127;s put in the first post, page, comment, comment author, and comment URL."
-msgstr "Setările pentru siturile noi sunt aplicate implicit când este creat un sit nou în rețea. Acestea includ emailul de întâmpinare când este înregistrat un sit nou sau un cont nou de utilizator și ce apare la început în articole, pagini, comentarii, autorii comentariilor și URL-urile comentariilor."
+msgstr "Setările pentru site-urile noi sunt aplicate implicit când este creat un site nou în rețea. Acestea includ emailul de întâmpinare, când este înregistrat un site nou, sau un cont nou de utilizator și ceea ce apare la început în articole, pagini, comentarii, autorii comentariilor și URL-urile comentariilor."
 
 #: wp-admin/network/settings.php:52
 msgid "Registration settings can disable/enable public signups. If you let others sign up for a site, install spam plugins. Spaces, not commas, should separate names banned as sites for this network."
-msgstr "Setările de înregistrare pot invalida/valida înscrierile publice. Dacă lași pe alții să se înscrie pe un sit, instalează module pentru spam. Numele de situri interzise pe această rețea trebuie separate cu spații, nu cu virgule."
+msgstr "Setările de înregistrare pot invalida/valida înscrierile publice. Dacă lași pe alții să se înscrie pe un site, instalează module pentru spam. Numele de site-uri interzise pe această rețea trebuie separate cu spații, nu cu virgule."
 
 #: wp-admin/network/settings.php:50
 msgid "This screen sets and changes options for the network as a whole. The first site is the main site in the network and network options are pulled from that original site&#8217;s options."
-msgstr "Acest ecran setează și modifică opțiunile pentru rețea ca un întreg. Primul sit este situl principal din rețea, iar opțiunile rețelei sunt extrase din opțiunile acestui sit."
+msgstr "Acest ecran setează și modifică opțiunile pentru rețea ca un întreg. Primul site este site-ul principal din rețea, iar opțiunile rețelei sunt extrase din opțiunile acestui site."
 
 #. translators: %s: Reserved names list.
 #: wp-admin/network/site-new.php:59
@@ -1192,17 +1186,17 @@ msgstr "Următoarele cuvinte sunt rezervate pentru a fi utilizate de funcțiile 
 msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
 msgstr "Dacă navigatorul tău nu începe încărcarea următoarei pagini automat, dă clic pe această legătură:"
 
-#: wp-admin/network/settings.php:284
+#: wp-admin/network/settings.php:301
 msgid "If you want to ban domains from site registrations. One domain per line."
-msgstr "Dacă vrei să interzici domenii la înregistrări de situri. Un domeniu pe linie."
+msgstr "Dacă vrei să interzici domenii la înregistrări de site-uri. Un domeniu pe fiecare rând."
 
-#: wp-admin/network/settings.php:266
+#: wp-admin/network/settings.php:281
 msgid "If you want to limit site registrations to certain domains. One domain per line."
-msgstr "Dacă vrei să limitezi înregistrările de situri la anumite domenii. Un domeniu pe linie."
+msgstr "Dacă vrei să limitezi înregistrările de site-uri pentru anumite domenii. Un domeniu pe fiecare rând."
 
 #: wp-admin/network/site-new.php:40
 msgid "Can&#8217;t create an empty site."
-msgstr "Nu poți crea un sit gol."
+msgstr "Nu poți crea un site gol."
 
 #: wp-admin/network/users.php:256
 msgid "Users removed from spam."
@@ -1210,19 +1204,19 @@ msgstr "Utilizatori scoși din spam."
 
 #: wp-admin/network/sites.php:338
 msgid "Site marked as spam."
-msgstr "Sit marcat ca spam."
+msgstr "Site marcat ca spam."
 
 #: wp-admin/network/sites.php:335
 msgid "Site removed from spam."
-msgstr "Sit scos din spam."
+msgstr "Site scos din spam."
 
 #: wp-admin/network/sites.php:311
 msgid "Sites marked as spam."
-msgstr "Situri marcate ca spam."
+msgstr "Site-uri marcate ca spam."
 
 #: wp-admin/network/sites.php:308
 msgid "Sites removed from spam."
-msgstr "Situri scoase din spam."
+msgstr "Site-uri scoase din spam."
 
 #: wp-admin/network/users.php:259
 msgid "Users deleted."
@@ -1234,64 +1228,64 @@ msgstr "Utilizatori marcați ca spam."
 
 #: wp-admin/network/sites.php:332
 msgid "Site deactivated."
-msgstr "Sit dezactivat."
+msgstr "Site dezactivat."
 
 #: wp-admin/network/sites.php:329
 msgid "Site activated."
-msgstr "Sit activat."
+msgstr "Site activat."
 
 #: wp-admin/network/sites.php:326
 msgid "Site unarchived."
-msgstr "Sit dezarhivat."
+msgstr "Site dezarhivat."
 
 #: wp-admin/network/sites.php:323
 msgid "Site archived."
-msgstr "Sit arhivat."
+msgstr "Site arhivat."
 
 #: wp-admin/network/sites.php:317
 msgid "Site deleted."
-msgstr "Sit șters."
+msgstr "Site șters."
 
 #: wp-admin/network/sites.php:314
 msgid "Sites deleted."
-msgstr "Situri șterse."
+msgstr "Site-uri șterse."
 
 #: wp-admin/network/sites.php:105 wp-admin/network/sites.php:223
 msgid "Sorry, you are not allowed to change the current site."
-msgstr "Regret, nu ai voie să schimbi situl curent."
+msgstr "Regret, nu ai voie să schimbi site-ul curent."
 
 #: wp-admin/network/site-new.php:126
 msgid "There was an error creating the user."
 msgstr "A apărut o eroare la crearea utilizatorului."
 
-#: wp-admin/network/settings.php:392
+#: wp-admin/network/settings.php:409
 msgid "Upload file types"
 msgstr "Tipuri de fișiere pentru încărcare"
 
 #. translators: %s: Number of megabytes to limit uploads to.
-#: wp-admin/network/settings.php:380
+#: wp-admin/network/settings.php:397
 msgid "Limit total size of files uploaded to %s MB"
 msgstr "Limitează spațiul total pentru fișiere încărcate la %s MB"
 
-#: wp-admin/network/settings.php:366
+#: wp-admin/network/settings.php:383
 msgid "The URL for the first comment on a new site."
-msgstr "URL-ul primului comentariu pe un sit nou."
+msgstr "URL-ul primului comentariu pe un site nou."
 
-#: wp-admin/network/settings.php:348
+#: wp-admin/network/settings.php:365
 msgid "The author of the first comment on a new site."
-msgstr "Autorul primului comentariu pe un sit nou."
+msgstr "Autorul primului comentariu pe un site nou."
 
-#: wp-admin/network/settings.php:339
+#: wp-admin/network/settings.php:356
 msgid "The first comment on a new site."
-msgstr "Primul comentariu pe un sit nou."
+msgstr "Primul comentariu pe un site nou."
 
-#: wp-admin/network/settings.php:329
+#: wp-admin/network/settings.php:346
 msgid "The first page on a new site."
-msgstr "Prima pagină pe un sit nou."
+msgstr "Prima pagină pe un site nou."
 
-#: wp-admin/network/settings.php:319
+#: wp-admin/network/settings.php:336
 msgid "The first post on a new site."
-msgstr "Primul articol pe un sit nou."
+msgstr "Primul articol pe un site nou."
 
 #: wp-admin/network/upgrade.php:73
 msgid "All done!"
@@ -1299,11 +1293,11 @@ msgstr "Am terminat tot!"
 
 #: wp-admin/network/settings.php:206
 msgid "Both sites and user accounts can be registered"
-msgstr "Pot fi înregistrate atât situri cât și conturi de utilizator"
+msgstr "Pot fi înregistrate atât site-uri cât și conturi de utilizator"
 
 #: wp-admin/network/settings.php:205
 msgid "Logged in users may register new sites"
-msgstr "Utilizatorii autentificați pot înregistra situri noi"
+msgstr "Utilizatorii autentificați pot înregistra site-uri noi"
 
 #: wp-admin/network/settings.php:204
 msgid "User accounts may be registered"
@@ -1313,17 +1307,17 @@ msgstr "Pot fi înregistrate conturi de utilizator"
 msgid "Registration is disabled"
 msgstr "Înregistrarea este dezactivată"
 
-#: wp-admin/network/settings.php:476
+#: wp-admin/network/settings.php:493
 msgid "Enable administration menus"
 msgstr "Permite meniuri de administrare"
 
-#: wp-admin/network/settings.php:371
+#: wp-admin/network/settings.php:388
 msgid "Upload Settings"
 msgstr "Setări încărcare"
 
-#: wp-admin/network/settings.php:290
+#: wp-admin/network/settings.php:307
 msgid "New Site Settings"
-msgstr "Setări sit nou"
+msgstr "Setări site nou"
 
 #: wp-admin/network/settings.php:190
 msgid "Registration Settings"
@@ -1339,27 +1333,27 @@ msgstr "Lipsește adresa de email."
 
 #: wp-admin/network/site-new.php:87
 msgid "Missing or invalid site address."
-msgstr "Adresa sitului lipsește sau nu este validă."
+msgstr "Adresa site-ului lipsește sau nu este validă."
 
 #: wp-admin/network/upgrade.php:124
 msgid "Next Sites"
-msgstr "Următoarele situri"
+msgstr "Următoarele site-uri"
 
-#: wp-admin/network/settings.php:374
+#: wp-admin/network/settings.php:391
 msgid "Site upload space"
-msgstr "Spațiu pentru încărcare sit"
+msgstr "Spațiu pentru încărcări pe site"
 
-#: wp-admin/network/settings.php:299
+#: wp-admin/network/settings.php:316
 msgid "The welcome email sent to new site owners."
-msgstr "Mesajul de întâmpinare trimis noilor proprietari de situri."
+msgstr "Mesajul de întâmpinare trimis noilor proprietari de site-uri."
 
-#: wp-admin/network/settings.php:247
+#: wp-admin/network/settings.php:256
 msgid "Users are not allowed to register these sites. Separate names by spaces."
-msgstr "Utilizatorii nu au voie să înregistreze aceste situri. Separă numele cu spații."
+msgstr "Utilizatorii nu au voie să înregistreze aceste site-uri. Separă numele cu spații."
 
 #: wp-admin/network/settings.php:231
 msgid "Send the network admin an email notification every time someone registers a site or user account"
-msgstr "Trimite un email de notificare administratorului rețelei de fiecare dată când cineva înregistrează un sit sau un cont de utilizator"
+msgstr "Trimite un email de notificare administratorului rețelei de fiecare dată când cineva înregistrează un site sau un cont de utilizator"
 
 #: wp-admin/includes/network.php:365 wp-admin/network/settings.php:160
 msgid "Network Admin Email"
@@ -1375,49 +1369,49 @@ msgstr "Email administrator"
 
 #: wp-admin/network/site-new.php:275
 msgid "Add Site"
-msgstr "Adaugă sit"
+msgstr "Adaugă site"
 
-#: wp-admin/network/settings.php:426
+#: wp-admin/network/settings.php:443
 msgid "Default Language"
 msgstr "Limbă implicită"
 
-#: wp-admin/network/settings.php:402
+#: wp-admin/network/settings.php:419
 msgid "Max upload file size"
 msgstr "Dimensiune maximă fișier încărcat"
 
-#: wp-admin/network/settings.php:362
+#: wp-admin/network/settings.php:379
 msgid "First Comment URL"
 msgstr "URL-ul primului comentariu"
 
-#: wp-admin/network/settings.php:344
+#: wp-admin/network/settings.php:361
 msgid "First Comment Author"
 msgstr "Autorul primului comentariu"
 
-#: wp-admin/network/settings.php:334
+#: wp-admin/network/settings.php:351
 msgid "First Comment"
 msgstr "Primul comentariu"
 
-#: wp-admin/network/settings.php:324
+#: wp-admin/network/settings.php:341
 msgid "First Page"
 msgstr "Prima pagină"
 
-#: wp-admin/network/settings.php:309
+#: wp-admin/network/settings.php:326
 msgid "The welcome email sent to new users."
 msgstr "Mesajul de întâmpinare trimis noilor utilizatori."
 
-#: wp-admin/network/settings.php:304
+#: wp-admin/network/settings.php:321
 msgid "Welcome User Email"
 msgstr "Email de întâmpinare utilizator"
 
-#: wp-admin/network/settings.php:294
+#: wp-admin/network/settings.php:311
 msgid "Welcome Email"
 msgstr "Email de întâmpinare"
 
-#: wp-admin/network/settings.php:272
+#: wp-admin/network/settings.php:287
 msgid "Banned Email Domains"
 msgstr "Domenii de email interzise"
 
-#: wp-admin/network/settings.php:253
+#: wp-admin/network/settings.php:262
 msgid "Limited Email Registrations"
 msgstr "Înregistrări de email limitate"
 

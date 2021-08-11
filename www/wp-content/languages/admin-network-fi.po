@@ -1,15 +1,20 @@
-# Translation of WordPress - 5.7.x - Development - Administration - Network Admin in Finnish
-# This file is distributed under the same license as the WordPress - 5.7.x - Development - Administration - Network Admin package.
+# Translation of WordPress - 5.8.x - Development - Administration - Network Admin in Finnish
+# This file is distributed under the same license as the WordPress - 5.8.x - Development - Administration - Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-02-22 10:24:36+0000\n"
+"PO-Revision-Date: 2021-07-11 09:19:26+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: fi\n"
-"Project-Id-Version: WordPress - 5.7.x - Development - Administration - Network Admin\n"
+"Project-Id-Version: WordPress - 5.8.x - Development - Administration - Network Admin\n"
+
+#. translators: %s: Theme name.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:734
+msgid "Child theme of %s"
+msgstr "Teeman %s lapsiteema"
 
 #: wp-admin/network/settings.php:63
 msgid "<a href=\"https://wordpress.org/support/article/network-admin-settings-screen/\">Documentation on Network Settings</a>"
@@ -41,7 +46,7 @@ msgstr[1] "%s teemaa päivitetään automaattisesti."
 
 #: wp-admin/network/themes.php:225
 msgid "Sorry, you are not allowed to change themes automatic update settings."
-msgstr "Pahoittelemme, sinulla ei ole oikeuksia muuttaa teemojen automaatisen päivityksen asetuksia."
+msgstr "Pahoittelemme, sinulla ei ole oikeuksia muuttaa teemojen automaattisen päivityksen asetuksia."
 
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:321
 msgid "No themes are currently available."
@@ -119,8 +124,8 @@ msgstr "<a href=\"https://wordpress.org/support/article/network-admin/\">Verkon 
 msgctxt "themes"
 msgid "Update Available <span class=\"count\">(%s)</span>"
 msgid_plural "Update Available <span class=\"count\">(%s)</span>"
-msgstr[0] "Päivitys saatavilla<span class=\"count\">(%s)</span>"
-msgstr[1] "Päivityksiä saatavilla<span class=\"count\">(%s)</span>"
+msgstr[0] "Päivitys saatavilla <span class=\"count\">(%s)</span>"
+msgstr[1] "Päivityksiä saatavilla <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:616
 msgid "Main"
@@ -137,7 +142,7 @@ msgstr "<a href=\"https://wordpress.org/support/article/create-a-network/\">Ohje
 #. translators: %s: DO_NOT_UPGRADE_GLOBAL_TABLES
 #: wp-admin/includes/network.php:118
 msgid "The constant %s cannot be defined when creating a network."
-msgstr "Vakio (constant) %s ei voi olla määritetty kun luodaan verkostoa."
+msgstr "Vakio (constant) %s ei voi olla määritetty, kun luodaan verkostoa."
 
 #: wp-admin/network/sites.php:195
 msgid "You are about to delete the following sites:"
@@ -164,7 +169,7 @@ msgstr "Alidomaineihin asennus"
 msgid "Sub-directory Installation"
 msgstr "Alihakemistoihin asennus"
 
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:909
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:917
 msgid "Active Child Theme"
 msgstr "Aktivoi lapsiteema"
 
@@ -173,7 +178,7 @@ msgid "Attributes"
 msgstr "Attribuutit"
 
 #. translators: %s: File size in kilobytes.
-#: wp-admin/network/settings.php:407
+#: wp-admin/network/settings.php:424
 msgid "%s KB"
 msgstr "%s kt"
 
@@ -181,12 +186,6 @@ msgstr "%s kt"
 #: wp-admin/includes/network.php:172
 msgid "%s Sites"
 msgstr "%s-sivustot"
-
-#. translators: %s: Theme name.
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:624
-msgctxt "theme"
-msgid "Delete %s"
-msgstr "Poista %s"
 
 #: wp-admin/network/themes.php:101
 msgid "Sorry, you are not allowed to delete themes for this site."
@@ -208,19 +207,23 @@ msgstr "Sinulla ei ole oikeutta hallinnoida tämän sivuston teemoja."
 msgid "Sorry, you are not allowed to add sites to this network."
 msgstr "Sinulla ei ole oikeutta lisätä sivustoja tähän verkkoon."
 
-#: wp-admin/network/site-info.php:14 wp-admin/network/site-users.php:14
-#: wp-admin/network/site-settings.php:14
+#: wp-admin/network/site-info.php:14 wp-admin/network/site-settings.php:14
+#: wp-admin/network/site-users.php:14
 msgid "Sorry, you are not allowed to edit this site."
 msgstr "Sinulla ei ole oikeutta muokata tätä sivustoa."
 
-#: wp-admin/network/settings.php:357
+#: wp-admin/network/settings.php:374
 msgid "The email address of the first comment author on a new site."
 msgstr "Ensimmäisen kommentin sähköpostiosoite uudella sivustolla."
 
-#: wp-admin/network/settings.php:353
+#: wp-admin/network/settings.php:370
 msgid "First Comment Email"
 msgstr "Ensimmäisen kommentoijan sähköpostiosoite"
 
+#. translators: This string should only be translated if wp-config-sample.php
+#. is localized. You can check the localized release package or
+#. https://i18n.svn.wordpress.org/<locale code>/branches/<wp
+#. version>/dist/wp-config-sample.php
 #: wp-admin/includes/network.php:485
 msgid "That&#8217;s all, stop editing! Happy publishing."
 msgstr "Siinä kaikki, lopeta muokkaaminen! Julkaisemisen iloa!"
@@ -408,10 +411,6 @@ msgid_plural "All <span class=\"count\">(%s)</span>"
 msgstr[0] "Kaikki <span class=\"count\">(%s)</span>"
 msgstr[1] "Kaikki <span class=\"count\">(%s)</span>"
 
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:331
-msgid "Theme"
-msgstr "Teema"
-
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:319
 msgid "No themes found."
 msgstr "Teemoja ei löytynyt."
@@ -481,7 +480,7 @@ msgstr "Roskaa"
 msgid "Archived"
 msgstr "Arkistoitu"
 
-#: wp-admin/network/user-new.php:136 wp-admin/network/site-users.php:355
+#: wp-admin/network/site-users.php:355 wp-admin/network/user-new.php:136
 msgid "A password reset link will be sent to the user via email."
 msgstr "Salasananvaihtolinkki lähetetään käyttäjälle sähköpostitse."
 
@@ -584,8 +583,8 @@ msgstr "Olet poistamassa sivuston %s käytöstä."
 msgid "You are about to activate the site %s."
 msgstr "Olet aktivoimassa sivuston %s"
 
-#: wp-admin/network/site-info.php:28 wp-admin/network/site-users.php:46
-#: wp-admin/network/site-themes.php:53 wp-admin/network/site-settings.php:28
+#: wp-admin/network/site-info.php:28 wp-admin/network/site-settings.php:28
+#: wp-admin/network/site-themes.php:53 wp-admin/network/site-users.php:46
 msgid "The requested site does not exist."
 msgstr "Pyydettyä sivustoa ei ole olemassa."
 
@@ -610,14 +609,14 @@ msgstr[0] "%s teema poistettu."
 msgstr[1] "%s teemaa poistettu."
 
 #. translators: %s: Number of themes.
-#: wp-admin/network/themes.php:383 wp-admin/network/site-themes.php:204
+#: wp-admin/network/site-themes.php:204 wp-admin/network/themes.php:383
 msgid "%s theme disabled."
 msgid_plural "%s themes disabled."
 msgstr[0] "%s teema otettu pois käytöstä."
 msgstr[1] "%s teemaa otettu pois käytöstä."
 
 #. translators: %s: Number of themes.
-#: wp-admin/network/themes.php:374 wp-admin/network/site-themes.php:195
+#: wp-admin/network/site-themes.php:195 wp-admin/network/themes.php:374
 msgid "%s theme enabled."
 msgid_plural "%s themes enabled."
 msgstr[0] "%s teema otettu käyttöön."
@@ -643,15 +642,15 @@ msgstr "Poista teemat"
 msgid "Set site attributes"
 msgstr "Aseta sivuston attribuutit"
 
-#: wp-admin/network/settings.php:479
+#: wp-admin/network/settings.php:496
 msgid "Enable menus"
 msgstr "Salli valikot"
 
-#: wp-admin/network/settings.php:412
+#: wp-admin/network/settings.php:429
 msgid "Size in kilobytes"
 msgstr "Koko kilotavuina"
 
-#: wp-admin/network/settings.php:396
+#: wp-admin/network/settings.php:413
 msgid "Allowed file types. Separate types by spaces."
 msgstr "Sallitut tiedostotyypit. Erota välilyönnillä useat tiedostotyypit."
 
@@ -732,8 +731,8 @@ msgstr "WordPress on päivitetty! Ennen kuin pääset jatkamaan, yksittäiset ve
 msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
 msgstr "Käytä tätä sivua vain päivitettyäsi WordPressin uuteen versioon Päivitykset-sivulta. Päivitä kaikki sivustot -painikkeen napsauttaminen käy läpi jokaisen verkkoon kuuluvan sivuston (5 kerrallaan) ja varmistaa että tarvittavat tietokantapäivitykset suoritetaan."
 
-#: wp-admin/network/upgrade.php:15 wp-admin/network/upgrade.php:42
-#: wp-admin/network/upgrade.php:144 wp-admin/network/menu.php:46
+#: wp-admin/network/menu.php:46 wp-admin/network/upgrade.php:15
+#: wp-admin/network/upgrade.php:42 wp-admin/network/upgrade.php:144
 msgid "Upgrade Network"
 msgstr "Päivitä verkko"
 
@@ -746,7 +745,7 @@ msgstr "Alidomainverkot eivät ehkä ole täysin yhteensopivia mukautettujen wp-
 msgid "Add the designated lines of code to wp-config.php (just before <code>/*...stop editing...*/</code>) and <code>.htaccess</code> (replacing the existing WordPress rules)."
 msgstr "Lisää oheiset rivit tiedostoon wp-config.php (juuri ennen riviä<code>/*...stop editing...*/</code>) ja <code>.htaccess</code> (ja poista nykyiset WordPress-säännöt)."
 
-#: wp-admin/network/settings.php:423
+#: wp-admin/network/settings.php:440
 msgid "Language Settings"
 msgstr "Kieliasetukset"
 
@@ -839,26 +838,26 @@ msgstr "Poista teema"
 msgid "Network enabled themes are not shown on this screen."
 msgstr "Verkon laajuisia teemoja ei näy tällä sivulla."
 
-#: wp-admin/network/themes.php:414 wp-admin/network/site-themes.php:208
+#: wp-admin/network/site-themes.php:208 wp-admin/network/themes.php:414
 msgid "No theme selected."
 msgstr "Teemaa ei ole valittu."
 
-#: wp-admin/network/themes.php:380 wp-admin/network/site-themes.php:201
+#: wp-admin/network/site-themes.php:201 wp-admin/network/themes.php:380
 msgid "Theme disabled."
 msgstr "Teema on poistettu käytöstä."
 
-#: wp-admin/network/themes.php:371 wp-admin/network/site-themes.php:192
+#: wp-admin/network/site-themes.php:192 wp-admin/network/themes.php:371
 msgid "Theme enabled."
 msgstr "Teema on otettu käyttöön."
 
 #. translators: %s: Site title.
-#: wp-admin/network/site-info.php:126 wp-admin/network/site-users.php:199
-#: wp-admin/network/site-themes.php:170 wp-admin/network/site-settings.php:83
+#: wp-admin/network/site-info.php:126 wp-admin/network/site-settings.php:83
+#: wp-admin/network/site-themes.php:170 wp-admin/network/site-users.php:199
 msgid "Edit Site: %s"
 msgstr "Muokkaa sivustoa: %s"
 
-#: wp-admin/network/site-info.php:23 wp-admin/network/site-users.php:41
-#: wp-admin/network/site-themes.php:46 wp-admin/network/site-settings.php:23
+#: wp-admin/network/site-info.php:23 wp-admin/network/site-settings.php:23
+#: wp-admin/network/site-themes.php:46 wp-admin/network/site-users.php:41
 msgid "Invalid site ID."
 msgstr "Väärä sivuston ID."
 
@@ -887,7 +886,7 @@ msgstr "Muokkaa-linkki erilliseen sivuston muokkausnäkymään."
 msgid "Add New takes you to the Add New Site screen. You can search for a site by Name, ID number, or IP address. Screen Options allows you to choose how many sites to display on one page."
 msgstr "Lisää uusi vie uuden sivuston lisäämiseen. Voit hakea hakea sivustoa nimellä, ID:llä tai IP-osoitteella. Näyttöasetukset-välilehdeltä voit valita, montako sivustoa näytetään kerralla."
 
-#: wp-admin/network/user-new.php:148 wp-admin/network/site-users.php:318
+#: wp-admin/network/site-users.php:318 wp-admin/network/user-new.php:148
 msgid "Add User"
 msgstr "Lisää käyttäjä"
 
@@ -903,18 +902,13 @@ msgstr "Lisää käyttäjä luo uuden käyttäjätilin multisite-verkkoon ja lä
 msgid "Updates"
 msgstr "Päivitykset"
 
-#: wp-admin/network/settings.php:20 wp-admin/network/menu.php:111
+#: wp-admin/network/menu.php:111 wp-admin/network/settings.php:20
 msgid "Network Settings"
 msgstr "Verkon asetukset"
 
 #: wp-admin/network/menu.php:80
 msgid "Installed Themes"
 msgstr "Asennetut teemat"
-
-#. translators: %s: Number of available theme updates.
-#: wp-admin/network/menu.php:63
-msgid "Themes %s"
-msgstr "Teemat %s"
 
 #: wp-admin/network/menu.php:52
 msgid "All Sites"
@@ -1173,11 +1167,11 @@ msgstr "Seuraavat sanat on varattu WordPressin toiminnoille, eikä niitä voida 
 msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
 msgstr "Jos selaimesi ei siirry seuraavalle sivulle automaattisesti, napsauta tätä linkkiä:"
 
-#: wp-admin/network/settings.php:284
+#: wp-admin/network/settings.php:301
 msgid "If you want to ban domains from site registrations. One domain per line."
 msgstr "Jos haluat estää sivustojen perustamisen tietyiltä verkkotunnuksilta. Yksi verkkotunnus per rivi."
 
-#: wp-admin/network/settings.php:266
+#: wp-admin/network/settings.php:281
 msgid "If you want to limit site registrations to certain domains. One domain per line."
 msgstr "Jos haluat rajoittaa sivustojen luomisen tiettyihin verkkotunnuksiin. Yksi verkkotunnus per rivi."
 
@@ -1245,32 +1239,32 @@ msgstr "Sinulla ei ole tämän sivuston muuttamiseen tarvittavaa oikeutta."
 msgid "There was an error creating the user."
 msgstr "Virhe käyttäjän luonnissa."
 
-#: wp-admin/network/settings.php:392
+#: wp-admin/network/settings.php:409
 msgid "Upload file types"
 msgstr "Sallitut tiedostotyypit"
 
 #. translators: %s: Number of megabytes to limit uploads to.
-#: wp-admin/network/settings.php:380
+#: wp-admin/network/settings.php:397
 msgid "Limit total size of files uploaded to %s MB"
 msgstr "Rajoita ladattujen tiedostojen yhteenlaskettu koko %s megatavuun"
 
-#: wp-admin/network/settings.php:366
+#: wp-admin/network/settings.php:383
 msgid "The URL for the first comment on a new site."
 msgstr "Sivuston ensimmäisen kommentin URL."
 
-#: wp-admin/network/settings.php:348
+#: wp-admin/network/settings.php:365
 msgid "The author of the first comment on a new site."
 msgstr "Ensimmäisen kommentin kirjoittaja uudella sivustolla."
 
-#: wp-admin/network/settings.php:339
+#: wp-admin/network/settings.php:356
 msgid "The first comment on a new site."
 msgstr "Ensimmäinen kommentti uudella sivustolla."
 
-#: wp-admin/network/settings.php:329
+#: wp-admin/network/settings.php:346
 msgid "The first page on a new site."
 msgstr "Ensimmäinen sivu uudella sivustolla."
 
-#: wp-admin/network/settings.php:319
+#: wp-admin/network/settings.php:336
 msgid "The first post on a new site."
 msgstr "Uuden sivuston ensimmäinen artikkeli."
 
@@ -1294,15 +1288,15 @@ msgstr "Käyttäjätilejä voidaan rekisteröidä."
 msgid "Registration is disabled"
 msgstr "Rekisteröinti on suljettu."
 
-#: wp-admin/network/settings.php:476
+#: wp-admin/network/settings.php:493
 msgid "Enable administration menus"
 msgstr "Salli hallintavalikot"
 
-#: wp-admin/network/settings.php:371
+#: wp-admin/network/settings.php:388
 msgid "Upload Settings"
 msgstr "Tiedostonsiirtoasetukset"
 
-#: wp-admin/network/settings.php:290
+#: wp-admin/network/settings.php:307
 msgid "New Site Settings"
 msgstr "Uuden sivuston asetukset"
 
@@ -1326,15 +1320,15 @@ msgstr "Sivuston osoite puuttuu tai on virheellinen."
 msgid "Next Sites"
 msgstr "Seuraavat sivustot"
 
-#: wp-admin/network/settings.php:374
+#: wp-admin/network/settings.php:391
 msgid "Site upload space"
 msgstr "Sivuston käytössä oleva levytila"
 
-#: wp-admin/network/settings.php:299
+#: wp-admin/network/settings.php:316
 msgid "The welcome email sent to new site owners."
 msgstr "Tervetulosähköposti uusille sivustoille."
 
-#: wp-admin/network/settings.php:247
+#: wp-admin/network/settings.php:256
 msgid "Users are not allowed to register these sites. Separate names by spaces."
 msgstr "Käyttäjät eivät saa rekisteröidä näitä sivustoja. Erota nimet välilyönneillä."
 
@@ -1358,47 +1352,47 @@ msgstr "Pääkäyttäjän sähköpostiosoite"
 msgid "Add Site"
 msgstr "Lisää sivusto"
 
-#: wp-admin/network/settings.php:426
+#: wp-admin/network/settings.php:443
 msgid "Default Language"
 msgstr "Oletuskieli"
 
-#: wp-admin/network/settings.php:402
+#: wp-admin/network/settings.php:419
 msgid "Max upload file size"
 msgstr "Siirrettävien tiedostojen maksimikoko"
 
-#: wp-admin/network/settings.php:362
+#: wp-admin/network/settings.php:379
 msgid "First Comment URL"
 msgstr "Ensimmäisen kommentin URL"
 
-#: wp-admin/network/settings.php:344
+#: wp-admin/network/settings.php:361
 msgid "First Comment Author"
 msgstr "Ensimmäisen kommentin kirjoittaja"
 
-#: wp-admin/network/settings.php:334
+#: wp-admin/network/settings.php:351
 msgid "First Comment"
 msgstr "Ensimmäinen kommentti"
 
-#: wp-admin/network/settings.php:324
+#: wp-admin/network/settings.php:341
 msgid "First Page"
 msgstr "Ensimmäinen sivu"
 
-#: wp-admin/network/settings.php:309
+#: wp-admin/network/settings.php:326
 msgid "The welcome email sent to new users."
 msgstr "Tervetulosähköposti uusille käyttäjille."
 
-#: wp-admin/network/settings.php:304
+#: wp-admin/network/settings.php:321
 msgid "Welcome User Email"
 msgstr "Tervetuloviesti käyttäjälle"
 
-#: wp-admin/network/settings.php:294
+#: wp-admin/network/settings.php:311
 msgid "Welcome Email"
 msgstr "Tervetulosähköposti"
 
-#: wp-admin/network/settings.php:272
+#: wp-admin/network/settings.php:287
 msgid "Banned Email Domains"
 msgstr "Kielletyt sähköpostien verkkotunnukset"
 
-#: wp-admin/network/settings.php:253
+#: wp-admin/network/settings.php:262
 msgid "Limited Email Registrations"
 msgstr "Rajaa rekisteröinnit näihin osoitteisiin"
 

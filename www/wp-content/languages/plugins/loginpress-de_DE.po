@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Custom Login Page Customizer | LoginPress - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-03-21 13:36:27+0000\n"
+"PO-Revision-Date: 2021-06-28 11:49:40+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,10 @@ msgstr ""
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: de\n"
 "Project-Id-Version: Plugins - Custom Login Page Customizer | LoginPress - Stable (latest release)\n"
+
+#: custom.php:1507
+msgid "%1$s will be replaced with the current year."
+msgstr "%1$s wird durch das aktuelle Jahr ersetzt."
 
 #: custom.php:1464
 msgid "\"Copyright\" Text Color:"
@@ -71,10 +75,10 @@ msgstr ""
 msgid "Logo Title:"
 msgstr "Logo-Titel:"
 
+#: classes/class-loginpress-promotion.php:122
 #: classes/class-loginpress-addons.php:188
 #: classes/class-loginpress-addons.php:293
 #: classes/class-loginpress-addons.php:352
-#: classes/class-loginpress-promotion.php:122
 msgid "UPGRADE NOW"
 msgstr "JETZT UPGRADEN"
 
@@ -82,11 +86,11 @@ msgstr "JETZT UPGRADEN"
 msgid "Rate"
 msgstr "Bewertung"
 
-#: custom.php:1542
+#: custom.php:1547
 msgid "Right"
 msgstr "Rechts"
 
-#: custom.php:1541
+#: custom.php:1546
 msgid "Left"
 msgstr "Links"
 
@@ -218,8 +222,8 @@ msgstr "Benutzernamen merken"
 msgid "Log In"
 msgstr "Einloggen"
 
-#: custom.php:1190 include/template-loginpress.php:493
-#: include/template-loginpress.php:552
+#: include/template-loginpress.php:493 include/template-loginpress.php:552
+#: custom.php:1190
 msgid "Lost your password?"
 msgstr "Haben Sie Ihr Passwort vergessen?"
 
@@ -316,8 +320,8 @@ msgstr "Passwort-Beschriftung:"
 msgid "Username Label:"
 msgstr "Benutzernamen-Beschriftung:"
 
-#: include/customizer-strings.php:86 include/template-loginpress.php:382
-#: include/template-loginpress.php:514
+#: include/template-loginpress.php:382 include/template-loginpress.php:514
+#: include/customizer-strings.php:86 custom.php:1861
 msgid "Username or Email Address"
 msgstr "Benutzername oder E-Mail-Adresse"
 
@@ -428,15 +432,15 @@ msgstr "loginpress"
 msgid "<p>This page is used by %1$s to preview the login page in the Customizer.</p>"
 msgstr "<p>Diese Seite wird von %1$s verwendet, um eine Vorschau der Anmeldeseite im Customizer anzuzeigen.</p>"
 
-#: custom.php:1822
+#: custom.php:1859
 msgid "Email Address"
 msgstr "E-Mail-Adresse"
 
-#: custom.php:1820 include/template-loginpress.php:469
+#: include/template-loginpress.php:469 custom.php:1857
 msgid "Username"
 msgstr "Benutzername"
 
-#: custom.php:1535
+#: custom.php:1540
 msgid "Love Position:"
 msgstr "Liebesposition:"
 
@@ -525,15 +529,15 @@ msgid "Confirm Password"
 msgstr "Passwort bestätigen"
 
 #: classes/class-loginpress-custom-password.php:48
-#: include/customizer-strings.php:86 include/template-loginpress.php:518
+#: include/template-loginpress.php:518 include/customizer-strings.php:86
 msgid "Password"
 msgstr "Passwort oder PIN"
 
-#: custom.php:1897 include/template-loginpress.php:465
+#: include/template-loginpress.php:465 custom.php:1938
 msgid "Register For This Site"
 msgstr "Für diese Seite registrieren."
 
-#: custom.php:1889 include/template-loginpress.php:370
+#: include/template-loginpress.php:370 custom.php:1930
 msgid "Please enter your username or email address. You will receive a link to create a new password via email."
 msgstr "Bitte gib deinen Benutzernamen oder deine E-Mail-Adresse ein. Du wirst einen Link per E-Mail erhalten, um ein neues Passwort zu erstellen."
 
@@ -651,16 +655,16 @@ msgstr "Erweitern Sie die Funktionalität von LoginPress mit diesen tollen Add-o
 msgid "LoginPress - Rebranding your boring WordPress Login pages"
 msgstr "LoginPress - Rebranding Ihre langweiligen WordPress Login Seiten"
 
-#: custom.php:1919 include/template-loginpress.php:397
-#: include/template-loginpress.php:491
+#: include/template-loginpress.php:397 include/template-loginpress.php:491
+#: custom.php:1960
 msgid "Log in"
 msgstr "Einloggen"
 
-#: custom.php:1915 custom.php:1919
+#: custom.php:1956 custom.php:1960
 msgid "Your password has been reset."
 msgstr "Dein Passwort wurde zurückgesetzt."
 
-#: custom.php:1554
+#: custom.php:1559
 msgid "Custom CSS/JS"
 msgstr "Benutzerdefiniertes CSS / JS"
 
@@ -688,11 +692,11 @@ msgstr "reCAPTCHA"
 msgid "Google Fonts"
 msgstr "Google Fonts"
 
-#: custom.php:1587
+#: custom.php:1592
 msgid "Custom JS doen't make effect live. For preview please save the setting and visit %1$s login%2$s page or after save refresh the customizer."
 msgstr "Benutzerdefiniertes JS kann keine Live-Effekte erzielen. Für eine Vorschau speichere bitte die Einstellung und besuche die %1$sAnmeldeseite%2$s oder aktualisiere nach dem Speichern den Customizer."
 
-#: custom.php:1572
+#: custom.php:1577
 msgid "Custom CSS doen't make effect live. For preview please save the setting and visit %1$s login%2$s page or after save refresh the customizer."
 msgstr "Benutzerdefiniertes CSS kann keine Live-Effekte erzielen. Für eine Vorschau speichere bitte die Einstellung und besuche die %1$sAnmeldeseite%2$s oder aktualisiere nach dem Speichern den Customizer."
 
@@ -704,42 +708,42 @@ msgstr "E-Mail bereits vorhanden Nachricht:"
 msgid "Username Already Exist Message:"
 msgstr "Meldung bei bereits vorhandenem Benutzernamen:"
 
-#: custom.php:1745 include/customizer-strings.php:149
+#: include/customizer-strings.php:149 custom.php:1779
 msgid "%1$sError:%2$s Invalid username or email."
 msgstr "%1$sFehler:%2$s Ungültiger Benutzername oder E-Mail-Adresse."
 
-#: custom.php:1743 include/customizer-strings.php:148
+#: include/customizer-strings.php:148 custom.php:1777
 msgid "%1$sError:%2$s This email is already registered, please choose another one."
 msgstr "%1$sFehler:%2$s Diese E-Mail-Adresse ist bereits registriert, bitte wähle eine andere aus."
 
-#: custom.php:1741 include/customizer-strings.php:147
+#: include/customizer-strings.php:147 custom.php:1775
 msgid "%1$sError:%2$s This username is already registered. Please choose another one."
 msgstr "%1$sFehler:%2$s Dieser Benutzername ist bereits registriert. Bitte wähle einen anderen aus."
 
-#: custom.php:1739 include/customizer-strings.php:146
+#: include/customizer-strings.php:146 custom.php:1773
 msgid "%1$sError:%2$s Please type your email address."
 msgstr "%1$sError:%2$s Bitte geben Sie Ihre E-Mail-Adresse ein."
 
-#: custom.php:1737 include/customizer-strings.php:145
+#: include/customizer-strings.php:145 custom.php:1771
 msgid "%1$sError:%2$s The email address isn't correct.."
 msgstr "%1$sError:%2$s Die E-Mail-Adresse ist nicht korrekt."
 
-#: classes/class-loginpress-login-order.php:71 custom.php:1735
-#: include/customizer-strings.php:144
+#: classes/class-loginpress-login-order.php:71
+#: include/customizer-strings.php:144 custom.php:1769
 msgid "%1$sError:%2$s The password field is empty."
 msgstr "%1$sFehler:%2$s Das Passwortfeld ist leer."
 
-#: classes/class-loginpress-login-order.php:69 custom.php:1733
-#: include/customizer-strings.php:143
+#: classes/class-loginpress-login-order.php:69
+#: include/customizer-strings.php:143 custom.php:1767
 msgid "%1$sError:%2$s The username field is empty."
 msgstr "%1$sFehler:%2$s Das Feld Benutzername ist leer."
 
-#: custom.php:1731 include/customizer-strings.php:142
+#: include/customizer-strings.php:142 custom.php:1765
 msgid "%1$sError:%2$s Invalid Password."
 msgstr "%1$sFehler:%2$s Ungültiges Passwort."
 
-#: classes/class-loginpress-login-order.php:114 custom.php:1729
-#: include/customizer-strings.php:142
+#: classes/class-loginpress-login-order.php:114
+#: include/customizer-strings.php:142 custom.php:1763
 msgid "%1$sError:%2$s Invalid Username."
 msgstr "%1$sFehler:%2$s Ungültiger Benutzername."
 
@@ -828,11 +832,11 @@ msgstr "%1$s Hallo %2$s, %4$s Wenn du dich für die Installation von LoginPress 
 msgid "Welcome to LoginPress"
 msgstr "Welcome to LoginPress"
 
-#: custom.php:1612 custom.php:1614
+#: custom.php:1617 custom.php:1619
 msgid "Powered by:"
 msgstr "Unterstützt von:"
 
-#: custom.php:1519
+#: custom.php:1524
 msgid "Show some Love. Please help others learn about this free plugin by placing small link in footer. Thank you very much!"
 msgstr "Zeigen Sie etwas Liebe. Bitte helfen Sie anderen, über dieses kostenlose Plugin zu lernen, indem Sie einen kleinen Link in Fußzeile. Vielen Dank!"
 
@@ -928,7 +932,7 @@ msgstr "Ich brauchte das Plugin nur für einen kurzen Zeitraum"
 msgid "If you have a moment, please let us know why you are deactivating:"
 msgstr "Wenn Sie einen Moment Zeit haben, lassen Sie uns wissen, warum Sie deaktiviert haben:"
 
-#: custom.php:1471 custom.php:1495 custom.php:1626
+#: custom.php:1471 custom.php:1499 custom.php:1642
 msgid "© %1$s %2$s, All Rights Reserved."
 msgstr "© %1$s %2$s, Alle Rechte vorbehalten."
 
@@ -1095,7 +1099,7 @@ msgstr "Jetzt abstimmen!"
 msgid "LoginPress - Customizing the WordPress Login"
 msgstr "LoginPress - Anpassen des WordPress Login"
 
-#: classes/class-loginpress-setup.php:102 loginpress.php:280 custom.php:267
+#: loginpress.php:280 classes/class-loginpress-setup.php:102 custom.php:267
 msgid "LoginPress"
 msgstr "LoginPress"
 
@@ -1111,15 +1115,15 @@ msgstr "WPBrigade"
 msgid "https://WPBrigade.com/wordpress/plugins/loginpress/"
 msgstr "https://WPBrigade.com/wordpress/plugins/loginpress/"
 
-#: custom.php:1582
+#: custom.php:1587
 msgid "Customize JS:"
 msgstr "Anpassen von JS:"
 
-#: custom.php:1567
+#: custom.php:1572
 msgid "Customize CSS:"
 msgstr "CSS anpassen:"
 
-#: custom.php:1502
+#: custom.php:1506
 msgid "Copyright Note:"
 msgstr "Copyright-Hinweis:"
 

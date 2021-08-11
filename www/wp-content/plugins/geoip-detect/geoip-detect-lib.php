@@ -23,8 +23,6 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 use YellowTree\GeoipDetect\DataSources\DataSourceRegistry;
 
-// This file is outside composer root in order to not distribute all the other symfony files
-require_once(__DIR__ . '/lib/vendor/symfony/http-foundation/IpUtils.php');
 use Symfony\Component\HttpFoundation\IpUtils;
 
 /**
@@ -209,9 +207,13 @@ function _geoip_detect2_get_record_from_reader($reader, $ip, &$error) {
 	return $record;
 }
 
-function _geoip_detect2_get_new_empty_record($ip = '') {
+function _geoip_detect2_get_new_empty_record($ip = '', $error = '') {
 	$data = array('traits' => array('ip_address' => $ip), 'is_empty' => true);
-	return new \GeoIp2\Model\City($data);
+	if ($error) {
+		$data['extra']['error'] = $error;
+	}
+
+	return new  \YellowTree\GeoipDetect\DataSources\City($data, []);
 }
 
 function _geoip_detect2_record_enrich_data($record, $ip, $sourceId, $error) : array {
@@ -344,17 +346,49 @@ function geoip_detect_sanitize_ip_list(string $ip_list) : string {
 }
 
 /**
+ * Remove port from IP string
+ * @param string
+ * @return string
+ */
+function geoip_detect_ip_remove_port(string $ip) : string {
+	$ip = trim($ip);
+	
+	if (mb_strpos($ip, '.')) {  // IPv4 
+		// 1.1.1.1:80
+		$end = mb_stripos($ip, ':');
+		if ($end) {
+			$ip = mb_substr($ip, 0, $end);
+		}
+	} else {
+		// [::1]:8080
+		$end = mb_stripos($ip, ']:');
+		if ($ip[0] === '[' && $end) {
+			$ip = mb_substr($ip, 1, $end - 1);
+		}
+	}
+
+	return $ip;
+}
+
+/**
  * Check if the expected IP left matches the actual IP
  * @param string $actual IP
  * @param string|array $expected IP (can include subnet)
+ * @param boolean $stripPort Remove ports if it is given (Limitation: not from $expected if array)
  * @return boolean
  */
-function geoip_detect_is_ip_equal(string $actual, $expected) : bool {
+function geoip_detect_is_ip_equal(string $actual, $expected, bool $stripPort = false ) : bool {
+	if ($stripPort) {
+		$actual = geoip_detect_ip_remove_port($actual);
+		if (is_string($expected)) {
+			$expected = geoip_detect_ip_remove_port($expected);
+		}
+	}
 	try {
 		return IpUtils::checkIp($actual, $expected);
 	} catch(\Exception $e) {
 		// IPv6 not supported by PHP
-		// Do string comparison instead (very rough: no subnet, no IP noramlization)
+		// Do string comparison instead (very rough: no subnet, no IP normalization)
 		if (is_array($expected)) {
 			return in_array($actual, $expected, true);
 		} else {
@@ -507,6 +541,11 @@ function _geoip_maybe_disable_pagecache() : bool {
 	if (!get_option('geoip-detect-disable_pagecache'))
 		return false;
 
+	_geoip_detect_disable_pagecache();
+	return true;
+}
+
+function _geoip_detect_disable_pagecache() {
 	// WP Super Cache, W3 Total Cache
 	if (!defined('DONOTCACHEPAGE'))
 		define('DONOTCACHEPAGE', true);
@@ -519,9 +558,8 @@ function _geoip_maybe_disable_pagecache() : bool {
 
 	if (!headers_sent()) {
 		header('Cache-Control: private, proxy-revalidate, s-maxage=0');
+		header( 'cf-edge-cache: no-cache' ); // Disable Cloudflare APO
 	}
-
-	return true;
 }
 
 function _geoip_dashes_to_camel_case(string $string, bool $capitalizeFirstCharacter = false) : string {

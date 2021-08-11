@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Akismet Spam Protection - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-10-22 19:38:58+0000\n"
+"PO-Revision-Date: 2021-08-09 12:56:32+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,14 @@ msgstr ""
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: ro\n"
 "Project-Id-Version: Plugins - Akismet Spam Protection - Stable (latest release)\n"
+
+#: views/notice.php:117
+msgid "Please enter a new key or <a href=\"%s\" target=\"_blank\">contact Akismet support</a>."
+msgstr "Te rog introdu o cheie nouă sau <a href=\"%s\" target=\"_blank\">contactează suportul Akismet</a>."
+
+#: views/notice.php:116
+msgid "Your API key is no longer valid."
+msgstr "Cheia ta API nu mai este validă."
 
 #: views/stats.php:4
 msgid "Anti-Spam Settings"
@@ -38,7 +46,7 @@ msgstr "Akismet nu a putut verifica acest comentariu, dar va reîncerca automat 
 msgid "Comment was caught by %s."
 msgstr "Comentariul a fost prins de %s."
 
-#: class.akismet.php:575
+#: class.akismet.php:576
 msgid "Akismet is not configured. Please enter an API key."
 msgstr "Akismet nu este configurat. Te rog introdu o cheie API."
 
@@ -52,7 +60,7 @@ msgstr "Inițializează un alt cont"
 
 #: views/setup.php:2
 msgid "Set up your Akismet account to enable spam filtering on this site."
-msgstr "Inițializează-ți contul Akismet pentru a activa filtrarea spamului pe acest sit."
+msgstr "Inițializează-ți contul Akismet pentru a activa filtrarea spamului pe acest site."
 
 #: class.akismet-admin.php:1093
 msgid "Akismet could not recheck your comments for spam."
@@ -76,7 +84,7 @@ msgstr "Cheia API trebuie să fie setată pentru a aduce statisticile."
 
 #: views/config.php:162
 msgid "To help your site with transparency under privacy laws like the GDPR, Akismet can display a notice to your users under your comment forms. This feature is disabled by default, however, you can turn it on above."
-msgstr "Pentru a ajuta ca situl tău să fie transparent, în conformitate cu legile privind confidențialitatea, cum ar fi GDPR, Akismet poate afișa o notificare utilizatorilor sub formularul de comentarii. Această funcționalitate este dezactivată implicit, dar o poți activa mai sus."
+msgstr "Pentru a-ți ajuta site-ul să fie transparent, în conformitate cu legile privind confidențialitatea, cum ar fi GDPR, Akismet poate afișa o notificare utilizatorilor sub formularul de comentarii. Această funcționalitate este dezactivată implicit, dar o poți activa mai sus."
 
 #: views/config.php:160
 msgid "Do not display privacy notice."
@@ -94,21 +102,21 @@ msgstr "Notificare de confidențialitate Akismet"
 msgid "Privacy"
 msgstr "Confidențialitate"
 
-#: class.akismet.php:1616
+#: class.akismet.php:1612
 msgid "This site uses Akismet to reduce spam. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Learn how your comment data is processed</a>."
-msgstr "Acest sit folosește Akismet pentru a reduce spamul. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Află cum sunt procesate datele comentariilor tale</a>."
+msgstr "Acest site folosește Akismet pentru a reduce spamul. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Află cum sunt procesate datele comentariilor tale</a>."
 
 #: class.akismet-admin.php:87
 msgid "We collect information about visitors who comment on Sites that use our Akismet anti-spam service. The information we collect depends on how the User sets up Akismet for the Site, but typically includes the commenter's IP address, user agent, referrer, and Site URL (along with other information directly provided by the commenter such as their name, username, email address, and the comment itself)."
-msgstr "Colectăm informații despre vizitatorii care comentează pe siturile care folosesc serviciul anti-spam Akismet. Informațiile pe care le colectăm depind de modul în care utilizatorul inițializează Akismet pe sit, dar, de obicei, includ adresa IP a comentatorului, agentul utilizator, referentul și URL-ul sitului (împreună cu alte informații furnizate direct de comentator, cum ar fi nume, nume utilizator, adresă email și comentariul în sine)."
+msgstr "Colectăm informații despre vizitatorii care comentează pe site-urile care folosesc serviciul anti-spam de la Akismet. Informațiile pe care le colectăm depind de modul în care utilizatorul inițializează Akismet pe site, dar, de obicei, includ adresa IP a comentatorului, agentul utilizator, referentul și URL-ul site-ului (împreună cu alte informații furnizate direct de comentator, cum ar fi nume, nume utilizator, adresă email și comentariul în sine)."
 
-#: class.akismet.php:250
+#: class.akismet.php:249
 msgid "Comment discarded."
 msgstr "Comentariu eliminat."
 
 #: class.akismet-rest-api.php:174
 msgid "This site's API key is hardcoded and cannot be deleted."
-msgstr "Cheia API a acestui sit are codare impusă și nu poate fi ștearsă."
+msgstr "Cheia API a acestui site are codare impusă și nu poate fi ștearsă."
 
 #: class.akismet-rest-api.php:158
 msgid "The value provided is not a valid and registered API key."
@@ -116,7 +124,7 @@ msgstr "Valoarea furnizată nu este o cheie API validă și înregistrată."
 
 #: class.akismet-rest-api.php:152
 msgid "This site's API key is hardcoded and cannot be changed via the API."
-msgstr "Cheia API a acestui sit are codare impusă și nu poate fi modificată prin API."
+msgstr "Cheia API a acestui site are codare impusă și nu poate fi modificată prin API."
 
 #: class.akismet-rest-api.php:71 class.akismet-rest-api.php:80
 msgid "The time period for which to retrieve stats. Options: 60-days, 6-months, all"
@@ -137,12 +145,12 @@ msgstr "O cheie API Akismet de 12 caractere. Disponibilă la akismet.com/get/"
 
 #: views/notice.php:55
 msgid "Your site can&#8217;t connect to the Akismet servers."
-msgstr "Situl tău nu se poate conecta la serverele Akismet."
+msgstr "Site-ul tău nu se poate conecta la serverele Akismet."
 
 #. translators: %s is the wp-config.php file
 #: views/predefined.php:7
 msgid "An Akismet API key has been defined in the %s file for this site."
-msgstr "Pentru acest sit, a fost definită o cheie API Akismet în fișierul %s."
+msgstr "Pentru acest site, a fost definită o cheie API Akismet în fișierul %s."
 
 #: views/predefined.php:2
 msgid "Manual Configuration"
@@ -154,7 +162,7 @@ msgstr "Pe această pagină, îți poți actualiza setările Akismet și vezi st
 
 #. Description of the plugin
 msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. It keeps your site protected even while you sleep. To get started: activate the Akismet plugin and then go to your Akismet Settings page to set up your API key."
-msgstr "Folosit de milioane de oameni, Akismet este probabil cea mai bună metodă din lume pentru a-ți <strong>proteja blogul de spam</strong>. Îți ține situl protejat chiar și în timp ce dormi. Pentru a începe: activează modulul Akismet și apoi du-te la pagina Setări Akismet pentru a-ți inițializa cheia API."
+msgstr "Folosit de milioane de oameni, Akismet este probabil cea mai bună metodă din lume pentru a-ți <strong>proteja blogul de spam</strong>. Îți ține site-ul protejat chiar și în timp ce dormi. Pentru a începe: activează modulul Akismet și apoi du-te la pagina Setări Akismet pentru a-ți inițializa cheia API."
 
 #. Plugin Name of the plugin
 #: class.akismet-admin.php:112 class.akismet-admin.php:115
@@ -181,7 +189,7 @@ msgstr "Folosește-ți conexiunea Jetpack pentru a inițializa Akismet."
 
 #: views/title.php:2
 msgid "Eliminate spam from your site"
-msgstr "Elimină spamul din situl tău"
+msgstr "Elimină spamul de pe site-ul tău"
 
 #: views/notice.php:107
 msgid "Would you like to <a href=\"%s\">check pending comments</a>?"
@@ -189,9 +197,9 @@ msgstr "Vrei să <a href=\"%s\">verifici comentariile în așteptare</a>?"
 
 #: views/notice.php:105
 msgid "Akismet is now protecting your site from spam. Happy blogging!"
-msgstr "Acum Askimet îți protejează situl de spam. Blogging fericit!"
+msgstr "Acum Askimet îți protejează site-ul de spam. Blogging fericit!"
 
-#: views/setup.php:3 views/notice.php:14
+#: views/notice.php:14 views/setup.php:3
 msgid "Set up your Akismet account"
 msgstr "Inițializează-ți contul Akismet"
 
@@ -205,11 +213,11 @@ msgstr "Statistici"
 
 #: class.akismet-admin.php:1197
 msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. It keeps your site protected even while you sleep. To get started, just go to <a href=\"admin.php?page=akismet-key-config\">your Akismet Settings page</a> to set up your API key."
-msgstr "Folosit de milioane de oameni, Akismet este probabil cea mai bună metodă din lume pentru a-ți <strong>proteja blogul de spam</strong>. Îți ține situl protejat chiar și în timp ce dormi. Pentru a începe, doar du-te la <a href=\"admin.php?page=akismet-key-config\">pagina Setări Akismet</a> pentru a-ți inițializa cheia API."
+msgstr "Folosit de milioane de oameni, Akismet este probabil cea mai bună metodă din lume pentru a-ți <strong>proteja blogul de spam</strong>. Îți ține site-ul protejat chiar și în timp ce dormi. Pentru a începe, doar du-te la <a href=\"admin.php?page=akismet-key-config\">pagina Setări Akismet</a> pentru a-ți inițializa cheia API."
 
 #: class.akismet-admin.php:1194
 msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. Your site is fully configured and being protected, even while you sleep."
-msgstr "Folosit de milioane de oameni, Akismet este probabil cea mai bună metodă din lume pentru a-ți <strong>proteja blogul de spam</strong>. Situl tău este complet configurat și este protejat, chiar și în timp ce dormi."
+msgstr "Folosit de milioane de oameni, Akismet este probabil cea mai bună metodă din lume pentru a-ți <strong>proteja blogul de spam</strong>. Site-ul tău este complet configurat și este protejat, chiar și în timp ce dormi."
 
 #: class.akismet-admin.php:1086
 msgid "%s comment was caught as spam."
@@ -233,7 +241,7 @@ msgstr[2] "Akismet a verificat %s de comentarii."
 msgid "There were no comments to check. Akismet will only check comments awaiting moderation."
 msgstr "Niciun comentariu de verificat. Askimet va verifica numai comentariile care așteaptă moderare."
 
-#: class.akismet.php:581
+#: class.akismet.php:582
 msgid "Comment not found."
 msgstr "Comentariu negăsit."
 
@@ -338,27 +346,23 @@ msgstr[2] "Akismet te-a scutit de %s de zile de muncă!"
 msgid "Akismet filters out spam, so you can focus on more important things."
 msgstr "Akismet filtrează spamul, așa că te poți concentra pe lucruri mai importante."
 
-#: views/notice.php:135
+#: views/notice.php:136
 msgid "To continue your service, <a href=\"%s\" target=\"_blank\">upgrade to an Enterprise subscription</a>, which covers an unlimited number of sites."
-msgstr "Pentru a-ți continua serviciul, <a href=\"%s\" target=\"_blank\">actualizează la un abonament Enterprise</a>, care acoperă un număr nelimitat de situri."
+msgstr "Pentru a-ți continua serviciul, <a href=\"%s\" target=\"_blank\">actualizează la un abonament Enterprise</a>, care acoperă un număr nelimitat de site-uri."
 
-#: views/notice.php:128
-msgid "Your Pro subscription allows the use of Akismet on only one site. Please <a href=\"%s\" target=\"_blank\">purchase additional Pro subscriptions</a> or upgrade to an Enterprise subscription that allows the use of Akismet on unlimited sites."
-msgstr "Abonamentul tău Pro permite folosirea Akismet doar pe un sit. Te rog <a href=\"%s\" target=\"_blank\">achiziționează abonamente suplimentare Pro</a> sau actualizează la un abonament Enterprise ce-ți permite să folosești Akismet pe situri nelimitate."
+#: views/notice.php:129
+msgid "Your Plus subscription allows the use of Akismet on only one site. Please <a href=\"%s\" target=\"_blank\">purchase additional Plus subscriptions</a> or upgrade to an Enterprise subscription that allows the use of Akismet on unlimited sites."
+msgstr "Abonamentul Plus îți permite să folosești Akismet numai pe un singur site. Te rog <a href=\"%s\" target=\"_blank\">cumpără abonamente Plus suplimentare</a> sau actualizează la abonamentul Enterprise care îți permite să folosești Akismet pe un număr nelimitat de site-uri."
 
-#: views/notice.php:121
+#: views/notice.php:122
 msgid "The connection to akismet.com could not be established. Please refer to <a href=\"%s\" target=\"_blank\">our guide about firewalls</a> and check your server configuration."
 msgstr "Conexiunea la akismet.com nu poate fi stabilită. Te rog consultă <a href=\"%s\" target=\"_blank\">ghidul nostru despre firewall-uri</a> și verifică configurația serverului."
 
-#: views/notice.php:120
+#: views/notice.php:121
 msgid "The API key you entered could not be verified."
 msgstr "Cheia API introdusă nu a putut fi verificată."
 
-#: views/notice.php:116
-msgid "Your API key is no longer valid. Please enter a new key or contact support@akismet.com."
-msgstr "Cheia ta API nu mai este validă. Te rog introdu o nouă cheie sau contactează support@akismet.com."
-
-#: views/notice.php:89 views/notice.php:130 views/notice.php:137
+#: views/notice.php:89 views/notice.php:131 views/notice.php:138
 msgid "Please <a href=\"%s\" target=\"_blank\">contact our support team</a> with any questions."
 msgstr "Te rog <a href=\"%s\" target=\"_blank\">contactează echipa noastră de suport</a> cu orice întrebări."
 
@@ -436,13 +440,13 @@ msgstr "Abonamentul tău pentru %s este suspendat."
 msgid "Your subscription for %s is cancelled."
 msgstr "Abonamentul tău pentru %s este anulat."
 
-#: views/notice.php:133
-msgid "You&#8217;re using Akismet on far too many sites for your Pro subscription."
-msgstr "Folosești Akismet pe mult mai multe situri decât îți permite abonamentul tău Pro."
+#: views/notice.php:134
+msgid "You&#8217;re using Akismet on far too many sites for your Plus subscription."
+msgstr "Folosești Akismet pe mult mai multe site-uri decât îți permite abonamentul tău Plus."
 
-#: views/notice.php:126
-msgid "You&#8217;re using your Akismet key on more sites than your Pro subscription allows."
-msgstr "Folosești cheia ta Akismet pe mai multe situri decât îți permite abonamentul tău Pro."
+#: views/notice.php:127
+msgid "You&#8217;re using your Akismet key on more sites than your Plus subscription allows."
+msgstr "Îți folosești cheia Akismet pe mai multe site-uri decât îți permite abonamentul tău Plus."
 
 #: views/notice.php:112
 msgid "The key you entered is invalid. Please double-check it."
@@ -584,11 +588,11 @@ msgstr[2] "De spamuri blocate"
 msgid "Past six months"
 msgstr "În ultimele șase luni"
 
-#: class.akismet.php:1370
+#: class.akismet.php:1371
 msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
 msgstr "Te rog<a href=\"%1$s\">actualizează WordPress</a> la o versiune curentă, sau <a href=\"%2$s\">retrogradează modulul Akismet la versiunea 2.4</a>."
 
-#: class.akismet.php:1370
+#: class.akismet.php:1371
 msgid "Akismet %s requires WordPress %s or higher."
 msgstr "Akismet %s necesită WordPress %s sau o versiune ulterioară."
 
@@ -610,11 +614,11 @@ msgstr "%s a raportat acest comentariu ca spam."
 
 #: class.akismet-admin.php:671
 msgid "%1$s changed the comment status to %2$s."
-msgstr "%1$s a schimbat starea comentariului la %2$s."
+msgstr "%1$s a schimbat starea comentariului în %2$s."
 
 #: class.akismet-admin.php:646
 msgid "Akismet was unable to check this comment (response: %s) but will automatically retry later."
-msgstr "Akismet n-a putut verifica acest comentariu (răspuns: %s) dar va reîncerca automat mai târziu."
+msgstr "Akismet nu a putut verifica acest comentariu (răspuns: %s) dar va reîncerca automat mai târziu."
 
 #: class.akismet-admin.php:612
 msgid "Akismet cleared this comment."
@@ -626,7 +630,7 @@ msgstr "Starea comentariului a fost schimbată în %s"
 
 #: class.akismet-admin.php:606
 msgid "Akismet caught this comment as spam."
-msgstr "Akismet a prins acest comentariu ca spam."
+msgstr "Akismet a identificat acest comentariu ca spam."
 
 #: class.akismet-widget.php:102
 msgid "<strong class=\"count\">%1$s spam</strong> blocked by <strong>Akismet</strong>"
@@ -688,7 +692,7 @@ msgstr "Marcat ca spam de %s"
 
 #: class.akismet-admin.php:535
 msgid "Cleared by Akismet"
-msgstr "Golit de Askimet"
+msgstr "Eliminat de Akismet"
 
 #: class.akismet-admin.php:533
 msgid "Flagged as spam by Akismet"
@@ -700,7 +704,7 @@ msgstr "Așteaptă verificare spam"
 
 #: class.akismet-admin.php:654
 msgid "Akismet was unable to recheck this comment (response: %s)."
-msgstr "Akismet n-a putut reverifica acest comentariu (răspuns: %s)."
+msgstr "Akismet nu a putut să reverifice acest comentariu (răspuns: %s)."
 
 #: class.akismet-admin.php:609
 msgid "Akismet re-checked and cleared this comment."
@@ -732,16 +736,16 @@ msgstr "<a href=\"%s\">Akismet</a> blochează spamul să ajungă pe blogul tău.
 #: class.akismet-admin.php:357
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already. "
 msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already. "
-msgstr[0] "<a href=\"%1$s\">Akismet</a> ți-a protejat situl de %2$s comentariu spam."
-msgstr[1] "<a href=\"%1$s\">Akismet</a> ți-a protejat situl de %2$s comentarii spam."
-msgstr[2] "<a href=\"%1$s\">Akismet</a> ți-a protejat situl de %2$s de comentarii spam."
+msgstr[0] "<a href=\"%1$s\">Akismet</a> ți-a protejat site-ul de %2$s comentariu spam."
+msgstr[1] "<a href=\"%1$s\">Akismet</a> ți-a protejat site-ul de %2$s comentarii spam."
+msgstr[2] "<a href=\"%1$s\">Akismet</a> ți-a protejat site-ul de %2$s de comentarii spam."
 
 #: class.akismet-admin.php:347
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comment</a>."
 msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
-msgstr[0] "<a href=\"%1$s\">Akismet</a> ți-a protejat situl de <a href=\"%2$s\">%3$s comentariu spam</a>."
-msgstr[1] "<a href=\"%1$s\">Akismet</a> ți-a protejat situl de <a href=\"%2$s\">%3$s comentarii spam</a>."
-msgstr[2] "<a href=\"%1$s\">Akismet</a> ți-a protejat situl de <a href=\"%2$s\">%3$s comentarii spam</a>."
+msgstr[0] "<a href=\"%1$s\">Akismet</a> ți-a protejat site-ul de <a href=\"%2$s\">%3$s comentariu spam</a>."
+msgstr[1] "<a href=\"%1$s\">Akismet</a> ți-a protejat site-ul de <a href=\"%2$s\">%3$s comentarii spam</a>."
+msgstr[2] "<a href=\"%1$s\">Akismet</a> ți-a protejat site-ul de <a href=\"%2$s\">%3$s de comentarii spam</a>."
 
 #: class.akismet-admin.php:345
 msgctxt "comments"
@@ -768,7 +772,7 @@ msgstr "Pentru mai multe informații:"
 msgid "The subscription status - active, cancelled or suspended"
 msgstr "Starea abonamentului - activ, anulat sau suspendat"
 
-#: views/config.php:203 class.akismet-admin.php:258
+#: class.akismet-admin.php:258 views/config.php:203
 msgid "Status"
 msgstr "Stare"
 
@@ -776,11 +780,11 @@ msgstr "Stare"
 msgid "The Akismet subscription plan"
 msgstr "Planul de abonare Akismet"
 
-#: views/config.php:196 class.akismet-admin.php:257
+#: class.akismet-admin.php:257 views/config.php:196
 msgid "Subscription Type"
 msgstr "Tip de abonament"
 
-#: views/config.php:188 class.akismet-admin.php:254
+#: class.akismet-admin.php:254 views/config.php:188
 msgid "Account"
 msgstr "Cont"
 
@@ -788,7 +792,7 @@ msgstr "Cont"
 msgid "Choose to either discard the worst spam automatically or to always put all spam in spam folder."
 msgstr "Alege fie să arunci automat la gunoi cel mai rău spam ori fie să pui mereu toate comentariile spam în dosarul de spam."
 
-#: views/config.php:128 class.akismet-admin.php:246
+#: class.akismet-admin.php:246 views/config.php:128
 msgid "Strictness"
 msgstr "Strictețe"
 
@@ -796,7 +800,7 @@ msgstr "Strictețe"
 msgid "Show the number of approved comments beside each comment author in the comments list page."
 msgstr "Arată numărul de comentarii aprobate alături de autorul fiecărui comentariu pe această pagină cu lista comentariilor."
 
-#: views/config.php:105 class.akismet-admin.php:245
+#: class.akismet-admin.php:245 views/config.php:105
 msgid "Comments"
 msgstr "Comentarii"
 
@@ -804,7 +808,7 @@ msgstr "Comentarii"
 msgid "Enter/remove an API key."
 msgstr "Introdu/îndepărtează o cheie API."
 
-#: views/config.php:70 class.akismet-admin.php:244
+#: class.akismet-admin.php:244 views/config.php:70
 msgid "API Key"
 msgstr "Cheie API"
 
@@ -815,7 +819,7 @@ msgstr "Configurare Akismet"
 
 #: class.akismet-admin.php:221
 msgid "On this page, you are able to view stats on spam filtered on your site."
-msgstr "Pe această pagină poți vedea statisticile despre spamul filtrat pe situl tău."
+msgstr "Pe această pagină, poți să vezi statistici despre spamul filtrat pe site-ul tău."
 
 #: class.akismet-admin.php:219
 msgid "Akismet Stats"
@@ -843,7 +847,7 @@ msgstr "Înscrie-te pentru un cont pe %s ca să obții o cheie API."
 
 #: class.akismet-admin.php:193
 msgid "You need to enter an API key to activate the Akismet service on your site."
-msgstr "Trebuie să introduci o cheie API pentru a activa serviciul Akismet pe situl tău."
+msgstr "Trebuie să introduci o cheie API pentru a activa serviciul Akismet pe site-ul tău."
 
 #: class.akismet-admin.php:190
 msgid "New to Akismet"
@@ -887,8 +891,8 @@ msgstr "Înlătură acest URL"
 msgid "Akismet"
 msgstr "Akismet"
 
-#: views/config.php:60 class.akismet-admin.php:105 class.akismet-admin.php:241
-#: class.akismet-admin.php:696
+#: class.akismet-admin.php:105 class.akismet-admin.php:241
+#: class.akismet-admin.php:696 views/config.php:60
 msgid "Settings"
 msgstr "Setări"
 

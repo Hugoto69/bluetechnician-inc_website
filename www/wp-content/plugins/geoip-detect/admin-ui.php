@@ -123,6 +123,7 @@ function geoip_detect_option_page() {
 	if (!is_admin() || !current_user_can('manage_options'))
 		return;
 
+
 	if (isset($_GET['geoip_detect_part'])) {
 		switch ($_GET['geoip_detect_part']) {
 			case 'client-ip':

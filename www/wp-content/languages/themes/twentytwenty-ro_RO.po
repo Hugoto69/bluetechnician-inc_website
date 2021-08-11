@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Twenty Twenty package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-04-02 11:31:43+0000\n"
+"PO-Revision-Date: 2021-07-26 09:21:59+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,19 +13,19 @@ msgstr ""
 
 #. Description of the theme
 msgid "Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors."
-msgstr "Tema noastră implicită pentru 2020 este făcută pentru a exploata din plin flexibilitatea editorului de blocuri. Organizații și afaceri au posibilitatea de a crea pagini de intrare dinamice cu infinite aranjamente folosind coloanele și grupurile de blocuri. Coloana de conținut centrată precum și tipografia cizelată o fac de asemenea perfectă pentru bloguri tradiționale. Stilurile complete pentru editare îți pot da o bună idee despre cum va arăta conținutul, chiar înainte de a-l publica. Poți să dai sitului tău o notă personală prin schimbarea culorilor de fundal sau a culorii de accent în Personalizator. Culorile tuturor elementelor de pe situl tău sunt calculate automat bazat pe culorile pe care le alegi, asigurînd un contrast coloristic de bună accesibilitate pentru vizitatorii tăi."
+msgstr "Tema noastră implicită pentru 2020 este făcută pentru a exploata din plin flexibilitatea editorului de blocuri. Organizații și afaceri au posibilitatea de a crea pagini de intrare dinamice cu infinite aranjamente folosind coloanele și grupurile de blocuri. Coloana de conținut centrată precum și tipografia cizelată o fac de asemenea perfectă pentru bloguri tradiționale. Stilurile complete pentru editare îți pot da o bună idee despre cum va arăta conținutul, chiar înainte de a-l publica. Poți să dai site-ului tău o notă personală prin schimbarea culorilor de fundal sau a culorii de accent în Personalizator. Culorile tuturor elementelor de pe site-ul tău sunt calculate automat bazat pe culorile pe care le alegi, asigurând un contrast coloristic de bună accesibilitate pentru vizitatorii tăi."
 
 #. Theme Name of the theme
 #: inc/block-patterns.php:20
 msgid "Twenty Twenty"
 msgstr "Twenty Twenty"
 
-#: classes/class-twentytwenty-customize.php:126
+#: classes/class-twentytwenty-customize.php:130
 msgctxt "color"
 msgid "Custom"
 msgstr "Personalizată"
 
-#: classes/class-twentytwenty-customize.php:125
+#: classes/class-twentytwenty-customize.php:129
 msgctxt "color"
 msgid "Default"
 msgstr "Implicită"
@@ -114,12 +114,12 @@ msgctxt "toggle text"
 msgid "Search"
 msgstr "Caută"
 
-#: functions.php:498
+#: functions.php:526
 msgctxt "color"
 msgid "Secondary"
 msgstr "Secundară"
 
-#: functions.php:493
+#: functions.php:521
 msgctxt "color"
 msgid "Primary"
 msgstr "Principală"
@@ -128,7 +128,7 @@ msgstr "Principală"
 msgid "Nothing Found"
 msgstr "N-am găsit nimic"
 
-#: classes/class-twentytwenty-customize.php:246
+#: classes/class-twentytwenty-customize.php:250
 msgid "Show author bio"
 msgstr "Arată biografia autorului"
 
@@ -141,7 +141,7 @@ msgctxt "Theme starter content"
 msgid "The New UMoMA Opens its Doors"
 msgstr "Noua expoziție UMoMA își deschide porțile"
 
-#: inc/template-tags.php:396
+#: inc/template-tags.php:414
 msgctxt "A string that is output before one or more categories"
 msgid "In"
 msgstr "În"
@@ -209,39 +209,39 @@ msgstr "Destinația principală pentru arta modernă din Suedia de Nord. Expozi�
 msgid "The New UMoMA Opens its Doors"
 msgstr "Noua expoziție UMoMA își deschide porțile"
 
-#: classes/class-twentytwenty-customize.php:395
+#: classes/class-twentytwenty-customize.php:399
 msgid "Overlay Opacity"
 msgstr "Opacitate suprapunere"
 
-#: classes/class-twentytwenty-customize.php:375
+#: classes/class-twentytwenty-customize.php:379
 msgid "The color used for the text in the overlay."
 msgstr "Culoarea folosită pentru textul din suprapunere."
 
-#: classes/class-twentytwenty-customize.php:374
+#: classes/class-twentytwenty-customize.php:378
 msgid "Overlay Text Color"
 msgstr "Culoare text suprapunere"
 
-#: classes/class-twentytwenty-customize.php:353
+#: classes/class-twentytwenty-customize.php:357
 msgid "The color used for the overlay. Defaults to the accent color."
 msgstr "Culoarea folosită pentru suprapunere. Implicit e culoarea de accent."
 
-#: classes/class-twentytwenty-customize.php:352
+#: classes/class-twentytwenty-customize.php:356
 msgid "Overlay Background Color"
 msgstr "Culoare fundal pentru suprapunere"
 
-#: classes/class-twentytwenty-customize.php:283
+#: classes/class-twentytwenty-customize.php:287
 msgid "Settings for the \"Cover Template\" page template. Add a featured image to use as background."
 msgstr "Setări pentru șablonul de pagină „Șablon copertă”. Adaugă o imagine reprezentativă pentru a fi folosită ca fundal."
 
-#: classes/class-twentytwenty-customize.php:183
+#: classes/class-twentytwenty-customize.php:187
 msgid "Apply a custom color for links, buttons, featured images."
 msgstr "Aplică o culoare personalizată pentru legături, butoane, imagini reprezentative."
 
-#: classes/class-twentytwenty-customize.php:123
+#: classes/class-twentytwenty-customize.php:127
 msgid "Primary Color"
 msgstr "Culoare principală"
 
-#: template-parts/modal-search.php:20 searchform.php:24
+#: searchform.php:28 template-parts/modal-search.php:20
 msgid "Search for:"
 msgstr "Caută după:"
 
@@ -276,17 +276,23 @@ msgstr "Y"
 
 #: 404.php:24
 msgid "404 not found"
-msgstr "404 de negăsit"
+msgstr "404 negăsită"
 
 #. Template Name of the theme
 msgid "Full Width Template"
 msgstr "Șablon lățime completă"
 
-#: template-parts/pagination.php:25
+#. Translators: This text contains HTML to allow the text to be shorter on
+#. small screens. The text inside the span with the class nav-short will be
+#. hidden on small screens.
+#: template-parts/pagination.php:27
 msgid "Older <span class=\"nav-short\">Posts</span>"
 msgstr "<span class=\"nav-short\">Articole</span> mai vechi"
 
-#: template-parts/pagination.php:21
+#. Translators: This text contains HTML to allow the text to be shorter on
+#. small screens. The text inside the span with the class nav-short will be
+#. hidden on small screens.
+#: template-parts/pagination.php:19
 msgid "Newer <span class=\"nav-short\">Posts</span>"
 msgstr "<span class=\"nav-short\">Articole</span> mai noi"
 
@@ -315,15 +321,16 @@ msgid "Footer"
 msgstr "Subsol"
 
 #. translators: %s: Author name.
-#: template-parts/entry-author-bio.php:20 inc/template-tags.php:357
+#. translators: %s: Author name.
+#: inc/template-tags.php:375 template-parts/entry-author-bio.php:20
 msgid "By %s"
 msgstr "De %s"
 
-#: template-parts/content.php:48 template-parts/content-cover.php:138
+#: template-parts/content-cover.php:138 template-parts/content.php:48
 msgid "Pages:"
 msgstr "Pagini:"
 
-#: template-parts/content.php:48 template-parts/content-cover.php:138
+#: template-parts/content-cover.php:138 template-parts/content.php:48
 msgid "Page"
 msgstr "Pagină"
 
@@ -331,12 +338,12 @@ msgstr "Pagină"
 msgid "Scroll Down"
 msgstr "Derulează în jos"
 
-#: searchform.php:27
+#: searchform.php:31
 msgctxt "submit button"
 msgid "Search"
 msgstr "Caută"
 
-#: searchform.php:25
+#: searchform.php:29
 msgctxt "placeholder"
 msgid "Search &hellip;"
 msgstr "Căutare &hellip;"
@@ -350,28 +357,28 @@ msgid "Search:"
 msgstr "Caută:"
 
 #. translators: %s: Post title. Only visible to screen readers.
-#: inc/template-tags.php:207
+#: inc/template-tags.php:223
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr "Editează <span class=\"screen-reader-text\">%s</span>"
 
-#: inc/template-tags.php:448
+#: inc/template-tags.php:466
 msgid "Sticky post"
 msgstr "Articol reprezentativ"
 
-#: inc/template-tags.php:410
+#: inc/template-tags.php:428
 msgid "Tags"
 msgstr "Etichete"
 
-#: template-parts/content-cover.php:70 template-parts/entry-header.php:36
-#: inc/template-tags.php:392
+#: inc/template-tags.php:410 template-parts/content-cover.php:70
+#: template-parts/entry-header.php:36
 msgid "Categories"
 msgstr "Categorii"
 
-#: inc/template-tags.php:374
+#: inc/template-tags.php:392
 msgid "Post date"
 msgstr "Dată articol"
 
-#: inc/template-tags.php:350
+#: inc/template-tags.php:368
 msgid "Post author"
 msgstr "Autor articol"
 
@@ -391,95 +398,95 @@ msgstr "Meniu"
 msgid "Continue reading"
 msgstr "Citește în continuare"
 
-#: functions.php:550
+#: functions.php:578
 msgctxt "Short name of the larger font size in the block editor."
 msgid "XL"
 msgstr "XL"
 
-#: functions.php:549
+#: functions.php:577
 msgctxt "Name of the larger font size in the block editor"
 msgid "Larger"
 msgstr "Mai mare"
 
-#: functions.php:544
+#: functions.php:572
 msgctxt "Short name of the large font size in the block editor."
 msgid "L"
 msgstr "L"
 
-#: functions.php:543
+#: functions.php:571
 msgctxt "Name of the large font size in the block editor"
 msgid "Large"
 msgstr "Mare"
 
-#: functions.php:538
+#: functions.php:566
 msgctxt "Short name of the regular font size in the block editor."
 msgid "M"
 msgstr "M"
 
-#: functions.php:537
+#: functions.php:565
 msgctxt "Name of the regular font size in the block editor"
 msgid "Regular"
 msgstr "Normal"
 
-#: functions.php:532
+#: functions.php:560
 msgctxt "Short name of the small font size in the block editor."
 msgid "S"
 msgstr "S"
 
-#: functions.php:531
+#: functions.php:559
 msgctxt "Name of the small font size in the block editor"
 msgid "Small"
 msgstr "Mic"
 
-#: functions.php:516
+#: functions.php:544
 msgid "Background Color"
 msgstr "Culoare fundal"
 
-#: functions.php:503
+#: functions.php:531
 msgid "Subtle Background"
 msgstr "Fundal subtil"
 
-#: functions.php:488
+#: functions.php:516
 msgid "Accent Color"
 msgstr "Culoare accent"
 
-#: functions.php:383
+#: functions.php:403
 msgid "Widgets in this area will be displayed in the second column in the footer."
 msgstr "Piesele din această zonă vor fi afișate în a doua coloană din subsol."
 
-#: functions.php:381
+#: functions.php:401
 msgid "Footer #2"
 msgstr "Subsol #2"
 
-#: functions.php:371
+#: functions.php:391
 msgid "Widgets in this area will be displayed in the first column in the footer."
 msgstr "Piesele din această zonă vor fi afișate în a prima coloană din subsol."
 
-#: functions.php:369
+#: functions.php:389
 msgid "Footer #1"
 msgstr "Subsol #1"
 
-#: functions.php:344
+#: functions.php:362
 msgid "Skip to the content"
 msgstr "Sari la conținut"
 
-#: functions.php:266
+#: functions.php:277
 msgid "Social Menu"
 msgstr "Meniu social"
 
-#: functions.php:265
+#: functions.php:276
 msgid "Footer Menu"
 msgstr "Meniu subsol"
 
-#: functions.php:264
+#: functions.php:275
 msgid "Mobile Menu"
 msgstr "Meniu pentru mobil"
 
-#: functions.php:263
+#: functions.php:274
 msgid "Desktop Expanded Menu"
 msgstr "Meniu extins pentru desktop"
 
-#: functions.php:262
+#: functions.php:273
 msgid "Desktop Horizontal Menu"
 msgstr "Meniu orizontal pentru desktop"
 
@@ -522,82 +529,82 @@ msgstr "Un răspuns la &ldquo;%s&rdquo;"
 msgid "Leave a comment"
 msgstr "Lasă un comentariu"
 
-#: classes/class-twentytwenty-walker-page.php:107 inc/template-tags.php:558
+#: classes/class-twentytwenty-walker-page.php:110 inc/template-tags.php:580
 msgid "Show sub menu"
 msgstr "Arată submeniul"
 
 #. translators: %d: ID of a post.
-#: classes/class-twentytwenty-walker-page.php:70
+#: classes/class-twentytwenty-walker-page.php:73
 msgid "#%d (no title)"
 msgstr "#%d (fără titlu)"
 
-#: classes/class-twentytwenty-walker-comment.php:133
+#: classes/class-twentytwenty-walker-comment.php:137
 msgid "By Post Author"
 msgstr "De autorul articolului"
 
-#: classes/class-twentytwenty-walker-comment.php:98
+#: classes/class-twentytwenty-walker-comment.php:102
 msgid "Your comment is awaiting moderation."
 msgstr "Comentariul tău așteaptă să fie moderat."
 
-#: classes/class-twentytwenty-walker-comment.php:82
+#: classes/class-twentytwenty-walker-comment.php:86
 msgid "Edit"
 msgstr "Editează"
 
 #. translators: 1: Comment date, 2: Comment time.
-#: classes/class-twentytwenty-walker-comment.php:68
+#: classes/class-twentytwenty-walker-comment.php:72
 msgid "%1$s at %2$s"
 msgstr "%1$s la %2$s"
 
-#: classes/class-twentytwenty-walker-comment.php:56
+#: classes/class-twentytwenty-walker-comment.php:60
 msgid "says:"
 msgstr "spune:"
 
-#: classes/class-twentytwenty-customize.php:396
+#: classes/class-twentytwenty-customize.php:400
 msgid "Make sure that the contrast is high enough so that the text is readable."
 msgstr "Asigură-te că acest contrast este suficient de mare pentru ca textul să poată fi citit."
 
-#: classes/class-twentytwenty-customize.php:306
+#: classes/class-twentytwenty-customize.php:310
 msgid "Creates a parallax effect when the visitor scrolls."
 msgstr "Creează un efect de paralaxă când vizitatorii derulează."
 
-#: classes/class-twentytwenty-customize.php:305
+#: classes/class-twentytwenty-customize.php:309
 msgid "Fixed Background Image"
 msgstr "Imagine fundal fixă"
 
 #. Template Name of the theme
-#: classes/class-twentytwenty-customize.php:281
+#: classes/class-twentytwenty-customize.php:285
 msgid "Cover Template"
 msgstr "Șablon copertă"
 
-#: classes/class-twentytwenty-customize.php:270
+#: classes/class-twentytwenty-customize.php:274
 msgid "Summary"
 msgstr "Rezumat"
 
-#: classes/class-twentytwenty-customize.php:269
+#: classes/class-twentytwenty-customize.php:273
 msgid "Full text"
 msgstr "Text complet"
 
-#: classes/class-twentytwenty-customize.php:267
+#: classes/class-twentytwenty-customize.php:271
 msgid "On archive pages, posts show:"
 msgstr "În paginile arhivă, articolele arată:"
 
-#: classes/class-twentytwenty-customize.php:225
+#: classes/class-twentytwenty-customize.php:229
 msgid "Show search in header"
 msgstr "Arată căutarea în antet"
 
-#: classes/class-twentytwenty-customize.php:202
+#: classes/class-twentytwenty-customize.php:206
 msgid "Theme Options"
 msgstr "Opțiuni temă"
 
-#: classes/class-twentytwenty-customize.php:101
+#: classes/class-twentytwenty-customize.php:105
 msgid "Header &amp; Footer Background Color"
 msgstr "Culoare fundal antet și subsol"
 
-#: classes/class-twentytwenty-customize.php:82
+#: classes/class-twentytwenty-customize.php:86
 msgid "Scales the logo to half its uploaded size, making it sharp on high-res screens."
 msgstr "Scalează logoul până la jumătate din dimensiunea sa încărcată, făcându-l mai clar pe ecranele de mare rezoluție."
 
-#: classes/class-twentytwenty-customize.php:81
+#: classes/class-twentytwenty-customize.php:85
 msgid "Retina logo"
 msgstr "Logo Retina"
 

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Twenty Twenty package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-04-19 21:47:43+0000\n"
+"PO-Revision-Date: 2021-06-28 05:47:23+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,6 +20,122 @@ msgstr "2020年のデフォルトテーマは、ブロックエディターの�
 msgid "Twenty Twenty"
 msgstr "Twenty Twenty"
 
+#: classes/class-twentytwenty-customize.php:126
+msgctxt "color"
+msgid "Custom"
+msgstr "カスタム"
+
+#: classes/class-twentytwenty-customize.php:125
+msgctxt "color"
+msgid "Default"
+msgstr "デフォルト"
+
+#: inc/block-patterns.php:197
+msgid "With seven floors of striking architecture, UMoMA shows exhibitions of international contemporary art, sometimes along with art historical retrospectives. Existential, political, and philosophical issues are intrinsic to our program. As visitor, you are invited to guided tours artist talks, lectures, film screenings, and other events with free admission."
+msgstr "7階建ての印象的な建築の現代美術館では、国際的な現代美術の展示を行っています。その際、美術の歴史的分析も含めることもあります。実存的、政治的、哲学的問題は当館のプログラムの本質といえます。訪問者の皆さんを、ガイド付きツアー、アーティストトーク、講演、映画上映などの無料イベントへご招待しています。"
+
+#: inc/block-patterns.php:194
+msgid "The Premier Destination for Modern Art in Sweden"
+msgstr "スウェーデンの現代美術の聖地"
+
+#: inc/block-patterns.php:187
+msgid "Introduction"
+msgstr "はじめに"
+
+#: inc/block-patterns.php:157 inc/block-patterns.php:171
+msgid "August 1 — December 1"
+msgstr "8月1日〜12月1日"
+
+#: inc/block-patterns.php:151 inc/block-patterns.php:165
+msgid "Abstract Rectangles"
+msgstr "抽象的な四角形"
+
+#: inc/block-patterns.php:142
+msgid "Featured Content"
+msgstr "おすすめコンテンツ"
+
+#: inc/block-patterns.php:128
+msgid "<em>Price</em><br>Included"
+msgstr "<em>価格</em><br>無料"
+
+#: inc/block-patterns.php:123
+msgid "<em>Location</em><br>Exhibit Hall B"
+msgstr "<em>場所</em><br>展示ホール B"
+
+#: inc/block-patterns.php:118
+msgid "<em>Dates</em><br>Aug 1 — Dec 1"
+msgstr "<em>日時</em><br>8月1日〜12月1日"
+
+#: inc/block-patterns.php:108
+msgid "Event Details"
+msgstr "イベントの詳細"
+
+#: inc/block-patterns.php:93
+msgid "Shop Now"
+msgstr "今すぐショッピング"
+
+#: inc/block-patterns.php:89
+msgid "An awe-inspiring collection of books, prints, and gifts from our exhibitions."
+msgstr "展覧会で使用された書籍、版画、ギフトなどを集めた圧巻のコレクション。"
+
+#: inc/block-patterns.php:86
+msgid "The Store"
+msgstr "お店"
+
+#: inc/block-patterns.php:74
+msgid "Award-winning exhibitions featuring internationally-renowned artists."
+msgstr "世界的に有名なアーティストによる受賞歴のある展覧会"
+
+#: inc/block-patterns.php:71
+msgid "The Museum"
+msgstr "美術館"
+
+#: inc/block-patterns.php:61
+msgid "Double Call to Action"
+msgstr "行動喚起 (CTA) 2つ"
+
+#: inc/block-patterns.php:48
+msgid "Become a Member"
+msgstr "会員登録"
+
+#: inc/block-patterns.php:42
+msgid "Support the Museum and Get Exclusive Offers"
+msgstr "ミュージアムを応援して限定品をゲット"
+
+#: inc/block-patterns.php:33
+msgid "Call to Action"
+msgstr "CTA (行動喚起)"
+
+#: template-parts/modal-menu.php:73
+msgctxt "menu"
+msgid "Mobile"
+msgstr "モバイル"
+
+#: template-parts/modal-menu.php:48
+msgctxt "menu"
+msgid "Expanded"
+msgstr "展開"
+
+#: header.php:88
+msgctxt "menu"
+msgid "Horizontal"
+msgstr "水平方向"
+
+#: header.php:53 header.php:157
+msgctxt "toggle text"
+msgid "Search"
+msgstr "検索"
+
+#: functions.php:498
+msgctxt "color"
+msgid "Secondary"
+msgstr "セカンダリー"
+
+#: functions.php:493
+msgctxt "color"
+msgid "Primary"
+msgstr "メイン"
+
 #: index.php:51
 msgid "Nothing Found"
 msgstr "何も見つかりませんでした"
@@ -28,29 +144,19 @@ msgstr "何も見つかりませんでした"
 msgid "Show author bio"
 msgstr "作成者名を表示"
 
+#: template-parts/entry-author-bio.php:29
+msgid "View Archive <span aria-hidden=\"true\">&rarr;</span>"
+msgstr "アーカイブを表示 <span aria-hidden=\"true\">&rarr;</span>"
+
 #: inc/starter-content.php:39
 msgctxt "Theme starter content"
 msgid "The New UMoMA Opens its Doors"
 msgstr "現代美術館が新装オープン"
 
-#: template-parts/entry-author-bio.php:29
-msgid "View Archive <span aria-hidden=\"true\">&rarr;</span>"
-msgstr "アーカイブを表示 <span aria-hidden=\"true\">&rarr;</span>"
-
-#: inc/block-patterns.php:78 inc/block-patterns.php:160
-#: inc/block-patterns.php:174 inc/starter-content.php:73
-#: inc/starter-content.php:88 inc/starter-content.php:105
-#: inc/starter-content.php:120
-msgid "Read More"
-msgstr "続きを読む"
-
-#: classes/class-twentytwenty-customize.php:395
-msgid "Overlay Opacity"
-msgstr "オーバーレイの不透明度"
-
-#: classes/class-twentytwenty-customize.php:123
-msgid "Primary Color"
-msgstr "メインカラー"
+#: inc/template-tags.php:396
+msgctxt "A string that is output before one or more categories"
+msgid "In"
+msgstr "カテゴリー:"
 
 #: inc/starter-content.php:151
 msgid "Join the Club"
@@ -64,6 +170,14 @@ msgstr "会員の方は、限定展示やセールにアクセスできます。
 msgid "Become a Member and Get Exclusive Offers!"
 msgstr "会員になって限定オファーへアクセス。"
 
+#: inc/starter-content.php:137
+msgid "The exhibitions are produced by UMoMA in collaboration with artists and museums around the world and they often attract international attention. UMoMA has received a Special Commendation from the European Museum of the Year, and was among the top candidates for the Swedish Museum of the Year Award as well as for the Council of Europe Museum Prize."
+msgstr "展覧会は現代美術館と世界中のアーティストや美術館によるコラボレーションの成果であり、国際的に注目されることも少なくありません。現代美術館はヨーロッパ博物館大賞から特別推奨賞を授けられ、スウェーデン博物館大賞やヨーロッパ博物館評議会賞においても上位の候補者となりました。"
+
+#: inc/starter-content.php:134
+msgid "With seven floors of striking architecture, UMoMA shows exhibitions of international contemporary art, sometimes along with art historical retrospectives. Existential, political and philosophical issues are intrinsic to our programme. As visitor you are invited to guided tours artist talks, lectures, film screenings and other events with free admission"
+msgstr "7階建ての印象的な建築の現代美術館では、国際的な現代美術の展示を行っています。その際、美術の歴史的分析も含めることもあります。実存的、政治的、哲学的問題は当館のプログラムの本質といえます。訪問者の皆さんを、ガイド付きツアー、アーティストトーク、講演、映画上映などの無料イベントへご招待しています。"
+
 #: inc/starter-content.php:130
 msgid "&#8220;Cyborgs, as the philosopher Donna Haraway established, are not reverent. They do not remember the cosmos.&#8221;"
 msgstr "「哲学者ドナ・ハラウェイが証明したとおり、サイボーグは敬虔ではないのです。彼らは宇宙のことを覚えていません。」"
@@ -74,7 +188,7 @@ msgstr "シニャックからマチスまで"
 
 #: inc/block-patterns.php:168 inc/starter-content.php:99
 msgid "The Life I Deserve"
-msgstr "値する人生"
+msgstr "ふさわしい人生"
 
 #: inc/starter-content.php:85 inc/starter-content.php:117
 msgid "October 1 -- December 1"
@@ -84,9 +198,20 @@ msgstr "10月1日〜12月1日"
 msgid "Theatre of Operations"
 msgstr "オペレーション劇場"
 
+#: inc/block-patterns.php:78 inc/block-patterns.php:160
+#: inc/block-patterns.php:174 inc/starter-content.php:73
+#: inc/starter-content.php:88 inc/starter-content.php:105
+#: inc/starter-content.php:120
+msgid "Read More"
+msgstr "続きを読む"
+
 #: inc/starter-content.php:70 inc/starter-content.php:102
 msgid "August 1 -- December 1"
 msgstr "8月1日〜12月1日"
+
+#: inc/block-patterns.php:154 inc/starter-content.php:67
+msgid "Works and Days"
+msgstr "作品と日程"
 
 #: inc/starter-content.php:56
 msgid "The premier destination for modern art in Northern Sweden. Open from 10 AM to 6 PM every day during the summer months."
@@ -95,6 +220,10 @@ msgstr "スウェーデン北部の現代アートを集めたプレミアムス
 #: inc/starter-content.php:48
 msgid "The New UMoMA Opens its Doors"
 msgstr "現代美術館が新装オープン"
+
+#: classes/class-twentytwenty-customize.php:395
+msgid "Overlay Opacity"
+msgstr "オーバーレイの不透明度"
 
 #: classes/class-twentytwenty-customize.php:375
 msgid "The color used for the text in the overlay."
@@ -112,30 +241,17 @@ msgstr "オーバーレイに使用される色。デフォルトはアクセン
 msgid "Overlay Background Color"
 msgstr "オーバーレイ背景色"
 
-#: classes/class-twentytwenty-customize.php:183
-msgid "Apply a custom color for links, buttons, featured images."
-msgstr "リンク、ボタン、アイキャッチ画像にカスタムカラーを適用します。"
-
 #: classes/class-twentytwenty-customize.php:283
 msgid "Settings for the \"Cover Template\" page template. Add a featured image to use as background."
 msgstr "「カバーテンプレート」ページテンプレートの設定。背景として使用するアイキャッチ画像を追加してください。"
 
-#: inc/template-tags.php:396
-msgctxt "A string that is output before one or more categories"
-msgid "In"
-msgstr "カテゴリー:"
+#: classes/class-twentytwenty-customize.php:183
+msgid "Apply a custom color for links, buttons, featured images."
+msgstr "リンク、ボタン、アイキャッチ画像にカスタムカラーを適用します。"
 
-#: inc/starter-content.php:137
-msgid "The exhibitions are produced by UMoMA in collaboration with artists and museums around the world and they often attract international attention. UMoMA has received a Special Commendation from the European Museum of the Year, and was among the top candidates for the Swedish Museum of the Year Award as well as for the Council of Europe Museum Prize."
-msgstr "展覧会は現代美術館と世界中のアーティストや美術館によるコラボレーションの成果であり、国際的に注目されることも少なくありません。現代美術館はヨーロッパ博物館大賞から特別推奨賞を授けられ、スウェーデン博物館大賞やヨーロッパ博物館評議会賞においても上位の候補者となりました。"
-
-#: inc/starter-content.php:134
-msgid "With seven floors of striking architecture, UMoMA shows exhibitions of international contemporary art, sometimes along with art historical retrospectives. Existential, political and philosophical issues are intrinsic to our programme. As visitor you are invited to guided tours artist talks, lectures, film screenings and other events with free admission"
-msgstr "7階建ての印象的な建築の現代美術館では、国際的な現代美術の展示を行っています。その際、美術の歴史的分析も含めることもあります。実存的、政治的、哲学的問題は当館のプログラムの本質といえます。訪問者の皆さんを、ガイド付きツアー、アーティストトーク、講演、映画上映などの無料イベントへご招待しています。"
-
-#: inc/block-patterns.php:154 inc/starter-content.php:67
-msgid "Works and Days"
-msgstr "作品と日程"
+#: classes/class-twentytwenty-customize.php:123
+msgid "Primary Color"
+msgstr "メインカラー"
 
 #: template-parts/modal-search.php:20 searchform.php:24
 msgid "Search for:"
@@ -172,144 +288,9 @@ msgstr "Y年"
 msgid "404 not found"
 msgstr "404: 見つかりませんでした"
 
-#: classes/class-twentytwenty-walker-comment.php:82
-msgid "Edit"
-msgstr "編集"
-
-#: comments.php:34
-msgid "Leave a comment"
-msgstr "コメントを残す"
-
-#. translators: %s: Post title.
-#: comments.php:37
-msgctxt "comments title"
-msgid "One reply on &ldquo;%s&rdquo;"
-msgstr "「%s」への1件の返信"
-
-#. translators: 1: Number of comments, 2: Post title.
-#: comments.php:41
-msgctxt "comments title"
-msgid "%1$s reply on &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s replies on &ldquo;%2$s&rdquo;"
-msgstr[0] "「%2$s」への%1$s件の返信"
-
-#: comments.php:88
-msgid "Comments"
-msgstr "コメント"
-
-#: comments.php:127
-msgid "Comments are closed."
-msgstr "コメントは受け付けていません。"
-
-#: inc/starter-content.php:177 inc/starter-content.php:187
-msgid "Primary"
-msgstr "メイン"
-
-#: inc/starter-content.php:197
-msgid "Social Links Menu"
-msgstr "﻿ソーシャルリンクメニュー"
-
-#. translators: %s: Post title. Only visible to screen readers.
-#: inc/template-tags.php:207
-msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr "編集 <span class=\"screen-reader-text\">%s</span>"
-
-#: functions.php:265
-msgid "Footer Menu"
-msgstr "フッターメニュー"
-
-#: template-parts/footer-menus-widgets.php:37
-msgid "Footer"
-msgstr "フッター"
-
-#: comments.php:74
-msgid "Newer Comments"
-msgstr "新しいコメント"
-
-#: comments.php:75
-msgid "Older Comments"
-msgstr "過去のコメント"
-
-#. translators: %d: ID of a post.
-#: classes/class-twentytwenty-walker-page.php:70
-msgid "#%d (no title)"
-msgstr "#%d (タイトルなし)"
-
-#: functions.php:516
-msgid "Background Color"
-msgstr "背景色"
-
-#. translators: %s: Author name.
-#: template-parts/entry-author-bio.php:20 inc/template-tags.php:357
-msgid "By %s"
-msgstr "作成者: %s"
-
-#: template-parts/content-cover.php:70 template-parts/entry-header.php:36
-#: inc/template-tags.php:392
-msgid "Categories"
-msgstr "カテゴリー"
-
 #. Template Name of the theme
 msgid "Full Width Template"
 msgstr "全幅テンプレート"
-
-#: classes/class-twentytwenty-customize.php:269
-msgid "Full text"
-msgstr "全文を表示"
-
-#: header.php:76 header.php:137
-msgid "Menu"
-msgstr "メニュー"
-
-#: template-parts/navigation.php:25
-msgid "Post"
-msgstr "投稿"
-
-#: footer.php:33
-msgid "Powered by WordPress"
-msgstr "Powered by WordPress"
-
-#: functions.php:266
-msgid "Social Menu"
-msgstr "ソーシャルメニュー"
-
-#: classes/class-twentytwenty-customize.php:270
-msgid "Summary"
-msgstr "要約"
-
-#: inc/template-tags.php:410
-msgid "Tags"
-msgstr "タグ"
-
-#: classes/class-twentytwenty-customize.php:202
-msgid "Theme Options"
-msgstr "テーマオプション"
-
-#: searchform.php:25
-msgctxt "placeholder"
-msgid "Search &hellip;"
-msgstr "検索 &hellip;"
-
-#: searchform.php:27
-msgctxt "submit button"
-msgid "Search"
-msgstr "検索"
-
-#: template-parts/content.php:48 template-parts/content-cover.php:138
-msgid "Page"
-msgstr "ページ"
-
-#: template-parts/content.php:48 template-parts/content-cover.php:138
-msgid "Pages:"
-msgstr "ページ:"
-
-#: classes/class-twentytwenty-walker-comment.php:98
-msgid "Your comment is awaiting moderation."
-msgstr "コメントは承認待ちです。"
-
-#: template-parts/content-cover.php:88
-msgid "Scroll Down"
-msgstr "スクロールダウン"
 
 #: template-parts/pagination.php:25
 msgid "Older <span class=\"nav-short\">Posts</span>"
@@ -318,6 +299,10 @@ msgstr "古い<span class=\"nav-short\">投稿</span>"
 #: template-parts/pagination.php:21
 msgid "Newer <span class=\"nav-short\">Posts</span>"
 msgstr "新しい<span class=\"nav-short\">投稿</span>"
+
+#: template-parts/navigation.php:25
+msgid "Post"
+msgstr "投稿"
 
 #: template-parts/modal-search.php:26
 msgid "Close search"
@@ -335,13 +320,62 @@ msgstr "メニューを閉じる"
 msgid "Social links"
 msgstr "ソーシャルリンク"
 
+#: template-parts/footer-menus-widgets.php:37
+msgid "Footer"
+msgstr "フッター"
+
+#. translators: %s: Author name.
+#: template-parts/entry-author-bio.php:20 inc/template-tags.php:357
+msgid "By %s"
+msgstr "作成者: %s"
+
+#: template-parts/content.php:48 template-parts/content-cover.php:138
+msgid "Pages:"
+msgstr "ページ:"
+
+#: template-parts/content.php:48 template-parts/content-cover.php:138
+msgid "Page"
+msgstr "ページ"
+
+#: template-parts/content-cover.php:88
+msgid "Scroll Down"
+msgstr "スクロールダウン"
+
+#: searchform.php:27
+msgctxt "submit button"
+msgid "Search"
+msgstr "検索"
+
+#: searchform.php:25
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "検索 &hellip;"
+
+#: index.php:48
+msgid "We could not find any results for your search. You can give it another try through the search form below."
+msgstr "検索結果が見つかりませんでした。以下の検索フォームからもう一度お試しください。"
+
 #: index.php:32
 msgid "Search:"
 msgstr "検索:"
 
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:207
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "編集 <span class=\"screen-reader-text\">%s</span>"
+
 #: inc/template-tags.php:448
 msgid "Sticky post"
 msgstr "固定投稿"
+
+#: inc/template-tags.php:410
+msgid "Tags"
+msgstr "タグ"
+
+#: template-parts/content-cover.php:70 template-parts/entry-header.php:36
+#: inc/template-tags.php:392
+msgid "Categories"
+msgstr "カテゴリー"
 
 #: inc/template-tags.php:374
 msgid "Post date"
@@ -350,6 +384,18 @@ msgstr "投稿日"
 #: inc/template-tags.php:350
 msgid "Post author"
 msgstr "投稿者"
+
+#: inc/starter-content.php:197
+msgid "Social Links Menu"
+msgstr "﻿ソーシャルリンクメニュー"
+
+#: inc/starter-content.php:177 inc/starter-content.php:187
+msgid "Primary"
+msgstr "メイン"
+
+#: header.php:76 header.php:137
+msgid "Menu"
+msgstr "メニュー"
 
 #: template-parts/content.php:36
 msgid "Continue reading"
@@ -395,6 +441,10 @@ msgctxt "Name of the small font size in the block editor"
 msgid "Small"
 msgstr "小"
 
+#: functions.php:516
+msgid "Background Color"
+msgstr "背景色"
+
 #: functions.php:503
 msgid "Subtle Background"
 msgstr "繊細な背景"
@@ -403,9 +453,17 @@ msgstr "繊細な背景"
 msgid "Accent Color"
 msgstr "アクセント色"
 
+#: functions.php:383
+msgid "Widgets in this area will be displayed in the second column in the footer."
+msgstr "このエリアのウィジェットはフッターの2列目に表示されます。"
+
 #: functions.php:381
 msgid "Footer #2"
 msgstr "フッター2"
+
+#: functions.php:371
+msgid "Widgets in this area will be displayed in the first column in the footer."
+msgstr "このエリアのウィジェットはフッターの1列目に表示されます。"
 
 #: functions.php:369
 msgid "Footer #1"
@@ -414,6 +472,14 @@ msgstr "フッター1"
 #: functions.php:344
 msgid "Skip to the content"
 msgstr "コンテンツへスキップ"
+
+#: functions.php:266
+msgid "Social Menu"
+msgstr "ソーシャルメニュー"
+
+#: functions.php:265
+msgid "Footer Menu"
+msgstr "フッターメニュー"
 
 #: functions.php:264
 msgid "Mobile Menu"
@@ -427,13 +493,80 @@ msgstr "デスクトップ展開メニュー"
 msgid "Desktop Horizontal Menu"
 msgstr "デスクトップ水平メニュー"
 
+#: footer.php:33
+msgid "Powered by WordPress"
+msgstr "Powered by WordPress"
+
+#: comments.php:127
+msgid "Comments are closed."
+msgstr "コメントは受け付けていません。"
+
+#: comments.php:88
+msgid "Comments"
+msgstr "コメント"
+
+#: comments.php:75
+msgid "Older Comments"
+msgstr "過去のコメント"
+
+#: comments.php:74
+msgid "Newer Comments"
+msgstr "新しいコメント"
+
+#. translators: 1: Number of comments, 2: Post title.
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s reply on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s replies on &ldquo;%2$s&rdquo;"
+msgstr[0] "「%2$s」への%1$s件の返信"
+
+#. translators: %s: Post title.
+#: comments.php:37
+msgctxt "comments title"
+msgid "One reply on &ldquo;%s&rdquo;"
+msgstr "「%s」への1件の返信"
+
+#: comments.php:34
+msgid "Leave a comment"
+msgstr "コメントを残す"
+
 #: classes/class-twentytwenty-walker-page.php:107 inc/template-tags.php:558
 msgid "Show sub menu"
 msgstr "サブメニューを表示"
 
+#. translators: %d: ID of a post.
+#: classes/class-twentytwenty-walker-page.php:70
+msgid "#%d (no title)"
+msgstr "#%d (タイトルなし)"
+
+#: classes/class-twentytwenty-walker-comment.php:133
+msgid "By Post Author"
+msgstr "投稿者より"
+
+#: classes/class-twentytwenty-walker-comment.php:98
+msgid "Your comment is awaiting moderation."
+msgstr "コメントは承認待ちです。"
+
+#: classes/class-twentytwenty-walker-comment.php:82
+msgid "Edit"
+msgstr "編集"
+
+#. translators: 1: Comment date, 2: Comment time.
+#: classes/class-twentytwenty-walker-comment.php:68
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#: classes/class-twentytwenty-walker-comment.php:56
+msgid "says:"
+msgstr "の発言:"
+
 #: classes/class-twentytwenty-customize.php:396
 msgid "Make sure that the contrast is high enough so that the text is readable."
 msgstr "テキストが読みやすくなるよう、コントラストは十分に高くしましょう。"
+
+#: classes/class-twentytwenty-customize.php:306
+msgid "Creates a parallax effect when the visitor scrolls."
+msgstr "訪問者がスクロールした際にパララックス効果を作成します。"
 
 #: classes/class-twentytwenty-customize.php:305
 msgid "Fixed Background Image"
@@ -444,13 +577,37 @@ msgstr "固定背景画像"
 msgid "Cover Template"
 msgstr "カバーテンプレート"
 
+#: classes/class-twentytwenty-customize.php:270
+msgid "Summary"
+msgstr "要約"
+
+#: classes/class-twentytwenty-customize.php:269
+msgid "Full text"
+msgstr "全文を表示"
+
+#: classes/class-twentytwenty-customize.php:267
+msgid "On archive pages, posts show:"
+msgstr "アーカイブページで投稿に表示:"
+
 #: classes/class-twentytwenty-customize.php:225
 msgid "Show search in header"
 msgstr "ヘッダーに検索を表示"
 
+#: classes/class-twentytwenty-customize.php:202
+msgid "Theme Options"
+msgstr "テーマオプション"
+
 #: classes/class-twentytwenty-customize.php:101
 msgid "Header &amp; Footer Background Color"
 msgstr "ヘッダーとフッターの背景色"
+
+#: classes/class-twentytwenty-customize.php:82
+msgid "Scales the logo to half its uploaded size, making it sharp on high-res screens."
+msgstr "ロゴをアップロードしたサイズの半分に縮小し、高解像度画面で鮮明に表示します。"
+
+#: classes/class-twentytwenty-customize.php:81
+msgid "Retina logo"
+msgstr "Retina 用ロゴ"
 
 #: 404.php:19
 msgid "The page you were looking for could not be found. It might have been removed, renamed, or did not exist in the first place."
@@ -459,47 +616,6 @@ msgstr "お探しのページが見つかりませんでした。削除された
 #: 404.php:17
 msgid "Page Not Found"
 msgstr "ページが見つかりません"
-
-#: classes/class-twentytwenty-customize.php:81
-msgid "Retina logo"
-msgstr "Retina 用ロゴ"
-
-#: classes/class-twentytwenty-customize.php:267
-msgid "On archive pages, posts show:"
-msgstr "アーカイブページで投稿に表示:"
-
-#: classes/class-twentytwenty-customize.php:306
-msgid "Creates a parallax effect when the visitor scrolls."
-msgstr "訪問者がスクロールした際にパララックス効果を作成します。"
-
-#: functions.php:383
-msgid "Widgets in this area will be displayed in the second column in the footer."
-msgstr "このエリアのウィジェットはフッターの2列目に表示されます。"
-
-#: functions.php:371
-msgid "Widgets in this area will be displayed in the first column in the footer."
-msgstr "このエリアのウィジェットはフッターの1列目に表示されます。"
-
-#: classes/class-twentytwenty-walker-comment.php:56
-msgid "says:"
-msgstr "の発言:"
-
-#: classes/class-twentytwenty-walker-comment.php:133
-msgid "By Post Author"
-msgstr "投稿者より"
-
-#: index.php:48
-msgid "We could not find any results for your search. You can give it another try through the search form below."
-msgstr "検索結果が見つかりませんでした。以下の検索フォームからもう一度お試しください。"
-
-#. translators: 1: Comment date, 2: Comment time.
-#: classes/class-twentytwenty-walker-comment.php:68
-msgid "%1$s at %2$s"
-msgstr "%1$s %2$s"
-
-#: classes/class-twentytwenty-customize.php:82
-msgid "Scales the logo to half its uploaded size, making it sharp on high-res screens."
-msgstr "ロゴをアップロードしたサイズの半分に縮小し、高解像度画面で鮮明に表示します。"
 
 #. Author URI of the theme
 #: footer.php:32

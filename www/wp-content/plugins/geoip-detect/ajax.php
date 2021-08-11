@@ -65,7 +65,8 @@ function geoip_detect_ajax_get_info_from_current_ip() {
 	$data = _geoip_detect_ajax_get_data($options);
 	
 	$data = apply_filters('geoip_detect2_ajax_record_data', $data, isset($data['traits']['ip_address']) ? $data['traits']['ip_address'] : '' ) ;
-	
+
+	_geoip_detect_disable_pagecache();
 	wp_send_json($data, !empty($data['extra']['error']) ? 500 : 200 );
 }
 
@@ -81,6 +82,7 @@ function _geoip_detect_get_domain_name($url) {
 function _geoip_detect_ajax_error($error) {
 	$data = array('extra' => array('error' => $error));
 	$data['is_empty'] = true;
+	_geoip_detect_disable_pagecache();
 	wp_send_json($data, 412);
 }
 
@@ -92,7 +94,7 @@ function _geoip_detect_ajax_get_data($options = array()) {
 	// For privacy reasons, do not emit the nb of credits left (Maxmind Precision)
 	unset($data['maxmind']);
 
-	if (is_array($data['subdivisions'])) {
+	if (isset($data['subdivisions']) && is_array($data['subdivisions'])) {
 		$data['most_specific_subdivision'] = end($data['subdivisions']);
 	}
 
@@ -130,10 +132,6 @@ function _geoip_detect_register_javascript() {
 	// if (!get_option('geoip-detect-ajax_enabled')) {
 	// 	return;
 	// }
-
-	if (!get_option('geoip-detect-ajax_enabled')) {
-		return;
-	}
 
 	$file_uri = _geoip_detect_parcel_get_dist_js('frontendJS');
 	if (!$file_uri) {

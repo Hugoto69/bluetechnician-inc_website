@@ -1,15 +1,20 @@
-# Translation of WordPress - 5.7.x - Development - Administration - Network Admin in Arabic
-# This file is distributed under the same license as the WordPress - 5.7.x - Development - Administration - Network Admin package.
+# Translation of WordPress - 5.8.x - Development - Administration - Network Admin in Arabic
+# This file is distributed under the same license as the WordPress - 5.8.x - Development - Administration - Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-02-25 02:08:19+0000\n"
+"PO-Revision-Date: 2021-06-30 20:12:53+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))));\n"
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: ar\n"
-"Project-Id-Version: WordPress - 5.7.x - Development - Administration - Network Admin\n"
+"Project-Id-Version: WordPress - 5.8.x - Development - Administration - Network Admin\n"
+
+#. translators: %s: Theme name.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:734
+msgid "Child theme of %s"
+msgstr "قالب فرعي من %s"
 
 #: wp-admin/network/settings.php:63
 msgid "<a href=\"https://wordpress.org/support/article/network-admin-settings-screen/\">Documentation on Network Settings</a>"
@@ -200,7 +205,7 @@ msgstr "تنصيب باستعمال أسماء النطاقات الفرعية"
 msgid "Sub-directory Installation"
 msgstr "تنصيب باستعمال المسارات الفرعية"
 
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:909
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:917
 msgid "Active Child Theme"
 msgstr "القالب الابن المفعّل"
 
@@ -209,7 +214,7 @@ msgid "Attributes"
 msgstr "الخصائص"
 
 #. translators: %s: File size in kilobytes.
-#: wp-admin/network/settings.php:407
+#: wp-admin/network/settings.php:424
 msgid "%s KB"
 msgstr "%s كيلوبايت"
 
@@ -217,12 +222,6 @@ msgstr "%s كيلوبايت"
 #: wp-admin/includes/network.php:172
 msgid "%s Sites"
 msgstr "%s مواقع"
-
-#. translators: %s: Theme name.
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:624
-msgctxt "theme"
-msgid "Delete %s"
-msgstr "حذف قالب %s"
 
 #: wp-admin/network/themes.php:101
 msgid "Sorry, you are not allowed to delete themes for this site."
@@ -244,19 +243,23 @@ msgstr "عذراً، لا يُسمح لك بإدارة قوالب هذا الم�
 msgid "Sorry, you are not allowed to add sites to this network."
 msgstr "عذرًا، لا يُسمح لك بإضافة مواقع لهذه الشبكة."
 
-#: wp-admin/network/site-info.php:14 wp-admin/network/site-users.php:14
-#: wp-admin/network/site-settings.php:14
+#: wp-admin/network/site-info.php:14 wp-admin/network/site-settings.php:14
+#: wp-admin/network/site-users.php:14
 msgid "Sorry, you are not allowed to edit this site."
 msgstr "عذرًا، لا يُسمح لك بتحرير هذا الموقع."
 
-#: wp-admin/network/settings.php:357
+#: wp-admin/network/settings.php:374
 msgid "The email address of the first comment author on a new site."
 msgstr "عنوان البريد اﻹلكتروني لكاتب أول تعليق في موقع جديد."
 
-#: wp-admin/network/settings.php:353
+#: wp-admin/network/settings.php:370
 msgid "First Comment Email"
 msgstr "البريد الإلكتروني لأول تعليق"
 
+#. translators: This string should only be translated if wp-config-sample.php
+#. is localized. You can check the localized release package or
+#. https://i18n.svn.wordpress.org/<locale code>/branches/<wp
+#. version>/dist/wp-config-sample.php
 #: wp-admin/includes/network.php:485
 msgid "That&#8217;s all, stop editing! Happy publishing."
 msgstr "هذا كل شيء، توقف عن التحرير! تدوين سعيد."
@@ -464,10 +467,6 @@ msgstr[3] "الكل <span class=\"count\">(%s)</span>"
 msgstr[4] "الكل <span class=\"count\">(%s)</span>"
 msgstr[5] "الكل <span class=\"count\">(%s)</span>"
 
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:331
-msgid "Theme"
-msgstr "قالب"
-
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:319
 msgid "No themes found."
 msgstr "لم يتّم إيجاد قوالب."
@@ -537,7 +536,7 @@ msgstr "مزعج"
 msgid "Archived"
 msgstr "مؤرشف"
 
-#: wp-admin/network/user-new.php:136 wp-admin/network/site-users.php:355
+#: wp-admin/network/site-users.php:355 wp-admin/network/user-new.php:136
 msgid "A password reset link will be sent to the user via email."
 msgstr "رابط إعادة تعيين كلمة المرور سوف يتمّ إرساله إلى العضو عبر البريد الإلكتروني."
 
@@ -640,8 +639,8 @@ msgstr "أنت على وشك إلغاء تنشيط الموقع %s."
 msgid "You are about to activate the site %s."
 msgstr "أنت على وشك تفعيل الموقع %s."
 
-#: wp-admin/network/site-info.php:28 wp-admin/network/site-users.php:46
-#: wp-admin/network/site-themes.php:53 wp-admin/network/site-settings.php:28
+#: wp-admin/network/site-info.php:28 wp-admin/network/site-settings.php:28
+#: wp-admin/network/site-themes.php:53 wp-admin/network/site-users.php:46
 msgid "The requested site does not exist."
 msgstr "الموقع المطلوب غير موجود."
 
@@ -670,7 +669,7 @@ msgstr[4] "تمّ حذف %s قالبًا."
 msgstr[5] "تمّ حذف %s قالبًا."
 
 #. translators: %s: Number of themes.
-#: wp-admin/network/themes.php:383 wp-admin/network/site-themes.php:204
+#: wp-admin/network/site-themes.php:204 wp-admin/network/themes.php:383
 msgid "%s theme disabled."
 msgid_plural "%s themes disabled."
 msgstr[0] "تمّ تعطيل %s قوالب."
@@ -681,7 +680,7 @@ msgstr[4] "تمّ تعطيل %s قالبًا."
 msgstr[5] "تمّ تعطيل %s قالبًا."
 
 #. translators: %s: Number of themes.
-#: wp-admin/network/themes.php:374 wp-admin/network/site-themes.php:195
+#: wp-admin/network/site-themes.php:195 wp-admin/network/themes.php:374
 msgid "%s theme enabled."
 msgid_plural "%s themes enabled."
 msgstr[0] "تمّ تمكين %s قوالب."
@@ -711,15 +710,15 @@ msgstr "حذف قوالب"
 msgid "Set site attributes"
 msgstr "ضبط خصائص الموقع"
 
-#: wp-admin/network/settings.php:479
+#: wp-admin/network/settings.php:496
 msgid "Enable menus"
 msgstr "تمكين القوائم"
 
-#: wp-admin/network/settings.php:412
+#: wp-admin/network/settings.php:429
 msgid "Size in kilobytes"
 msgstr "الحجم بالكيلوبايت"
 
-#: wp-admin/network/settings.php:396
+#: wp-admin/network/settings.php:413
 msgid "Allowed file types. Separate types by spaces."
 msgstr "أنواع الملفات المسموح بها. أفصل بين الأنواع بمسافات."
 
@@ -800,8 +799,8 @@ msgstr "تم تحديث ووردبريس! قبل أن نتركك، نحن بحا
 msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
 msgstr "لتحديث كافة المواقع الموجودة على الشبكة يجب عليك أولاً تحديث الموقع الرئيسي. لتحديث الموقع الرئيسي توجّه إلى (الرئيسية > تحديثات). بعد أن قمت بتحديث الموقع الرئيسي، يمكنك الآن تحديث المواقع الموجودة على الشبكة. أنقر على زر (تحديث الشبكة) للبدء بعملية التحديث. في كل دفعة سيتم تحديث 5 مواقع حتى يتم الانتهاء من تحديث كافة المواقع الموجودة على الشبكة. "
 
-#: wp-admin/network/upgrade.php:15 wp-admin/network/upgrade.php:42
-#: wp-admin/network/upgrade.php:144 wp-admin/network/menu.php:46
+#: wp-admin/network/menu.php:46 wp-admin/network/upgrade.php:15
+#: wp-admin/network/upgrade.php:42 wp-admin/network/upgrade.php:144
 msgid "Upgrade Network"
 msgstr "ترقية الشبكة"
 
@@ -814,7 +813,7 @@ msgstr "شبكات المسارات الفرعية قد لا تكون متواف
 msgid "Add the designated lines of code to wp-config.php (just before <code>/*...stop editing...*/</code>) and <code>.htaccess</code> (replacing the existing WordPress rules)."
 msgstr "أضف الأكواد المحدّدة إلى ملف wp-config.php (قبل <code>/*... هذا هو المطلوب! توقف عن التعديل. نتمنى لك التوفيق في موقعك! ...*/</code>) وإلى ملف <code>.htaccess</code> (استبدل أوامر ووردبريس الموجودة سابقاً في الملف)."
 
-#: wp-admin/network/settings.php:423
+#: wp-admin/network/settings.php:440
 msgid "Language Settings"
 msgstr "إعدادات اللغة"
 
@@ -907,26 +906,26 @@ msgstr "حذف قالب"
 msgid "Network enabled themes are not shown on this screen."
 msgstr "القوالب المفعّلة في الشبكة لا تظهر في هذه الشاشة."
 
-#: wp-admin/network/themes.php:414 wp-admin/network/site-themes.php:208
+#: wp-admin/network/site-themes.php:208 wp-admin/network/themes.php:414
 msgid "No theme selected."
 msgstr "لم يتم تحديد أي قالب."
 
-#: wp-admin/network/themes.php:380 wp-admin/network/site-themes.php:201
+#: wp-admin/network/site-themes.php:201 wp-admin/network/themes.php:380
 msgid "Theme disabled."
 msgstr "تمّ تعطيل القالب."
 
-#: wp-admin/network/themes.php:371 wp-admin/network/site-themes.php:192
+#: wp-admin/network/site-themes.php:192 wp-admin/network/themes.php:371
 msgid "Theme enabled."
 msgstr "لم يتم تفعيل أي قالب."
 
 #. translators: %s: Site title.
-#: wp-admin/network/site-info.php:126 wp-admin/network/site-users.php:199
-#: wp-admin/network/site-themes.php:170 wp-admin/network/site-settings.php:83
+#: wp-admin/network/site-info.php:126 wp-admin/network/site-settings.php:83
+#: wp-admin/network/site-themes.php:170 wp-admin/network/site-users.php:199
 msgid "Edit Site: %s"
 msgstr "تحرير الموقع: %s"
 
-#: wp-admin/network/site-info.php:23 wp-admin/network/site-users.php:41
-#: wp-admin/network/site-themes.php:46 wp-admin/network/site-settings.php:23
+#: wp-admin/network/site-info.php:23 wp-admin/network/site-settings.php:23
+#: wp-admin/network/site-themes.php:46 wp-admin/network/site-users.php:41
 msgid "Invalid site ID."
 msgstr "ID الموقع غير صحيح."
 
@@ -955,7 +954,7 @@ msgstr "تحرير: سيقوم بنقلك إلى شاشة جديدة يمكنك 
 msgid "Add New takes you to the Add New Site screen. You can search for a site by Name, ID number, or IP address. Screen Options allows you to choose how many sites to display on one page."
 msgstr "النقر على زر \\\"أضف جديد\\\" سينقلك إلى صفحة جديدة حيث يمكنك ملء الحقول بالبيانات اللازمة لإضافة موقع جديد. يمكنك البحث عن موقع حسب اسم الموقع، أو حسب رقم ال ID، أو حسب عنوان الآي بي. يمكنك النقر على زر \\\"خيارات الشاشة\\\" الموجود في أعلى اليسار لتحديد عدد المواقع التي تريدها أن تظهر في هذه الصفحة."
 
-#: wp-admin/network/user-new.php:148 wp-admin/network/site-users.php:318
+#: wp-admin/network/site-users.php:318 wp-admin/network/user-new.php:148
 msgid "Add User"
 msgstr "أضف عضو"
 
@@ -971,18 +970,13 @@ msgstr "في هذه الشاشة يمكن إضافة عضو جديد إلى ال
 msgid "Updates"
 msgstr "تحديثات"
 
-#: wp-admin/network/settings.php:20 wp-admin/network/menu.php:111
+#: wp-admin/network/menu.php:111 wp-admin/network/settings.php:20
 msgid "Network Settings"
 msgstr "إعدادات الشبكة"
 
 #: wp-admin/network/menu.php:80
 msgid "Installed Themes"
 msgstr "القوالب المنصّبة"
-
-#. translators: %s: Number of available theme updates.
-#: wp-admin/network/menu.php:63
-msgid "Themes %s"
-msgstr "قوالب %s"
 
 #: wp-admin/network/menu.php:52
 msgid "All Sites"
@@ -1241,11 +1235,11 @@ msgstr "هذه الكلمات مخصصة لاستعمال برنامج وورد�
 msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
 msgstr "إذا لم يبدأ متصفحك تلقائياً باستعراض الصفحة التالية، أنقر على هذا الرابط:"
 
-#: wp-admin/network/settings.php:284
+#: wp-admin/network/settings.php:301
 msgid "If you want to ban domains from site registrations. One domain per line."
 msgstr "لمنع التسجيل بعناوين بريد إلكتروني تابعة لنطاقات معيّنة أضف نطاق واحد في كل سطر."
 
-#: wp-admin/network/settings.php:266
+#: wp-admin/network/settings.php:281
 msgid "If you want to limit site registrations to certain domains. One domain per line."
 msgstr "حتى يقتصر التسجيل على عناوين بريد إلكتروني تابعة لنطاقات محدّدة فقط، أضف نطاق واحد في كل سطر."
 
@@ -1313,32 +1307,32 @@ msgstr "عذرًا، لا يُسمح لك بتغيير الموقع الحالي
 msgid "There was an error creating the user."
 msgstr "حصل خطأ ما أثناء انشاء العضو."
 
-#: wp-admin/network/settings.php:392
+#: wp-admin/network/settings.php:409
 msgid "Upload file types"
 msgstr "أنواع الملفات المسموح رفعها"
 
 #. translators: %s: Number of megabytes to limit uploads to.
-#: wp-admin/network/settings.php:380
+#: wp-admin/network/settings.php:397
 msgid "Limit total size of files uploaded to %s MB"
 msgstr "تحديد الحجم الكلي للملفات المرفوعة لـ  %s  ميغا"
 
-#: wp-admin/network/settings.php:366
+#: wp-admin/network/settings.php:383
 msgid "The URL for the first comment on a new site."
 msgstr "رابط أول تعليق في الموقع الجديد."
 
-#: wp-admin/network/settings.php:348
+#: wp-admin/network/settings.php:365
 msgid "The author of the first comment on a new site."
 msgstr "اسم كاتب أول تعليق في الموقع الجديد."
 
-#: wp-admin/network/settings.php:339
+#: wp-admin/network/settings.php:356
 msgid "The first comment on a new site."
 msgstr "النص الافتراضي الذي سيظهر في أول تعليق في الموقع الجديد."
 
-#: wp-admin/network/settings.php:329
+#: wp-admin/network/settings.php:346
 msgid "The first page on a new site."
 msgstr "النص الافتراضي الذي سيظهر في أول صفحة في الموقع الجديد."
 
-#: wp-admin/network/settings.php:319
+#: wp-admin/network/settings.php:336
 msgid "The first post on a new site."
 msgstr "النص الافتراضي الذي سيظهر في أول مقالة في الموقع الجديد."
 
@@ -1362,15 +1356,15 @@ msgstr "السماح بتسجيل حسابات المستخدمين"
 msgid "Registration is disabled"
 msgstr "التسجيل معطّل"
 
-#: wp-admin/network/settings.php:476
+#: wp-admin/network/settings.php:493
 msgid "Enable administration menus"
 msgstr "قوائم الإدارة المسموحة"
 
-#: wp-admin/network/settings.php:371
+#: wp-admin/network/settings.php:388
 msgid "Upload Settings"
 msgstr "إعدادات الرفع"
 
-#: wp-admin/network/settings.php:290
+#: wp-admin/network/settings.php:307
 msgid "New Site Settings"
 msgstr "إعدادات الموقع الجديد"
 
@@ -1394,15 +1388,15 @@ msgstr "يبدو أنك لم تكتب عنوان الموقع أو أنّ الع
 msgid "Next Sites"
 msgstr "المواقع التالية"
 
-#: wp-admin/network/settings.php:374
+#: wp-admin/network/settings.php:391
 msgid "Site upload space"
 msgstr "مساحة الرفع المخصّصة"
 
-#: wp-admin/network/settings.php:299
+#: wp-admin/network/settings.php:316
 msgid "The welcome email sent to new site owners."
 msgstr "رسالة الترحيب التي يتم إرسالها لأصحاب المواقع الجديدة في الشبكة."
 
-#: wp-admin/network/settings.php:247
+#: wp-admin/network/settings.php:256
 msgid "Users are not allowed to register these sites. Separate names by spaces."
 msgstr "لا يسمح للأعضاء باختيار هذه الأسماء لمواقعهم. أفصل الأسماء بفراغ."
 
@@ -1426,47 +1420,47 @@ msgstr "البريد الإلكتروني للمدير"
 msgid "Add Site"
 msgstr "أضف موقع"
 
-#: wp-admin/network/settings.php:426
+#: wp-admin/network/settings.php:443
 msgid "Default Language"
 msgstr "اللغة الافتراضية"
 
-#: wp-admin/network/settings.php:402
+#: wp-admin/network/settings.php:419
 msgid "Max upload file size"
 msgstr "أقصى حجم للملف المرفوع"
 
-#: wp-admin/network/settings.php:362
+#: wp-admin/network/settings.php:379
 msgid "First Comment URL"
 msgstr "رابط أول تعليق"
 
-#: wp-admin/network/settings.php:344
+#: wp-admin/network/settings.php:361
 msgid "First Comment Author"
 msgstr "اسم أول معلّق"
 
-#: wp-admin/network/settings.php:334
+#: wp-admin/network/settings.php:351
 msgid "First Comment"
 msgstr "التعليق الأول"
 
-#: wp-admin/network/settings.php:324
+#: wp-admin/network/settings.php:341
 msgid "First Page"
 msgstr "الصفحة الأولى"
 
-#: wp-admin/network/settings.php:309
+#: wp-admin/network/settings.php:326
 msgid "The welcome email sent to new users."
 msgstr "رسالة الترحيب التي يتم إرسالها للأعضاء الجدد."
 
-#: wp-admin/network/settings.php:304
+#: wp-admin/network/settings.php:321
 msgid "Welcome User Email"
 msgstr "رسالة الترحيب بالأعضاء الجدد"
 
-#: wp-admin/network/settings.php:294
+#: wp-admin/network/settings.php:311
 msgid "Welcome Email"
 msgstr "رسالة الترحيب بأصحاب المواقع"
 
-#: wp-admin/network/settings.php:272
+#: wp-admin/network/settings.php:287
 msgid "Banned Email Domains"
 msgstr "نطاقات البريد الإلكتروني الممنوعة"
 
-#: wp-admin/network/settings.php:253
+#: wp-admin/network/settings.php:262
 msgid "Limited Email Registrations"
 msgstr "نطاقات البريد الإلكتروني المسموحة"
 
